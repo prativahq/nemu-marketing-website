@@ -16,29 +16,35 @@ const meta = {
 export default function ContactUs() {
   const faqs = [
     {
+      question: "What if I need help?",
+      answer:
+        "You aren't alone! Our team is available to answer any and every question you have. And, if your family needs assistance, we can also provide 1-1 support throughout the entire process. Have a question? Reach out through our contact page [hyperlink to contact page]",
+    },
+    {
+      question:
+        "How long will it be until I hear back from someone on Nemu's team",
+      answer:
+        "Our staff monitor our inbox and phones every day. Whether you leave us a voicemail or an email, we try our best to get back to every customer within 48 hours. ",
+    },
+    {
       question: "I'm not great with technology. Is that going to be a problem?",
       answer:
         "Our app is designed for simplicity. We've spent countless hours testing it with real executors, beneficiaries, and people of all ages - which means you don't need to be a techie to get the job done. If you do get stuck, our team is always there to help.",
     },
     {
       question: "Is this something that will fit my situation?",
-      answer:
-        "Nemu works for items big and small. We've helped those in small apartments and those with 3 vacation homes. We've divided items among families of 2 and families much, much larger. Whether you've been given the responsiblitiy of settling someone's estate, or you're trying to make sure no one has to worry about yours, we're here for you.To make sure you only pay for what you need, we have several packages that you can customize to fit your situation. Check them out here! [Hyperlink to pricing section of How-it-works page]",
+      answer: `Nemu works for items big and small. We've helped those in small apartments and those with 3 vacation homes. We've divided items among families of 2 and families much, much larger. Whether you've been given the responsiblitiy of settling someone's estate, or you're trying to make sure no one has to worry about yours, we're here for you.
+
+      To make sure you only pay for what you need, we have several packages that you can customize to fit your situation. Check them out here! [Hyperlink to pricing section of How-it-works page]`,
     },
     {
       question: "How much does Nemu cost?",
       answer:
-        "We have a variety of packages ranging from $100 to $999. To make sure you only pay for what you need, you can start small and then add the services that fit your situation. You can see our pricing options here [Hyperlink to pricing section of How-it-works page]. Still undecided? Start with a Free Trial and see for yourself!",
+        "We have a variety of packages ranging from $100 to $999. To make sure you only pay for what you need, you can start small and then add the services that fit your situation. You can see our pricing options here [Hyperlink to pricing section of How-it-works page]. Still undecided? Start with a Free Trial and see for yourself! ",
     },
     {
       question: "Can I start with a free trial before buying?",
-      answer:
-        "Of course! We offer a free trial for all of our users. We think you'll like what you see. You can sign up here [hyper link to sign up now]",
-    },
-    {
-      question: "When is the right time to start using Nemu?",
-      answer:
-        "Getting started early allows you to move at whatever pace is best for you. Waiting until the last minute could mean the burden is left on your loved ones during an already difficult time. Getting ahead will give everyone peace of mind, and will allow them to celebrate and enjoy what you've left behind, rather than stress and fight over it. ",
+      answer: `Of course! We offer a free trial for all of our users. We think you'll like what you see. You can sign up here [hyper link to sign up now]`,
     },
     {
       question: "How does Nemu work?",
@@ -46,24 +52,7 @@ export default function ContactUs() {
       - Catalog: Cataloging your items is made quick and simple because our app will recognize how many items are in the photo and help you get them titled!
       - Appraise: If you want something appraised, you can count on our network of certified appraisers to get the job done!
       - Divide: Beneficiaries enter an Emotional Value Score to tell us how much they want a given item. Then, our Nash Equilibrium Algorithm looks at everyone’s scores, and ensures the items are divided as fairly as mathematically possible. 
-      - Sell: If you’d like help selling any of your items, we’re here to help! We take into account the value of your item, current market conditions, and how quickly you need the item sold to ensure we sell through the right channels and get the best price.`,
-    },
-    {
-      question:
-        "How do I know the algorithm is fair? Is there a way to cheat the system?",
-      answer: `Our tool is groudned in mathematical fundamentals (a Nash Equalibrium Algorithm, to be exact).There isn't a way to cheat the system, and those that do often find they've cheated themselves. Be true to yourself when entering your emotional value scores, and our app will take care of the rest.
-
-      For example, let's say you rank everything as your "top choice". You are conveying that you like everything the same amount and are indifferent between items. We don't recommend this approach as a strategy to get popular items.`,
-    },
-    {
-      question: "Does this require a bunch of family meetings?",
-      answer:
-        "The awkward and contentious family meetings are exactly what Nemu was designed to replace! Beneficiaries privately enter their emotional scores for each item, which means everyone gets the time and privacy they need to think about what they want most. It means everyone has a choice and everyone has a voice. As one of our executors put it, “the whole family is confident about what they should do”.",
-    },
-    {
-      question: "  What if I need help?",
-      answer:
-        "You aren't alone! Our team is available to answer any and every question you have. And, if your family needs assistance, we can also provide 1-1 support throughout the entire process. Have a question? Reach out through our contact page [hyperlink to contact page]",
+      - Sell: If you’d like help selling any of your items, we’re here to help! We take into account the value of your item, current market conditions, and how quickly you need the item sold to ensure we sell through the right channels and get the best price`,
     },
   ];
 
@@ -118,9 +107,9 @@ export default function ContactUs() {
                   </p>
                   <a
                     className="text-lg text-emerald-500 hover:text-coolGray-600   "
-                    href="mailto:#"
+                    href="mailto:hello@mynemu.com"
                   >
-                    support@mynemu.com
+                    hello@mynemu.com
                   </a>
                 </div>
               </div>
@@ -150,7 +139,12 @@ export default function ContactUs() {
                     Can’t wait? We can’t either! Give us a call during our
                     office hours of 9am EST - 8pm EST.
                   </p>
-                  <p className="text-lg text-emerald-500 ">+1-623-432-1678</p>
+                  <a
+                    href="tel:623-432-1678"
+                    className="text-lg text-emerald-500 "
+                  >
+                    623-432-1678
+                  </a>
                 </div>
               </div>
             </div>

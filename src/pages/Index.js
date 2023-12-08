@@ -228,18 +228,18 @@ export default function Index() {
                     {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4"> */}
                     <a
                       className="inline-block py-3 px-5 w-fit text-base md:text-lg leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                      href="#"
+                      href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                     >
                       Free Sign Up
                     </a>
                     {/* </div> */}
                     {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
-                    <a
+                    <Link
                       className="inline-block py-3 px-5 w-fit text-base md:text-lg leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                      href="#"
+                      to={"/how-it-works"}
                     >
                       Learn more
-                    </a>
+                    </Link>
                     {/* </div> */}
                   </div>
                 </div>
@@ -288,12 +288,12 @@ export default function Index() {
                   herself.
                 </p>
                 <div className="w-full text-center md:text-left md:w-auto py-1 md:py-0">
-                  <a
+                  <Link
                     className="w-fit inline-block py-3 px-5 mx-auto text-base md:text-lg leading-4 text-emerald-500  text-center bg-transparent hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                    href="#"
+                    to={"/how-it-works"}
                   >
                     Learn more
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -331,17 +331,17 @@ export default function Index() {
                     <div className="flex gap-4 flex-wrap justify-center items-center -mb-2">
                       <a
                         className="w-fit inline-block py-3 px-5  text-base md:text-lg leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                        href="#"
+                        href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                       >
                         Free Sign Up
                       </a>
                       {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
-                      <a
+                      <Link
                         className="w-fit inline-block py-3 px-5  text-base md:text-lg leading-4 text-emerald-500  text-center bg-transparent hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                        href="#"
+                        to={"/how-it-works"}
                       >
                         Learn more
-                      </a>
+                      </Link>
                       {/* </div> */}
                     </div>
                   </div>
@@ -360,67 +360,21 @@ export default function Index() {
         {/* testimonials */}
 
         <section
-          className="py-24 md:pb-28 bg-white"
+          className="py-24 md:pb-28 bg-[#F7F5F2]"
           // style={{
           //   backgroundImage:
           //     'url("flex-ui-assets/elements/pattern-light-big.svg")',
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container md:h-[550px] px-4 mx-auto">
+            <div className="text-center   mb-4  leading-5 text-emerald-500  uppercase rounded-9xl">
+              TESTIMONIALS
+            </div>
+            <h3 className="mb-10 text-center text-3xl md:text-4xl text-coolGray-900 font-medium tracking-tighter font-heading">
+              Hear from our customers
+            </h3>
             <Testimonial />
-            {/* <div className="flex flex-wrap -mx-4">
-              <div className="w-full lg:w-1/2 px-4 mb-10 lg:mb-0">
-                <div className="relative h-full overflow-hidden max-w-max mx-auto rounded-md">
-                  <img src="images/home-testimonials.png" />
-                </div>
-              </div>
-              <div className="w-full lg:w-1/2 px-4">
-                <span
-                  className="inline-block py-px px-2 sm:ml-6 md:mb-16  leading-5 text-emerald-500  uppercase rounded-9xl"
-                  contentEditable="false"
-                >
-                  testimonials
-                </span>
-                <div className="relative pt-12 pb-6 sm:p-6 mb-8">
-                  <img
-                    className="absolute top-0 left-0"
-                    src="flex-ui-assets/elements/testimonials/quote-top-green.svg"
-                    alt=""
-                  />
-                  <img
-                    className="absolute bottom-0 right-0"
-                    src="flex-ui-assets/elements/testimonials/quote-down-green.svg"
-                    alt=""
-                  />
-                  <div className="relative">
-                    <h2
-                      className="text-2xl md:text-4xl  tracking-tighter"
-                      contentEditable="false"
-                    >
-                      The best solution for anyone who wants to quickly catalog
-                      their home and divide heirloom.
-                    </h2>
-                  </div>
-                </div>
-                <div className="sm:px-6 mb-14">
-                  <h3
-                    className="mb-2 text-xl md:text-2xl "
-                    contentEditable="false"
-                  >
-                    Robert Lee
-                  </h3>
-                  <span className="text-lg text-coolGray-500 ">
-                    CEO &amp; Founder at Flex.co
-                  </span>
-                </div>
-                <div className="sm:px-6">
-                  <button className="inline-block h-3 w-3 mr-3 rounded-full bg-coolGray-100" />
-                  <button className="inline-block h-3 w-3 mr-3 rounded-full bg-green-500" />
-                  <button className="inline-block h-3 w-3 rounded-full bg-coolGray-100" />
-                </div>
-              </div>
-            </div> */}
           </div>
         </section>
         {/* faq */}

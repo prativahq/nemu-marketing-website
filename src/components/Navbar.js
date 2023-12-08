@@ -100,12 +100,12 @@ export const Navbar = () => {
           </div>
           <div className="hidden xl:block xl:w-1/4">
             <div className="flex items-center justify-end">
-              <Link
-                className="inline-block py-3 px-4  leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-lg focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md"
-                to="/"
+              <a
+                className="inline-block py-3 px-5  leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-lg focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md"
+                href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kwws"
               >
                 Sign Up
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -208,12 +208,12 @@ export const Navbar = () => {
                   </Link>
                 </div> */}
                 <div className="w-full">
-                  <Link
-                    className="inline-block py-2 px-4 w-full  leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-lg text-center focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md"
-                    to="#"
+                  <a
+                    className="inline-block py-3 px-5 w-full  leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-lg text-center focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md"
+                    href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                   >
                     Sign Up
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

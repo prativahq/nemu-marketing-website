@@ -29,18 +29,27 @@ export const Footer = () => {
               times.
             </p>
             <div className="gap-4 flex">
-              <Link to={"/"} className="p-3 rounded-lg bg-white">
+              <a
+                href={"https://www.instagram.com/my_nemu/"}
+                target="_blank"
+                className="p-3 rounded-lg bg-white"
+              >
                 <Instagram color="#075362" />
-              </Link>
-              <Link to={"/"} className="p-3 rounded-lg bg-white">
+              </a>
+              <a
+                href={"https://www.linkedin.com/company/mynemu/"}
+                target="_blank"
+                className="p-3 rounded-lg bg-white"
+              >
                 <Linkedin color="#075362" />
-              </Link>
-              <Link to={"/"} className="p-3 rounded-lg bg-white">
+              </a>
+              <a
+                href={"https://www.facebook.com/mynemuapp"}
+                target="_blank"
+                className="p-3 rounded-lg bg-white"
+              >
                 <Facebook color="#075362" />
-              </Link>
-              <Link to={"/"} className="p-3 rounded-lg bg-white">
-                <Twitter color="#075362" />
-              </Link>
+              </a>
             </div>
           </div>
           <div className="w-full md:w-1/4 lg:w-2/12 px-4 mb-16 lg:mb-0">
@@ -52,49 +61,49 @@ export const Footer = () => {
             </h3>
             <ul>
               <li className="mb-4">
-                <a
+                <Link
                   className="inline-block hover:text-coolGray-600  text-white"
-                  href="#"
+                  to="/about-us"
                   contentEditable="false"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a
+                <Link
                   className="inline-block hover:text-coolGray-600  text-white"
-                  href="#"
+                  to="/terms-of-service"
                   contentEditable="false"
                 >
                   Services
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a
+                <Link
                   className="inline-block hover:text-coolGray-600  text-white"
-                  href="#"
+                  to="/partner"
                   contentEditable="false"
                 >
                   Partner
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a
+                <Link
                   className="inline-block hover:text-coolGray-600  text-white"
-                  href="#"
+                  to="/blog"
                   contentEditable="false"
                 >
                   Resources
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="inline-block hover:text-coolGray-600  text-white"
-                  href="#"
+                  to="/contact-us"
                   contentEditable="false"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -125,31 +134,31 @@ export const Footer = () => {
                 </a>
               </li>
               <li className="mb-4">
-                <a
+                <Link
                   className="inline-block hover:text-coolGray-600  text-white"
-                  href="/terms-of-service.html"
+                  to="/terms-of-service"
                   contentEditable="false"
                 >
                   Terms Of Service
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a
+                <Link
                   className="inline-block hover:text-coolGray-600  text-white"
-                  href="/privacy-policy.html"
+                  to="/privacy-policy"
                   contentEditable="false"
                 >
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="inline-block hover:text-coolGray-600  text-white"
-                  href="/legal-information.html"
+                  to="/legal"
                   contentEditable="false"
                 >
                   Legal Information
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -162,16 +171,21 @@ export const Footer = () => {
             </h3>
             <div className="flex flex-wrap">
               <div className="w-full lg:flex-1 py-1 lg:py-0 lg:mr-3">
-                <img
-                  src="images/App-Store.svg"
-                  alt=""
-                  className="py-3 rounded "
-                />
-                <img
-                  src="images/Play-Store.svg"
-                  alt=""
-                  className="py-3 rounded "
-                />
+                <a href="https://apps.apple.com/us/app/nemu/id6471528649">
+                  <img
+                    src="images/App-Store.svg"
+                    alt=""
+                    className="py-3 rounded "
+                  />
+                </a>
+                <a href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww">
+                  {" "}
+                  <img
+                    src="images/Play-Store.svg"
+                    alt=""
+                    className="py-3 rounded "
+                  />
+                </a>
               </div>
               <div className="w-full lg:w-auto py-1 lg:py-0" />
             </div>

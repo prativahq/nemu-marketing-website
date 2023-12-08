@@ -17,22 +17,22 @@ const meta = {
 export default function Partner() {
   const cards = [
     {
-      img: "images/card-5.png",
-      title: "Take a few pictures",
+      img: "images/partner-1.png",
+      title: "Lay the Groundwork",
       description:
-        "You can photograph things where they are now, squeeze a bunch of items into one frame, or do anything in between. We’ll take it from there.",
+        "This partnership is a two-way-street: we start by learning more about your business, then we work together to find the perfect places to integrate.",
     },
     {
-      img: "images/card-6.png",
-      title: "We’ll Appraise & Gather Family Input",
+      img: "images/partner-2.png",
+      title: "Train the Team",
       description:
-        "We pull price estimates or can connect you with one of our expert appraisers. Then, we’ll ask your family to privately rate the items they want most.",
+        "After laying the groundwork, we’ll bring you and your team up to speed on everything you’ll need to know for a successful collaboration. ",
     },
     {
-      img: "images/card-7.png",
-      title: "You Approve & Divide (Drama Free)",
+      img: "images/partner-3.png",
+      title: "Launch and Support",
       description:
-        "Our algorithm fairly decides who gets what, you approve the results. When you’re ready to distribute, everyone gets just want they wanted.",
+        "After a successful kick-off, we’ll hold regular check-ins so we can continue to tailor the partnership around what works for you and your customers",
     },
   ];
   return (
@@ -81,16 +81,18 @@ export default function Partner() {
                   <div className="flex flex-wrap">
                     <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                       <a
+                        target="_blank"
                         className="inline-block py-3 px-5 w-full text-base md:text-lg leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                        href="#"
+                        href="https://meetings.hubspot.com/sarah1487/intro-affiliate"
                       >
                         Become an affiliate
                       </a>
                     </div>
                     <div className="w-full md:w-auto py-1 md:py-0">
                       <a
+                        target="_blank"
                         className="inline-block py-3 px-5 w-full text-base md:text-lg leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                        href="#"
+                        href="https://meetings.hubspot.com/sarah1487/intro-affiliate"
                       >
                         Schedule a call
                       </a>
@@ -237,13 +239,13 @@ export default function Partner() {
                 className="inline-block py-px px-2 mb-4  leading-5 text-emerald-500 font-medium uppercase rounded-full shadow-sm"
                 contentEditable="false"
               >
-                OVERLINE
+                WHY US
               </span>
               <h1
                 className="mb-4 text-3xl md:text-4xl leading-tight font-medium font-heading tracking-tighter"
                 contentEditable="true"
               >
-                As Easy as 1-2-3
+                Partner With us in 3 Easy Steps
               </h1>
             </div>
             <div className="flex flex-col gap-14 items-center -mx-4 px-8">

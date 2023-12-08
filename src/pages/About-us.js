@@ -8,6 +8,7 @@ import { Faq } from "../components/Faq";
 import { DownloadApp } from "../components/DownloadApp";
 import { Newsletter } from "../components/Newsletter";
 import { Footer } from "../components/Footer";
+import { Timeline } from "../components/Timeline";
 
 const meta = {
   title: "",
@@ -20,54 +21,34 @@ const meta = {
 export default function AboutUs() {
   const faqs = [
     {
+      question: "How did Nemu get started?",
+      answer:
+        "A few years ago, Sarah, the founder of Nemu, experienced the loss of her grandmother. Witnessing the emotional and stressful process of dividing inherited property among family members, she realized the need for an easy, efficient, and fair solution. Unable to find one, she decided to build it herself.",
+    },
+    {
+      question: "What if I need help?",
+      answer:
+        "You aren't alone! Our team is available to answer any and every question you have. And, if your family needs assistance, we can also provide 1-1 support throughout the entire process. Have a question? Reach out through our contact page [hyperlink to contact page]",
+    },
+    {
       question: "I'm not great with technology. Is that going to be a problem?",
       answer:
-        "Our app is designed for simplicity. We've spent countless hours testing it with real executors, beneficiaries, and people of all ages - which means you don't need to be a techie to get the job done. If you do get stuck, our team is always there to help.",
+        "Our app is designed to be simple. We've spent countless hours testing it with real executors, beneficiaries, and people of all ages - which means you don't need to be a techie to get the job done. If you do get stuck, our team is always there to help.",
+    },
+    {
+      question: "When you say 'equitably' divide, what do you mean? ",
+      answer:
+        "We built a tool that designed to optimize fairness. With only your emotional value towards each item you like, our tool determines the most optimal way to divide your family assets. ",
     },
     {
       question: "Is this something that will fit my situation?",
-      answer:
-        "Nemu works for items big and small. We've helped those in small apartments and those with 3 vacation homes. We've divided items among families of 2 and families much, much larger. Whether you've been given the responsiblitiy of settling someone's estate, or you're trying to make sure no one has to worry about yours, we're here for you.To make sure you only pay for what you need, we have several packages that you can customize to fit your situation. Check them out here! [Hyperlink to pricing section of How-it-works page]",
+      answer: `Nemu works for items big and small. We've helped those in small apartments and those with 3 vacation homes. We've divided items among families of 2 and families much, much larger. Whether you've been given the responsiblitiy of settling someone's estate, or you're trying to make sure no one has to worry about yours, we're here for you.
+
+      To make sure you only pay for what you need, we have several packages that you can customize to fit your situation. Check them out here! [Hyperlink to pricing section of How-it-works page]`,
     },
     {
       question: "How much does Nemu cost?",
-      answer:
-        "We have a variety of packages ranging from $100 to $999. To make sure you only pay for what you need, you can start small and then add the services that fit your situation. You can see our pricing options here [Hyperlink to pricing section of How-it-works page]. Still undecided? Start with a Free Trial and see for yourself!",
-    },
-    {
-      question: "Can I start with a free trial before buying?",
-      answer:
-        "Of course! We offer a free trial for all of our users. We think you'll like what you see. You can sign up here [hyper link to sign up now]",
-    },
-    {
-      question: "When is the right time to start using Nemu?",
-      answer:
-        "Getting started early allows you to move at whatever pace is best for you. Waiting until the last minute could mean the burden is left on your loved ones during an already difficult time. Getting ahead will give everyone peace of mind, and will allow them to celebrate and enjoy what you've left behind, rather than stress and fight over it. ",
-    },
-    {
-      question: "How does Nemu work?",
-      answer: `Nemu has 4 main features, and you can use them in any order you like:
-      - Catalog: Cataloging your items is made quick and simple because our app will recognize how many items are in the photo and help you get them titled!
-      - Appraise: If you want something appraised, you can count on our network of certified appraisers to get the job done!
-      - Divide: Beneficiaries enter an Emotional Value Score to tell us how much they want a given item. Then, our Nash Equilibrium Algorithm looks at everyone’s scores, and ensures the items are divided as fairly as mathematically possible. 
-      - Sell: If you’d like help selling any of your items, we’re here to help! We take into account the value of your item, current market conditions, and how quickly you need the item sold to ensure we sell through the right channels and get the best price.`,
-    },
-    {
-      question:
-        "How do I know the algorithm is fair? Is there a way to cheat the system?",
-      answer: `Our tool is groudned in mathematical fundamentals (a Nash Equalibrium Algorithm, to be exact).There isn't a way to cheat the system, and those that do often find they've cheated themselves. Be true to yourself when entering your emotional value scores, and our app will take care of the rest.
-
-      For example, let's say you rank everything as your "top choice". You are conveying that you like everything the same amount and are indifferent between items. We don't recommend this approach as a strategy to get popular items.`,
-    },
-    {
-      question: "Does this require a bunch of family meetings?",
-      answer:
-        "The awkward and contentious family meetings are exactly what Nemu was designed to replace! Beneficiaries privately enter their emotional scores for each item, which means everyone gets the time and privacy they need to think about what they want most. It means everyone has a choice and everyone has a voice. As one of our executors put it, “the whole family is confident about what they should do”.",
-    },
-    {
-      question: "  What if I need help?",
-      answer:
-        "You aren't alone! Our team is available to answer any and every question you have. And, if your family needs assistance, we can also provide 1-1 support throughout the entire process. Have a question? Reach out through our contact page [hyperlink to contact page]",
+      answer: `We have a variety of packages ranging from $100 to $999. To make sure you only pay for what you need, you can start small and then add the services that fit your situation. You can see our pricing options here [Hyperlink to pricing section of How-it-works page]. Still undecided? Start with a Free Trial and see for yourself!`,
     },
   ];
 
@@ -204,7 +185,7 @@ export default function AboutUs() {
                     <div className="w-full md:w-auto py-1 md:py-0">
                       <a
                         className="inline-block py-3 px-5 w-full text-base md:text-lg leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                        href="#"
+                        href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                       >
                         Sign up
                       </a>
@@ -226,6 +207,24 @@ export default function AboutUs() {
         </section>
         <AsSeen />
         <section
+          className="py-24 md:pt-52 md:pb-28 bg-[#F7F5F2]"
+          // style={{
+          //   backgroundImage:
+          //     'url("flex-ui-assets/elements/pattern-light-big.svg")',
+          //   backgroundPosition: "center",
+          // }}
+        >
+          <div className="container md:h-[750px] px-4 mx-auto">
+            <div className="text-center   mb-4  leading-5 text-emerald-500  uppercase rounded-9xl">
+              TIMELINE
+            </div>
+            <h3 className="mb-10 text-center text-3xl md:text-4xl text-coolGray-900 font-medium tracking-tighter font-heading">
+              Down the memory lane
+            </h3>
+            <Timeline />
+          </div>
+        </section>
+        {/* <section
           className="py-24 md:pt-52 md:pb-32 bg-coolGray-50 overflow-hidden"
           style={{
             backgroundColor: "#F7F5F2",
@@ -255,7 +254,7 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section
           className="py-24 md:pb-28 bg-white"
           // style={{
@@ -277,36 +276,44 @@ export default function AboutUs() {
               <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
                 <div className="flex flex-col h-full p-8 bg-white shadow-md rounded-md">
                   <h3 className="pb-14 mb-auto text-coolGray-600 text-lg">
-                    The best solution for anyone who wants to work a flexible
-                    schedule but still earn a full-time income.
+                    Every single one of my siblings felt like they got just want
+                    they wanted - and that made me very happy.
                   </h3>
-                  <h4 className="mb-1 text-lg font-semibold">Robert Lee</h4>
+                  <h4 className="mb-1 text-lg font-semibold">Margaret</h4>
                   <p className="text-lg text-coolGray-400">
-                    CEO &amp; Founder at Flex.co
+                    Executor & Beneficiary
                   </p>
                 </div>
               </div>
               <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
                 <div className="flex flex-col h-full p-8 bg-white shadow-md rounded-md">
                   <h3 className="pb-14 mb-auto text-coolGray-600 text-lg">
-                    The best solution for anyone who wants to work a flexible
-                    schedule but still earn a full-time income.
+                    We need to tell the world about this - this product will
+                    help save families and relationships.
                   </h3>
-                  <h4 className="mb-1 text-lg font-semibold">Robert Lee</h4>
-                  <p className="text-lg text-coolGray-400">
-                    CEO &amp; Founder at Flex.co
-                  </p>
+                  <h4 className="mb-1 text-lg font-semibold">Colette</h4>
+                  <p className="text-lg text-coolGray-400">Beneficiary</p>
                 </div>
               </div>
               <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
                 <div className="flex flex-col h-full p-8 bg-white shadow-md rounded-md">
                   <h3 className="pb-14 mb-auto text-coolGray-600 text-lg">
-                    The best solution for anyone who wants to work a flexible
-                    schedule but still earn a full-time income.
+                    We appreciate your help. Your app has helped our family
+                    immensely. Thank you!
                   </h3>
-                  <h4 className="mb-1 text-lg font-semibold">Robert Lee</h4>
+                  <h4 className="mb-1 text-lg font-semibold">Eric</h4>
+                  <p className="text-lg text-coolGray-400">Executor</p>
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                <div className="flex flex-col h-full p-8 bg-white shadow-md rounded-md">
+                  <h3 className="pb-14 mb-auto text-coolGray-600 text-lg">
+                    I don't know how we would have done it without it. It was so
+                    fortuitious that it came along.
+                  </h3>
+                  <h4 className="mb-1 text-lg font-semibold">Ann</h4>
                   <p className="text-lg text-coolGray-400">
-                    CEO &amp; Founder at Flex.co
+                    Executor & Beneficiary
                   </p>
                 </div>
               </div>
@@ -335,11 +342,16 @@ export default function AboutUs() {
             <div className="flex flex-wrap justify-center -mx-4">
               <div className=" w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
                 {/* <div className="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-md bg-white shadow-md"> */}
-                <img
-                  className="mx-auto"
-                  src="images/venture-lab-award.png"
-                  alt=""
-                />
+                <a
+                  href="https://venturelab.upenn.edu/2022-startup-challenge-finalists"
+                  target="_blank"
+                >
+                  <img
+                    className="mx-auto"
+                    src="images/venture-lab-award.png"
+                    alt=""
+                  />
+                </a>
                 <h2 className="text-center text-2xl text-white font-medium font-heading">
                   Ashton Family Award
                 </h2>
@@ -350,27 +362,32 @@ export default function AboutUs() {
               </div>
               <div className="w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
                 {/* <div className="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-md bg-white shadow-md"> */}
-                <img className="mx-auto" src="images/tie-award.png" alt="" />
+                <a href="https://tie.org/" target="_blank">
+                  <img className="mx-auto" src="images/tie-award.png" alt="" />
+                </a>
                 <h2 className="text-center text-2xl text-white font-medium font-heading">
-                  Ashton Family Award
+                  TiE Global Pitch Competition
                 </h2>
                 <p className="text-sm  leading-9 text-coolGray-300 text-center">
-                  2022 Startup Challenge Finalists
+                  Female Founder Award + Finalist
                 </p>
                 {/* </div> */}
               </div>
               <div className="w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
                 {/* <div className="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-md bg-white shadow-md"> */}
-                <img
-                  className="mx-auto"
-                  src="images/penn-women-award.png"
-                  alt=""
-                />
+                <a>
+                  {" "}
+                  <img
+                    className="mx-auto"
+                    src="images/penn-women-award.png"
+                    alt=""
+                  />
+                </a>
                 <h2 className="text-center text-2xl text-white font-medium font-heading">
-                  Ashton Family Award
+                  Penn Women Founders Annual Pitch Competition
                 </h2>
                 <p className="text-sm  leading-9 text-coolGray-300 text-center">
-                  2022 Startup Challenge Finalists
+                  Winner
                 </p>
                 {/* </div> */}
               </div>
