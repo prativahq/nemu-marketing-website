@@ -12,8 +12,8 @@ export const DownloadApp = () => {
           }}
         >
           <div className="relative z-20 flex flex-wrap items-center -m-3">
-            <div className="flex flex-col gap-4 w-full md:w-1/2 p-3">
-              <h2 className=" font-medium text-white tracking-tighter text-3xl font-heading">
+            <div className="flex flex-col gap-6 w-full md:w-1/2 p-3">
+              <h2 className=" font-medium text-center text-white tracking-tighter text-3xl font-heading">
                 Download Now to Start your Free Trial
               </h2>
               <ul className="flex flex-col gap-4">
@@ -30,17 +30,9 @@ export const DownloadApp = () => {
                   <span>Avoid the Family Fighting</span>
                 </li>
               </ul>
-              <div className="flex gap-4">
-                <img
-                  src="images/App-Store.svg"
-                  alt=""
-                  className="py-3 rounded "
-                />
-                <img
-                  src="images/Play-Store.svg"
-                  alt=""
-                  className="py-3 rounded "
-                />
+              <div className="flex justify-center md:justify-start flex-wrap gap-4">
+                <img src="images/App-Store.svg" alt="" className=" rounded " />
+                <img src="images/Play-Store.svg" alt="" className=" rounded " />
               </div>
             </div>
           </div>

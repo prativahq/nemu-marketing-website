@@ -1,6 +1,8 @@
 import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Navbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
+import { Newsletter } from "../components/Newsletter";
 
 const meta = {
   title: "",
@@ -30,10 +32,10 @@ export default function Blog() {
           />
           <div className="container relative z-10 px-4 mx-auto">
             <div className="md:max-w-5xl mx-auto mb-8 md:mb-16 text-center">
-              <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 font-medium uppercase rounded-full shadow-sm">
+              <span className="inline-block  mb-4  leading-5 text-emerald-500 uppercase rounded-full shadow-sm">
                 Blog
               </span>
-              <h3 className="mb-4 text-3xl md:text-5xl leading-tight text-darkCoolGray-900 font-bold tracking-tighter">
+              <h3 className="mb-4 text-4xl md:text-5xl leading-tight text-darkCoolGray-900 font-medium font-heading tracking-tighter">
                 Resources to help you out
               </h3>
               <div className="relative mx-auto md:w-80">
@@ -43,40 +45,40 @@ export default function Blog() {
                   alt=""
                 />
                 <input
-                  className="w-full py-3 pl-12 pr-4 text-coolGray-900 leading-tight placeholder-coolGray-500 border border-coolGray-200 rounded-lg shadow-xsm focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
+                  className="w-full py-3 pl-12 pr-4 text-coolGray-900 leading-tight placeholder-coolGray-500 border border-coolGray-200 rounded-lg shadow-xsm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50"
                   type="text"
                   placeholder="Search for a resource"
                 />
               </div>
             </div>
             <ul className="flex flex-wrap mb-8 -mx-2 text-center">
-              <li className="w-full md:w-auto px-2">
+              <li className="w-auto px-2">
                 <a
-                  className="inline-block w-full py-2 px-4 mb-4 md:mb-0 text-sm text-coolGray-400 hover:text-green-500 hover:bg-green-200 font-bold rounded-md hover:shadow-sm"
+                  className="inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm"
                   href="#"
                 >
                   All
                 </a>
               </li>
-              <li className="w-full md:w-auto px-2">
+              <li className="w-auto px-2">
                 <a
-                  className="inline-block w-full py-2 px-4 mb-4 md:mb-0 text-sm text-coolGray-400 hover:text-green-500 hover:bg-green-200 font-bold rounded-md hover:shadow-sm"
+                  className="inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm"
                   href="#"
                 >
                   Educational
                 </a>
               </li>
-              <li className="w-full md:w-auto px-2">
+              <li className="w-auto px-2">
                 <a
-                  className="inline-block w-full py-2 px-4 mb-4 md:mb-0 text-sm text-coolGray-400 hover:text-green-500 hover:bg-green-200 font-bold rounded-md hover:shadow-sm"
+                  className="inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm"
                   href="#"
                 >
                   News
                 </a>
               </li>
-              <li className="w-full md:w-auto px-2">
+              <li className="w-auto px-2">
                 <a
-                  className="inline-block w-full py-2 px-4 mb-4 md:mb-0 text-sm text-coolGray-400 hover:text-green-500 hover:bg-green-200 font-bold rounded-md hover:shadow-sm"
+                  className="inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm"
                   href="#"
                 >
                   Press
@@ -90,7 +92,7 @@ export default function Blog() {
                 </a>
                 <div className="mb-4">
                   <a
-                    className="inline-block py-1 px-3 text-xs leading-5 text-green-500 hover:text-green-600 font-medium uppercase bg-green-100 hover:bg-green-200 rounded-full shadow-sm"
+                    className="inline-block py-1 px-3 text-xs leading-5 text-emerald-500 hover:text-emerald-600 font-medium uppercase bg-emerald-100 hover:bg-emerald-200 rounded-full shadow-sm"
                     href="#"
                   >
                     Technology
@@ -107,7 +109,7 @@ export default function Blog() {
                   totally true.
                 </a>
                 <a
-                  className="inline-flex items-center text-base md:text-lg text-green-500 hover:text-green-600 font-semibold"
+                  className="inline-flex items-center text-base md:text-lg text-emerald-500 hover:text-emerald-600 font-semibold"
                   href="#"
                 >
                   <span className="mr-3">Read Post</span>
@@ -131,7 +133,7 @@ export default function Blog() {
                 </a>
                 <div className="mb-4">
                   <a
-                    className="inline-block py-1 px-3 text-xs leading-5 text-green-500 hover:text-green-600 font-medium uppercase bg-green-100 hover:bg-green-200 rounded-full shadow-sm"
+                    className="inline-block py-1 px-3 text-xs leading-5 text-emerald-500 hover:text-emerald-600 font-medium uppercase bg-emerald-100 hover:bg-emerald-200 rounded-full shadow-sm"
                     href="#"
                   >
                     Development
@@ -148,7 +150,7 @@ export default function Blog() {
                   totally true.
                 </a>
                 <a
-                  className="inline-flex items-center text-base md:text-lg text-green-500 hover:text-green-600 font-semibold"
+                  className="inline-flex items-center text-base md:text-lg text-emerald-500 hover:text-emerald-600 font-semibold"
                   href="#"
                 >
                   <span className="mr-3">Read Post</span>
@@ -172,7 +174,7 @@ export default function Blog() {
                 </a>
                 <div className="mb-4">
                   <a
-                    className="inline-block py-1 px-3 text-xs leading-5 text-green-500 hover:text-green-600 font-medium uppercase bg-green-100 hover:bg-green-200 rounded-full shadow-sm"
+                    className="inline-block py-1 px-3 text-xs leading-5 text-emerald-500 hover:text-emerald-600 font-medium uppercase bg-emerald-100 hover:bg-emerald-200 rounded-full shadow-sm"
                     href="#"
                   >
                     Marketing
@@ -189,7 +191,7 @@ export default function Blog() {
                   totally true.
                 </a>
                 <a
-                  className="inline-flex items-center text-base md:text-lg text-green-500 hover:text-green-600 font-semibold"
+                  className="inline-flex items-center text-base md:text-lg text-emerald-500 hover:text-emerald-600 font-semibold"
                   href="#"
                 >
                   <span className="mr-3">Read Post</span>
@@ -213,7 +215,7 @@ export default function Blog() {
                 </a>
                 <div className="mb-4">
                   <a
-                    className="inline-block py-1 px-3 text-xs leading-5 text-green-500 hover:text-green-600 font-medium uppercase bg-green-100 hover:bg-green-200 rounded-full shadow-sm"
+                    className="inline-block py-1 px-3 text-xs leading-5 text-emerald-500 hover:text-emerald-600 font-medium uppercase bg-emerald-100 hover:bg-emerald-200 rounded-full shadow-sm"
                     href="#"
                   >
                     Start-up
@@ -230,7 +232,7 @@ export default function Blog() {
                   totally true.
                 </a>
                 <a
-                  className="inline-flex items-center text-base md:text-lg text-green-500 hover:text-green-600 font-semibold"
+                  className="inline-flex items-center text-base md:text-lg text-emerald-500 hover:text-emerald-600 font-semibold"
                   href="#"
                 >
                   <span className="mr-3">Read Post</span>
@@ -254,7 +256,7 @@ export default function Blog() {
                 </a>
                 <div className="mb-4">
                   <a
-                    className="inline-block py-1 px-3 text-xs leading-5 text-green-500 hover:text-green-600 font-medium uppercase bg-green-100 hover:bg-green-200 rounded-full shadow-sm"
+                    className="inline-block py-1 px-3 text-xs leading-5 text-emerald-500 hover:text-emerald-600 font-medium uppercase bg-emerald-100 hover:bg-emerald-200 rounded-full shadow-sm"
                     href="#"
                   >
                     Article
@@ -271,7 +273,7 @@ export default function Blog() {
                   totally true.
                 </a>
                 <a
-                  className="inline-flex items-center text-base md:text-lg text-green-500 hover:text-green-600 font-semibold"
+                  className="inline-flex items-center text-base md:text-lg text-emerald-500 hover:text-emerald-600 font-semibold"
                   href="#"
                 >
                   <span className="mr-3">Read Post</span>
@@ -295,7 +297,7 @@ export default function Blog() {
                 </a>
                 <div className="mb-4">
                   <a
-                    className="inline-block py-1 px-3 text-xs leading-5 text-green-500 hover:text-green-600 font-medium uppercase bg-green-100 hover:bg-green-200 rounded-full shadow-sm"
+                    className="inline-block py-1 px-3 text-xs leading-5 text-emerald-500 hover:text-emerald-600 font-medium uppercase bg-emerald-100 hover:bg-emerald-200 rounded-full shadow-sm"
                     href="#"
                   >
                     Podcast
@@ -312,7 +314,7 @@ export default function Blog() {
                   totally true.
                 </a>
                 <a
-                  className="inline-flex items-center text-base md:text-lg text-green-500 hover:text-green-600 font-semibold"
+                  className="inline-flex items-center text-base md:text-lg text-emerald-500 hover:text-emerald-600 font-semibold"
                   href="#"
                 >
                   <span className="mr-3">Read Post</span>
@@ -332,12 +334,12 @@ export default function Blog() {
               </div>
             </div>
             <a
-              className="flex items-center justify-center py-2 px-4 mx-auto text-sm leading-5 text-green-50 font-medium bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 md:max-w-max rounded-md"
+              className="flex items-center justify-center py-2 px-4 mx-auto text-sm leading-5 text-emerald-50 font-medium bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 md:max-w-max rounded-md"
               href="#"
             >
               <span className="mr-3">View more</span>
               <svg
-                className="text-green-50"
+                className="text-emerald-50"
                 width={12}
                 height={10}
                 viewBox="0 0 12 10"
@@ -352,213 +354,8 @@ export default function Blog() {
             </a>
           </div>
         </section>
-        <section
-          className="py-24 bg-white"
-          style={{
-            background: "var(--surface-light-bg, #F7F5F2)",
-            backgroundPosition: "center",
-          }}
-        >
-          <div className="container px-4 mx-auto">
-            <div className="flex flex-wrap -mx-4">
-              <div className="w-full md:w-1/2 px-4 mb-10 md:mb-0">
-                <h3
-                  className="mb-4 text-3xl md:text-4xl leading-tight font-bold tracking-tighter"
-                  contentEditable="false"
-                >
-                  Subscribe to our newsletter and stay updated!
-                </h3>
-              </div>
-              <div className="w-full md:w-1/2 px-4">
-                <div className="mx-auto md:mr-0 md:max-w-md">
-                  <div className="flex flex-wrap mb-1">
-                    <div className="w-full md:flex-1 mb-3 md:mb-0 md:mr-6">
-                      <input
-                        className="w-full py-3 px-4 text-coolGray-500 leading-tight placeholder-coolGray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-coolGray-200 rounded-lg shadow-xsm"
-                        type="text"
-                        placeholder="sarahpowers@mynemu.com"
-                      />
-                    </div>
-                    <div className="w-full md:w-auto">
-                      <a
-                        className="inline-block py-3 px-5 w-full leading-5 text-white bg-green-500 hover:bg-green-600 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm"
-                        href="#"
-                      >
-                        Subscribe
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section
-          className=" "
-          style={{
-            background: "var(--primary-primary-500, #075362)",
-            backgroundPosition: "center",
-          }}
-        >
-          <div className="container px-4 mx-auto">
-            <div className="flex flex-wrap pt-24 pb-12 -mx-4">
-              <div className="w-full md:w-1/2 lg:w-4/12 px-4 mb-16 lg:mb-0">
-                <a className="inline-block mb-4" href="#">
-                  <img
-                    className="h-8"
-                    src="images/nemu-logo-light.svg"
-                    alt=""
-                  />
-                </a>
-                <p className="text-base md:text-lg font-medium lg:w-64 text-white">
-                  We are on a mission to simplify managing and dividing
-                  heirlooms so families can focus on what matters most during
-                  life’s most trying times.
-                </p>
-              </div>
-              <div className="w-full md:w-1/4 lg:w-2/12 px-4 mb-16 lg:mb-0">
-                <h3
-                  className="mb-5 text-lg font-bold text-white"
-                  contentEditable="false"
-                >
-                  Pages
-                </h3>
-                <ul>
-                  <li className="mb-4">
-                    <a
-                      className="inline-block hover:text-coolGray-600 font-medium text-white"
-                      href="#"
-                      contentEditable="false"
-                    >
-                      About
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a
-                      className="inline-block hover:text-coolGray-600 font-medium text-white"
-                      href="#"
-                      contentEditable="false"
-                    >
-                      Services
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a
-                      className="inline-block hover:text-coolGray-600 font-medium text-white"
-                      href="#"
-                      contentEditable="false"
-                    >
-                      Partner
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a
-                      className="inline-block hover:text-coolGray-600 font-medium text-white"
-                      href="#"
-                      contentEditable="false"
-                    >
-                      Resources
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="inline-block hover:text-coolGray-600 font-medium text-white"
-                      href="#"
-                      contentEditable="false"
-                    >
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="w-full md:w-1/4 lg:w-2/12 px-4 mb-16 lg:mb-0">
-                <h3
-                  className="mb-5 text-lg font-bold text-white"
-                  contentEditable="false"
-                >
-                  Contact Us
-                </h3>
-                <ul>
-                  <li className="mb-4" contentEditable="false">
-                    <a
-                      className="inline-block hover:text-coolGray-600 font-medium text-white"
-                      href="tel:+16234321678"
-                      contentEditable="false"
-                    >
-                      +1 623-432-1678
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a
-                      className="inline-block hover:text-coolGray-600 font-medium text-white"
-                      href="mailto:support@mynemu.com"
-                      contentEditable="false"
-                    >
-                      support@mynemu.com
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a
-                      className="inline-block hover:text-coolGray-600 font-medium text-white"
-                      href="/terms-of-service.html"
-                      contentEditable="false"
-                    >
-                      Terms Of Service
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a
-                      className="inline-block hover:text-coolGray-600 font-medium text-white"
-                      href="/privacy-policy.html"
-                      contentEditable="false"
-                    >
-                      Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="inline-block hover:text-coolGray-600 font-medium text-white"
-                      href="/legal-information.html"
-                      contentEditable="false"
-                    >
-                      Legal Information
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="w-full md:w-1/3 lg:w-4/12 px-4">
-                <h3
-                  className="mb-5 text-lg font-bold text-white"
-                  contentEditable="false"
-                >
-                  Get the app
-                </h3>
-                <div className="flex flex-wrap">
-                  <div className="w-full lg:flex-1 py-1 lg:py-0 lg:mr-3">
-                    <img
-                      src="images/App-Store.svg"
-                      alt=""
-                      className="py-3 rounded shadow-md"
-                    />
-                    <img
-                      src="images/Play-Store.svg"
-                      alt=""
-                      className="py-3 rounded shadow-md"
-                    />
-                  </div>
-                  <div className="w-full lg:w-auto py-1 lg:py-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="border-b border-coolGray-100" />
-          <p
-            className="py-6 md:pb-6 text-sm font-medium text-center text-white"
-            contentEditable="false"
-          >
-            © 2023 Nemu, Inc. All rights reserved.
-          </p>
-        </section>
+        <Newsletter />
+        <Footer />
       </>
     </React.Fragment>
   );

@@ -171,11 +171,11 @@ export default function AboutUs() {
           <div className="py-10">
             <div className="container px-4 mx-auto">
               <div className="flex flex-wrap xl:items-center -mx-4">
-                <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
-                  <span className="inline-block py-px px-2 mb-4 text-emerald-500 leading-5 uppercase rounded-9xl">
+                <div className="text-center md:text-left w-full md:w-1/2 px-4 mb-16 md:mb-0">
+                  <span className="inline-block  mb-4 text-emerald-500 leading-5 uppercase rounded-9xl">
                     about us
                   </span>
-                  <h1 className="mb-6 text-3xl md:text-5xl lg:text-6xl leading-tight font-medium font-heading tracking-tight">
+                  <h1 className="mb-6 text-4xl md:text-5xl lg:text-6xl leading-tight font-medium font-heading tracking-tight">
                     From Our Family to Yours
                   </h1>
                   <p className="mb-8 text-lg  text-coolGray-500 ">
@@ -188,6 +188,10 @@ export default function AboutUs() {
                     celebrate the heirlooms left behind and the memories that
                     are so intrinsically attached to them.{" "}
                   </p>
+                  <img
+                    src="images/googleReviews.png"
+                    className="mx-auto md:ml-0 mt-6 mb-10"
+                  ></img>
                   <div className="flex flex-wrap">
                     <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                       <a
@@ -261,8 +265,8 @@ export default function AboutUs() {
           // }}
         >
           <div className="container px-4 mx-auto">
-            <div className="mb-16">
-              <span className="inline-block py-px px-2 mb-4  leading-5 text-emerald-500 font-medium uppercase rounded-9xl">
+            <div className="text-center md:text-left mb-16">
+              <span className="inline-block  mb-4  leading-5 text-emerald-500 font-medium uppercase rounded-9xl">
                 TESTIMONIALS
               </span>
               <h2 className="mb-4 text-4xl md:text-5xl leading-tight font-medium font-heading tracking-tighter">
@@ -497,7 +501,7 @@ export default function AboutUs() {
                 <div className="flex flex-col gap-2 h-full py-8 px-10 shadow-md border border-gray-200 bg-white rounded-md text-center">
                   <img
                     className="w-24 h-24 mx-auto mb-6 rounded-full"
-                    src="flex-ui-assets/images/teams/avatar5.png"
+                    src="images/ronish.png"
                     alt=""
                   />
                   <h3

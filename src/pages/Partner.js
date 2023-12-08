@@ -52,15 +52,15 @@ export default function Partner() {
           <div className="py-10">
             <div className="container px-4 mx-auto">
               <div className="flex flex-wrap xl:items-center -mx-4">
-                <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
+                <div className="text-center md:text-left w-full md:w-1/2 px-4 mb-16 md:mb-0">
                   <span
-                    className="inline-block py-px px-2 mb-4  leading-5 uppercase rounded-9xl text-emerald-500"
+                    className="inline-block  mb-4  leading-5 uppercase rounded-9xl text-emerald-500"
                     contentEditable="false"
                   >
                     PARTNER WITH US
                   </span>
                   <h1
-                    className="mb-6 text-3xl md:text-5xl lg:text-6xl leading-tight font-medium font-heading tracking-tight"
+                    className="mb-6 text-4xl md:text-5xl lg:text-6xl leading-tight font-medium font-heading tracking-tight"
                     contentEditable="false"
                   >
                     <span style={{ whiteSpace: "pre-wrap" }}>
@@ -119,7 +119,7 @@ export default function Partner() {
           }}
         >
           <div className="flex items-start justify-between flex-wrap container px-4 mx-auto">
-            <div className=" ">
+            <div className="text-center md:text-left ">
               <span className="inline-block  mb-4  leading-5 text-emerald-500    uppercase rounded-full shadow-sm">
                 OVERLINE
               </span>
@@ -321,14 +321,14 @@ export default function Partner() {
                   return <Card {...card} />;
                 })}
               </div>
-              <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
-                <a
-                  className="inline-block py-3 px-5 w-full text-base md:text-lg leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                  href="#"
-                >
-                  Join Forces now
-                </a>
-              </div>
+              {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4"> */}
+              <a
+                className="inline-block py-3 px-5 w-fit text-base md:text-lg leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
+                href="#"
+              >
+                Join Forces now
+              </a>
+              {/* </div> */}
               {/* <div className="w-full">
                 <a
                   href="#"

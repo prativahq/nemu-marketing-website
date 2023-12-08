@@ -137,11 +137,11 @@ export default function HowItWorks() {
           <div className="py-10">
             <div className="container px-4 mx-auto">
               <div className="flex flex-wrap xl:items-center -mx-4">
-                <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
-                  <span className="inline-block py-px px-2 mb-4  leading-5 uppercase rounded-9xl text-emerald-500">
+                <div className="text-center md:text-left w-full md:w-1/2 px-4 mb-16 md:mb-0">
+                  <span className="inline-block  mb-4  leading-5 uppercase rounded-9xl text-emerald-500">
                     HOW IT WORKS
                   </span>
-                  <h1 className="mb-6 text-3xl text-coolGray-900 md:text-5xl lg:text-6xl leading-tight font-medium font-heading tracking-tight">
+                  <h1 className="mb-6 text-4xl text-coolGray-900 md:text-5xl lg:text-6xl leading-tight font-medium font-heading tracking-tight">
                     Dividing Heirlooms Should Be a Joy, Not a Job
                   </h1>
                   <p className="mb-8 text-lg  text-coolGray-500">
@@ -369,7 +369,7 @@ export default function HowItWorks() {
 
               <p />
             </div>
-            <div className="flex flex-wrap justify-center gap-10 -mx-4 ">
+            <div className="flex flex-wrap justify-center gap-10 -mx-4 px-5 ">
               <div className="flex flex-col gap-4 w-full md:w-[480px] border shadow-lg border-coolGray-100 rounded-md mb-8">
                 <a className="block mb-6 overflow-hidden rounded-md" href="#">
                   <img

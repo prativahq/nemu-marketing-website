@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
+  // useEffect(() => {
+  //   const script = document.createElement("script");
+
+  //   script.src = "assets/js/main.js";
+  //   script.async = true;
+
+  //   document.body.appendChild(script);
+
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   };
+  // }, []);
+
+  const [toggle, setToggle] = useState(false);
+  const path = window.location.pathname;
+  console.log(path);
+
   return (
     <section className="bg-white font-body">
+      {/* <Helmet>
+        <script type="text/javascript" src="assets/js/main.js" />
+      </Helmet> */}
       <nav className="flex justify-between p-6 px-4 container mx-auto">
         <div className="flex justify-between items-center w-full">
           <div className=" xl:block xl:w-1/4">
@@ -15,7 +36,11 @@ export const Navbar = () => {
             <ul className="flex justify-center">
               <li className="mr-12">
                 <Link
-                  className="text-coolGray-500 hover:text-coolGray-900 text-lg"
+                  className={`${
+                    path === "/how-it-works"
+                      ? "text-emerald-500"
+                      : "text-coolGray-500"
+                  }  hover:text-coolGray-900 text-lg`}
                   to="/how-it-works"
                   contentEditable="false"
                 >
@@ -24,7 +49,11 @@ export const Navbar = () => {
               </li>
               <li className="mr-12">
                 <Link
-                  className="text-coolGray-500 hover:text-coolGray-900 text-lg"
+                  className={`${
+                    path === "/about-us"
+                      ? "text-emerald-500"
+                      : "text-coolGray-500"
+                  }  hover:text-coolGray-900 text-lg`}
                   to="/about-us"
                   contentEditable="false"
                 >
@@ -33,7 +62,9 @@ export const Navbar = () => {
               </li>
               <li className="mr-12">
                 <Link
-                  className="text-coolGray-500 hover:text-coolGray-900 text-lg"
+                  className={`${
+                    path === "/blog" ? "text-emerald-500" : "text-coolGray-500"
+                  }  hover:text-coolGray-900 text-lg`}
                   to="/blog"
                   contentEditable="false"
                 >
@@ -42,7 +73,11 @@ export const Navbar = () => {
               </li>
               <li className="mr-12">
                 <Link
-                  className="text-coolGray-500 hover:text-coolGray-900 text-lg"
+                  className={`${
+                    path === "/partner"
+                      ? "text-emerald-500"
+                      : "text-coolGray-500"
+                  }  hover:text-coolGray-900 text-lg`}
                   to="/partner"
                   contentEditable="false"
                 >
@@ -51,7 +86,11 @@ export const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="text-coolGray-500 hover:text-coolGray-900 text-lg"
+                  className={`${
+                    path === "/contact-us"
+                      ? "text-emerald-500"
+                      : "text-coolGray-500"
+                  }  hover:text-coolGray-900 text-lg`}
                   to="/contact-us"
                 >
                   Contact
@@ -70,7 +109,10 @@ export const Navbar = () => {
             </div>
           </div>
         </div>
-        <button className="navbar-burger self-center xl:hidden">
+        <button
+          onClick={() => setToggle(!toggle)}
+          className="navbar-burger self-center xl:hidden"
+        >
           <svg
             width={35}
             height={35}
@@ -93,17 +135,23 @@ export const Navbar = () => {
           </svg>
         </button>
       </nav>
-      <div className="navbar-menu hidden fixed top-0 left-0 z-50 w-full h-full bg-coolGray-900 bg-opacity-50">
+      <div
+        className={`navbar-menu ${
+          toggle ? "block" : "hidden"
+        } fixed top-0 left-0 z-50 w-full h-full bg-coolGray-900 bg-opacity-50`}
+      >
         <div className="fixed top-0 left-0 bottom-0  w-4/6 max-w-xs bg-white">
           <nav className="relative p-6 h-full overflow-y-auto">
             <div className="flex flex-col justify-between h-full">
-              <Link className="inline-block" to="#">
+              <Link className="inline-block" to="/">
                 <img className="h-8" src="images/nemu-logo-dark.svg" alt="" />
               </Link>
               <ul className="py-6">
                 <li>
                   <Link
-                    className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md"
+                    className={`block py-3 px-4 ${
+                      path === "/how-it-works" && "bg-coolGray-50"
+                    } text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md`}
                     to="/how-it-works"
                   >
                     How it works
@@ -111,7 +159,9 @@ export const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md"
+                    className={`block py-3 px-4 ${
+                      path === "/about-us" && "bg-coolGray-50"
+                    } text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md`}
                     to="/about-us"
                   >
                     About
@@ -119,7 +169,9 @@ export const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md"
+                    className={`block py-3 px-4 ${
+                      path === "/blog" && "bg-coolGray-50"
+                    } text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md`}
                     to="/blog"
                   >
                     Resources
@@ -127,7 +179,9 @@ export const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md"
+                    className={`block py-3 px-4 ${
+                      path === "/partner" && "bg-coolGray-50"
+                    } text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md`}
                     to="/partner"
                   >
                     Partner
@@ -135,7 +189,9 @@ export const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md"
+                    className={`block py-3 px-4 ${
+                      path === "/contact-us" && "bg-coolGray-50"
+                    } text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md`}
                     to="/contact-us"
                   >
                     Contact
@@ -162,7 +218,10 @@ export const Navbar = () => {
               </div>
             </div>
           </nav>
-          <Link className="navbar-close absolute top-5 p-4 right-3" to="#">
+          <button
+            onClick={() => setToggle(!toggle)}
+            className="navbar-close absolute top-5 p-4 right-3"
+          >
             <svg
               width={12}
               height={12}
@@ -175,7 +234,7 @@ export const Navbar = () => {
                 fill="#556987"
               />
             </svg>
-          </Link>
+          </button>
         </div>
       </div>
     </section>

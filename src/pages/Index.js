@@ -213,34 +213,34 @@ export default function Index() {
             <div className="container px-4 mx-auto">
               <div className="flex flex-wrap xl:items-center -mx-4">
                 <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
-                  <span className="inline-block py-px px-2 mb-4  leading-5 uppercase rounded-9xl text-emerald-500">
+                  <div className="text-center md:text-left mb-4  leading-5 uppercase rounded-9xl text-emerald-500">
                     WELCOME
-                  </span>
-                  <h1 className="mb-6 text-3xl text-coolGray-900 md:text-5xl lg:text-6xl leading-tight font-medium font-heading tracking-tight">
+                  </div>
+                  <h1 className="mb-6 text-center md:text-left text-4xl text-coolGray-900 md:text-5xl lg:text-6xl leading-tight font-medium font-heading tracking-tight">
                     Split Property, Not Relationships
                   </h1>
-                  <p className="mb-8 text-lg  text-coolGray-500 ">
+                  <p className="text-center md:text-left mb-8 text-lg  text-coolGray-500 ">
                     Sometimes the responsibility associated with death, divorce,
                     or downsizing can be hard to bear. We’re here to make it a
                     lot easier.
                   </p>
-                  <div className="flex flex-wrap">
-                    <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
-                      <a
-                        className="inline-block py-3 px-5 w-full text-base md:text-lg leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                        href="#"
-                      >
-                        Free Sign Up
-                      </a>
-                    </div>
-                    <div className="w-full md:w-auto py-1 md:py-0">
-                      <a
-                        className="inline-block py-3 px-5 w-full text-base md:text-lg leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                        href="#"
-                      >
-                        Learn more
-                      </a>
-                    </div>
+                  <div className="flex flex-wrap justify-center md:justify-start gap-5">
+                    {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4"> */}
+                    <a
+                      className="inline-block py-3 px-5 w-fit text-base md:text-lg leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
+                      href="#"
+                    >
+                      Free Sign Up
+                    </a>
+                    {/* </div> */}
+                    {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
+                    <a
+                      className="inline-block py-3 px-5 w-fit text-base md:text-lg leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
+                      href="#"
+                    >
+                      Learn more
+                    </a>
+                    {/* </div> */}
                   </div>
                 </div>
                 <div className="w-full md:w-1/2 px-4">
@@ -273,13 +273,13 @@ export default function Index() {
                 </div>
               </div>
               <div className="w-full md:w-1/2 px-4">
-                <span className="inline-block py-px px-2 mb-4  leading-5 text-emerald-500  uppercase rounded-full shadow-sm">
+                <div className="text-center md:text-left mb-4  leading-5 text-emerald-500  uppercase rounded-full shadow-sm">
                   OUR STORY
-                </span>
-                <h1 className="mb-8 text-4xl md:text-5xl leading-tight text-coolGray-900 font-medium tracking-tighter font-heading">
+                </div>
+                <h1 className="mb-8 text-center md:text-left text-4xl md:text-5xl leading-tight text-coolGray-900 font-medium tracking-tighter font-heading">
                   We get it, because we have been there
                 </h1>
-                <p className="mb-6 text-lg  text-coolGray-500 ">
+                <p className="mb-6 text-lg text-center md:text-left text-coolGray-500 ">
                   A few years ago, Sarah, the founder of Nemu, experienced the
                   loss of her grandmother. Witnessing the emotional and
                   stressful process of dividing inherited property among family
@@ -287,14 +287,14 @@ export default function Index() {
                   fair solution. Unable to find one, she decided to build it
                   herself.
                 </p>
-                {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
-                <a
-                  className="w-fit inline-block py-3 px-5  text-base md:text-lg leading-4 text-emerald-500  text-center bg-transparent hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                  href="#"
-                >
-                  Learn more
-                </a>
-                {/* </div> */}
+                <div className="w-full text-center md:text-left md:w-auto py-1 md:py-0">
+                  <a
+                    className="w-fit inline-block py-3 px-5 mx-auto text-base md:text-lg leading-4 text-emerald-500  text-center bg-transparent hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
+                    href="#"
+                  >
+                    Learn more
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -311,7 +311,7 @@ export default function Index() {
             <div className="flex flex-wrap -mx-4">
               <div className="w-full px-4 mb-10">
                 <div className="flex flex-wrap justify-between items-center">
-                  <div className="w-full md:w-1/2 mb-10 md:mb-0">
+                  <div className="w-full md:w-1/2 mb-10 md:mb-0 text-center md:text-left">
                     <span className="inline-block py-px px-2 mb-4  leading-5 text-emerald-500  uppercase rounded-9xl">
                       OUR SERVICES
                     </span>
