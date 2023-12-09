@@ -142,7 +142,8 @@ export default function Partner() {
               {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4"> */}
               <a
                 className="inline-block py-3 px-5 w-fit text-base md:text-lg leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                href="#"
+                href="https://meetings.hubspot.com/sarah1487/intro-affiliate"
+                target="_blank"
               >
                 Join Forces now
               </a>
@@ -326,7 +327,8 @@ export default function Partner() {
               {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4"> */}
               <a
                 className="inline-block py-3 px-5 w-fit text-base md:text-lg leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-md shadow-sm"
-                href="#"
+                href="https://meetings.hubspot.com/sarah1487/intro-affiliate"
+                target="_blank"
               >
                 Join Forces now
               </a>

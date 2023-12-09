@@ -9,6 +9,8 @@ import { DownloadApp } from "../components/DownloadApp";
 import { Newsletter } from "../components/Newsletter";
 import { Footer } from "../components/Footer";
 import { Timeline } from "../components/Timeline";
+import { ApplyNow } from "../components/ApplyNow";
+import { TestimonialAboutPage } from "../components/TestimonialAboutPage";
 
 const meta = {
   title: "",
@@ -170,7 +172,7 @@ export default function AboutUs() {
                     are so intrinsically attached to them.{" "}
                   </p>
                   <img
-                    src="images/googleReviews.png"
+                    src="images/google-aboutus.svg"
                     className="mx-auto md:ml-0 mt-6 mb-10"
                   ></img>
                   <div className="flex flex-wrap">
@@ -272,7 +274,8 @@ export default function AboutUs() {
                 What our customers<br></br> have to say
               </h2>
             </div>
-            <div className="flex flex-wrap -mx-4">
+            <TestimonialAboutPage />
+            {/* <div className="flex flex-wrap -mx-4">
               <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
                 <div className="flex flex-col h-full p-8 bg-white shadow-md rounded-md">
                   <h3 className="pb-14 mb-auto text-coolGray-600 text-lg">
@@ -317,7 +320,7 @@ export default function AboutUs() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
         <section
@@ -437,9 +440,13 @@ export default function AboutUs() {
                   >
                     Founder + CEO
                   </span>
-                  <Link className="w-fit mx-auto" to={"/"}>
+                  <a
+                    className="w-fit mx-auto"
+                    target="_blank"
+                    href={"https://www.linkedin.com/in/sarah-powers713/"}
+                  >
                     <img src="images/linkedin1.png" />
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10">
@@ -461,9 +468,15 @@ export default function AboutUs() {
                   >
                     Head of Product + Family Experience
                   </span>
-                  <Link className="w-fit mx-auto" to={"/"}>
+                  <a
+                    className="w-fit mx-auto"
+                    target="_blank"
+                    href={
+                      "https://www.linkedin.com/in/fahvyon-jimenez-807b6788/"
+                    }
+                  >
                     <img src="images/linkedin1.png" />
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10">
@@ -485,9 +498,13 @@ export default function AboutUs() {
                   >
                     Marketing Lead
                   </span>
-                  <Link className="w-fit mx-auto" to={"/"}>
+                  <a
+                    className="w-fit mx-auto"
+                    target="_blank"
+                    href={"https://www.linkedin.com/in/vanditakamath157/"}
+                  >
                     <img src="images/linkedin1.png" />
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10 lg:mb-0">
@@ -509,9 +526,13 @@ export default function AboutUs() {
                   >
                     Head of Engineering
                   </span>
-                  <Link className="w-fit mx-auto" to={"/"}>
+                  <a
+                    className="w-fit mx-auto"
+                    target="_blank"
+                    href={"https://www.linkedin.com/in/souravudo/"}
+                  >
                     <img src="images/linkedin1.png" />
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10 md:mb-0">
@@ -533,9 +554,13 @@ export default function AboutUs() {
                   >
                     Design Lead
                   </span>
-                  <Link className="w-fit mx-auto" to={"/"}>
+                  <a
+                    className="w-fit mx-auto"
+                    target="_blank"
+                    href={"https://www.linkedin.com/in/ronish-sawal-537a23131/"}
+                  >
                     <img src="images/linkedin1.png" />
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4">
@@ -554,14 +579,19 @@ export default function AboutUs() {
                   <span className="inline-block mb-6 text-lg text-coolGray-500">
                     IOS Developer
                   </span>
-                  <Link className="w-fit mx-auto" to={"/"}>
+                  <a
+                    className="w-fit mx-auto"
+                    target="_blank"
+                    href={"https://www.linkedin.com/in/ta-sakin/"}
+                  >
                     <img src="images/linkedin1.png" />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </section>
+        <ApplyNow />
         <Faq faqs={faqs} />
         <DownloadApp />
         <Newsletter />

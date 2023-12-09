@@ -6,9 +6,9 @@ export const DownloadApp = () => {
     <section className="bg-white py-10">
       <div className="container px-4 mx-auto">
         <div
-          className="relative py-11 px-16 rounded-md overflow-hidden bg-cover"
+          className="relative py-11 px-16 rounded-2xl overflow-hidden bg-cover"
           style={{
-            backgroundImage: 'url("images/banner.png")',
+            backgroundImage: 'url("images/download-banner.svg")',
           }}
         >
           <div className="relative z-20 flex flex-wrap items-center -m-3">

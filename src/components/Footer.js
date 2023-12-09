@@ -72,7 +72,7 @@ export const Footer = () => {
               <li className="mb-4">
                 <Link
                   className="inline-block hover:text-coolGray-600  text-white"
-                  to="/terms-of-service"
+                  to="/how-it-works"
                   contentEditable="false"
                 >
                   Services

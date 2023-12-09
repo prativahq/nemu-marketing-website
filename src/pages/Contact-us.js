@@ -82,7 +82,7 @@ export default function ContactUs() {
                 A Real Inbox, Monitored
                 <div>by Real People</div>
               </h3>
-              <img src="images/contact.png" className="mx-auto" />
+              <img src="images/contact-1.svg" className="mx-auto" />
             </div>
             <div className="flex flex-wrap -mx-4 pb-16">
               <div className="w-full mb-10 md:mb-0 md:w-1/2 px-4">
