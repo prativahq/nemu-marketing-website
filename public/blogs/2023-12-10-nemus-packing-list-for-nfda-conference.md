@@ -4,6 +4,8 @@ title: NEMU's packing list for NFDA conference
 date: 2023-09-05T15:18:31.633Z
 thumbnail: /images/uploads/blog1.png
 rating: 5
+author: Sourav
+tags: news
 ---
 Team Nemu and I are excited about attending the upcoming NFDA Convention and Expo in Vegas. I am thrilled by the return of in-person events. To help prepare for the conference, we have put together a handy pre-event packing checklist for you:
 
