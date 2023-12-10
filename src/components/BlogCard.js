@@ -11,12 +11,9 @@ export const BlogCard = ({ tag, id, title, author, thumbnail, date }) => {
         <img className="w-full h-80" src={`${thumbnail}`} alt="" />
       </Link>
       <div className="mb-4 px-4">
-        <a
-          className="inline-block py-1 px-3 text-xs leading-5 text-emerald-500 hover:text-emerald-600 font-medium uppercase bg-emerald-100 hover:bg-emerald-200 rounded-full shadow-sm"
-          href="#"
-        >
+        <span className="inline-block py-1 px-3 text-xs leading-5 text-emerald-500 hover:text-emerald-600 font-medium uppercase bg-emerald-100 hover:bg-emerald-200 rounded-full shadow-sm">
           {tag}
-        </a>
+        </span>
       </div>
       <p className="px-4 mb-2 text-coolGray-500 font-medium">
         {author} . {date}

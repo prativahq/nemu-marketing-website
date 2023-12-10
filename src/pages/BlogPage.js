@@ -57,9 +57,14 @@ export const BlogPage = () => {
               <img className="w-full md:w-1/3" src={`${blog[0].thumbnail}`} />
               <div className="flex flex-col gap-5">
                 <p className="text-lg text-gray-500">{blog[0].date}</p>
-                <h1 className="mb-4 text-4xl md:text-5xl leading-tight text-darkCoolGray-900 font-medium font-heading tracking-tighter">
+                <h1 className="mb-2 text-4xl md:text-5xl leading-tight text-darkCoolGray-900 font-medium font-heading tracking-tighter">
                   {blog[0].title}
                 </h1>
+                <div className="mb-2 ">
+                  <span className="inline-block py-1 px-3 text-xs leading-5 text-emerald-500 hover:text-emerald-600 font-medium uppercase bg-emerald-100 hover:bg-emerald-200 rounded-full shadow-sm">
+                    {blog[0].tag}
+                  </span>
+                </div>
                 <p className="text-lg text-gray-500">{blog[0].author}</p>
               </div>
             </div>
