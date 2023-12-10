@@ -120,7 +120,7 @@ export default function HowItWorks() {
               </span>
               <h1
                 className="mb-4 text-3xl md:text-4xl leading-tight font-medium font-heading tracking-tighter"
-                contentEditable="true"
+                contentEditable="false"
               >
                 As Easy as 1-2-3
               </h1>

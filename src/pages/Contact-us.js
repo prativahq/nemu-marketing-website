@@ -77,7 +77,7 @@ export default function ContactUs() {
               </span>
               <h3
                 className="mb-4 text-3xl md:text-5xl leading-tight text-darkCoolGray-900 font-medium font-heading tracking-tighter"
-                contentEditable="true"
+                contentEditable="false"
               >
                 A Real Inbox, Monitored
                 <div>by Real People</div>

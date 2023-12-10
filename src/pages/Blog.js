@@ -79,7 +79,7 @@ export default function Blog() {
                 </a>
               </li>
             </ul>
-            <div className="flex flex-wrap -mx-4 mb-12 md:mb-20">
+            <div className="flex flex-wrap gap-10 -mx-4 mb-12 md:mb-20">
               {Blogs.map((blog) => {
                 return (
                   <BlogCard

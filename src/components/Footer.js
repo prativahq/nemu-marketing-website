@@ -55,7 +55,7 @@ export const Footer = () => {
           <div className="w-full md:w-1/4 lg:w-2/12 px-4 mb-16 lg:mb-0">
             <h3
               className="mb-5 text-lg font-medium text-white"
-              contentEditable="false"
+              // contentEditable="false"
             >
               Pages
             </h3>
@@ -64,7 +64,7 @@ export const Footer = () => {
                 <Link
                   className="inline-block hover:text-coolGray-600  text-white"
                   to="/about-us"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   About
                 </Link>
@@ -73,7 +73,7 @@ export const Footer = () => {
                 <Link
                   className="inline-block hover:text-coolGray-600  text-white"
                   to="/how-it-works"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   Services
                 </Link>
@@ -82,7 +82,7 @@ export const Footer = () => {
                 <Link
                   className="inline-block hover:text-coolGray-600  text-white"
                   to="/partner"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   Partner
                 </Link>
@@ -91,7 +91,7 @@ export const Footer = () => {
                 <Link
                   className="inline-block hover:text-coolGray-600  text-white"
                   to="/blog"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   Resources
                 </Link>
@@ -100,7 +100,7 @@ export const Footer = () => {
                 <Link
                   className="inline-block hover:text-coolGray-600  text-white"
                   to="/contact-us"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   Contact
                 </Link>
@@ -110,16 +110,16 @@ export const Footer = () => {
           <div className="w-full md:w-1/4 lg:w-2/12 px-4 mb-16 lg:mb-0">
             <h3
               className="mb-5 text-lg font-medium text-white"
-              contentEditable="false"
+              // contentEditable="false"
             >
               Contact Us
             </h3>
             <ul>
-              <li className="mb-4" contentEditable="false">
+              <li className="mb-4">
                 <a
                   className="inline-block hover:text-coolGray-600  text-white"
                   href="tel:+16234321678"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   +1 623-432-1678
                 </a>
@@ -128,7 +128,7 @@ export const Footer = () => {
                 <a
                   className="inline-block hover:text-coolGray-600  text-white"
                   href="mailto:support@mynemu.com"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   support@mynemu.com
                 </a>
@@ -137,7 +137,7 @@ export const Footer = () => {
                 <Link
                   className="inline-block hover:text-coolGray-600  text-white"
                   to="/terms-of-service"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   Terms Of Service
                 </Link>
@@ -146,7 +146,7 @@ export const Footer = () => {
                 <Link
                   className="inline-block hover:text-coolGray-600  text-white"
                   to="/privacy-policy"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   Privacy Policy
                 </Link>
@@ -155,7 +155,7 @@ export const Footer = () => {
                 <Link
                   className="inline-block hover:text-coolGray-600  text-white"
                   to="/legal"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   Legal Information
                 </Link>
@@ -165,7 +165,7 @@ export const Footer = () => {
           <div className="w-full md:w-1/3 lg:w-4/12 px-4">
             <h3
               className="mb-5 text-lg font-medium text-white"
-              contentEditable="false"
+              // contentEditable="false"
             >
               Get the app
             </h3>
@@ -195,7 +195,7 @@ export const Footer = () => {
       {/* <div className="border-b border-coolGray-500 " /> */}
       <p
         className="py-6 md:pb-6 text-sm bg-emerald-700 text-center text-white"
-        contentEditable="false"
+        // contentEditable="false"
       >
         © 2023 Nemu, Inc. All rights reserved.
       </p>

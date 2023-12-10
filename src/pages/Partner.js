@@ -244,7 +244,7 @@ export default function Partner() {
               </span>
               <h1
                 className="mb-4 text-3xl md:text-4xl leading-tight font-medium font-heading tracking-tighter"
-                contentEditable="true"
+                contentEditable="false"
               >
                 Partner With us in 3 Easy Steps
               </h1>

@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 export const BlogCard = ({ id, title, author, thumbnail, date }) => {
   return (
-    <div className="w-full flex flex-col md:w-1/2 px-4 mb-8">
+    <div className="w-full border border-coolGray-200 shadow-sm rounded-md flex flex-col md:w-1/3  mb-8">
       <Link
         className="block mb-6 overflow-hidden rounded-md"
         to={`/blog/${id}`}
       >
-        <img className="w-1/2" src={`${thumbnail}`} alt="" />
+        <img className="w-full h-80" src={`${thumbnail}`} alt="" />
       </Link>
       {/* <div className="mb-4">
         <a
@@ -18,17 +18,17 @@ export const BlogCard = ({ id, title, author, thumbnail, date }) => {
           Technology
         </a>
       </div> */}
-      <p className="mb-2 text-coolGray-500 font-medium">
+      <p className="px-4 mb-2 text-coolGray-500 font-medium">
         {author} . {date}
       </p>
       <Link
-        className="inline-block mb-4 text-xl md:text-2xl leading-tight text-coolGray-800 hover:text-coolGray-900 font-bold hover:underline"
+        className="flex-1 px-4 inline-block mb-4 text-xl md:text-2xl leading-tight text-coolGray-800 hover:text-coolGray-900 font-bold hover:underline"
         to={`/blog/${id}`}
       >
         {title}
       </Link>
       <Link
-        className="inline-flex items-center text-base md:text-lg text-emerald-500 hover:text-emerald-600 font-semibold"
+        className="px-4 mb-5 inline-flex items-center text-base md:text-lg text-emerald-500 hover:text-emerald-600 font-semibold"
         to={`/blog/${id}`}
       >
         <span className="mr-3">Read Post</span>

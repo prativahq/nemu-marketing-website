@@ -93,6 +93,7 @@ const getPosts = () => {
           time: parsedDate["time"],
           thumbnail: metadata.thumbnail,
           content: content ? content : "No content given",
+          tag: metadata.tag ? metadata.tag : "No tag given",
         };
         postlist.push(post);
         ilist.push(i);

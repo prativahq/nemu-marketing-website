@@ -42,7 +42,7 @@ export const Navbar = () => {
                       : "text-coolGray-500"
                   }  hover:text-coolGray-900 text-lg`}
                   to="/how-it-works"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   How it works
                 </Link>
@@ -55,7 +55,7 @@ export const Navbar = () => {
                       : "text-coolGray-500"
                   }  hover:text-coolGray-900 text-lg`}
                   to="/about-us"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   About
                 </Link>
@@ -66,7 +66,7 @@ export const Navbar = () => {
                     path === "/blog" ? "text-emerald-500" : "text-coolGray-500"
                   }  hover:text-coolGray-900 text-lg`}
                   to="/blog"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   Resources
                 </Link>
@@ -79,7 +79,7 @@ export const Navbar = () => {
                       : "text-coolGray-500"
                   }  hover:text-coolGray-900 text-lg`}
                   to="/partner"
-                  contentEditable="false"
+                  // contentEditable="false"
                 >
                   Partner
                 </Link>
