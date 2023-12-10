@@ -19,6 +19,9 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "list"
-        default: ["news", "educational", "press"]
+        fields:
+          - { label: Educational, name: educational, widget: string }
+          - { label: News, name: news, widget: string }
+          - { label: Press, name: press, widget: string }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
