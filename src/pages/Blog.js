@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
@@ -14,7 +14,26 @@ const meta = {
 };
 
 export default function Blog() {
-  console.log(Blogs);
+  const [tag, setTag] = useState("all");
+  const [blogs, setBlogs] = useState(Blogs);
+  const [search, setSearch] = useState("");
+
+  const handleSearch = (value) => {
+    setSearch(value);
+    const filteredBlogs = Blogs.filter((blog) =>
+      blog.title.toLowerCase().includes(value.toLowerCase())
+    );
+    setBlogs(filteredBlogs);
+  };
+
+  useEffect(() => {
+    if (tag === "all") {
+      setBlogs(Blogs);
+    } else {
+      const filteredBlogs = Blogs.filter((blog) => blog.tag === tag);
+      setBlogs(filteredBlogs);
+    }
+  }, [tag]);
 
   return (
     <React.Fragment>
@@ -39,60 +58,69 @@ export default function Blog() {
                   alt=""
                 />
                 <input
+                  value={search}
+                  onChange={(e) => handleSearch(e.target.value)}
                   className="w-full py-3 pl-12 pr-4 text-coolGray-900 leading-tight placeholder-coolGray-500 border border-coolGray-200 rounded-lg shadow-xsm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50"
                   type="text"
                   placeholder="Search for a resource"
                 />
               </div>
             </div>
-            <ul className="flex flex-wrap mb-8 -mx-2 text-center">
-              <li className="w-auto px-2">
-                <a
+            <ul className="flex flex-wrap gap-2 mb-8 -mx-2 text-center">
+              <li className="w-auto ">
+                <button
+                  onClick={() => setTag("all")}
                   className="inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm"
-                  href="#"
                 >
                   All
-                </a>
+                </button>
               </li>
-              <li className="w-auto px-2">
-                <a
+              <li className="w-auto ">
+                <button
+                  onClick={() => setTag("educational")}
                   className="inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm"
-                  href="#"
                 >
                   Educational
-                </a>
+                </button>
               </li>
-              <li className="w-auto px-2">
-                <a
+              <li className="w-auto ">
+                <button
+                  onClick={() => setTag("news")}
                   className="inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm"
-                  href="#"
                 >
                   News
-                </a>
+                </button>
               </li>
-              <li className="w-auto px-2">
-                <a
+              <li className="w-auto ">
+                <button
+                  onClick={() => setTag("press")}
                   className="inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm"
-                  href="#"
                 >
                   Press
-                </a>
+                </button>
               </li>
             </ul>
-            <div className="flex flex-wrap gap-10 -mx-4 mb-12 md:mb-20">
-              {Blogs.map((blog) => {
-                return (
-                  <BlogCard
-                    id={blog.id}
-                    title={blog.title}
-                    author={blog.author}
-                    thumbnail={blog.thumbnail}
-                    date={blog.date}
-                  />
-                );
-              })}
+            <div className="flex flex-wrap gap-10 px-5 -mx-4 mb-12 md:mb-20">
+              {blogs.length > 0 ? (
+                blogs.map((blog) => {
+                  return (
+                    <BlogCard
+                      tag={blog.tag}
+                      id={blog.id}
+                      title={blog.title}
+                      author={blog.author}
+                      thumbnail={blog.thumbnail}
+                      date={blog.date}
+                    />
+                  );
+                })
+              ) : (
+                <p className="text-lg text-center my-5">
+                  No blogs available matching this tag
+                </p>
+              )}
             </div>
-            <a
+            {/* <a
               className="flex items-center justify-center py-2 px-4 mx-auto text-sm leading-5 text-emerald-50 font-medium bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 md:max-w-max rounded-md"
               href="#"
             >
@@ -110,7 +138,7 @@ export default function Blog() {
                   fill="currentColor"
                 />
               </svg>
-            </a>
+            </a> */}
           </div>
         </section>
         <Newsletter />

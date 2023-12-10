@@ -16,8 +16,8 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - label: "Tags"
-        name: "tags"
+      - label: "Tag"
+        name: "tag"
         widget: "select"
         options: ["educational", "news", "press"]
       - { label: "Featured Image", name: "thumbnail", widget: "image" }

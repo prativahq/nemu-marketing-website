@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const BlogCard = ({ id, title, author, thumbnail, date }) => {
+export const BlogCard = ({ tag, id, title, author, thumbnail, date }) => {
   return (
     <div className="w-full border border-coolGray-200 shadow-sm rounded-md flex flex-col md:w-1/3  mb-8">
       <Link
@@ -10,14 +10,14 @@ export const BlogCard = ({ id, title, author, thumbnail, date }) => {
       >
         <img className="w-full h-80" src={`${thumbnail}`} alt="" />
       </Link>
-      {/* <div className="mb-4">
+      <div className="mb-4 px-4">
         <a
           className="inline-block py-1 px-3 text-xs leading-5 text-emerald-500 hover:text-emerald-600 font-medium uppercase bg-emerald-100 hover:bg-emerald-200 rounded-full shadow-sm"
           href="#"
         >
-          Technology
+          {tag}
         </a>
-      </div> */}
+      </div>
       <p className="px-4 mb-2 text-coolGray-500 font-medium">
         {author} . {date}
       </p>
