@@ -10,8 +10,9 @@ import RefundsCancellationPage from "./pages/Refunds-cancellation.js";
 import ContactUsPage from "./pages/Contact-us.js";
 import PartnerPage from "./pages/Partner.js";
 import AboutUsPage from "./pages/About-us.js";
-import BlogPage from "./pages/Blog.js";
+import BlogsPage from "./pages/Blog.js";
 import ReactDOM from "react-dom/client";
+import { BlogPage } from "./pages/BlogPage.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -39,7 +40,9 @@ root.render(
 
         <Route path="/about-us" element={<AboutUsPage />} />
 
-        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog" element={<BlogsPage />} />
+
+        <Route path="/blog/:id" element={<BlogPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
