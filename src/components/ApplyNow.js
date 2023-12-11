@@ -6,7 +6,7 @@ export const ApplyNow = () => {
     <section className="bg-white py-10">
       <div className="container px-4 mx-auto">
         <div
-          className="relative py-11 px-16 rounded-2xl overflow-hidden bg-cover"
+          className="relative py-11 px-8 md:px-16 rounded-2xl overflow-hidden bg-cover"
           style={{
             backgroundImage: 'url("images/applynow-banner.svg")',
           }}
@@ -37,7 +37,7 @@ export const ApplyNow = () => {
                 </li>
               </ul> */}
               <a
-                className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-transparent  focus:ring-2 focus:ring-white focus:ring-opacity-50 border border-white rounded-lg shadow-sm"
+                className="inline-block py-3 px-6 w-fit mx-auto md:ml-0 text-base md:text-lg font-semibold leading-4 text-white  text-center bg-transparent  focus:ring-2 focus:ring-white focus:ring-opacity-50 border border-white rounded-lg shadow-sm"
                 href="https://forms.gle/5MM55hwYDsrxRGSG8"
                 target="_blank"
               >

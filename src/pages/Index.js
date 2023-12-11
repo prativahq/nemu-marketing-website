@@ -304,7 +304,7 @@ export default function Index() {
         <Faq faqs={faqs} />
         {/* resources */}
         <section
-          className="py-24 bg-white"
+          className="py-12 md:py24 bg-white"
           // style={{
           //   backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
           //   backgroundRepeat: "no-repeat",
@@ -334,7 +334,7 @@ export default function Index() {
                 );
               })}
             </div>
-            <div className="flex justify-center mx-auto max-w-max bg-white border border-coolGray-100 rounded-md shadow-lg" />
+            {/* <div className="flex justify-center mx-auto max-w-max bg-white border border-coolGray-100 rounded-md shadow-lg" /> */}
           </div>
         </section>
         {/* newsletter */}

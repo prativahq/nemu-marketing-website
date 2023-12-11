@@ -82,7 +82,7 @@ export default function Partner() {
                     <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                       <a
                         target="_blank"
-                        className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        className="inline-block py-3 px-6 md:w-fit w-full text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://meetings.hubspot.com/sarah1487/intro-affiliate"
                       >
                         Become an affiliate
@@ -91,7 +91,7 @@ export default function Partner() {
                     <div className="w-full md:w-auto py-1 md:py-0">
                       <a
                         target="_blank"
-                        className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        className="inline-block py-3 px-6 md:w-fit w-full  text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://meetings.hubspot.com/sarah1487/intro-affiliate"
                       >
                         Schedule a call

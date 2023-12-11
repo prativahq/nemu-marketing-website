@@ -64,13 +64,13 @@ export default function ContactUs() {
       <>
         <Navbar />
         <section
-          className="relative py-28 lg:py-[450px] pt-20 lg:mb-64 "
+          className="relative py-24 lg:py-[300px] pt-20 lg:mb-64 "
           style={{
             background: "var(--surface-light-bg, #F7F5F2)",
             backgroundPosition: "center",
           }}
         >
-          <div className="lg:absolute right-0 left-0 container px-4 mx-auto">
+          <div className="lg:absolute lg:-my-44 right-0 left-0 container px-4 mx-auto">
             <div className="max-w-4xl mx-auto mb-16 text-center">
               <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 CONTACT US

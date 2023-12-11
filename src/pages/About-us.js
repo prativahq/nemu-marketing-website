@@ -95,7 +95,7 @@ export default function AboutUs() {
                   <div className="flex flex-wrap">
                     <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                       <a
-                        className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        className="inline-block py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="#"
                       >
                         Request a Demo
@@ -103,7 +103,7 @@ export default function AboutUs() {
                     </div>
                     <div className="w-full md:w-auto py-1 md:py-0">
                       <a
-                        className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        className="inline-block py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                       >
                         Sign up
@@ -434,7 +434,10 @@ export default function AboutUs() {
         </section>
         <ApplyNow />
         <Faq faqs={faqs} />
-        <DownloadApp />
+        <section className="relative py-24 mb-80 ">
+          <DownloadApp />
+        </section>
+
         <Newsletter />
         <Footer />
       </>
