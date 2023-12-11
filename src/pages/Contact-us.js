@@ -64,29 +64,29 @@ export default function ContactUs() {
       <>
         <Navbar />
         <section
-          className="pt-20 bg-white"
+          className="relative py-28 lg:py-[450px] pt-20 lg:mb-64 "
           style={{
             background: "var(--surface-light-bg, #F7F5F2)",
             backgroundPosition: "center",
           }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="lg:absolute right-0 left-0 container px-4 mx-auto">
             <div className="max-w-4xl mx-auto mb-16 text-center">
-              <span className="inline-block py-px px-2 mb-4   leading-5 text-emerald-500 font-medium uppercase rounded-9xl">
+              <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 CONTACT US
               </span>
-              <h3
-                className="mb-4 text-3xl md:text-5xl leading-tight text-darkCoolGray-900 font-medium font-heading tracking-tighter"
+              <h1
+                className="mb-6 mt-3  text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
                 contentEditable="false"
               >
                 A Real Inbox, Monitored
                 <div>by Real People</div>
-              </h3>
+              </h1>
               <img src="images/contact-1.svg" className="mx-auto" />
             </div>
             <div className="flex flex-wrap -mx-4 pb-16">
               <div className="w-full mb-10 md:mb-0 md:w-1/2 px-4">
-                <div className="mx-auto text-center px-10 py-8 max-w-sm bg-white rounded-lg">
+                <div className=" mx-auto text-center px-10 lg:px-32 py-8  bg-white border border-coolGray-200 shadow-sm rounded-lg">
                   <div className="inline-flex mb-6 items-center justify-center w-12 h-12 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@ export default function ContactUs() {
                 </div>
               </div>
               <div className="w-full mb-10 md:mb-0 md:w-1/2 px-4">
-                <div className=" mx-auto text-center max-w-sm py-8 px-10 bg-white rounded-lg">
+                <div className=" mx-auto text-center px-10  py-8 lg:px-32 bg-white border border-coolGray-200 shadow-sm rounded-lg">
                   <div className="inline-flex mb-6 items-center justify-center w-12 h-12 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

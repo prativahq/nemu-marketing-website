@@ -13,7 +13,7 @@ export const ApplyNow = () => {
         >
           <div className="relative z-20 flex flex-wrap items-center -m-3">
             <div className="flex flex-col gap-6 w-full md:w-1/2 p-3">
-              <h2 className=" font-medium text-center md:text-left text-white tracking-tighter text-3xl font-heading">
+              <h2 className=" font-medium text-center md:text-left text-white tracking-tighter text-4xl font-heading">
                 Join our team!
               </h2>
               <p className="text-lg text-center md:text-left text-coolGray-200 leading-9">
@@ -37,7 +37,7 @@ export const ApplyNow = () => {
                 </li>
               </ul> */}
               <a
-                className="inline-block py-3 px-5 w-fit mx-auto md:ml-0 text-base md:text-lg leading-4 text-white  text-center bg-transparent  focus:ring-2 focus:ring-white focus:ring-opacity-50 border border-white rounded-md shadow-sm"
+                className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-transparent  focus:ring-2 focus:ring-white focus:ring-opacity-50 border border-white rounded-lg shadow-sm"
                 href="https://forms.gle/5MM55hwYDsrxRGSG8"
                 target="_blank"
               >

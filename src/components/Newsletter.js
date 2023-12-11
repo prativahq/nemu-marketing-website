@@ -3,7 +3,7 @@ import React from "react";
 export const Newsletter = () => {
   return (
     <section
-      className="py-24 bg-white"
+      className="py-24 mt-10 bg-white"
       style={{
         background: "var(--surface-light-bg, #F7F5F2)",
         backgroundPosition: "center",

@@ -55,8 +55,12 @@ export const BlogPage = () => {
             </Link> */}
             <div className="flex flex-wrap justify-center gap-20 ">
               <img className="w-full md:w-1/3" src={`${blog[0].thumbnail}`} />
-              <div className="flex flex-col gap-5">
-                <p className="text-lg text-gray-500">{blog[0].date}</p>
+              <div className="flex flex-col gap-5 w-full lg:w-1/2">
+                <div className="flex gap-3">
+                  <p className="text-lg text-gray-500">{blog[0].author}</p>.
+                  <p className="text-lg text-gray-500">{blog[0].date}</p>
+                </div>
+
                 <h1 className="mb-2 text-4xl md:text-5xl leading-tight text-darkCoolGray-900 font-medium font-heading tracking-tighter">
                   {blog[0].title}
                 </h1>
@@ -65,7 +69,6 @@ export const BlogPage = () => {
                     {blog[0].tag}
                   </span>
                 </div>
-                <p className="text-lg text-gray-500">{blog[0].author}</p>
               </div>
             </div>
           </div>

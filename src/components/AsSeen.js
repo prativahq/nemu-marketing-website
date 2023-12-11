@@ -3,13 +3,13 @@ import React from "react";
 export const AsSeen = () => {
   return (
     <section
-      className="md:relative py-8 md:py-36 xl:pt-24 bg-white"
+      className="md:relative py-8 lg:py-36 xl:pt-24 bg-white"
       style={{
         background: "var(--primary-primary-500, #075362)",
         backgroundPosition: "center",
       }}
     >
-      <div className="md:absolute md:py-12 left-0 right-0 top-0 container px-4 mx-auto">
+      <div className="lg:absolute md:py-12 left-0 right-0 top-0 container px-4 mx-auto">
         <div className="mb-8 text-center">
           <span className="inline-block py-px px-2 mb-2 text-xs leading-5 font-medium uppercase rounded-9xl text-white">
             NEMU

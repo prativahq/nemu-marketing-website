@@ -32,13 +32,16 @@ export const TestimonialAboutPage = () => {
           <ChevronRight className="text-emerald-500" />
         </ButtonNext>
       </div>
-      <Slider className=" h-[890px] md:h-[450px]">
+      <Slider className=" h-[890px] md:h-[600px] lg:h-[450px]">
         <Slide index={0} className=" pb-0">
           <div className="md:flex-row flex flex-col w-full gap-10 py-5">
             <div className="w-full md:w-1/2  px-4 ">
               <div className="flex flex-col items-center h-full p-8 gap-5 bg-white border border-coolGray-100 shadow-md rounded-md">
-                <img src="images/testimonial-demo.svg" className="w-15" />
-                <h3 className="pb-10 md:px-16 text-center mb-auto text-coolGray-600 text-lg">
+                <img
+                  src="images/Margaret.jpg"
+                  className="object-contain w-20 h-20 rounded-full"
+                />
+                <h3 className="pb-10 lg:px-16 text-center mb-auto text-coolGray-600 text-lg">
                   Every single one of my siblings felt like they got just want
                   they wanted - and that made me very happy.
                 </h3>
@@ -50,8 +53,11 @@ export const TestimonialAboutPage = () => {
             </div>
             <div className="w-full md:w-1/2  px-4 ">
               <div className="flex flex-col items-center h-full p-8 gap-5 bg-white border border-coolGray-100 shadow-md rounded-md">
-                <img src="images/testimonial-demo.svg" className="w-15" />
-                <h3 className="pb-10 md:px-16 text-center mb-auto text-coolGray-600 text-lg">
+                <img
+                  src="images/Collete.jpg"
+                  className="object-contain w-20 h-20 rounded-full"
+                />
+                <h3 className="pb-10 lg:px-16 text-center mb-auto text-coolGray-600 text-lg">
                   We need to tell the world about this - this product will help
                   save families and relationships.
                 </h3>
@@ -65,8 +71,11 @@ export const TestimonialAboutPage = () => {
           <div className="md:flex-row flex flex-col w-full gap-10 py-5">
             <div className="w-full md:w-1/2  px-4 ">
               <div className="flex flex-col items-center h-full p-8 gap-5 bg-white border border-coolGray-100 shadow-md rounded-md">
-                <img src="images/testimonial-demo.svg" className="w-15" />
-                <h3 className="pb-10 md:px-16 text-center mb-auto text-coolGray-600 text-lg">
+                <img
+                  src="images/Eric.jpg"
+                  className="object-contain w-20 h-20 rounded-full"
+                />
+                <h3 className="pb-10 lg:px-16 text-center mb-auto text-coolGray-600 text-lg">
                   We appreciate your help. Your app has helped our family
                   immensely. Thank you!
                 </h3>
@@ -76,8 +85,11 @@ export const TestimonialAboutPage = () => {
             </div>
             <div className="w-full md:w-1/2  px-4 ">
               <div className="flex flex-col items-center h-full p-8 gap-5 bg-white border border-coolGray-100 shadow-md rounded-md">
-                <img src="images/testimonial-demo.svg" className="w-15" />
-                <h3 className="pb-10 md:px-16 text-center mb-auto text-coolGray-600 text-lg">
+                <img
+                  src="images/Ann.jpg"
+                  className="object-contain w-20 h-20 rounded-full"
+                />
+                <h3 className="pb-10 lg:px-16 text-center mb-auto text-coolGray-600 text-lg">
                   I don't know how we would have done it without it. It was so
                   fortuitious that it came along.
                 </h3>

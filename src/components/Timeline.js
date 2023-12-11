@@ -50,9 +50,9 @@ export const Timeline = () => {
       naturalSlideHeight={120}
       totalSlides={4}
     >
-      <Slider className=" h-[780px] md:h-[600px]">
+      <Slider className=" h-[780px] md:h-[920px] lg:h-[600px]">
         <Slide index={0} className="pb-0">
-          <div className="w-full  mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className="w-full  mx-auto flex flex-col lg:flex-row items-center justify-center gap-10">
             <img src="images/about-us-1941.png" alt="" />
             <div className="relative flex flex-col gap-10">
               <h1 className=" text-5xl md:text-6xl text-coolGray-900 font-medium tracking-tighter font-heading">
@@ -70,7 +70,7 @@ export const Timeline = () => {
           </div>
         </Slide>
         <Slide index={0} className="pb-0">
-          <div className="w-full  mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className="w-full  mx-auto flex flex-col lg:flex-row items-center justify-center gap-10">
             <img src="images/about-us-2001.png" alt="" />
             <div className="relative flex flex-col gap-10">
               <h1 className=" text-5xl md:text-6xl text-coolGray-900 font-medium tracking-tighter font-heading">
@@ -94,7 +94,7 @@ export const Timeline = () => {
           </div>
         </Slide>
         <Slide index={0} className="pb-0">
-          <div className="w-full  mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className="w-full  mx-auto flex flex-col lg:flex-row items-center justify-center gap-10">
             <img src="images/about-us-2021.png" alt="" />
             <div className="relative flex flex-col gap-10">
               <h1 className=" text-5xl md:text-6xl text-coolGray-900 font-medium tracking-tighter font-heading">
@@ -125,7 +125,7 @@ export const Timeline = () => {
           </div>
         </Slide>
         <Slide index={0} className="pb-0">
-          <div className="w-full  mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className="w-full  mx-auto flex flex-col lg:flex-row items-center justify-center gap-10">
             <img src="images/about-us-2023.png" alt="" />
             <div className="relative flex flex-col gap-10">
               <h1 className=" text-5xl md:text-6xl text-coolGray-900 font-medium tracking-tighter font-heading">

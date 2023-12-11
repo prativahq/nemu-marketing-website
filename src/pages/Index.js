@@ -267,7 +267,7 @@ export default function Index() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-wrap justify-between w-full gap-20 px-4 mb-5 lg:mb-0">
+              <div className="flex flex-wrap justify-between w-full gap-10 px-4 mb-5 lg:mb-0">
                 {cards.map((card) => {
                   return <LandingCard {...card} />;
                 })}
@@ -276,11 +276,14 @@ export default function Index() {
           </div>
         </section>
         {/* download now */}
-        <DownloadApp />
+        <section className="relative py-24 ">
+          <DownloadApp />
+        </section>
+
         {/* testimonials */}
 
         <section
-          className="py-24 md:pb-36 bg-[#F7F5F2]"
+          className="md:pt-72 pt-96 pb-20 md:pb-36 bg-[#F7F5F2]"
           // style={{
           //   backgroundImage:
           //     'url("flex-ui-assets/elements/pattern-light-big.svg")',
