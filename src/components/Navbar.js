@@ -21,15 +21,15 @@ export const Navbar = () => {
   console.log(path);
 
   return (
-    <section className="bg-white font-body">
+    <section className="shadow-inner shadow-[#EAEBEB] bg-white font-body">
       {/* <Helmet>
         <script type="text/javascript" src="assets/js/main.js" />
       </Helmet> */}
-      <nav className="flex justify-between p-6 px-4 container mx-auto">
+      <nav className=" flex justify-between p-6 px-4 container mx-auto">
         <div className="flex justify-between items-center w-full">
           <div className=" xl:block xl:w-1/4">
             <Link className="block max-w-max" to="/">
-              <img className="h-8" src="/images/nemu-logo-dark.svg" alt="" />
+              <img className="h-6" src="/images/nemu-logo-dark.svg" alt="" />
             </Link>
           </div>
           <div className="hidden xl:block xl:w-1/2">
@@ -101,7 +101,7 @@ export const Navbar = () => {
           <div className="hidden xl:block xl:w-1/4">
             <div className="flex items-center justify-end">
               <a
-                className="inline-block py-3 px-5  leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-lg focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md"
+                className="inline-block py-3 px-5 font-semibold  leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-lg focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md"
                 href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kwws"
               >
                 Sign Up
@@ -144,7 +144,7 @@ export const Navbar = () => {
           <nav className="relative p-6 h-full overflow-y-auto">
             <div className="flex flex-col justify-between h-full">
               <Link className="inline-block" to="/">
-                <img className="h-8" src="/images/nemu-logo-dark.svg" alt="" />
+                <img className="h-6" src="/images/nemu-logo-dark.svg" alt="" />
               </Link>
               <ul className="py-6">
                 <li>
@@ -209,7 +209,7 @@ export const Navbar = () => {
                 </div> */}
                 <div className="w-full">
                   <a
-                    className="inline-block py-3 px-5 w-full  leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-lg text-center focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md"
+                    className="inline-block  py-3 px-6 w-full font-semibold leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-lg text-center focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-lg"
                     href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                   >
                     Sign Up

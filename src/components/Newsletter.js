@@ -17,7 +17,7 @@ export const Newsletter = () => {
         <div className="flex flex-wrap -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-10 md:mb-0">
             <h3 className="mb-4 text-3xl md:text-4xl leading-tight font-medium tracking-tighter font-heading">
-              Subscribe to our newsletter and stay updated!
+              Subscribe to our newsletter <br></br>and stay updated!
             </h3>
           </div>
           <div className="w-full md:w-1/2 px-4">
@@ -32,7 +32,7 @@ export const Newsletter = () => {
                 </div>
                 <div className="w-full md:w-auto">
                   <a
-                    className="inline-block py-3 px-5 w-full leading-5 text-white bg-emerald-500 hover:bg-emerald-600  text-center focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm"
+                    className="inline-block py-3 px-6 w-full leading-5 text-white font-semibold bg-emerald-500 hover:bg-emerald-600  text-center focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-transparent rounded-lg shadow-sm"
                     href="#"
                   >
                     Subscribe

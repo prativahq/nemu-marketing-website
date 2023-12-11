@@ -3,20 +3,20 @@ import React from "react";
 export const AsSeen = () => {
   return (
     <section
-      className="md:relative py-20 md:py-28 xl:pt-24 bg-white"
+      className="md:relative py-8 md:py-36 xl:pt-24 bg-white"
       style={{
         background: "var(--primary-primary-500, #075362)",
         backgroundPosition: "center",
       }}
     >
-      <div className="md:absolute md:py-10 left-0 right-0 top-0 container px-4 mx-auto">
+      <div className="md:absolute md:py-12 left-0 right-0 top-0 container px-4 mx-auto">
         <div className="mb-8 text-center">
-          <span className="inline-block py-px px-2 mb-4 text-xs leading-5 font-medium uppercase rounded-9xl text-white">
+          <span className="inline-block py-px px-2 mb-2 text-xs leading-5 font-medium uppercase rounded-9xl text-white">
             NEMU
           </span>
-          <h3 className="mb-4 text-4xl md:text-5xl font-medium tracking-tighter text-white font-heading">
+          <h2 className="mb-5  text-center  text-4.5xl text-white   leading-tight font-medium font-heading tracking-tight">
             As seen on
-          </h3>
+          </h2>
         </div>
         <div className="flex flex-wrap justify-center -mx-4">
           <div className="w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">

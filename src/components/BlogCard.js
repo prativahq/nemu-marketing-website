@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const BlogCard = ({ tag, id, title, author, thumbnail, date }) => {
   return (
-    <div className="w-full border border-coolGray-200 shadow-sm rounded-md flex flex-col md:w-1/3  mb-8">
+    <div className="w-full border border-coolGray-100 shadow-sm rounded-md flex flex-col md:w-1/3  mb-8">
       <Link
         className="block mb-6 overflow-hidden rounded-md"
         to={`/blog/${id}`}

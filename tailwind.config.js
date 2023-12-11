@@ -143,6 +143,9 @@ module.exports = {
         serif: 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
         mono: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
       },
+      fontSize: {
+        "4.5xl": "42px",
+      },
     },
   },
   plugins: [],

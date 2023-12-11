@@ -27,7 +27,7 @@ export const Testimonial = () => {
       <Slider className=" h-[870px] md:h-[450px]">
         <Slide index={0} className="pb-0">
           <div className="w-full md:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
-            <img src="images/home-testimonials.png" />
+            <img className="w-[350px]" src="images/Margaret.jpg" />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
               <div className="text-lg w-full md:w-3/4 leading-9 text-coolGray-500">
@@ -71,7 +71,7 @@ export const Testimonial = () => {
         </Slide>
         <Slide index={2} className="pb-0">
           <div className="w-full md:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
-            <img src="images/home-testimonials.png" />
+            <img className="w-[350px]" src="images/Sandy.jpeg" />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
               <div className="text-lg w-full md:w-3/4 leading-9 text-coolGray-500">
@@ -93,7 +93,7 @@ export const Testimonial = () => {
         </Slide>
         <Slide index={3} className="pb-0">
           <div className="w-full md:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
-            <img src="images/home-testimonials.png" />
+            <img className="w-[350px]" src="images/Ann.jpg" />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
               <div className="text-lg w-full md:w-3/4 leading-9 text-coolGray-500">
@@ -139,7 +139,7 @@ export const Testimonial = () => {
         </Slide>
         <Slide index={5} className="pb-0">
           <div className="w-full md:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
-            <img src="images/home-testimonials.png" />
+            <img className="w-[350px]" src="images/Hal.jpg" />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
               <div className="text-lg w-full md:w-3/4 leading-9 text-coolGray-500">
@@ -162,7 +162,7 @@ export const Testimonial = () => {
         </Slide>
         <Slide index={6} className="pb-0">
           <div className="w-full md:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
-            <img src="images/home-testimonials.png" />
+            <img className="w-[350px]" src="images/Marge.jpg" />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
               <div className="text-lg w-full md:w-3/4 leading-9 text-coolGray-500">
