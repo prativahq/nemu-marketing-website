@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Navbar } from "../components/Navbar";
 import { AsSeen } from "../components/AsSeen";
 import { Card } from "../components/Card";
 import { Newsletter } from "../components/Newsletter";
 import { Footer } from "../components/Footer";
+import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
   title: "",
@@ -15,6 +16,9 @@ const meta = {
 };
 
 export default function Partner() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const cards = [
     {
       img: "images/partner-1.png",
@@ -60,7 +64,7 @@ export default function Partner() {
                     PARTNER WITH US
                   </span>
                   <h1
-                    className="mb-6 mt-3  text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                    className="mb-6 mt-3 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
                     contentEditable="false"
                   >
                     <span style={{ whiteSpace: "pre-wrap" }}>
@@ -126,7 +130,7 @@ export default function Partner() {
                 OVERLINE
               </span>
               <h2
-                className="mb-6 mt-3  text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                className="mb-6 mt-3 text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
                 contentEditable="false"
               >
                 The nemu promise
@@ -214,7 +218,7 @@ export default function Partner() {
                 WHY US
               </span>
               <h2
-                className="mb-6 mt-3  text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                className="mb-6 mt-3 text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
                 contentEditable="false"
               >
                 Partner With us in 3 Easy Steps
@@ -248,6 +252,19 @@ export default function Partner() {
         </section>
         <Newsletter />
         <Footer />
+        <ScrollToTop
+          color="white"
+          style={{
+            backgroundColor: "#075362",
+            borderRadius: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "10px",
+            fontWeight: "bold",
+          }}
+          smooth
+        />
       </>
     </React.Fragment>
   );

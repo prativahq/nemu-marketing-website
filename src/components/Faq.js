@@ -5,7 +5,7 @@ import React from "react";
 export const Faq = ({ faqs }) => {
   return (
     <section
-      className="py-24 bg-white"
+      className="py-10 md:py-24 bg-white"
       // style={{
       //   backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
       //   backgroundPosition: "center",
@@ -16,7 +16,7 @@ export const Faq = ({ faqs }) => {
           <span className="text-center  mb-5   text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
             FAQs
           </span>
-          <h2 className="mb-10 mt-3 text-center  text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+          <h2 className="mb-10 mt-3 text-center text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
             Frequently Asked Questions
           </h2>
         </div>
@@ -31,7 +31,7 @@ export const Faq = ({ faqs }) => {
                   </div>
                   <ChevronDown className="ml-auto" />
                 </Disclosure.Button>
-                <Disclosure.Panel className="p-2  text-coolGray-700">
+                <Disclosure.Panel className="p-2  text-coolGray-500">
                   {faq.answer}
                 </Disclosure.Panel>
               </Disclosure>

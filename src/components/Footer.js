@@ -136,10 +136,10 @@ export const Footer = () => {
               <li className="mb-4">
                 <Link
                   className="inline-block hover:text-coolGray-600  text-white"
-                  to="/terms-of-service"
+                  to="/terms-of-use"
                   // contentEditable="false"
                 >
-                  Terms Of Service
+                  Terms Of Use
                 </Link>
               </li>
               <li className="mb-4">

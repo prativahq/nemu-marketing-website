@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Navbar } from "../components/Navbar";
 import { Faq } from "../components/Faq";
 import { Newsletter } from "../components/Newsletter";
 import { Footer } from "../components/Footer";
+import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
   title: "",
@@ -14,6 +15,9 @@ const meta = {
 };
 
 export default function ContactUs() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const faqs = [
     {
       question: "What if I need help?",
@@ -76,7 +80,7 @@ export default function ContactUs() {
                 CONTACT US
               </span>
               <h1
-                className="mb-6 mt-3  text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                className="mb-6 mt-3 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
                 contentEditable="false"
               >
                 A Real Inbox, Monitored
@@ -154,6 +158,19 @@ export default function ContactUs() {
         <Faq faqs={faqs} />
         <Newsletter />
         <Footer />
+        <ScrollToTop
+          color="white"
+          style={{
+            backgroundColor: "#075362",
+            borderRadius: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "10px",
+            fontWeight: "bold",
+          }}
+          smooth
+        />
       </>
     </React.Fragment>
   );

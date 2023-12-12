@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
@@ -6,6 +6,7 @@ import { Newsletter } from "../components/Newsletter";
 import { DownloadApp } from "../components/DownloadApp";
 import { Check } from "lucide-react";
 import { Card } from "../components/Card";
+import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
   title: "",
@@ -16,6 +17,9 @@ const meta = {
 };
 
 export default function HowItWorks() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const cards = [
     {
       img: "images/card-5.png",
@@ -58,7 +62,7 @@ export default function HowItWorks() {
                   <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                     HOW IT WORKS
                   </span>
-                  <h1 className="mb-6 mt-3 text-center md:text-left text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+                  <h1 className="mb-6 mt-3 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
                     Dividing Heirlooms Should Be a Joy, Not a Job
                   </h1>
                   <p className=" mb-8 text-lg leading-9  text-coolGray-500 ">
@@ -119,7 +123,7 @@ export default function HowItWorks() {
                 OVERLINE
               </span>
               <h2
-                className="mb-6 mt-3 text-center  text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
                 contentEditable="false"
               >
                 As Easy as 1-2-3
@@ -155,7 +159,7 @@ export default function HowItWorks() {
               <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-coolGray-300">
                 HOW IT WORKS
               </span>
-              <h2 className="mb-6 mt-3 text-center  text-4.5xl text-coolGray-100   leading-tight font-medium font-heading tracking-tight">
+              <h2 className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-100   leading-tight font-medium font-heading tracking-tight">
                 Real Stuff, Real Stories
               </h2>
               <p className="text-lg leading-9 text-coolGray-300 ">
@@ -194,7 +198,7 @@ export default function HowItWorks() {
                 OVERLINE
               </span>
               <h2
-                className="mb-6 mt-3 text-center  text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
                 contentEditable="false"
               >
                 We're here for you
@@ -469,6 +473,19 @@ export default function HowItWorks() {
         {/* <DownloadApp /> */}
         <Newsletter />
         <Footer />
+        <ScrollToTop
+          color="white"
+          style={{
+            backgroundColor: "#075362",
+            borderRadius: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "10px",
+            fontWeight: "bold",
+          }}
+          smooth
+        />
       </>
     </React.Fragment>
   );

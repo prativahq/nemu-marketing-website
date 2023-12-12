@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Navbar } from "../components/Navbar";
 import { AsSeen } from "../components/AsSeen";
@@ -11,6 +11,7 @@ import { Footer } from "../components/Footer";
 import { Timeline } from "../components/Timeline";
 import { ApplyNow } from "../components/ApplyNow";
 import { TestimonialAboutPage } from "../components/TestimonialAboutPage";
+import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
   title: "",
@@ -54,6 +55,10 @@ export default function AboutUs() {
     },
   ];
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <React.Fragment>
       <HelmetProvider>
@@ -75,7 +80,7 @@ export default function AboutUs() {
                   <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                     about us
                   </span>
-                  <h1 className="mb-6 mt-3 text-center md:text-left text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+                  <h1 className="mb-6 mt-3 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
                     From Our Family to Yours
                   </h1>
                   <p className="mb-8 text-lg leading-9  text-coolGray-500 ">
@@ -137,7 +142,7 @@ export default function AboutUs() {
             <div className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
               TIMELINE
             </div>
-            <h3 className="mb-6  text-center  text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+            <h3 className="mb-6  text-center text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
               Down the memory lane
             </h3>
             <Timeline />
@@ -157,7 +162,7 @@ export default function AboutUs() {
               <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 TESTIMONIALS
               </span>
-              <h2 className="mb-6    text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+              <h2 className="mb-6  text-3xl  md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
                 What our customers<br></br> have to say
               </h2>
             </div>
@@ -251,7 +256,7 @@ export default function AboutUs() {
                 our team
               </span>
               <h2
-                className="text-center  text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                className="text-center text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
                 contentEditable="false"
               >
                 Meet the team
@@ -443,6 +448,19 @@ export default function AboutUs() {
 
         <Newsletter />
         <Footer />
+        <ScrollToTop
+          color="white"
+          style={{
+            backgroundColor: "#075362",
+            borderRadius: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "10px",
+            fontWeight: "bold",
+          }}
+          smooth
+        />
       </>
     </React.Fragment>
   );

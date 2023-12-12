@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import Blogs from "../posts.json";
 import Markdown from "react-markdown";
@@ -33,8 +33,12 @@ export const BlogPage = () => {
   const { id } = useParams();
   const blog = Blogs.filter((blog) => blog.id === Number(id));
   const path = window.location.href;
-  console.log(path);
+  // console.log(path);
   //   console.log(blog);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     // <div>
     //   <Markdown>{blog[0].content}</Markdown>
@@ -99,7 +103,9 @@ export const BlogPage = () => {
             </WhatsappShareButton>
           </div>
 
-          <Markdown className={"px-5 md:w-3/4 w-full text-lg mx-auto"}>
+          <Markdown
+            className={"px-5 md:w-3/4 w-full text-coolGray-800 text-lg mx-auto"}
+          >
             {blog[0].content}
           </Markdown>
         </section>

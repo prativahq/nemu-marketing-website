@@ -5,6 +5,7 @@ import { Footer } from "../components/Footer";
 import { Newsletter } from "../components/Newsletter";
 import Blogs from "../posts.json";
 import { BlogCard } from "../components/BlogCard";
+import ScrollToTop from "react-scroll-to-top";
 const meta = {
   title: "",
   meta: [],
@@ -17,6 +18,10 @@ export default function Blog() {
   const [tag, setTag] = useState("all");
   const [blogs, setBlogs] = useState(Blogs);
   const [search, setSearch] = useState("");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleSearch = (value) => {
     setSearch(value);
@@ -48,9 +53,9 @@ export default function Blog() {
               <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 Blog
               </span>
-              <h3 className="mb-6 mt-3  text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+              <h1 className="mb-6 mt-5 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
                 Resources to help you out
-              </h3>
+              </h1>
               <div className="relative mx-auto md:w-80">
                 <img
                   className="absolute top-1/2 left-4 transform -translate-y-1/2"
@@ -128,6 +133,19 @@ export default function Blog() {
         </section>
         <Newsletter />
         <Footer />
+        <ScrollToTop
+          color="white"
+          style={{
+            backgroundColor: "#075362",
+            borderRadius: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "10px",
+            fontWeight: "bold",
+          }}
+          smooth
+        />
       </>
     </React.Fragment>
   );

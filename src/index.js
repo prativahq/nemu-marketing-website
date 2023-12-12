@@ -23,7 +23,7 @@ root.render(
 
         <Route path="/how-it-works" element={<HowItWorksPage />} />
 
-        <Route path="/terms-of-service" element={<TermsOfServicePage />} />
+        <Route path="/terms-of-use" element={<TermsOfServicePage />} />
 
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
 

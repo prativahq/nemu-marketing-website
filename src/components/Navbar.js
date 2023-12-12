@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import "react-tooltip/dist/react-tooltip.css";
+import { Tooltip } from "react-tooltip";
 
 export const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -98,9 +100,14 @@ export const Navbar = () => {
           </div>
           <div className="hidden xl:block xl:w-1/4">
             <div className="flex gap-5 items-center justify-end">
-              <button onClick={toggleZoom}>
+              <button
+                data-tooltip-id="my-tooltip"
+                data-tooltip-content="Adjust text size"
+                onClick={toggleZoom}
+              >
                 <img src="images/zoom-nav.svg" />
               </button>
+              <Tooltip className="absolute z-40" id="my-tooltip" />
               <a
                 className="inline-block py-3 px-5 font-semibold  leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-lg focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md"
                 href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kwws"

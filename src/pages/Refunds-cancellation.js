@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
+import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
   title: "",
@@ -12,6 +13,9 @@ const meta = {
 };
 
 export default function RefundsCancellation() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <React.Fragment>
       <HelmetProvider>
@@ -52,6 +56,19 @@ export default function RefundsCancellation() {
           </div>
         </section>
         <Footer />
+        <ScrollToTop
+          color="white"
+          style={{
+            backgroundColor: "#075362",
+            borderRadius: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "10px",
+            fontWeight: "bold",
+          }}
+          smooth
+        />
       </>
     </React.Fragment>
   );

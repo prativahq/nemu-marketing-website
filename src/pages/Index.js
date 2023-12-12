@@ -6,7 +6,7 @@ import {
   Linkedin,
   Twitter,
 } from "lucide-react";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Navbar } from "../components/Navbar";
 import { AsSeen } from "../components/AsSeen";
@@ -19,6 +19,7 @@ import { Newsletter } from "../components/Newsletter";
 import { Testimonial } from "../components/Testimonial";
 import Blogs from "../posts.json";
 import { BlogCard } from "../components/BlogCard";
+import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
   title: "",
@@ -29,6 +30,12 @@ const meta = {
 };
 
 export default function Index() {
+  const [blogs, setBlogs] = useState(Blogs);
+
+  useEffect(() => {
+    setBlogs(Blogs.slice(0, 3));
+    window.scrollTo(0, 0);
+  }, []);
   const faqs = [
     {
       question: "I'm not great with technology. Is that going to be a problem?",
@@ -135,7 +142,7 @@ export default function Index() {
                   <div className="text-center md:text-left mb-4 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                     WELCOME
                   </div>
-                  <h1 className="mb-6 text-center md:text-left text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+                  <h1 className="mb-6 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
                     Split Property, Not Relationships
                   </h1>
                   <p className="text-center md:text-left mb-8 text-lg leading-9  text-coolGray-500 ">
@@ -178,15 +185,15 @@ export default function Index() {
         <AsSeen />
         {/* we get it */}
         <section
-          className="pt-48 pb-32 bg-white overflow-hidden"
+          className="pt-12 pb-16 lg:pt-48 lg:pb-32 bg-white overflow-hidden"
           style={{
             background: "var(--surface-light-bg, #F7F5F2)",
             backgroundPosition: "center",
           }}
         >
           <div className="container px-4 mx-auto">
-            <div className="flex flex-wrap lg:items-center -mx-4">
-              <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
+            <div className="flex flex-wrap-reverse lg:items-center -mx-4">
+              <div className="w-full md:w-1/2 px-4 mt-16 md:mb-0">
                 <div className="relative mx-auto md:ml-0 max-w-max">
                   <img src="images/our-story.png" alt="" />
                 </div>
@@ -195,7 +202,7 @@ export default function Index() {
                 <div className="text-center md:text-left mb-4 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                   OUR STORY
                 </div>
-                <h2 className="mb-6 text-center md:text-left text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+                <h2 className="mb-6 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
                   We get it, because we have been there
                 </h2>
                 <p className="mb-6 text-lg leading-9 text-center md:text-left text-coolGray-500 ">
@@ -220,7 +227,7 @@ export default function Index() {
         </section>
         {/* how we help */}
         <section
-          className="py-20 xl:pt-24 xl:pb-28 bg-white"
+          className="pt-12 pb-16 xl:pt-24 xl:pb-28 bg-white"
           // style={{
           //   backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
           //   backgroundPosition: "center",
@@ -234,7 +241,7 @@ export default function Index() {
                     <span className="text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                       OUR SERVICES
                     </span>
-                    <h2 className="mb-6 mt-3 text-center md:text-left text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+                    <h2 className="mb-6 mt-3 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
                       How we help
                     </h2>
                     <p className="text-lg  leading-9 text-coolGray-500 ">
@@ -294,7 +301,7 @@ export default function Index() {
             <div className="text-center  mb-3 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
               TESTIMONIALS
             </div>
-            <h2 className="mb-10 mt-3 text-center  text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+            <h2 className="mb-10 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
               Hear from our customers
             </h2>
             <Testimonial />
@@ -316,12 +323,12 @@ export default function Index() {
               <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 BLOGS
               </span>
-              <h3 className="mb-6 mt-3 text-center  text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+              <h2 className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
                 Resources to help you out
-              </h3>
+              </h2>
             </div>
             <div className="flex flex-wrap gap-5 -mx-4 mb-12 md:mb-20">
-              {Blogs.map((blog) => {
+              {blogs.map((blog) => {
                 return (
                   <BlogCard
                     tag={blog.tag}
@@ -334,6 +341,15 @@ export default function Index() {
                 );
               })}
             </div>
+            <div className="text-center">
+              <Link
+                className=" py-3 px-6 w-fit mx-auto text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                to={"/blog"}
+              >
+                Read more
+              </Link>
+            </div>
+
             {/* <div className="flex justify-center mx-auto max-w-max bg-white border border-coolGray-100 rounded-md shadow-lg" /> */}
           </div>
         </section>
@@ -341,6 +357,19 @@ export default function Index() {
         <Newsletter />
         {/* footer */}
         <Footer />
+        <ScrollToTop
+          color="white"
+          style={{
+            backgroundColor: "#075362",
+            borderRadius: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "10px",
+            fontWeight: "bold",
+          }}
+          smooth
+        />
       </>
     </React.Fragment>
   );

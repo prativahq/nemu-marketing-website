@@ -14,7 +14,7 @@ export const AsSeen = () => {
           <span className="inline-block py-px px-2 mb-2 text-xs leading-5 font-medium uppercase rounded-9xl text-white">
             NEMU
           </span>
-          <h2 className="mb-5  text-center  text-4.5xl text-white   leading-tight font-medium font-heading tracking-tight">
+          <h2 className="mb-5  text-center  text-3xl md:text-4.5xl text-white   leading-tight font-medium font-heading tracking-tight">
             As seen on
           </h2>
         </div>

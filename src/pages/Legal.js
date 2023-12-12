@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
@@ -12,6 +12,9 @@ const meta = {
 };
 
 export default function Legal() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <React.Fragment>
       <HelmetProvider>
