@@ -29,7 +29,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Margaret1.svg"
+              src="images/Margaret1.png"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -54,7 +54,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Colette1.svg"
+              src="images/Colette1.png"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -79,7 +79,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Sandy1.svg"
+              src="images/Sandy1.png"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -104,7 +104,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Ann1.svg"
+              src="images/Ann1.png"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -129,7 +129,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Colette1.svg"
+              src="images/Colette1.png"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -156,7 +156,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Hal1.svg"
+              src="images/Hal1.png"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -182,7 +182,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Marge1.svg"
+              src="images/Marge1.png"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -206,7 +206,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Teresa1.svg"
+              src="images/Teresa1.png"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
