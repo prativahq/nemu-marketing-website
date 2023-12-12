@@ -8,6 +8,10 @@ export const Navbar = () => {
   const path = window.location.pathname;
   console.log(path);
 
+  useEffect(() => {
+    document.body.style.zoom = "100%";
+  });
+
   const toggleZoom = () => {
     if (document.body.style.zoom === "100%") {
       document.body.style.zoom = "120%";
