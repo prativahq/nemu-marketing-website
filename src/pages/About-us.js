@@ -239,7 +239,7 @@ export default function AboutUs() {
           </div>
         </section>
         <section
-          className="py-24 bg-[#F7F5F2]"
+          className="py-24 lg:pb-72 bg-[#F7F5F2]"
           style={{ backgroundPosition: "center" }}
         >
           <div className="container px-4 mx-auto">
@@ -432,7 +432,10 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <ApplyNow />
+        <section className="relative lg:mb-48  bg-[#F7F5F2] ">
+          <ApplyNow />
+        </section>
+
         <Faq faqs={faqs} />
         <section className="relative py-24 mb-80 ">
           <DownloadApp />

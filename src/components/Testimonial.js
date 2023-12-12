@@ -29,7 +29,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Margaret.jpg"
+              src="images/Margaret1.svg"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -54,7 +54,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/home-testimonials.png"
+              src="images/Colette1.svg"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -79,7 +79,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Sandy.jpeg"
+              src="images/Sandy1.svg"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -104,7 +104,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Ann.jpg"
+              src="images/Ann1.svg"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -129,7 +129,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/home-testimonials.png"
+              src="images/Colette1.svg"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -156,7 +156,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Hal.jpg"
+              src="images/Hal1.svg"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -182,7 +182,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Marge.jpg"
+              src="images/Marge1.svg"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -206,7 +206,7 @@ export const Testimonial = () => {
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/home-testimonials.png"
+              src="images/Teresa1.svg"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -231,10 +231,10 @@ export const Testimonial = () => {
         </Slide>
       </Slider>
       <div className="flex gap-5 justify-center md:-ml-10">
-        <ButtonBack className="bg-white p-3 rounded-md shadow-md">
+        <ButtonBack className="bg-white p-3 rounded-md border-2">
           <ChevronLeft className="text-emerald-500" />
         </ButtonBack>
-        <ButtonNext className="bg-white p-3 rounded-md shadow-md">
+        <ButtonNext className="bg-white p-3 rounded-md border-2">
           <ChevronRight className="text-emerald-500" />
         </ButtonNext>
       </div>
