@@ -58,7 +58,12 @@ export const BlogPage = () => {
               </div>
             </Link> */}
             <div className="flex flex-wrap justify-center gap-20 ">
-              <img className="w-full md:w-1/3" src={`${blog[0].thumbnail}`} />
+              <img
+                loading="lazy"
+                alt=""
+                className="w-full md:w-1/3"
+                src={`${blog[0].thumbnail}`}
+              />
               <div className="flex flex-col gap-5 w-full lg:w-1/2">
                 <div className="flex gap-3">
                   <p className="text-lg text-gray-500">{blog[0].author}</p>.

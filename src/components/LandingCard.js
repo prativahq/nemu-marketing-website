@@ -7,7 +7,7 @@ export const LandingCard = ({ title, description, icon, color }) => {
     >
       <div className="flex justify-between items-center">
         <span className="text-2xl font-medium font-heading">{title}</span>
-        <img src={`${icon}`} />
+        <img loading="lazy" alt="" src={`${icon}`} />
       </div>
       <p className="text-lg  leading-9 text-coolGray-500">{description}</p>
     </div>

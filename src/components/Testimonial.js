@@ -28,6 +28,8 @@ export const Testimonial = () => {
         <Slide index={0} className="pb-0">
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
+              loading="lazy"
+              alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
               src="images/Margaret1.png"
             />
@@ -53,6 +55,8 @@ export const Testimonial = () => {
         <Slide index={1} className="pb-0">
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
+              loading="lazy"
+              alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
               src="images/Colette1.png"
             />
@@ -78,6 +82,8 @@ export const Testimonial = () => {
         <Slide index={2} className="pb-0">
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
+              loading="lazy"
+              alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
               src="images/Sandy1.png"
             />
@@ -103,6 +109,8 @@ export const Testimonial = () => {
         <Slide index={3} className="pb-0">
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
+              loading="lazy"
+              alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
               src="images/Ann1.png"
             />
@@ -128,6 +136,8 @@ export const Testimonial = () => {
         <Slide index={4} className="pb-0">
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
+              loading="lazy"
+              alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
               src="images/Colette1.png"
             />
@@ -155,6 +165,8 @@ export const Testimonial = () => {
         <Slide index={5} className="pb-0">
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
+              loading="lazy"
+              alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
               src="images/Hal1.png"
             />
@@ -181,6 +193,8 @@ export const Testimonial = () => {
         <Slide index={6} className="pb-0">
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
+              loading="lazy"
+              alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
               src="images/Marge1.png"
             />
@@ -205,6 +219,8 @@ export const Testimonial = () => {
         <Slide index={7} className="pb-0">
           <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
+              loading="lazy"
+              alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
               src="images/Teresa1.png"
             />

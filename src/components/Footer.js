@@ -21,7 +21,12 @@ export const Footer = () => {
         <div className="flex flex-wrap pt-24 pb-12 -mx-4 justify-around ">
           <div className="flex flex-col gap-4 w-full md:w-1/2 lg:w-4/12 px-4 mb-16 lg:mb-0">
             <Link className="inline-block mb-4" to={"/"}>
-              <img className="h-8" src="/images/nemu-logo-light.svg" alt="" />
+              <img
+                loading="lazy"
+                className="h-8"
+                src="/images/nemu-logo-light.svg"
+                alt=""
+              />
             </Link>
             <p className="text-base md:text-lg  lg:w-64 text-white">
               We are on a mission to simplify managing and dividing heirlooms so
@@ -173,6 +178,7 @@ export const Footer = () => {
               <div className="w-full lg:flex-1 py-1 lg:py-0 lg:mr-3">
                 <a href="https://apps.apple.com/us/app/nemu/id6471528649">
                   <img
+                    loading="lazy"
                     src="/images/App-Store.svg"
                     alt=""
                     className="py-3 rounded "
@@ -181,6 +187,7 @@ export const Footer = () => {
                 <a href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww">
                   {" "}
                   <img
+                    loading="lazy"
                     src="/images/Play-Store.svg"
                     alt=""
                     className="py-3 rounded "

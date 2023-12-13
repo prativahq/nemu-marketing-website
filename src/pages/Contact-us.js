@@ -86,7 +86,12 @@ export default function ContactUs() {
                 A Real Inbox, Monitored
                 <div>by Real People</div>
               </h1>
-              <img src="images/contact-1.svg" className="mx-auto" />
+              <img
+                loading="lazy"
+                alt=""
+                src="images/contact-1.svg"
+                className="mx-auto"
+              />
             </div>
             <div className="flex flex-wrap -mx-4 pb-16">
               <div className="w-full mb-10 md:mb-0 md:w-1/2 px-4">

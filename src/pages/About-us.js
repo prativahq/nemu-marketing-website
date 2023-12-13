@@ -94,9 +94,11 @@ export default function AboutUs() {
                     are so intrinsically attached to them.{" "}
                   </p>
                   <img
+                    loading="lazy"
+                    alt=""
                     src="images/google-aboutus.svg"
                     className="mx-auto md:ml-0 mt-6 mb-10"
-                  ></img>
+                  />
                   <div className="flex flex-wrap">
                     <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                       <a
@@ -119,6 +121,7 @@ export default function AboutUs() {
                 <div className="w-full md:w-1/2 px-4">
                   <div className="relative mx-auto md:mr-0 max-w-max">
                     <img
+                      loading="lazy"
                       className="relative rounded-7xl"
                       src="images/about-us-family.png"
                       alt=""
@@ -227,6 +230,7 @@ export default function AboutUs() {
                 <a>
                   {" "}
                   <img
+                    loading="lazy"
                     className="mx-auto"
                     src="images/penn-women-award.png"
                     alt=""
@@ -270,6 +274,7 @@ export default function AboutUs() {
               <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-10">
                 <div className="flex flex-col gap-2 items-center h-full py-8 px-10 bg-white rounded-md shadow-md border border-gray-200 text-center">
                   <img
+                    loading="lazy"
                     className="w-24 h-24 mx-auto mb-6 rounded-full"
                     src="images/sarah.png"
                     alt=""
@@ -291,13 +296,14 @@ export default function AboutUs() {
                     target="_blank"
                     href={"https://www.linkedin.com/in/sarah-powers713/"}
                   >
-                    <img src="images/linkedin1.png" />
+                    <img loading="lazy" alt="" src="images/linkedin1.png" />
                   </a>
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10">
                 <div className="flex flex-col gap-2 h-full py-8 px-10 shadow-md border border-gray-200 bg-white rounded-md text-center">
                   <img
+                    loading="lazy"
                     className="w-24 h-24 mx-auto mb-6 rounded-full"
                     src="images/fahv.png"
                     alt=""
@@ -321,13 +327,14 @@ export default function AboutUs() {
                       "https://www.linkedin.com/in/fahvyon-jimenez-807b6788/"
                     }
                   >
-                    <img src="images/linkedin1.png" />
+                    <img loading="lazy" alt="" src="images/linkedin1.png" />
                   </a>
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10">
                 <div className="flex flex-col gap-2 h-full py-8 px-10 shadow-md border border-gray-200 bg-white rounded-md text-center">
                   <img
+                    loading="lazy"
                     className="w-24 h-24 mx-auto mb-6 rounded-full"
                     src="images/vandita.png"
                     alt=""
@@ -349,13 +356,14 @@ export default function AboutUs() {
                     target="_blank"
                     href={"https://www.linkedin.com/in/vanditakamath157/"}
                   >
-                    <img src="images/linkedin1.png" />
+                    <img loading="lazy" alt="" src="images/linkedin1.png" />
                   </a>
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10 lg:mb-0">
                 <div className="flex flex-col gap-2 h-full py-8 px-10 shadow-md border border-gray-200 bg-white rounded-md text-center">
                   <img
+                    loading="lazy"
                     className="w-24 h-24 mx-auto mb-6 rounded-full"
                     src="images/sourav.png"
                     alt=""
@@ -377,13 +385,14 @@ export default function AboutUs() {
                     target="_blank"
                     href={"https://www.linkedin.com/in/souravudo/"}
                   >
-                    <img src="images/linkedin1.png" />
+                    <img loading="lazy" alt="" src="images/linkedin1.png" />
                   </a>
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10 md:mb-0">
                 <div className="flex flex-col gap-2 h-full py-8 px-10 shadow-md border border-gray-200 bg-white rounded-md text-center">
                   <img
+                    loading="lazy"
                     className="w-24 h-24 mx-auto mb-6 rounded-full"
                     src="images/ronish.png"
                     alt=""
@@ -405,13 +414,14 @@ export default function AboutUs() {
                     target="_blank"
                     href={"https://www.linkedin.com/in/ronish-sawal-537a23131/"}
                   >
-                    <img src="images/linkedin1.png" />
+                    <img loading="lazy" alt="" src="images/linkedin1.png" />
                   </a>
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4">
                 <div className="flex flex-col gap-2 h-full py-8 px-10 shadow-md border border-gray-200 bg-white rounded-md text-center">
                   <img
+                    loading="lazy"
                     className="w-24 h-24 mx-auto mb-6 rounded-full"
                     src="images/sakin.png"
                     alt=""
@@ -430,7 +440,7 @@ export default function AboutUs() {
                     target="_blank"
                     href={"https://www.linkedin.com/in/ta-sakin/"}
                   >
-                    <img src="images/linkedin1.png" />
+                    <img loading="lazy" alt="" src="images/linkedin1.png" />
                   </a>
                 </div>
               </div>
@@ -442,7 +452,7 @@ export default function AboutUs() {
         </section>
 
         <Faq faqs={faqs} />
-        <section className="relative py-24 mb-80 ">
+        <section className="relative pt-32 pb-96 mb-96 md:mb-0 ">
           <DownloadApp />
         </section>
 

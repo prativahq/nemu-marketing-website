@@ -29,7 +29,12 @@ export const Navbar = () => {
         <div className="flex justify-between items-center w-full">
           <div className=" xl:block xl:w-1/4">
             <Link className="block max-w-max" to="/">
-              <img className="h-6" src="/images/nemu-logo-dark.svg" alt="" />
+              <img
+                loading="lazy"
+                className="h-6"
+                src="/images/nemu-logo-dark.svg"
+                alt=""
+              />
             </Link>
           </div>
           <div className="hidden xl:block xl:w-1/2">
@@ -105,7 +110,7 @@ export const Navbar = () => {
                 data-tooltip-content="Adjust text size"
                 onClick={toggleZoom}
               >
-                <img src="images/zoom-nav.svg" />
+                <img loading="lazy" alt="" src="images/zoom-nav.svg" />
               </button>
               <Tooltip className="absolute z-40" id="my-tooltip" />
               <a
@@ -119,13 +124,18 @@ export const Navbar = () => {
         </div>
         <div className="flex gap-6">
           <button className="xl:hidden" onClick={toggleZoom}>
-            <img src="images/zoom-nav.svg" />
+            <img loading="lazy" alt="" src="images/zoom-nav.svg" />
           </button>
           <button
             onClick={() => setToggle(!toggle)}
             className="navbar-burger self-center xl:hidden"
           >
-            <img src="images/hamburger-menu.svg" />
+            <img
+              loading="lazy"
+              className="w-8"
+              alt=""
+              src="images/hamburger-menu.svg"
+            />
           </button>
         </div>
       </nav>
@@ -138,7 +148,12 @@ export const Navbar = () => {
           <nav className="relative p-6 h-full overflow-y-auto">
             <div className="flex flex-col justify-between h-full">
               <Link className="inline-block" to="/">
-                <img className="h-6" src="/images/nemu-logo-dark.svg" alt="" />
+                <img
+                  loading="lazy"
+                  className="h-6"
+                  src="/images/nemu-logo-dark.svg"
+                  alt=""
+                />
               </Link>
               <ul className="py-6">
                 <li>

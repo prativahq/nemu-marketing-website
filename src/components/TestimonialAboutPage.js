@@ -38,6 +38,8 @@ export const TestimonialAboutPage = () => {
             <div className="w-full md:w-1/2  px-4 ">
               <div className="flex flex-col items-center h-full p-8 gap-5 bg-white border border-coolGray-100 shadow-md rounded-md">
                 <img
+                  loading="lazy"
+                  alt=""
                   src="images/Margaret.jpg"
                   className="object-contain w-20 h-20 rounded-full"
                 />
@@ -54,6 +56,8 @@ export const TestimonialAboutPage = () => {
             <div className="w-full md:w-1/2  px-4 ">
               <div className="flex flex-col items-center h-full p-8 gap-5 bg-white border border-coolGray-100 shadow-md rounded-md">
                 <img
+                  loading="lazy"
+                  alt=""
                   src="images/Collete.jpg"
                   className="object-contain w-20 h-20 rounded-full"
                 />
@@ -72,6 +76,8 @@ export const TestimonialAboutPage = () => {
             <div className="w-full md:w-1/2  px-4 ">
               <div className="flex flex-col items-center h-full p-8 gap-5 bg-white border border-coolGray-100 shadow-md rounded-md">
                 <img
+                  loading="lazy"
+                  alt=""
                   src="images/Eric.jpg"
                   className="object-contain w-20 h-20 rounded-full"
                 />
@@ -86,6 +92,8 @@ export const TestimonialAboutPage = () => {
             <div className="w-full md:w-1/2  px-4 ">
               <div className="flex flex-col items-center h-full p-8 gap-5 bg-white border border-coolGray-100 shadow-md rounded-md">
                 <img
+                  loading="lazy"
+                  alt=""
                   src="images/Ann.jpg"
                   className="object-contain w-20 h-20 rounded-full"
                 />

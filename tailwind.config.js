@@ -146,6 +146,12 @@ module.exports = {
       fontSize: {
         "4.5xl": "42px",
       },
+      backgroundImage: {
+        downloadApp: "url('../public/images/download-banner.svg')",
+        downloadAppMobile: "url('../public/images/download-banner-mobile.svg')",
+        joinTeam: "url('../public/images/applynow-banner.svg')",
+        joinTeamMobile: "url('../public/images/join-team-mobile.svg')",
+      },
     },
   },
   plugins: [],

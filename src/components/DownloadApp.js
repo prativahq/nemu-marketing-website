@@ -6,10 +6,10 @@ export const DownloadApp = () => {
     <section className="absolute -my-32 py-10 w-full">
       <div className="container px-4 mx-auto">
         <div
-          className="relative py-11 px-5 md:px-16 rounded-2xl overflow-hidden bg-cover"
-          style={{
-            backgroundImage: 'url("images/download-banner.svg")',
-          }}
+          className="relative py-11 px-5 md:px-16 rounded-2xl overflow-hidden h-[800px] md:h-auto bg-cover bg-downloadAppMobile md:bg-downloadApp"
+          // style={{
+          //   backgroundImage: 'url("images/download-banner.svg")',
+          // }}
         >
           <div className="relative z-20 flex flex-wrap items-center -m-3">
             <div className="flex flex-col gap-10 w-full md:w-3/4 p-3">
@@ -33,6 +33,7 @@ export const DownloadApp = () => {
               <div className="flex justify-center md:justify-start flex-wrap gap-4">
                 <a href="https://apps.apple.com/us/app/nemu/id6471528649">
                   <img
+                    loading="lazy"
                     src="images/App-Store.svg"
                     alt=""
                     className=" rounded "
@@ -41,6 +42,7 @@ export const DownloadApp = () => {
                 <a href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww">
                   {" "}
                   <img
+                    loading="lazy"
                     src="images/Play-Store.svg"
                     alt=""
                     className=" rounded "

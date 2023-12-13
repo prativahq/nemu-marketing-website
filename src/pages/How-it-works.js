@@ -93,6 +93,7 @@ export default function HowItWorks() {
                 <div className="w-full md:w-1/2 px-4">
                   <div className="relative mx-auto md:mr-0 max-w-max">
                     <img
+                      loading="lazy"
                       className="relative rounded-7xl"
                       src="images/how-it-works-hero.png"
                       alt=""
@@ -172,6 +173,7 @@ export default function HowItWorks() {
             <div className="flex flex-wrap -mx-4 justify-center">
               <div className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
                 <img
+                  loading="lazy"
                   className="mx-auto"
                   src="images/how-it-works-iphone.png"
                   alt=""
@@ -217,6 +219,7 @@ export default function HowItWorks() {
               <div className="flex flex-col gap-4 w-full md:w-[480px] border shadow-lg border-coolGray-100 rounded-md mb-8">
                 <a className="block mb-6 overflow-hidden rounded-md" href="#">
                   <img
+                    loading="lazy"
                     className="w-full"
                     src="images/i-need-help-now.png"
                     alt=""
@@ -248,6 +251,7 @@ export default function HowItWorks() {
               <div className="border border-coolGray-100 shadow-lg rounded-md flex flex-col gap-4 w-full md:w-[480px]  mb-8">
                 <a className="block mb-6 overflow-hidden rounded-md" href="#">
                   <img
+                    loading="lazy"
                     className="w-full"
                     src="images/planning-ahead.png"
                     alt=""
@@ -278,7 +282,7 @@ export default function HowItWorks() {
             </div>
           </div>
         </section>
-        <section className="relative  mt-32 lg:mb-96 pt-64 pb-72 bg-[#F7F5F2]">
+        <section className="relative   lg:mb-96 pt-64 pb-72 bg-[#F7F5F2]">
           <div className="lg:absolute left-0 right-0 -my-48 container px-4 mx-auto">
             <div className="text-center">
               <span
@@ -467,7 +471,7 @@ export default function HowItWorks() {
             </div>
           </div>
         </section>
-        <section className="relative pt-32 pb-96 ">
+        <section className="relative pt-32 pb-96 mb-96 md:mb-0">
           <DownloadApp />
         </section>
         {/* <DownloadApp /> */}

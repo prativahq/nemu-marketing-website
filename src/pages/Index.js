@@ -172,6 +172,7 @@ export default function Index() {
                 <div className="w-full md:w-1/2 px-4">
                   <div className="relative mx-auto md:mr-0 max-w-max">
                     <img
+                      loading="lazy"
                       className="relative rounded-7xl"
                       src="images/Frame-422-1.png"
                       alt=""
@@ -195,7 +196,7 @@ export default function Index() {
             <div className="flex flex-wrap-reverse lg:items-center -mx-4">
               <div className="w-full md:w-1/2 px-4 mt-16 md:mb-0">
                 <div className="relative mx-auto md:ml-0 max-w-max">
-                  <img src="images/our-story.png" alt="" />
+                  <img loading="lazy" src="images/our-story.png" alt="" />
                 </div>
               </div>
               <div className="w-full md:w-1/2 px-4">
@@ -283,7 +284,7 @@ export default function Index() {
           </div>
         </section>
         {/* download now */}
-        <section className="relative py-24 ">
+        <section className="relative py-24 mb-80 md:mb-0 ">
           <DownloadApp />
         </section>
 
@@ -367,6 +368,7 @@ export default function Index() {
             alignItems: "center",
             padding: "10px",
             fontWeight: "bold",
+            zIndex: "1000",
           }}
           smooth
         />

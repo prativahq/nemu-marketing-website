@@ -47,7 +47,7 @@ export default function Blog() {
       </HelmetProvider>
       <>
         <Navbar />
-        <section className="relative py-36 md:py-28 bg-[#F7F5F2] mb-32 md:mb-20 ">
+        <section className="relative py-32 md:py-28 bg-[#F7F5F2] mb-16 md:mb-20 ">
           <div className="container absolute -my-16  md:-my-8 left-0 right-0 z-10 px-4 mx-auto">
             <div className=" md:max-w-5xl mx-auto mb-8 md:mb-16 text-center">
               <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
@@ -58,6 +58,7 @@ export default function Blog() {
               </h1>
               <div className="relative mx-auto md:w-80">
                 <img
+                  loading="lazy"
                   className="absolute top-1/2 left-4 transform -translate-y-1/2"
                   src="images/search.svg"
                   alt=""
@@ -143,6 +144,7 @@ export default function Blog() {
             alignItems: "center",
             padding: "10px",
             fontWeight: "bold",
+            zIndex: "100",
           }}
           smooth
         />

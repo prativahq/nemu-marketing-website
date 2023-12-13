@@ -106,6 +106,7 @@ export default function Partner() {
                 <div className="w-full md:w-1/2 px-4">
                   <div className="relative mx-auto md:mr-0 max-w-max">
                     <img
+                      loading="lazy"
                       className="relative rounded-7xl"
                       src="images/Frame-422.png"
                       alt=""
@@ -161,7 +162,7 @@ export default function Partner() {
                 </div> */}
                 <div className="w-full md:flex-1 ">
                   <h3 className="flex flex-wrap gap-3 items-center mb-4 text-xl md:text-2xl leading-tight text-coolGray-900 font-medium font-heading">
-                    <img src="images/promiseCheck.png" />
+                    <img loading="lazy" alt="" src="images/promiseCheck.png" />
                     Customers Treated with Empathy &amp; Respect
                   </h3>
                   <p className="text-coolGray-500 leading-9 text-lg">
@@ -177,7 +178,7 @@ export default function Partner() {
                 </div> */}
                 <div className="w-full md:flex-1 ">
                   <h3 className="flex flex-wrap gap-3 items-center mb-4 text-xl md:text-2xl leading-tight text-coolGray-900 font-medium font-heading">
-                    <img src="images/promiseCheck.png" />
+                    <img loading="lazy" alt="" src="images/promiseCheck.png" />
                     The Right Resource, at the Right Time
                   </h3>
                   <p className="text-coolGray-500 leading-9 text-lg">
@@ -194,8 +195,8 @@ export default function Partner() {
                 </div> */}
                 <div className="w-full md:flex-1 ">
                   <h3 className="flex flex-wrap gap-3 items-center mb-4 text-xl md:text-2xl leading-tight text-coolGray-900 font-medium font-heading">
-                    <img src="images/promiseCheck.png" />A Trusted Extension of
-                    your Business
+                    <img loading="lazy" alt="" src="images/promiseCheck.png" />A
+                    Trusted Extension of your Business
                   </h3>
                   <p className="text-coolGray-500 leading-9 text-lg">
                     We’re in this together! With Nemu you can expand your

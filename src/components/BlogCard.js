@@ -8,7 +8,12 @@ export const BlogCard = ({ tag, id, title, author, thumbnail, date }) => {
         className="block mb-6 overflow-hidden rounded-md"
         to={`/blog/${id}`}
       >
-        <img className="w-full h-80" src={`${thumbnail}`} alt="" />
+        <img
+          loading="lazy"
+          className="w-full h-80"
+          src={`${thumbnail}`}
+          alt=""
+        />
       </Link>
       <div className="mb-4 px-4">
         <span className="inline-block py-1 px-3 text-xs leading-5 text-emerald-500 hover:text-emerald-600 font-medium uppercase bg-emerald-100 hover:bg-emerald-200 rounded-full shadow-sm">
