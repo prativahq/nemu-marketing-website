@@ -156,13 +156,22 @@ export const Footer = () => {
                   Privacy Policy
                 </Link>
               </li>
-              <li>
+              <li className="mb-4">
                 <Link
                   className="inline-block hover:text-coolGray-600  text-white"
                   to="/legal"
                   // contentEditable="false"
                 >
                   Legal Information
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="inline-block hover:text-coolGray-600  text-white"
+                  to="/refund-policy"
+                  // contentEditable="false"
+                >
+                  Refund Policy
                 </Link>
               </li>
             </ul>

@@ -21,13 +21,6 @@ import {
   WhatsappIcon,
 } from "react-share";
 import ScrollToTop from "react-scroll-to-top";
-const meta = {
-  title: "",
-  meta: [],
-  link: [],
-  style: [],
-  script: [],
-};
 
 export const BlogPage = () => {
   const { id } = useParams();
@@ -35,6 +28,18 @@ export const BlogPage = () => {
   const path = window.location.href;
   // console.log(path);
   //   console.log(blog);
+  const meta = {
+    title: `In-depth: ${blog[0].title}}`,
+    meta: [
+      {
+        name: "description",
+        content: `Nemu sheds light on ${blog[0].title}, offering expert insights and guidance on property inheritance challenges and solutions `,
+      },
+    ],
+    link: [],
+    style: [],
+    script: [],
+  };
 
   useEffect(() => {
     window.scrollTo(0, 0);

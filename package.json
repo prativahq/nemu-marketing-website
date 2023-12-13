@@ -19,7 +19,8 @@
     "react-scroll-to-top": "^3.0.0",
     "react-share": "^5.0.3",
     "react-style-tag": "^3.0.1",
-    "react-tooltip": "^5.25.0"
+    "react-tooltip": "^5.25.0",
+    "sitemap": "^7.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
@@ -37,7 +38,8 @@
     "build": "node public/server.js && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "node public/server.js"
+    "server": "node public/server.js",
+    "sitemap": "node src/sitemap.js"
   },
   "eslintConfig": {
     "extends": [

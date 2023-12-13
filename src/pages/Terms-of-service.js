@@ -5,7 +5,7 @@ import { Footer } from "../components/Footer";
 import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
-  title: "",
+  title: "Nemu: Terms of Use",
   meta: [],
   link: [],
   style: [],

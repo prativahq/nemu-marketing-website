@@ -22,8 +22,14 @@ import { BlogCard } from "../components/BlogCard";
 import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
-  title: "",
-  meta: [],
+  title: "Nemu - Revolutionizing Property Inheritance",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Nemu is a platform that helps you catalog, appraise, divide, and sell your property. We help you make sure your property goes to the right people, for the right price, and in the right way.",
+    },
+  ],
   link: [],
   style: [],
   script: [],

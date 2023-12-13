@@ -21,7 +21,7 @@ export const Navbar = () => {
   };
 
   return (
-    <section className="shadow-inner shadow-[#EAEBEB] bg-white font-body">
+    <section className="shadow shadow-[#EAEBEB] bg-white font-body">
       {/* <Helmet>
         <script type="text/javascript" src="assets/js/main.js" />
       </Helmet> */}

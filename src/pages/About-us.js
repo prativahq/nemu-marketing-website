@@ -14,8 +14,13 @@ import { TestimonialAboutPage } from "../components/TestimonialAboutPage";
 import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
-  title: "",
-  meta: [],
+  title: "About Nemu - Our story & Commitment to Maximizing Value",
+  meta: [
+    {
+      name: "description",
+      content: `Discover Nemu's commitment to making property inheritance less stressful, preserving relationships, and maximizing value.`,
+    },
+  ],
   link: [],
   style: [],
   script: [],

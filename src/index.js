@@ -29,10 +29,7 @@ root.render(
 
         <Route path="/legal" element={<LegalPage />} />
 
-        <Route
-          path="/refunds-cancellation"
-          element={<RefundsCancellationPage />}
-        />
+        <Route path="/refund-policy" element={<RefundsCancellationPage />} />
 
         <Route path="/contact-us" element={<ContactUsPage />} />
 

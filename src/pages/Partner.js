@@ -8,8 +8,14 @@ import { Footer } from "../components/Footer";
 import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
-  title: "",
-  meta: [],
+  title: "Nemu's Trusted Partnerships",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Collaborating with industry leaders, Nemu ensures a holistic approach to property splitting and inheritance",
+    },
+  ],
   link: [],
   style: [],
   script: [],

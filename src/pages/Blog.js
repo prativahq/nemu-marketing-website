@@ -7,8 +7,14 @@ import Blogs from "../posts.json";
 import { BlogCard } from "../components/BlogCard";
 import ScrollToTop from "react-scroll-to-top";
 const meta = {
-  title: "",
-  meta: [],
+  title: "Nemu Blog: Property Inheritance Insights",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Dive into expert advice, tips, and stories on handling family property, heirlooms, and ensuring fair value with Nemu",
+    },
+  ],
   link: [],
   style: [],
   script: [],

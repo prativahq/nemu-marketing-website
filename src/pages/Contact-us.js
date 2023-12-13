@@ -7,8 +7,14 @@ import { Footer } from "../components/Footer";
 import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
-  title: "",
-  meta: [],
+  title: "Connect Nemu: Your Inheritance Guide ",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Have inheritance questions? Need help using Nemu? Our dedicated team is here to guide and assist you every step of the way. Talk to us today.",
+    },
+  ],
   link: [],
   style: [],
   script: [],
@@ -68,7 +74,7 @@ export default function ContactUs() {
       <>
         <Navbar />
         <section
-          className="relative py-24 lg:py-[300px] pt-20 lg:mb-64 "
+          className="relative py-24 lg:py-[300px] pt-20 lg:mb-32   "
           style={{
             background: "var(--surface-light-bg, #F7F5F2)",
             backgroundPosition: "center",

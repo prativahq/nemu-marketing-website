@@ -4,7 +4,7 @@ import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 
 const meta = {
-  title: "",
+  title: "Nemu: Legal",
   meta: [],
   link: [],
   style: [],

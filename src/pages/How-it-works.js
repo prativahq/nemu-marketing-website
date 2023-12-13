@@ -9,8 +9,14 @@ import { Card } from "../components/Card";
 import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
-  title: "",
-  meta: [],
+  title: "Nemu's Expert Property Splitting Services",
+  meta: [
+    {
+      name: "description",
+      content:
+        "From heirloom division to property sales, Nemu offers tailored solutions to meet your family's unique inheritance needs.",
+    },
+  ],
   link: [],
   style: [],
   script: [],

@@ -22,23 +22,29 @@ export const Newsletter = () => {
           </div>
           <div className="w-full md:w-1/2 px-4">
             <div className="mx-auto md:mr-0 md:max-w-md">
-              <div className="flex flex-wrap mb-1">
+              <form
+                name="contact"
+                method="POST"
+                netlify
+                className="flex flex-wrap mb-1"
+              >
                 <div className="w-full md:flex-1 mb-3 md:mb-0 md:mr-6">
                   <input
+                    name="email"
                     className="w-full py-3 px-4 text-coolGray-500 leading-tight placeholder-coolGray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-coolGray-200 rounded-lg shadow-xsm"
                     type="text"
                     placeholder="Enter your email"
                   />
                 </div>
                 <div className="w-full md:w-auto">
-                  <a
+                  <button
+                    type="submit"
                     className="inline-block py-3 px-6 w-full leading-5 text-white font-semibold bg-emerald-500 hover:bg-emerald-600  text-center focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-transparent rounded-lg shadow-sm"
-                    href="#"
                   >
                     Subscribe
-                  </a>
+                  </button>
                 </div>
-              </div>
+              </form>
               <span className=" text-coolGray-500 "></span>
             </div>
           </div>
