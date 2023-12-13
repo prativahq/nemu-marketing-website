@@ -23,7 +23,7 @@ export const Faq = ({ faqs }) => {
         <div className="flex flex-col gap-4  max-w-3xl mx-auto">
           {faqs.map((faq) => {
             return (
-              <Disclosure>
+              <Disclosure key={faq.id}>
                 <Disclosure.Button className="py-6  bg-white border-b border-b-[#e2e2e2] flex items-center justify-start ">
                   <div className="w-fit text-left font-semibold">
                     {" "}

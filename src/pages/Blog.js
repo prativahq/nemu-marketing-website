@@ -116,11 +116,12 @@ export default function Blog() {
                 </button>
               </li>
             </ul>
-            <div className="flex flex-wrap gap-10 px-5 -mx-4 mb-12 md:mb-20">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 px-5 -mx-4 mb-12 md:mb-20">
               {blogs.length > 0 ? (
                 blogs.map((blog) => {
                   return (
                     <BlogCard
+                      key={blog.id}
                       tag={blog.tag}
                       id={blog.id}
                       title={blog.title}

@@ -5,7 +5,7 @@ import IndexPage from "./pages/Index.js";
 import HowItWorksPage from "./pages/How-it-works.js";
 import TermsOfServicePage from "./pages/Terms-of-service.js";
 import PrivacyPolicyPage from "./pages/Privacy-policy.js";
-import LegalPage from "./pages/Legal.js";
+// import LegalPage from "./pages/Legal.js";
 import RefundsCancellationPage from "./pages/Refunds-cancellation.js";
 import ContactUsPage from "./pages/Contact-us.js";
 import PartnerPage from "./pages/Partner.js";
@@ -27,7 +27,7 @@ root.render(
 
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
 
-        <Route path="/legal" element={<LegalPage />} />
+        {/* <Route path="/legal" element={<LegalPage />} /> */}
 
         <Route path="/refund-policy" element={<RefundsCancellationPage />} />
 

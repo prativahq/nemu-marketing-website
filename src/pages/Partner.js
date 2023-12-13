@@ -27,18 +27,21 @@ export default function Partner() {
   }, []);
   const cards = [
     {
+      id: 1,
       img: "images/partner-1.png",
       title: "Lay the Groundwork",
       description:
         "This partnership is a two-way-street: we start by learning more about your business, then we work together to find the perfect places to integrate.",
     },
     {
+      id: 2,
       img: "images/partner-2.png",
       title: "Train the Team",
       description:
         "After laying the groundwork, we’ll bring you and your team up to speed on everything you’ll need to know for a successful collaboration. ",
     },
     {
+      id: 3,
       img: "images/partner-3.png",
       title: "Launch and Support",
       description:
@@ -65,13 +68,13 @@ export default function Partner() {
                 <div className="text-center md:text-left w-full md:w-1/2 px-4 mb-16 md:mb-0">
                   <span
                     className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     PARTNER WITH US
                   </span>
                   <h1
                     className="mb-6 mt-3 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     <span style={{ whiteSpace: "pre-wrap" }}>
                       Be the hero that preserves your clients' legacy
@@ -79,7 +82,7 @@ export default function Partner() {
                   </h1>
                   <p
                     className="mb-8 text-lg leading-9 text-coolGray-500 "
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     <span style={{ whiteSpace: "pre-wrap" }}>
                       Work with clients downsizing or dividing personal
@@ -138,13 +141,13 @@ export default function Partner() {
               </span>
               <h2
                 className="mb-6 mt-3 text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 The nemu promise
               </h2>
               <p
                 className="mb-10 text-lg leading-9 text-coolGray-500 "
-                contentEditable="false"
+                // contentEditable="false"
               >
                 We partner with you to best support your clients and<br></br>
                 your team throughout the process.
@@ -220,13 +223,13 @@ export default function Partner() {
             <div className="md:max-w-4xl mb-12 mx-auto text-center">
               <span
                 className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 WHY US
               </span>
               <h2
                 className="mb-6 mt-3 text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 Partner With us in 3 Easy Steps
               </h2>
@@ -234,7 +237,7 @@ export default function Partner() {
             <div className="flex flex-col gap-14 items-center -mx-4 px-8">
               <div className="w-full flex flex-wrap justify-center gap-10">
                 {cards.map((card) => {
-                  return <Card {...card} />;
+                  return <Card key={card.id} {...card} />;
                 })}
               </div>
               {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4"> */}

@@ -6,12 +6,12 @@ export const ApplyNow = () => {
     <section className="lg:absolute right-0 left-0 mx-auto  lg:-my-52 py-10">
       <div className="container px-4 mx-auto">
         <div
-          className="relative py-11 px-8 md:px-16 rounded-2xl overflow-hidden bg-cover"
+          className="relative py-11 px-8 md:px-16 rounded-2xl h-[750px] md:h-auto bg-joinTeamMobile md:bg-joinTeam overflow-hidden bg-cover"
           style={{
-            backgroundImage: 'url("images/applynow-banner.svg")',
-            // backgroundSize: "fixed",
-            // backgroundRepeat: "no-repeat",
-            // backgroundPosition: "center",
+            // backgroundImage: 'url("images/applynow-banner.svg")',
+            backgroundSize: "fixed",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
           }}
         >
           <div className="relative z-20 flex flex-wrap items-center -m-3">

@@ -14,7 +14,7 @@ export const Newsletter = () => {
       // }}
     >
       <div className="container px-4 mx-auto">
-        <div className="flex flex-wrap -mx-4">
+        <div className="flex flex-wrap items-center -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-10 md:mb-0">
             <h3 className="mb-4 text-3xl text-coolGray-900 md:text-4.5xl leading-tight font-medium tracking-tighter font-heading">
               Subscribe to our newsletter <br></br>and stay updated!

@@ -28,18 +28,21 @@ export default function HowItWorks() {
   }, []);
   const cards = [
     {
+      id: 1,
       img: "images/card-5.png",
       title: "Take a few pictures",
       description:
         "You can photograph things where they are now, squeeze a bunch of items into one frame, or do anything in between. We’ll take it from there.",
     },
     {
+      id: 2,
       img: "images/card-6.png",
       title: "We’ll Appraise & Gather Family Input",
       description:
         "We pull price estimates or can connect you with one of our expert appraisers. Then, we’ll ask your family to privately rate the items they want most.",
     },
     {
+      id: 3,
       img: "images/card-7.png",
       title: "You Approve & Divide (Drama Free)",
       description:
@@ -125,13 +128,13 @@ export default function HowItWorks() {
             <div className="md:max-w-4xl mb-12 mx-auto text-center">
               <span
                 className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 OVERLINE
               </span>
               <h2
                 className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 As Easy as 1-2-3
               </h2>
@@ -139,7 +142,7 @@ export default function HowItWorks() {
             <div className="flex flex-col gap-14 items-center -mx-4 px-8">
               <div className="w-full flex flex-wrap justify-center gap-10">
                 {cards.map((card) => {
-                  return <Card {...card} />;
+                  return <Card key={card.id} {...card} />;
                 })}
               </div>
               <div className="hidden md:block w-full md:w-auto py-1 md:py-0 md:mr-4">
@@ -201,19 +204,19 @@ export default function HowItWorks() {
             <div className="md:max-w-5xl mx-auto mb-16 text-center">
               <span
                 className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 OVERLINE
               </span>
               <h2
                 className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 We're here for you
               </h2>
               <p
                 className="text-lg leading-9 text-coolGray-500 "
-                contentEditable="false"
+                // contentEditable="false"
               >
                 Whether you’re here for a head-start or to get your head
                 <br></br> above water, we’re here to help.
@@ -293,13 +296,13 @@ export default function HowItWorks() {
             <div className="text-center">
               <span
                 className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 PRICING
               </span>
               <h3
                 className="mb-6 mt-3 text-center  text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 Alright, Sounds Great!
                 <div>What does all of this cost?</div>
@@ -311,7 +314,7 @@ export default function HowItWorks() {
                   <div className="px-8 pb-8">
                     <h3
                       className="mb-6 text-xl font-heading md:text-2xl text-coolGray-800 font-medium"
-                      contentEditable="false"
+                      // contentEditable="false"
                     >
                       Fair Start
                     </h3>
@@ -321,20 +324,20 @@ export default function HowItWorks() {
                       </span>
                       <span
                         className="text-6xl md:text-7xl text-coolGray-900 font-semibold"
-                        contentEditable="false"
+                        // contentEditable="false"
                       >
                         99
                       </span>
                       <span
                         className="inline-block ml-1 text-coolGray-500 font-semibold"
-                        contentEditable="false"
+                        // contentEditable="false"
                       >
                         / Year
                       </span>
                     </div>
                     <p
                       className="mb-6 text-coolGray-400 font-medium"
-                      contentEditable="false"
+                      // contentEditable="false"
                     >
                       Quickly catalog your estate
                     </p>
@@ -389,7 +392,7 @@ export default function HowItWorks() {
                     </div>
                     <p
                       className="mb-6 text-coolGray-400 font-medium"
-                      contentEditable="false"
+                      // contentEditable="false"
                     >
                       Everything in the Fair Start Plan plus
                     </p>
@@ -439,7 +442,7 @@ export default function HowItWorks() {
                     </div>
                     <p
                       className="mb-6 text-coolGray-400 font-medium"
-                      contentEditable="false"
+                      // contentEditable="false"
                     >
                       Everything in the Harmony Plan plus
                     </p>

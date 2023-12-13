@@ -8,7 +8,7 @@ export const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const path = window.location.pathname;
-  console.log(path);
+  // console.log(path);
 
   useEffect(() => {
     document.body.style.zoom = "100%";
@@ -115,7 +115,7 @@ export const Navbar = () => {
               <Tooltip className="absolute z-40" id="my-tooltip" />
               <a
                 className="inline-block py-3 px-5 font-semibold  leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-lg focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md"
-                href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kwws"
+                href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
               >
                 Sign Up
               </a>

@@ -29,32 +29,38 @@ const meta = {
 export default function AboutUs() {
   const faqs = [
     {
+      id: 1,
       question: "How did Nemu get started?",
       answer:
         "A few years ago, Sarah, the founder of Nemu, experienced the loss of her grandmother. Witnessing the emotional and stressful process of dividing inherited property among family members, she realized the need for an easy, efficient, and fair solution. Unable to find one, she decided to build it herself.",
     },
     {
+      id: 2,
       question: "What if I need help?",
       answer:
         "You aren't alone! Our team is available to answer any and every question you have. And, if your family needs assistance, we can also provide 1-1 support throughout the entire process. Have a question? Reach out through our contact page [hyperlink to contact page]",
     },
     {
+      id: 3,
       question: "I'm not great with technology. Is that going to be a problem?",
       answer:
         "Our app is designed to be simple. We've spent countless hours testing it with real executors, beneficiaries, and people of all ages - which means you don't need to be a techie to get the job done. If you do get stuck, our team is always there to help.",
     },
     {
+      id: 4,
       question: "When you say 'equitably' divide, what do you mean? ",
       answer:
         "We built a tool that designed to optimize fairness. With only your emotional value towards each item you like, our tool determines the most optimal way to divide your family assets. ",
     },
     {
+      id: 5,
       question: "Is this something that will fit my situation?",
       answer: `Nemu works for items big and small. We've helped those in small apartments and those with 3 vacation homes. We've divided items among families of 2 and families much, much larger. Whether you've been given the responsiblitiy of settling someone's estate, or you're trying to make sure no one has to worry about yours, we're here for you.
 
       To make sure you only pay for what you need, we have several packages that you can customize to fit your situation. Check them out here! [Hyperlink to pricing section of How-it-works page]`,
     },
     {
+      id: 6,
       question: "How much does Nemu cost?",
       answer: `We have a variety of packages ranging from $100 to $999. To make sure you only pay for what you need, you can start small and then add the services that fit your situation. You can see our pricing options here [Hyperlink to pricing section of How-it-works page]. Still undecided? Start with a Free Trial and see for yourself!`,
     },
@@ -185,13 +191,13 @@ export default function AboutUs() {
             <div className="mb-8 text-center">
               <span
                 className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-white"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 Awards
               </span>
               <h3
                 className="mb-6    text-4.5xl text-white   leading-tight font-medium font-heading tracking-tight"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 Our Achievements
               </h3>
@@ -260,13 +266,13 @@ export default function AboutUs() {
             <div className="mb-16 text-center">
               <span
                 className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 our team
               </span>
               <h2
                 className="text-center text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 Meet the team
               </h2>
@@ -286,13 +292,13 @@ export default function AboutUs() {
                   />
                   <h3
                     className="mb-2 text-2xl md:text-3xl leading-tight font-medium font-heading"
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     Sarah Powers
                   </h3>
                   <span
                     className="flex-1 inline-block mb-6 text-lg text-coolGray-500"
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     Founder + CEO
                   </span>
@@ -315,13 +321,13 @@ export default function AboutUs() {
                   />
                   <h3
                     className="mb-2 text-2xl md:text-3xl leading-tight font-medium font-heading"
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     Fahvyon Jimenez
                   </h3>
                   <span
                     className="flex-1 inline-block mb-6 text-lg text-coolGray-500"
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     Head of Product + Family Experience
                   </span>
@@ -346,13 +352,13 @@ export default function AboutUs() {
                   />
                   <h3
                     className="mb-2 text-2xl md:text-3xl leading-tight font-medium font-heading"
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     Vandita Kamath
                   </h3>
                   <span
                     className="flex-1 inline-block mb-6 text-lg text-coolGray-500"
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     Marketing Lead
                   </span>
@@ -375,13 +381,13 @@ export default function AboutUs() {
                   />
                   <h3
                     className="mb-2 text-2xl md:text-3xl leading-tight font-medium font-heading"
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     Sourav Das
                   </h3>
                   <span
                     className="inline-block mb-6 text-lg text-coolGray-500"
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     Head of Engineering
                   </span>
@@ -404,13 +410,13 @@ export default function AboutUs() {
                   />
                   <h3
                     className="mb-2 text-2xl md:text-3xl leading-tight font-medium font-heading"
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     Ronish Sawal
                   </h3>
                   <span
                     className="inline-block mb-6 text-lg text-coolGray-500"
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     Design Lead
                   </span>
@@ -433,7 +439,7 @@ export default function AboutUs() {
                   />
                   <h3
                     className="mb-2 text-2xl md:text-3xl leading-tight font-medium font-heading"
-                    contentEditable="false"
+                    // contentEditable="false"
                   >
                     Tahjib Al Sakin
                   </h3>

@@ -114,7 +114,7 @@ export const BlogPage = () => {
           </div>
 
           <Markdown
-            className={"px-5 md:w-3/4 w-full text-coolGray-800 text-lg mx-auto"}
+            className={"px-5 lg:w-3/4 w-full text-coolGray-800 text-lg mx-auto"}
           >
             {blog[0].content}
           </Markdown>

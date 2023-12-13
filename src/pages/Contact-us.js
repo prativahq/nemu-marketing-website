@@ -26,37 +26,44 @@ export default function ContactUs() {
   }, []);
   const faqs = [
     {
+      id: 1,
       question: "What if I need help?",
       answer:
         "You aren't alone! Our team is available to answer any and every question you have. And, if your family needs assistance, we can also provide 1-1 support throughout the entire process. Have a question? Reach out through our contact page [hyperlink to contact page]",
     },
     {
+      id: 2,
       question:
         "How long will it be until I hear back from someone on Nemu's team",
       answer:
         "Our staff monitor our inbox and phones every day. Whether you leave us a voicemail or an email, we try our best to get back to every customer within 48 hours. ",
     },
     {
+      id: 3,
       question: "I'm not great with technology. Is that going to be a problem?",
       answer:
         "Our app is designed for simplicity. We've spent countless hours testing it with real executors, beneficiaries, and people of all ages - which means you don't need to be a techie to get the job done. If you do get stuck, our team is always there to help.",
     },
     {
+      id: 4,
       question: "Is this something that will fit my situation?",
       answer: `Nemu works for items big and small. We've helped those in small apartments and those with 3 vacation homes. We've divided items among families of 2 and families much, much larger. Whether you've been given the responsiblitiy of settling someone's estate, or you're trying to make sure no one has to worry about yours, we're here for you.
 
       To make sure you only pay for what you need, we have several packages that you can customize to fit your situation. Check them out here! [Hyperlink to pricing section of How-it-works page]`,
     },
     {
+      id: 5,
       question: "How much does Nemu cost?",
       answer:
         "We have a variety of packages ranging from $100 to $999. To make sure you only pay for what you need, you can start small and then add the services that fit your situation. You can see our pricing options here [Hyperlink to pricing section of How-it-works page]. Still undecided? Start with a Free Trial and see for yourself! ",
     },
     {
+      id: 6,
       question: "Can I start with a free trial before buying?",
       answer: `Of course! We offer a free trial for all of our users. We think you'll like what you see. You can sign up here [hyper link to sign up now]`,
     },
     {
+      id: 7,
       question: "How does Nemu work?",
       answer: `Nemu has 4 main features, and you can use them in any order you like:
       - Catalog: Cataloging your items is made quick and simple because our app will recognize how many items are in the photo and help you get them titled!
@@ -87,7 +94,7 @@ export default function ContactUs() {
               </span>
               <h1
                 className="mb-6 mt-3 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
-                contentEditable="false"
+                // contentEditable="false"
               >
                 A Real Inbox, Monitored
                 <div>by Real People</div>
