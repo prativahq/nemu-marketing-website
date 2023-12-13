@@ -81,7 +81,7 @@ export default function ContactUs() {
       <>
         <Navbar />
         <section
-          className="relative py-24 lg:py-[300px] pt-20 lg:mb-32   "
+          className="relative py-0 lg:py-[300px] pt-20 lg:mb-32   "
           style={{
             background: "var(--surface-light-bg, #F7F5F2)",
             backgroundPosition: "center",

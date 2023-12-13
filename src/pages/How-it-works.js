@@ -301,7 +301,7 @@ export default function HowItWorks() {
                 PRICING
               </span>
               <h3
-                className="mb-6 mt-3 text-center  text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                className="mb-6 mt-3 text-center text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
                 // contentEditable="false"
               >
                 Alright, Sounds Great!
