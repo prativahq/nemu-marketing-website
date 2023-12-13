@@ -25,14 +25,14 @@ export const Newsletter = () => {
               <form
                 name="contact"
                 method="POST"
-                netlify
                 className="flex flex-wrap mb-1"
               >
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="w-full md:flex-1 mb-3 md:mb-0 md:mr-6">
                   <input
                     name="email"
                     className="w-full py-3 px-4 text-coolGray-500 leading-tight placeholder-coolGray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-coolGray-200 rounded-lg shadow-xsm"
-                    type="text"
+                    type="email"
                     placeholder="Enter your email"
                   />
                 </div>
