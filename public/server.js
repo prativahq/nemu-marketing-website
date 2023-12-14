@@ -43,6 +43,15 @@ const formatDate = (date) => {
 const getPosts = () => {
   fs.readdir(dirPath, (err, files) => {
     if (err) {
+      // console.log(files);
+      if (files === undefined) {
+        fs.unlink("src/posts.json", (err) => {
+          if (err) {
+            console.error(err);
+            return;
+          }
+        });
+      }
       return console.log("Failed to list contents of directory: " + err);
     }
     let ilist = [];
