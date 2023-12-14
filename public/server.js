@@ -45,7 +45,7 @@ const getPosts = () => {
     if (err) {
       // console.log(files);
       if (files === undefined) {
-        fs.writeFileSync("src/posts.json", "");
+        fs.writeFileSync("src/posts.json", "[]");
       }
       return console.log("Failed to list contents of directory: " + err);
     }
