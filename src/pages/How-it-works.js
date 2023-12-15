@@ -250,10 +250,10 @@ export default function HowItWorks() {
                 </p>
                 <div className="px-8 pb-8">
                   <a
-                    className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
-                    href="tel:623-432-1678"
+                    className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                    href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                   >
-                    Give us a call
+                    Sign up for free
                   </a>
                 </div>
               </div>
@@ -291,7 +291,10 @@ export default function HowItWorks() {
             </div>
           </div>
         </section>
-        <section className="relative   lg:mb-96 pt-64 pb-72 bg-[#F7F5F2]">
+        <section
+          id="pricing"
+          className="relative   lg:mb-96 pt-64 pb-72 bg-[#F7F5F2]"
+        >
           <div className="lg:absolute left-0 right-0 -my-48 container px-4 mx-auto">
             <div className="text-center">
               <span

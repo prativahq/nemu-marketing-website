@@ -13,35 +13,38 @@ import AboutUsPage from "./pages/About-us.js";
 import BlogsPage from "./pages/Blog.js";
 import ReactDOM from "react-dom/client";
 import { BlogPage } from "./pages/BlogPage.js";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<IndexPage />} />
+    <ParallaxProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<IndexPage />} />
 
-        <Route path="/how-it-works" element={<HowItWorksPage />} />
+          <Route path="/how-it-works" element={<HowItWorksPage />} />
 
-        <Route path="/terms-of-use" element={<TermsOfServicePage />} />
+          <Route path="/terms-of-use" element={<TermsOfServicePage />} />
 
-        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
 
-        {/* <Route path="/legal" element={<LegalPage />} /> */}
+          {/* <Route path="/legal" element={<LegalPage />} /> */}
 
-        <Route path="/refund-policy" element={<RefundsCancellationPage />} />
+          <Route path="/refund-policy" element={<RefundsCancellationPage />} />
 
-        <Route path="/contact-us" element={<ContactUsPage />} />
+          <Route path="/contact-us" element={<ContactUsPage />} />
 
-        <Route path="/partner" element={<PartnerPage />} />
+          <Route path="/partner" element={<PartnerPage />} />
 
-        <Route path="/about-us" element={<AboutUsPage />} />
+          <Route path="/about-us" element={<AboutUsPage />} />
 
-        <Route path="/blog" element={<BlogsPage />} />
+          <Route path="/blog" element={<BlogsPage />} />
 
-        <Route path="/blog/:id" element={<BlogPage />} />
-      </Routes>
-    </BrowserRouter>
+          <Route path="/blog/:id" element={<BlogPage />} />
+        </Routes>
+      </BrowserRouter>
+    </ParallaxProvider>
   </React.StrictMode>
 );
 

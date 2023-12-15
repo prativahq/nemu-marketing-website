@@ -20,6 +20,7 @@ import { Testimonial } from "../components/Testimonial";
 import Blogs from "../posts.json";
 import { BlogCard } from "../components/BlogCard";
 import ScrollToTop from "react-scroll-to-top";
+import { HashLink } from "react-router-hash-link";
 
 const meta = {
   title: "Nemu - Revolutionizing Property Inheritance",
@@ -52,20 +53,52 @@ export default function Index() {
     {
       id: 2,
       question: "Is this something that will fit my situation?",
-      answer:
-        "Nemu works for items big and small. We've helped those in small apartments and those with 3 vacation homes. We've divided items among families of 2 and families much, much larger. Whether you've been given the responsiblitiy of settling someone's estate, or you're trying to make sure no one has to worry about yours, we're here for you.To make sure you only pay for what you need, we have several packages that you can customize to fit your situation. Check them out here! [Hyperlink to pricing section of How-it-works page]",
+      answer: (
+        <p>
+          Nemu works for items big and small. We've helped those in small
+          apartments and those with 3 vacation homes. We've divided items among
+          families of 2 and families much, much larger. Whether you've been
+          given the responsiblitiy of settling someone's estate, or you're
+          trying to make sure no one has to worry about yours, we're here for
+          you.To make sure you only pay for what you need, we have several
+          packages that you can customize to fit your situation. Check them out{" "}
+          <HashLink className="underline" to={"/how-it-works#pricing"}>
+            here!
+          </HashLink>
+        </p>
+      ),
     },
     {
       id: 3,
       question: "How much does Nemu cost?",
-      answer:
-        "We have a variety of packages ranging from $100 to $999. To make sure you only pay for what you need, you can start small and then add the services that fit your situation. You can see our pricing options here [Hyperlink to pricing section of How-it-works page]. Still undecided? Start with a Free Trial and see for yourself!",
+      answer: (
+        <p>
+          We have a variety of packages ranging from $100 to $999. To make sure
+          you only pay for what you need, you can start small and then add the
+          services that fit your situation. You can see our pricing options{" "}
+          <HashLink className="underline" to={"/how-it-works#pricing"}>
+            here
+          </HashLink>
+          . Still undecided? Start with a Free Trial and see for yourself!
+        </p>
+      ),
     },
     {
       id: 4,
       question: "Can I start with a free trial before buying?",
-      answer:
-        "Of course! We offer a free trial for all of our users. We think you'll like what you see. You can sign up here [hyper link to sign up now]",
+      answer: (
+        <p>
+          Of course! We offer a free trial for all of our users. We think you'll
+          like what you see. You can{" "}
+          <a
+            className="underline"
+            target="_blank"
+            href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
+          >
+            Sign up
+          </a>
+        </p>
+      ),
     },
     {
       id: 5,
@@ -76,31 +109,52 @@ export default function Index() {
     {
       id: 6,
       question: "How does Nemu work?",
-      answer: `Nemu has 4 main features, and you can use them in any order you like:
-      - Catalog: Cataloging your items is made quick and simple because our app will recognize how many items are in the photo and help you get them titled!
-      - Appraise: If you want something appraised, you can count on our network of certified appraisers to get the job done!
-      - Divide: Beneficiaries enter an Emotional Value Score to tell us how much they want a given item. Then, our Nash Equilibrium Algorithm looks at everyone’s scores, and ensures the items are divided as fairly as mathematically possible. 
-      - Sell: If you’d like help selling any of your items, we’re here to help! We take into account the value of your item, current market conditions, and how quickly you need the item sold to ensure we sell through the right channels and get the best price.`,
+      answer: (
+        <p>
+          Nemu has 4 main features, and you can use them in any order you like:
+          <br></br>- Catalog: Cataloging your items is made quick and simple
+          because our app will recognize how many items are in the photo and
+          help you get them titled! <br></br>- Appraise: If you want something
+          appraised, you can count on our network of certified appraisers to get
+          the job done!<br></br>- Divide: Beneficiaries enter an Emotional Value
+          Score to tell us how much they want a given item. Then, our Nash
+          Equilibrium Algorithm looks at everyone’s scores, and ensures the
+          items are divided as fairly as mathematically possible. <br></br>-
+          Sell: If you’d like help selling any of your items, we’re here to
+          help! We take into account the value of your item, current market
+          conditions, and how quickly you need the item sold to ensure we sell
+          through the right channels and get the best price
+        </p>
+      ),
     },
     {
       id: 7,
       question:
         "How do I know the algorithm is fair? Is there a way to cheat the system?",
-      answer: `Our tool is groudned in mathematical fundamentals (a Nash Equalibrium Algorithm, to be exact).There isn't a way to cheat the system, and those that do often find they've cheated themselves. Be true to yourself when entering your emotional value scores, and our app will take care of the rest.
+      answer: `Our division module uses an algorithm designed to be fair. There isn't a way to cheat the system, and those that do often find they've cheated themselves. Be true to yourself when entering your emotional value scores, and our app will take care of the rest.
 
-      For example, let's say you rank everything as your "top choice". You are conveying that you like everything the same amount and are indifferent between items. We don't recommend this approach as a strategy to get popular items.`,
+      For example, let's say you rank everything as your "top choice." You are conveying that you like everything the same amount and are indifferent between items. We don't recommend this approach as a strategy to get popular items.`,
     },
     {
       id: 8,
       question: "Does this require a bunch of family meetings?",
       answer:
-        "The awkward and contentious family meetings are exactly what Nemu was designed to replace! Beneficiaries privately enter their emotional scores for each item, which means everyone gets the time and privacy they need to think about what they want most. It means everyone has a choice and everyone has a voice. As one of our executors put it, “the whole family is confident about what they should do”.",
+        "The awkward and contentious family meetings are exactly what Nemu was designed to replace! Beneficiaries privately enter their emotional scores for each item, which means everyone gets the time and privacy they need to think about what they want most. It means everyone has a choice and everyone has a voice. As one of our executors put it, “the whole family is confident about what they should do.",
     },
     {
       id: 9,
       question: "  What if I need help?",
-      answer:
-        "You aren't alone! Our team is available to answer any and every question you have. And, if your family needs assistance, we can also provide 1-1 support throughout the entire process. Have a question? Reach out through our contact page [hyperlink to contact page]",
+      answer: (
+        <p>
+          You aren't alone! Our team is available to answer any and every
+          question you have. And, if your family needs assistance, we can also
+          provide 1-1 support throughout the entire process. Have a question?
+          Reach out through our{" "}
+          <Link className="underline" to={"/contact-us"}>
+            Contact page
+          </Link>
+        </p>
+      ),
     },
   ];
 

@@ -12,6 +12,7 @@ import { Timeline } from "../components/Timeline";
 import { ApplyNow } from "../components/ApplyNow";
 import { TestimonialAboutPage } from "../components/TestimonialAboutPage";
 import ScrollToTop from "react-scroll-to-top";
+import { HashLink } from "react-router-hash-link";
 
 const meta = {
   title: "About Nemu - Our story & Commitment to Maximizing Value",
@@ -37,8 +38,17 @@ export default function AboutUs() {
     {
       id: 2,
       question: "What if I need help?",
-      answer:
-        "You aren't alone! Our team is available to answer any and every question you have. And, if your family needs assistance, we can also provide 1-1 support throughout the entire process. Have a question? Reach out through our contact page [hyperlink to contact page]",
+      answer: (
+        <p>
+          You aren't alone! Our team is available to answer any and every
+          question you have. And, if your family needs assistance, we can also
+          provide 1-1 support throughout the entire process. Have a question?
+          Reach out through our{" "}
+          <Link className="underline" to={"/contact-us"}>
+            Contact page
+          </Link>
+        </p>
+      ),
     },
     {
       id: 3,
@@ -55,14 +65,35 @@ export default function AboutUs() {
     {
       id: 5,
       question: "Is this something that will fit my situation?",
-      answer: `Nemu works for items big and small. We've helped those in small apartments and those with 3 vacation homes. We've divided items among families of 2 and families much, much larger. Whether you've been given the responsiblitiy of settling someone's estate, or you're trying to make sure no one has to worry about yours, we're here for you.
-
-      To make sure you only pay for what you need, we have several packages that you can customize to fit your situation. Check them out here! [Hyperlink to pricing section of How-it-works page]`,
+      answer: (
+        <p>
+          Nemu works for items big and small. We've helped those in small
+          apartments and those with 3 vacation homes. We've divided items among
+          families of 2 and families much, much larger. Whether you've been
+          given the responsiblitiy of settling someone's estate, or you're
+          trying to make sure no one has to worry about yours, we're here for
+          you. To make sure you only pay for what you need, we have several
+          packages that you can customize to fit your situation. Check them out{" "}
+          <HashLink className="underline" to={"/how-it-works#pricing"}>
+            here!
+          </HashLink>
+        </p>
+      ),
     },
     {
       id: 6,
       question: "How much does Nemu cost?",
-      answer: `We have a variety of packages ranging from $100 to $999. To make sure you only pay for what you need, you can start small and then add the services that fit your situation. You can see our pricing options here [Hyperlink to pricing section of How-it-works page]. Still undecided? Start with a Free Trial and see for yourself!`,
+      answer: (
+        <p>
+          We have a variety of packages ranging from $100 to $999. To make sure
+          you only pay for what you need, you can start small and then add the
+          services that fit your situation. You can see our pricing options{" "}
+          <HashLink className="underline" to={"/how-it-works#pricing"}>
+            here
+          </HashLink>
+          . Still undecided? Start with a Free Trial and see for yourself!
+        </p>
+      ),
     },
   ];
 
@@ -114,7 +145,8 @@ export default function AboutUs() {
                     <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                       <a
                         className="inline-block py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
-                        href="#"
+                        href="https://meetings.hubspot.com/sarah1487/demo-request"
+                        target="_blank"
                       >
                         Request a Demo
                       </a>
