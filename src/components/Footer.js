@@ -177,7 +177,10 @@ export const Footer = () => {
             </h3>
             <div className="flex flex-wrap">
               <div className="w-full lg:flex-1 py-1 lg:py-0 lg:mr-3">
-                <a href="https://apps.apple.com/us/app/nemu/id6471528649">
+                <a
+                  target="_blank"
+                  href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
+                >
                   <img
                     loading="lazy"
                     src="/images/App-Store.svg"
@@ -185,7 +188,10 @@ export const Footer = () => {
                     className="py-3 rounded "
                   />
                 </a>
-                <a href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww">
+                <a
+                  target="_blank"
+                  href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
+                >
                   {" "}
                   <img
                     loading="lazy"

@@ -34,7 +34,10 @@ export const DownloadApp = () => {
                 </li>
               </ul>
               <div className="flex justify-center md:justify-start flex-wrap gap-4">
-                <a href="https://apps.apple.com/us/app/nemu/id6471528649">
+                <a
+                  target="_blank"
+                  href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
+                >
                   <img
                     loading="lazy"
                     src="images/App-Store.svg"
@@ -42,7 +45,10 @@ export const DownloadApp = () => {
                     className=" rounded "
                   />
                 </a>
-                <a href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww">
+                <a
+                  target="_blank"
+                  href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
+                >
                   {" "}
                   <img
                     loading="lazy"
