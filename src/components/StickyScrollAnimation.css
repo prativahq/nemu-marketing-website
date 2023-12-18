@@ -1,0 +1,10 @@
+.sticky {
+    position: sticky;
+    top: 0;
+    padding: 50px;
+    transition: padding 0.5s ease-in-out;
+  }
+  
+  .sticky.small {
+    padding: 10px;
+  }

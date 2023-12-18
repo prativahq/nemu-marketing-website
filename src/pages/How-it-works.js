@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
@@ -7,6 +7,7 @@ import { DownloadApp } from "../components/DownloadApp";
 import { Check } from "lucide-react";
 import { Card } from "../components/Card";
 import ScrollToTop from "react-scroll-to-top";
+import StickyScrollAnimation from "../components/StickyScrollAnimation";
 
 const meta = {
   title: "Nemu's Expert Property Splitting Services",
@@ -25,7 +26,7 @@ const meta = {
 export default function HowItWorks() {
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+    }, []);
   const cards = [
     {
       id: 1,
@@ -164,27 +165,55 @@ export default function HowItWorks() {
           //   backgroundPosition: "center",
           // }}
         >
+          <StickyScrollAnimation />
           <div className="container px-4 mx-auto">
-            <div className="xl:max-w-4xl mb-12 mx-auto text-center">
+            {/* <div className="xl:max-w-4xl mb-12 mx-auto text-center">
               <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-coolGray-300">
                 HOW IT WORKS
               </span>
               <h2 className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-100   leading-tight font-medium font-heading tracking-tight">
                 Real Stuff, Real Stories
               </h2>
+              description p tag was here earlier
+            </div> */}
+            <div className="flex flex-wrap -mx-4 ptjustify-center">
               <p className="text-lg leading-9 text-coolGray-300 ">
                 Margaret and her father agreed it was time to start documenting
                 the history tied to his belongings. At the same time, they
                 wanted to keep things in there place. So, she photographed most
                 items just where she found them.
               </p>
-            </div>
-            <div className="flex flex-wrap -mx-4 justify-center">
               <div className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
                 <img
                   loading="lazy"
                   className="mx-auto"
                   src="images/how-it-works-iphone.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="flex flex-wrap -mx-4 justify-center">
+              <p className="text-lg leading-9 text-coolGray-300 ">
+              Margaret taps the 3 items her father wanted to catalog, and Nemu took care of the rest.
+              </p>
+              <div className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+                <img
+                  loading="lazy"
+                  className="mx-auto"
+                  src="images/how-it-works-catalog.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="flex flex-wrap -mx-4 justify-center">
+              <p className="text-lg leading-9 text-coolGray-300 ">
+              Look at the treasures below to see what happened next!
+              </p>
+              <div className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+                <img
+                  loading="lazy"
+                  className="mx-auto"
+                  src="images/how-it-works-appraise.png"
                   alt=""
                 />
               </div>

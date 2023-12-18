@@ -13,12 +13,11 @@ import AboutUsPage from "./pages/About-us.js";
 import BlogsPage from "./pages/Blog.js";
 import ReactDOM from "react-dom/client";
 import { BlogPage } from "./pages/BlogPage.js";
-import { ParallaxProvider } from "react-scroll-parallax";
+//import { ParallaxProvider } from "react-scroll-parallax";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ParallaxProvider>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<IndexPage />} />
@@ -44,7 +43,6 @@ root.render(
           <Route path="/blog/:id" element={<BlogPage />} />
         </Routes>
       </BrowserRouter>
-    </ParallaxProvider>
   </React.StrictMode>
 );
 
