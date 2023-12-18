@@ -26,7 +26,7 @@ const meta = {
 export default function HowItWorks() {
   useEffect(() => {
     window.scrollTo(0, 0);
-    }, []);
+  }, []);
   const cards = [
     {
       id: 1,
@@ -166,7 +166,7 @@ export default function HowItWorks() {
           // }}
         >
           <StickyScrollAnimation />
-          <div className="container px-4 mx-auto">
+          <div className="container px-4 mx-auto flex flex-col gap-20 lg:gap-32">
             {/* <div className="xl:max-w-4xl mb-12 mx-auto text-center">
               <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-coolGray-300">
                 HOW IT WORKS
@@ -176,43 +176,44 @@ export default function HowItWorks() {
               </h2>
               description p tag was here earlier
             </div> */}
-            <div className="flex flex-wrap -mx-4 ptjustify-center">
-              <p className="text-lg leading-9 text-coolGray-300 ">
+            <div className="flex flex-col gap-10 items-center">
+              <p className="text-lg lg:w-2/3 text-center leading-9 text-coolGray-300 ">
                 Margaret and her father agreed it was time to start documenting
                 the history tied to his belongings. At the same time, they
                 wanted to keep things in there place. So, she photographed most
                 items just where she found them.
               </p>
-              <div className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+              <div className=" px-4 mb-8 lg:mb-0">
                 <img
                   loading="lazy"
-                  className="mx-auto"
+                  className="w-full lg:w-2/3 2xl:w-full mx-auto"
                   src="images/how-it-works-iphone.png"
                   alt=""
                 />
               </div>
             </div>
-            <div className="flex flex-wrap -mx-4 justify-center">
-              <p className="text-lg leading-9 text-coolGray-300 ">
-              Margaret taps the 3 items her father wanted to catalog, and Nemu took care of the rest.
+            <div className="flex flex-col gap-10 items-center">
+              <p className="text-lg lg:w-1/3 text-center leading-9 text-coolGray-300 ">
+                Margaret taps the 3 items her father wanted to catalog, and Nemu
+                took care of the rest.
               </p>
-              <div className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+              <div className="  px-4 mb-8 lg:mb-0">
                 <img
                   loading="lazy"
-                  className="mx-auto"
+                  className="w-full lg:w-2/3 2xl:w-full mx-auto"
                   src="images/how-it-works-catalog.png"
                   alt=""
                 />
               </div>
             </div>
-            <div className="flex flex-wrap -mx-4 justify-center">
-              <p className="text-lg leading-9 text-coolGray-300 ">
-              Look at the treasures below to see what happened next!
+            <div className="flex flex-col gap-10 items-center">
+              <p className="text-lg text-center leading-9 text-coolGray-300 ">
+                Look at the treasures below to see what happened next!
               </p>
-              <div className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+              <div className=" px-4 mb-8 lg:mb-0">
                 <img
                   loading="lazy"
-                  className="mx-auto"
+                  className="w-full lg:w-2/3 2xl:w-full mx-auto"
                   src="images/how-it-works-appraise.png"
                   alt=""
                 />
