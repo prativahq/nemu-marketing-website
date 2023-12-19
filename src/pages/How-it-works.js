@@ -8,6 +8,7 @@ import { Check } from "lucide-react";
 import { Card } from "../components/Card";
 import ScrollToTop from "react-scroll-to-top";
 import StickyScrollAnimation from "../components/StickyScrollAnimation";
+// import "../components/StickyScrollAnimation.css";
 
 const meta = {
   title: "Nemu's Expert Property Splitting Services",
@@ -158,7 +159,7 @@ export default function HowItWorks() {
           </div>
         </section>
         <section
-          className="py-24 bg-emerald-500"
+          className=" py-24  gap-20 bg-emerald-500 "
           // style={{
           //   backgroundImage:
           //     'url("flex-ui-assets/elements/pattern-light-big.svg")',
@@ -166,17 +167,9 @@ export default function HowItWorks() {
           // }}
         >
           <StickyScrollAnimation />
-          <div className="container px-4 mx-auto flex flex-col gap-20 lg:gap-32">
-            {/* <div className="xl:max-w-4xl mb-12 mx-auto text-center">
-              <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-coolGray-300">
-                HOW IT WORKS
-              </span>
-              <h2 className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-100   leading-tight font-medium font-heading tracking-tight">
-                Real Stuff, Real Stories
-              </h2>
-              description p tag was here earlier
-            </div> */}
-            <div className="flex flex-col gap-10 items-center">
+
+          <div className="snap-y snap-mandatory overflow-y-scroll h-[550px] md:h-[750px] xl:h-[600px] 2xl:h-[750px] w-screen px-5  mx-auto flex flex-col gap-20 lg:gap-32">
+            <div className="snap-always snap-center  flex flex-col gap-10 items-center">
               <p className="text-lg lg:w-2/3 text-center leading-9 text-coolGray-300 ">
                 Margaret and her father agreed it was time to start documenting
                 the history tied to his belongings. At the same time, they
@@ -192,7 +185,7 @@ export default function HowItWorks() {
                 />
               </div>
             </div>
-            <div className="flex flex-col gap-10 items-center">
+            <div className="snap-always snap-center flex flex-col gap-10 items-center">
               <p className="text-lg lg:w-1/3 text-center leading-9 text-coolGray-300 ">
                 Margaret taps the 3 items her father wanted to catalog, and Nemu
                 took care of the rest.
@@ -206,7 +199,7 @@ export default function HowItWorks() {
                 />
               </div>
             </div>
-            <div className="flex flex-col gap-10 items-center">
+            <div className="snap-always snap-center flex flex-col gap-10 items-center">
               <p className="text-lg text-center leading-9 text-coolGray-300 ">
                 Look at the treasures below to see what happened next!
               </p>
