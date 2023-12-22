@@ -19,7 +19,7 @@ const StickyScrollAnimation = () => {
 
   return (
     <div
-      className={`bg-emerald-500 w-full   mx-auto text-center  sticky ${
+      className={`bg-emerald-500 w-full z-10  mx-auto text-center  sticky ${
         isSmall ? "small" : ""
       }`}
     >
