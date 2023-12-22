@@ -9,6 +9,7 @@ import { Card } from "../components/Card";
 import ScrollToTop from "react-scroll-to-top";
 import StickyScrollAnimation from "../components/StickyScrollAnimation";
 // import "../components/StickyScrollAnimation.css";
+import { useScrollPercentage } from "react-scroll-percentage";
 
 const meta = {
   title: "Nemu's Expert Property Splitting Services",
@@ -52,6 +53,8 @@ export default function HowItWorks() {
     },
   ];
 
+  const [ref1, percentage1] = useScrollPercentage();
+  const [ref2, percentage2] = useScrollPercentage();
   return (
     <React.Fragment>
       <HelmetProvider>
@@ -168,51 +171,65 @@ export default function HowItWorks() {
         >
           <StickyScrollAnimation />
 
-          <div className="snap-y snap-mandatory overflow-y-scroll h-[550px] md:h-[750px] xl:h-[600px] 2xl:h-[750px] w-screen px-5  mx-auto flex flex-col gap-20 lg:gap-32">
-            <div className="snap-always snap-center  flex flex-col gap-10 items-center">
-              <p className="text-lg lg:w-2/3 text-center leading-9 text-coolGray-300 ">
-                Margaret and her father agreed it was time to start documenting
-                the history tied to his belongings. At the same time, they
-                wanted to keep things in there place. So, she photographed most
-                items just where she found them.
-              </p>
-              <div className=" px-4 mb-8 lg:mb-0">
-                <img
-                  loading="lazy"
-                  className="w-full lg:w-2/3 2xl:w-full mx-auto"
-                  src="images/how-it-works-iphone.png"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="snap-always snap-center flex flex-col gap-10 items-center">
-              <p className="text-lg lg:w-1/3 text-center leading-9 text-coolGray-300 ">
-                Margaret taps the 3 items her father wanted to catalog, and Nemu
-                took care of the rest.
-              </p>
-              <div className="  px-4 mb-8 lg:mb-0">
-                <img
-                  loading="lazy"
-                  className="w-full lg:w-2/3 2xl:w-full mx-auto"
-                  src="images/how-it-works-catalog.png"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="snap-always snap-center flex flex-col gap-10 items-center">
-              <p className="text-lg text-center leading-9 text-coolGray-300 ">
-                Look at the treasures below to see what happened next!
-              </p>
-              <div className=" px-4 mb-8 lg:mb-0">
-                <img
-                  loading="lazy"
-                  className="w-full lg:w-2/3 2xl:w-full mx-auto"
-                  src="images/how-it-works-appraise.png"
-                  alt=""
-                />
-              </div>
+          {/* <div className="snap-y snap-mandatory overflow-y-scroll h-[550px] md:h-[750px] xl:h-[600px] 2xl:h-[750px] w-screen px-5  mx-auto flex flex-col gap-20 lg:gap-32"> */}
+          <div className="snap-always snap-center py-5 flex flex-col gap-10 items-center">
+            <p className="text-lg lg:w-2/3 px-5 md:px-0 text-center leading-9 text-coolGray-300 ">
+              Margaret and her father agreed it was time to start documenting
+              the history tied to his belongings. At the same time, they wanted
+              to keep things in there place. So, she photographed most items
+              just where she found them.
+            </p>
+            <div className="text-center px-4 mb-8 lg:mb-0 overflow-hidden flex justify-center">
+              <img
+                loading="lazy"
+                className=" w-2/3 lg:w-2/3 2xl:w-full ml-8"
+                src="images/how-it-works-iphone.png"
+                alt=""
+              />
             </div>
           </div>
+          <div ref={ref1} className="relative md:h-64 h-44 text-center">
+            <div className="md:h-52 h-32 bg-[#397581] w-[3px] mx-auto"></div>
+            <div
+              style={{ height: `${percentage1.toPrecision(2) * 100}%` }}
+              className={`absolute left-0 right-0 top-0 w-[3px] bg-[#8DB0B7]  mx-auto`}
+            ></div>
+          </div>
+          <div className="snap-always snap-center pb-10 flex flex-col gap-10 items-center">
+            <p className="text-lg lg:w-1/3 text-center leading-9 text-coolGray-300 ">
+              Margaret taps the 3 items her father wanted to catalog, and Nemu
+              took care of the rest.
+            </p>
+            <div className="  px-4 mb-8 lg:mb-0">
+              <img
+                loading="lazy"
+                className="w-full lg:w-2/3 2xl:w-full mx-auto"
+                src="images/how-it-works-catalog.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div ref={ref2} className="relative md:h-64 h-44 text-center">
+            <div className="md:h-52 h-32 bg-[#397581] w-[3px] mx-auto"></div>
+            <div
+              style={{ height: `${percentage2.toPrecision(2) * 100}%` }}
+              className={`absolute left-0 right-0 top-0  w-[3px] bg-[#8DB0B7]  mx-auto`}
+            ></div>
+          </div>
+          <div className="snap-always snap-center  flex flex-col gap-10 items-center">
+            <p className="text-lg text-center leading-9 text-coolGray-300 ">
+              Look at the treasures below to see what happened next!
+            </p>
+            <div className=" px-4 mb-8 lg:mb-0">
+              <img
+                loading="lazy"
+                className="w-full lg:w-2/3 2xl:w-full mx-auto"
+                src="images/how-it-works-appraise.png"
+                alt=""
+              />
+            </div>
+          </div>
+          {/* </div> */}
         </section>
         <section
           className="py-20 bg-white"
