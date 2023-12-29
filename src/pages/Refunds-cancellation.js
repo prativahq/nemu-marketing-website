@@ -30,7 +30,7 @@ export default function RefundsCancellation() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto">
             <div className="flex flex-wrap -mx-4">
               <div className="w-full px-4 mb-10">
                 <div className="flex flex-wrap justify-between items-center">

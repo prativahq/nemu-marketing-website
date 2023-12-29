@@ -23,7 +23,7 @@ const StickyScrollAnimation = () => {
         isSmall ? "small" : ""
       }`}
     >
-      <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-coolGray-300">
+      <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-coolGray-300">
         HOW IT WORKS
       </span>
       <h2 className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-100   leading-tight font-medium font-heading tracking-tight">

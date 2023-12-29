@@ -31,7 +31,7 @@ export default function TermsOfService() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto">
             <div className="px-3">
               <p style={{ textAlign: "right" }}>
                 <span style={{ fontSize: "11pt" }}>

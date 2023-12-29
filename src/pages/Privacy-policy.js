@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto">
             <div className="flex flex-wrap -mx-4">
               <div className="w-full px-4 mb-5 lg:mb-0">
                 <h1 style={{ textAlign: "center" }}>

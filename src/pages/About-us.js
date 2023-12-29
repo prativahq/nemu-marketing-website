@@ -116,10 +116,10 @@ export default function AboutUs() {
           // }}
         >
           <div className="py-10">
-            <div className="container px-4 mx-auto">
+            <div className="container mx-auto">
               <div className="flex flex-wrap xl:items-center -mx-4">
                 <div className="text-center md:text-left w-full md:w-1/2 px-4 mb-16 md:mb-0">
-                  <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+                  <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                     about us
                   </span>
                   <h1 className="mb-6 mt-3 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
@@ -185,7 +185,7 @@ export default function AboutUs() {
           // }}
         >
           <div className="container lg:h-[750px] px-4 mx-auto">
-            <div className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+            <div className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
               TIMELINE
             </div>
             <h3 className="mb-6  text-center text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
@@ -203,9 +203,9 @@ export default function AboutUs() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto">
             <div className="text-center md:text-left mb-16">
-              <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+              <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 TESTIMONIALS
               </span>
               <h2 className="mb-6  text-3xl  md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
@@ -219,10 +219,10 @@ export default function AboutUs() {
           className="py-20 xl:pt-24 bg-green-400"
           style={{ background: "#075362", backgroundPosition: "center" }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto">
             <div className="mb-8 text-center">
               <span
-                className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-white"
+                className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-white"
                 // contentEditable="false"
               >
                 Awards
@@ -294,10 +294,10 @@ export default function AboutUs() {
           className="py-24 lg:pb-72 bg-[#F7F5F2]"
           style={{ backgroundPosition: "center" }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto">
             <div className="mb-16 text-center">
               <span
-                className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
+                className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
                 // contentEditable="false"
               >
                 our team
