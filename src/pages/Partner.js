@@ -63,11 +63,11 @@ export default function Partner() {
           // }}
         >
           <div className="py-10">
-            <div className="container px-4 mx-auto">
+            <div className="container mx-auto">
               <div className="flex flex-wrap xl:items-center -mx-4">
                 <div className="text-center md:text-left w-full md:w-1/2 px-4 mb-16 md:mb-0">
                   <span
-                    className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
+                    className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
                     // contentEditable="false"
                   >
                     PARTNER WITH US
@@ -134,9 +134,9 @@ export default function Partner() {
             backgroundPosition: "center",
           }}
         >
-          <div className="flex items-start justify-between flex-wrap container px-4 mx-auto">
-            <div className="text-center lg:text-left mx-auto ">
-              <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+          <div className="flex items-start justify-between flex-wrap container mx-auto">
+            <div className="text-center xl:text-left mx-auto ">
+              <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 OVERLINE
               </span>
               <h2
@@ -159,12 +159,12 @@ export default function Partner() {
                 href="https://meetings.hubspot.com/sarah1487/intro-affiliate"
                 target="_blank"
               >
-                Join Forces now
+                Join Forces Now
               </a>
               {/* </div> */}
             </div>
 
-            <div className="flex flex-col gap-4 w-full lg:w-1/2 px-4 py-6">
+            <div className="flex flex-col gap-4 w-full xl:w-1/2 px-4 py-6">
               <div className="flex flex-wrap p-8 text-center md:text-left hover:bg-white  hover:shadow-xl transition duration-200 rounded-lg bg-white ">
                 {/* <div className="w-full md:w-auto mb-6 md:mb-0 md:pr-6">
                   <img src="images/promiseCheck.png" />
@@ -219,10 +219,10 @@ export default function Partner() {
           </div>
         </section>
         <section className="py-24 md:pb-32 bg-white">
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto">
             <div className="md:max-w-4xl mb-12 mx-auto text-center">
               <span
-                className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
+                className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
                 // contentEditable="false"
               >
                 WHY US
@@ -235,7 +235,7 @@ export default function Partner() {
               </h2>
             </div>
             <div className="flex flex-col gap-14 items-center -mx-4 px-8">
-              <div className="w-full flex flex-wrap justify-center gap-10">
+              <div className="w-full flex flex-wrap justify-center gap-5  xl:grid grid-cols-3 xl:justify-between ">
                 {cards.map((card) => {
                   return <Card key={card.id} {...card} />;
                 })}
@@ -246,7 +246,7 @@ export default function Partner() {
                 href="https://meetings.hubspot.com/sarah1487/intro-affiliate"
                 target="_blank"
               >
-                Join Forces now
+                Join Forces Now
               </a>
               {/* </div> */}
               {/* <div className="w-full">
@@ -254,7 +254,7 @@ export default function Partner() {
                   href="#"
                   className="inline-block py-3 px-6 justify-center leading-none text-white rounded shadow bg-green-500 hover:bg-green-600"
                 >
-                  Join forces now
+                  Join forces Now
                 </a>
               </div> */}
             </div>

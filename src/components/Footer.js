@@ -17,10 +17,13 @@ export const Footer = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="container px-4 mx-auto">
-        <div className="flex flex-wrap pt-24 pb-12 -mx-4 justify-around ">
-          <div className="flex flex-col gap-4 w-full md:w-1/2 lg:w-4/12 px-4 mb-16 lg:mb-0">
-            <Link className="inline-block mb-4" to={"/"}>
+      <div className="container mx-auto">
+        <div className="flex flex-wrap pt-24 pb-12 -mx-4 justify-between ">
+          <div
+            className="flex flex-col gap-8  px-4 mb-16 lg:mb-0"
+            style={{ maxWidth: "360px" }}
+          >
+            <Link className="inline-block " to={"/"}>
               <img
                 loading="lazy"
                 className="h-8"
@@ -28,7 +31,7 @@ export const Footer = () => {
                 alt=""
               />
             </Link>
-            <p className="text-base md:text-lg  lg:w-64 text-white">
+            <p className="text-base leading-9  lg:w-82 text-[#B2CACE]">
               We are on a mission to simplify managing and dividing heirlooms so
               families can focus on what matters most during life’s most trying
               times.
@@ -39,27 +42,27 @@ export const Footer = () => {
                 target="_blank"
                 className="p-3 rounded-lg bg-white"
               >
-                <Instagram color="#075362" />
+                <img src="/images/instagram-footer.svg" alt="" loading="lazy" />
               </a>
               <a
                 href={"https://www.linkedin.com/company/mynemu/"}
                 target="_blank"
                 className="p-3 rounded-lg bg-white"
               >
-                <Linkedin color="#075362" />
+                <img src="/images/linkedin-footer.svg" alt="" loading="lazy" />
               </a>
               <a
                 href={"https://www.facebook.com/mynemuapp"}
                 target="_blank"
                 className="p-3 rounded-lg bg-white"
               >
-                <Facebook color="#075362" />
+                <img src="/images/facebook-footer.svg" alt="" loading="lazy" />
               </a>
             </div>
           </div>
-          <div className="w-full md:w-1/4 lg:w-2/12 px-4 mb-16 lg:mb-0">
+          <div className=" px-4 mb-16 lg:mb-0">
             <h3
-              className="mb-5 text-lg font-medium text-white"
+              className="mb-5  font-medium text-white"
               // contentEditable="false"
             >
               Pages
@@ -67,7 +70,7 @@ export const Footer = () => {
             <ul>
               <li className="mb-4">
                 <Link
-                  className="inline-block hover:text-coolGray-600  text-white"
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
                   to="/about-us"
                   // contentEditable="false"
                 >
@@ -76,7 +79,7 @@ export const Footer = () => {
               </li>
               <li className="mb-4">
                 <Link
-                  className="inline-block hover:text-coolGray-600  text-white"
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
                   to="/how-it-works"
                   // contentEditable="false"
                 >
@@ -85,7 +88,7 @@ export const Footer = () => {
               </li>
               <li className="mb-4">
                 <Link
-                  className="inline-block hover:text-coolGray-600  text-white"
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
                   to="/partner"
                   // contentEditable="false"
                 >
@@ -94,7 +97,7 @@ export const Footer = () => {
               </li>
               <li className="mb-4">
                 <Link
-                  className="inline-block hover:text-coolGray-600  text-white"
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
                   to="/blog"
                   // contentEditable="false"
                 >
@@ -103,7 +106,7 @@ export const Footer = () => {
               </li>
               <li>
                 <Link
-                  className="inline-block hover:text-coolGray-600  text-white"
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
                   to="/contact-us"
                   // contentEditable="false"
                 >
@@ -112,9 +115,9 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-1/4 lg:w-2/12 px-4 mb-16 lg:mb-0">
+          <div className=" px-4 mb-16 lg:mb-0">
             <h3
-              className="mb-5 text-lg font-medium text-white"
+              className="mb-5  font-medium text-white"
               // contentEditable="false"
             >
               Contact Us
@@ -122,7 +125,7 @@ export const Footer = () => {
             <ul>
               <li className="mb-4">
                 <a
-                  className="inline-block hover:text-coolGray-600  text-white"
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
                   href="tel:+16234321678"
                   // contentEditable="false"
                 >
@@ -131,7 +134,7 @@ export const Footer = () => {
               </li>
               <li className="mb-4">
                 <a
-                  className="inline-block hover:text-coolGray-600  text-white"
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
                   href="mailto:support@mynemu.com"
                   // contentEditable="false"
                 >
@@ -140,7 +143,7 @@ export const Footer = () => {
               </li>
               <li className="mb-4">
                 <Link
-                  className="inline-block hover:text-coolGray-600  text-white"
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
                   to="/terms-of-use"
                   // contentEditable="false"
                 >
@@ -149,7 +152,7 @@ export const Footer = () => {
               </li>
               <li className="mb-4">
                 <Link
-                  className="inline-block hover:text-coolGray-600  text-white"
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
                   to="/privacy-policy"
                   // contentEditable="false"
                 >
@@ -159,7 +162,7 @@ export const Footer = () => {
 
               <li>
                 <Link
-                  className="inline-block hover:text-coolGray-600  text-white"
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
                   to="/refund-policy"
                   // contentEditable="false"
                 >
@@ -168,9 +171,9 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-1/3 lg:w-4/12 px-4">
+          <div className=" px-4">
             <h3
-              className="mb-5 text-lg font-medium text-white"
+              className="mb-5  font-medium text-white"
               // contentEditable="false"
             >
               Get the app

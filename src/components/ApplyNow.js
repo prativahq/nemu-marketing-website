@@ -4,7 +4,7 @@ import React from "react";
 export const ApplyNow = () => {
   return (
     <section className="lg:absolute right-0 left-0 mx-auto  lg:-my-52 py-10">
-      <div className="container px-4 mx-auto">
+      <div className="container mx-auto">
         <div
           className="relative py-11 px-8 md:px-16 rounded-2xl h-[750px] md:h-auto bg-joinTeamMobile md:bg-joinTeam overflow-hidden bg-cover"
           style={{
@@ -44,7 +44,7 @@ export const ApplyNow = () => {
                 href="https://forms.gle/5MM55hwYDsrxRGSG8"
                 target="_blank"
               >
-                Apply now
+                Apply Now
               </a>
             </div>
           </div>

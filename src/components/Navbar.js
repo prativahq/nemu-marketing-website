@@ -25,7 +25,7 @@ export const Navbar = () => {
       {/* <Helmet>
         <script type="text/javascript" src="assets/js/main.js" />
       </Helmet> */}
-      <nav className=" flex justify-between p-6 px-4 container mx-auto">
+      <nav className=" flex justify-between py-6  container mx-auto">
         <div className="flex justify-between items-center w-full">
           <div className=" xl:block xl:w-1/4">
             <Link className="block max-w-max" to="/">
@@ -45,7 +45,7 @@ export const Navbar = () => {
                     path === "/how-it-works"
                       ? "text-emerald-500"
                       : "text-coolGray-500"
-                  }  hover:text-coolGray-900 text-lg`}
+                  }  hover:text-coolGray-900 text-base`}
                   to="/how-it-works"
                   // contentEditable="false"
                 >
@@ -58,7 +58,7 @@ export const Navbar = () => {
                     path === "/about-us"
                       ? "text-emerald-500"
                       : "text-coolGray-500"
-                  }  hover:text-coolGray-900 text-lg`}
+                  }  hover:text-coolGray-900 text-base`}
                   to="/about-us"
                   // contentEditable="false"
                 >
@@ -69,7 +69,7 @@ export const Navbar = () => {
                 <Link
                   className={`${
                     path === "/blog" ? "text-emerald-500" : "text-coolGray-500"
-                  }  hover:text-coolGray-900 text-lg`}
+                  }  hover:text-coolGray-900 text-base`}
                   to="/blog"
                   // contentEditable="false"
                 >
@@ -82,7 +82,7 @@ export const Navbar = () => {
                     path === "/partner"
                       ? "text-emerald-500"
                       : "text-coolGray-500"
-                  }  hover:text-coolGray-900 text-lg`}
+                  }  hover:text-coolGray-900 text-base`}
                   to="/partner"
                   // contentEditable="false"
                 >
@@ -95,7 +95,7 @@ export const Navbar = () => {
                     path === "/contact-us"
                       ? "text-emerald-500"
                       : "text-coolGray-500"
-                  }  hover:text-coolGray-900 text-lg`}
+                  }  hover:text-coolGray-900 text-base`}
                   to="/contact-us"
                 >
                   Contact
@@ -114,7 +114,7 @@ export const Navbar = () => {
               </button>
               <Tooltip className="absolute z-40" id="my-tooltip" />
               <a
-                className="inline-block py-3 px-5 font-semibold  leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-lg focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md"
+                className="inline-block py-3 px-5 font-semibold  leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-base focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md"
                 href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
               >
                 Sign Up
@@ -160,7 +160,7 @@ export const Navbar = () => {
                   <Link
                     className={`block py-3 px-4 ${
                       path === "/how-it-works" && "bg-coolGray-50"
-                    } text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md`}
+                    } text-coolGray-500 hover:text-coolGray-900 text-base hover:bg-coolGray-50 rounded-md`}
                     to="/how-it-works"
                   >
                     How it works
@@ -170,7 +170,7 @@ export const Navbar = () => {
                   <Link
                     className={`block py-3 px-4 ${
                       path === "/about-us" && "bg-coolGray-50"
-                    } text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md`}
+                    } text-coolGray-500 hover:text-coolGray-900 text-base hover:bg-coolGray-50 rounded-md`}
                     to="/about-us"
                   >
                     About
@@ -180,7 +180,7 @@ export const Navbar = () => {
                   <Link
                     className={`block py-3 px-4 ${
                       path === "/blog" && "bg-coolGray-50"
-                    } text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md`}
+                    } text-coolGray-500 hover:text-coolGray-900 text-base hover:bg-coolGray-50 rounded-md`}
                     to="/blog"
                   >
                     Resources
@@ -190,7 +190,7 @@ export const Navbar = () => {
                   <Link
                     className={`block py-3 px-4 ${
                       path === "/partner" && "bg-coolGray-50"
-                    } text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md`}
+                    } text-coolGray-500 hover:text-coolGray-900 text-base hover:bg-coolGray-50 rounded-md`}
                     to="/partner"
                   >
                     Partner
@@ -200,7 +200,7 @@ export const Navbar = () => {
                   <Link
                     className={`block py-3 px-4 ${
                       path === "/contact-us" && "bg-coolGray-50"
-                    } text-coolGray-500 hover:text-coolGray-900 text-lg hover:bg-coolGray-50 rounded-md`}
+                    } text-coolGray-500 hover:text-coolGray-900 text-base hover:bg-coolGray-50 rounded-md`}
                     to="/contact-us"
                   >
                     Contact
@@ -210,7 +210,7 @@ export const Navbar = () => {
               <div className="flex flex-wrap">
                 {/* <div className="w-full mb-2">
                   <Link
-                    className="inline-block py-2 px-4 w-full  leading-5 text-coolGray-500 hover:text-coolGray-900 bg-transparent text-lg text-center rounded-md"
+                    className="inline-block py-2 px-4 w-full  leading-5 text-coolGray-500 hover:text-coolGray-900 bg-transparent text-base text-center rounded-md"
                     to="#"
                   >
                     Log In
@@ -218,7 +218,7 @@ export const Navbar = () => {
                 </div> */}
                 <div className="w-full">
                   <a
-                    className="inline-block  py-3 px-6 w-full font-semibold leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-lg text-center focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-lg"
+                    className="inline-block  py-3 px-6 w-full font-semibold leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-base text-center focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-lg"
                     href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                   >
                     Sign Up

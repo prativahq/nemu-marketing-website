@@ -209,10 +209,10 @@ export default function Index() {
           // }}
         >
           <div className="pt-10 pb-16">
-            <div className="container px-4 mx-auto">
+            <div className="container mx-auto">
               <div className="flex flex-wrap xl:items-center -mx-4">
                 <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
-                  <div className="text-center md:text-left mb-4 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+                  <div className="tracking-widest text-center md:text-left mb-4 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                     WELCOME
                   </div>
                   <h1 className="mb-6 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
@@ -237,7 +237,7 @@ export default function Index() {
                       className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                       to={"/how-it-works"}
                     >
-                      Learn more
+                      Learn More
                     </Link>
                     {/* </div> */}
                   </div>
@@ -265,7 +265,7 @@ export default function Index() {
             backgroundPosition: "center",
           }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto">
             <div className="flex flex-wrap-reverse lg:items-center -mx-4">
               <div className="w-full md:w-1/2 px-4 mt-16 md:mb-0">
                 <div className="relative mx-auto md:ml-0 max-w-max">
@@ -273,7 +273,7 @@ export default function Index() {
                 </div>
               </div>
               <div className="w-full md:w-1/2 px-4">
-                <div className="text-center md:text-left mb-4 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+                <div className="tracking-widest text-center md:text-left mb-4 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                   OUR STORY
                 </div>
                 <h2 className="mb-6 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
@@ -292,7 +292,7 @@ export default function Index() {
                     className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-transparent hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                     to={"/how-it-works"}
                   >
-                    Learn more
+                    Learn More
                   </Link>
                 </div>
               </div>
@@ -307,12 +307,12 @@ export default function Index() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto">
             <div className="flex flex-wrap -mx-4">
               <div className="w-full px-4 mb-10">
                 <div className="flex flex-wrap justify-between items-center">
                   <div className="w-full md:w-1/2 mb-10 md:mb-0 text-center md:text-left">
-                    <span className="text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+                    <span className="tracking-widest text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                       OUR SERVICES
                     </span>
                     <h2 className="mb-6 mt-3 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
@@ -341,7 +341,7 @@ export default function Index() {
                         className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         to={"/how-it-works"}
                       >
-                        Learn more
+                        Learn More
                       </Link>
                       {/* </div> */}
                     </div>
@@ -372,7 +372,7 @@ export default function Index() {
           // }}
         >
           <div className="container md:h-[550px] px-4 mx-auto">
-            <div className="text-center  mb-3 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+            <div className="tracking-widest text-center  mb-3 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
               TESTIMONIALS
             </div>
             <h2 className="mb-10 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
@@ -394,7 +394,7 @@ export default function Index() {
         >
           <div className="container px-6 mx-auto">
             <div className="md:max-w-5xl mx-auto mb-16 text-center">
-              <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+              <span className=" tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 BLOGS
               </span>
               <h2 className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
@@ -421,7 +421,7 @@ export default function Index() {
                 className=" py-3 px-6 w-fit mx-auto text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                 to={"/blog"}
               >
-                Read more
+                Read More
               </Link>
             </div>
 

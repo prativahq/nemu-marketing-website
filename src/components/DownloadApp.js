@@ -4,7 +4,7 @@ import React from "react";
 export const DownloadApp = () => {
   return (
     <section className="absolute -my-32 py-10 w-full">
-      <div className="container px-4 mx-auto">
+      <div className="container mx-auto">
         <div
           className="relative py-11 px-5 md:px-16 rounded-2xl overflow-hidden h-[800px] md:h-auto bg-cover bg-downloadAppMobile md:bg-downloadApp"
           style={{

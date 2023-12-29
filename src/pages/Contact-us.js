@@ -142,9 +142,9 @@ export default function ContactUs() {
             backgroundPosition: "center",
           }}
         >
-          <div className="lg:absolute lg:-my-44 right-0 left-0 container px-4 mx-auto">
+          <div className="lg:absolute lg:-my-44 right-0 left-0 container mx-auto">
             <div className="max-w-4xl mx-auto mb-16 text-center">
-              <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+              <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 CONTACT US
               </span>
               <h1
@@ -164,16 +164,8 @@ export default function ContactUs() {
             <div className="flex flex-wrap -mx-4 pb-16">
               <div className="w-full mb-10 md:mb-0 md:w-1/2 px-4">
                 <div className=" mx-auto text-center px-10 lg:px-32 py-8  bg-white border border-coolGray-200 shadow-sm rounded-lg">
-                  <div className="inline-flex mb-6 items-center justify-center w-12 h-12 rounded-full">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={24}
-                      height={24}
-                      viewBox="0 0 24 24"
-                      className="h-6"
-                    >
-                      <path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z" />
-                    </svg>
+                  <div className="inline-flex mb-3 items-center justify-center w-12 h-12 rounded-full">
+                    <img alt="" loading="lazy" src="images/email-icon.svg" />
                   </div>
                   <h3 className="mb-2 text-2xl md:text-3xl leading-9 text-coolGray-800 font-medium font-heading">
                     Email us
@@ -192,22 +184,8 @@ export default function ContactUs() {
               </div>
               <div className="w-full mb-10 md:mb-0 md:w-1/2 px-4">
                 <div className=" mx-auto text-center px-10  py-8 lg:px-32 bg-white border border-coolGray-200 shadow-sm rounded-lg">
-                  <div className="inline-flex mb-6 items-center justify-center w-12 h-12 rounded-full">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={2}
-                      stroke="currentColor"
-                      aria-hidden="true"
-                      className="h-6"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                      />
-                    </svg>
+                  <div className="inline-flex mb-3 items-center justify-center w-12 h-12 rounded-full">
+                    <img alt="" loading="lazy" src="images/call-icon.svg" />
                   </div>
                   <h3 className="mb-2 text-2xl md:text-3xl leading-9 text-coolGray-800 font-heading font-medium">
                     Call us

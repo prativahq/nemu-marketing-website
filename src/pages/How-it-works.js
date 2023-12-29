@@ -70,10 +70,10 @@ export default function HowItWorks() {
           // }}
         >
           <div className="py-10">
-            <div className="container px-4 mx-auto">
+            <div className="container mx-auto">
               <div className="flex flex-wrap xl:items-center -mx-4">
                 <div className="text-center md:text-left w-full md:w-1/2 px-4 mb-16 md:mb-0">
-                  <span className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+                  <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                     HOW IT WORKS
                   </span>
                   <h1 className="mb-6 mt-3 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
@@ -85,7 +85,7 @@ export default function HowItWorks() {
                     a positive experience for families to celebrate their
                     heritage and legacy, whether they are near or far.
                   </p>
-                  <div className="flex flex-wrap">
+                  <div className="flex flex-wrap md:gap-4 lg:gap-0">
                     <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                       <a
                         className="inline-block py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
@@ -129,10 +129,10 @@ export default function HowItWorks() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto">
             <div className="md:max-w-4xl mb-12 mx-auto text-center">
               <span
-                className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
+                className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
                 // contentEditable="false"
               >
                 OVERLINE
@@ -145,7 +145,7 @@ export default function HowItWorks() {
               </h2>
             </div>
             <div className="flex flex-col gap-14 items-center -mx-4 px-8">
-              <div className="w-full flex flex-wrap justify-center gap-10">
+              <div className="w-full flex flex-wrap justify-center gap-5  xl:grid grid-cols-3 xl:justify-between">
                 {cards.map((card) => {
                   return <Card key={card.id} {...card} />;
                 })}
@@ -240,10 +240,10 @@ export default function HowItWorks() {
           //   backgroundPosition: "left top",
           // }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto">
             <div className="md:max-w-5xl mx-auto mb-16 text-center">
               <span
-                className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
+                className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
                 // contentEditable="false"
               >
                 OVERLINE
@@ -265,21 +265,21 @@ export default function HowItWorks() {
               <p />
             </div>
             <div className="flex flex-wrap justify-center gap-10 -mx-4 px-5 ">
-              <div className="flex flex-col gap-4 w-full md:w-[480px] border shadow-lg border-coolGray-100 rounded-md mb-8">
-                <a className="block mb-6 overflow-hidden rounded-md" href="#">
+              <div className="flex flex-col gap-4 w-full md:w-[480px] border-2 shadow-sm border-coolGray-100 rounded-md mb-8">
+                <div
+                  className="block mb-6 overflow-hidden "
+                  style={{ borderRadius: "5px 5px 0 0" }}
+                >
                   <img
                     loading="lazy"
                     className="w-full"
-                    src="images/i-need-help-now.png"
+                    src="images/how-it-works-1.png"
                     alt=""
                   />
-                </a>
-                <a
-                  className="px-8 inline-block mb-4 text-2xl leading-tight text-coolGray-800 hover:text-coolGray-900 font-medium font-heading"
-                  href="#"
-                >
+                </div>
+                <div className="px-8 inline-block mb-4 text-2xl leading-tight text-coolGray-800 hover:text-coolGray-900 font-medium font-heading">
                   Planning Ahead
-                </a>
+                </div>
                 <p className="px-8 flex-1 mb-4 text-lg leading-9 text-coolGray-500 ">
                   Beginning this process is a gift to your loved ones and
                   yourself. Whether you’re moving, downsizing, or planning for
@@ -297,21 +297,18 @@ export default function HowItWorks() {
                   </a>
                 </div>
               </div>
-              <div className="border border-coolGray-100 shadow-lg rounded-md flex flex-col gap-4 w-full md:w-[480px]  mb-8">
-                <a className="block mb-6 overflow-hidden rounded-md" href="#">
+              <div className="border-2 border-coolGray-100 shadow-sm rounded-md flex flex-col gap-4 w-full md:w-[480px]  mb-8">
+                <div className="block mb-6 overflow-hidden rounded-md">
                   <img
                     loading="lazy"
                     className="w-full"
-                    src="images/planning-ahead.png"
+                    src="images/how-it-works-2.png"
                     alt=""
                   />
-                </a>
-                <a
-                  className="px-8 inline-block mb-4 text-2xl leading-tight text-coolGray-800 hover:text-coolGray-900 font-medium font-heading"
-                  href="#"
-                >
+                </div>
+                <div className="px-8 inline-block mb-4 text-2xl leading-tight text-coolGray-800 hover:text-coolGray-900 font-medium font-heading">
                   I Need Help Now!
-                </a>
+                </div>
                 <p className="px-8 flex-1 mb-4 text-lg leading-9 text-coolGray-500 ">
                   Managing an estate is a big responsibility, but you don’t need
                   to do it alone. We’ve been in your shoes and we’re here to
@@ -333,12 +330,12 @@ export default function HowItWorks() {
         </section>
         <section
           id="pricing"
-          className="relative   lg:mb-96 pt-64 pb-72 bg-[#F7F5F2]"
+          className="relative   lg:mb-96 pt-64 pb-96 bg-[#F7F5F2]"
         >
-          <div className="lg:absolute left-0 right-0 -my-48 container px-4 mx-auto">
-            <div className="text-center">
+          <div className="lg:absolute left-0 right-0 -my-48 container mx-auto ">
+            <div className="text-center ">
               <span
-                className="text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
+                className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
                 // contentEditable="false"
               >
                 PRICING
@@ -351,175 +348,156 @@ export default function HowItWorks() {
                 <div>What does all of this cost?</div>
               </h3>
             </div>
-            <div className="flex flex-wrap justify-center -mx-4">
-              <div className="w-full  md:w-1/2 lg:w-1/3 p-4">
-                <div className="flex flex-col pt-8 pb-8 bg-white rounded-md shadow-md hover:scale-105 transition duration-500">
-                  <div className="px-8 pb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-8 -mx-4 mt-16 px-4">
+              {/* <div className="w-full   p-4"> */}
+              <div className="flex flex-col pt-10 px-12 pb-12 bg-white rounded-2xl border-2 border-[#EAEBEB] shadow-sm  ">
+                <div className="">
+                  <h3
+                    className="mb-6 text-2xl font-heading  text-coolGray-800 font-medium"
+                    // contentEditable="false"
+                  >
+                    Fair Start
+                  </h3>
+                  <div className="mb-6 text-emerald-500 font-medium text-xl">
+                    $99<span className="text-[#A0A2A3]">/Year</span>
+                  </div>
+                </div>
+                <div className="border-b border-coolGray-100" />
+                <ul className="self-start   py-8">
+                  <li className="flex items-center mb-6 text-coolGray-500 ">
+                    <Check color="green" className="mr-2" />
+                    <span className="text-[#747878]">
+                      Capture family legacy
+                    </span>
+                  </li>
+                  <li className="flex items-center mb-6 text-coolGray-500 ">
+                    <Check color="green" className="mr-2" />
+                    <span className="text-[#747878]">
+                      Share family stories with loved ones
+                    </span>
+                  </li>
+                  <li className="flex items-center mb-6 text-coolGray-500 ">
+                    <Check color="green" className="mr-2" />
+                    <span className="text-[#747878]">
+                      Start tackling the project now
+                    </span>
+                  </li>
+                </ul>
+                <div className="border-b flex-1 border-coolGray-100" />
+                <div className=" mt-8">
+                  <a
+                    className="inline-block py-3 px-5 mb-4 w-full text-base md:text-lg leading-6 text-white font-medium text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md shadow-sm"
+                    href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
+                  >
+                    Buy Plan
+                  </a>
+                </div>
+              </div>
+              {/* </div> */}
+              <div
+                className="bg-gradient-to-b from-[#C7A4EA] to-white rounded-2xl shadow-sm  h-fit relative"
+                style={{ padding: "2px" }}
+              >
+                <div className="rounded-full border-2 border-[#C7A4EA] p-2 px-3 absolute -top-5  left-auto right-5 bg-[#E5D5F6] text-[#6526A3] font-bold">
+                  MOST POPULAR
+                </div>
+                <div className="flex flex-col pt-10 px-12 pb-12 bg-white rounded-2xl    ">
+                  <div className="">
                     <h3
-                      className="mb-6 text-xl font-heading md:text-2xl text-coolGray-800 font-medium"
+                      className="mb-6 text-2xl font-heading  text-coolGray-800 font-medium"
                       // contentEditable="false"
                     >
-                      Fair Start
+                      Harmony
                     </h3>
-                    <div className="mb-6">
-                      <span className="relative -top-10 right-1 text-3xl text-coolGray-900 font-bold">
-                        $
-                      </span>
-                      <span
-                        className="text-6xl md:text-7xl text-coolGray-900 font-semibold"
-                        // contentEditable="false"
-                      >
-                        99
-                      </span>
-                      <span
-                        className="inline-block ml-1 text-coolGray-500 font-semibold"
-                        // contentEditable="false"
-                      >
-                        / Year
-                      </span>
+                    <div className="mb-6 text-emerald-500 font-medium text-xl">
+                      $499<span className="text-[#A0A2A3]">/Year</span>
                     </div>
-                    <p
-                      className="mb-6 text-coolGray-400 font-medium"
-                      // contentEditable="false"
-                    >
-                      Quickly catalog your estate
-                    </p>
                   </div>
                   <div className="border-b border-coolGray-100" />
-                  <ul className="self-start  px-8 py-8">
-                    <li className="flex items-center mb-3 text-coolGray-500 font-medium">
+                  <p className="text-[#747878] mt-8">
+                    Everything in the Fair Start Plan plus:{" "}
+                  </p>
+                  <ul className="self-start   py-8">
+                    <li className="flex items-center mb-6  ">
                       <Check color="green" className="mr-2" />
-                      <span>Capture family legacy</span>
+                      <span className="text-[#747878]">
+                        Group support sessions{" "}
+                      </span>
                     </li>
-                    <li className="flex items-center mb-3 text-coolGray-500 font-medium">
+                    <li className="flex items-center mb-6  ">
                       <Check color="green" className="mr-2" />
-                      <span>Share family stories with loved ones</span>
+                      <span className="text-[#747878]">Equitably divide </span>
                     </li>
-                    <li className="flex items-center mb-3 text-coolGray-500 font-medium">
+                    <li className="flex items-center mb-6  ">
                       <Check color="green" className="mr-2" />
-                      <span>Start tackling the project now</span>
+                      <span className="text-[#747878]">
+                        Access to pricing and selling services{" "}
+                      </span>
                     </li>
                   </ul>
                   <div className="border-b flex-1 border-coolGray-100" />
-                  <div className="px-8 mt-8">
+                  <div className=" mt-8">
                     <a
                       className="inline-block py-3 px-5 mb-4 w-full text-base md:text-lg leading-6 text-white font-medium text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md shadow-sm"
                       href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                     >
-                      Buy plan
+                      Buy Plan
                     </a>
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div className="flex flex-col pt-8 pb-8 bg-white rounded-md shadow-md hover:scale-105 transition duration-500">
-                  <div className="px-8 pb-8">
-                    <div className="flex flex-wrap items-center justify-between mb-6">
-                      <h3 className="mr-3 text-xl font-heading md:text-2xl text-coolGray-800 font-medium">
-                        Harmony
-                      </h3>
-                      <span className="inline-block py-px px-2 text-xs leading-5 text-white font-medium uppercase rounded-9xl bg-violet-400">
-                        Popular
-                      </span>
-                    </div>
-                    <div className="mb-6">
-                      <span className="relative -top-10 right-1 text-3xl text-coolGray-900 font-bold">
-                        $
-                      </span>
-                      <span className="text-6xl md:text-7xl text-coolGray-900 font-semibold">
-                        499
-                      </span>
-                      <span className="inline-block ml-1 text-coolGray-500 font-semibold">
-                        / Year
-                      </span>
-                    </div>
-                    <p
-                      className="mb-6 text-coolGray-400 font-medium"
-                      // contentEditable="false"
-                    >
-                      Everything in the Fair Start Plan plus
-                    </p>
-                  </div>
-                  <div className="border-b border-coolGray-100" />
-                  <ul className="self-start px-8 py-8">
-                    <li className="flex items-center mb-3 text-coolGray-500 font-medium">
-                      <Check color="green" className="mr-2" />
-                      <span>Group support sessions</span>
-                    </li>
-                    <li className="flex items-center mb-3 text-coolGray-500 font-medium">
-                      <Check color="green" className="mr-2" />
-                      <span>Equitably divide</span>
-                    </li>
-                    <li className="flex items-center mb-3 text-coolGray-500 font-medium">
-                      <Check color="green" className="mr-2" />
-                      <span>Access to pricing and selling services</span>
-                    </li>
-                  </ul>
-                  <div className="border-b border-coolGray-100" />
-                  <div className="px-8 mt-8">
-                    <a
-                      className="inline-block py-3 px-5 mb-4 w-full text-base md:text-lg leading-6 text-white font-medium text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md shadow-sm"
-                      href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
-                    >
-                      Buy plan
-                    </a>
+              {/* <div className="w-full   p-4"> */}
+              <div className="flex flex-col pt-10 px-12 pb-12 bg-white rounded-2xl border-2 border-[#EAEBEB] shadow-sm  ">
+                <div className="">
+                  <h3
+                    className="mb-6 text-2xl font-heading  text-coolGray-800 font-medium"
+                    // contentEditable="false"
+                  >
+                    Legacy
+                  </h3>
+                  <div className="mb-6 text-emerald-500 font-medium text-xl">
+                    $999<span className="text-[#A0A2A3]">/Year</span>
                   </div>
                 </div>
-              </div>
-              <div className="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div className="flex flex-col pt-8 pb-8 bg-white rounded-md shadow-md hover:scale-105 transition duration-500">
-                  <div className="px-8 pb-8">
-                    <h3 className="mb-6 text-xl font-heading md:text-2xl text-coolGray-800 font-medium">
-                      Legacy
-                    </h3>
-                    <div className="mb-6">
-                      <span className="relative -top-10 right-1 text-3xl text-coolGray-900 font-bold">
-                        $
-                      </span>
-                      <span className="text-6xl md:text-7xl text-coolGray-900 font-semibold">
-                        999
-                      </span>
-                      <span className="inline-block ml-1 text-coolGray-500 font-semibold">
-                        / Year
-                      </span>
-                    </div>
-                    <p
-                      className="mb-6 text-coolGray-400 font-medium"
-                      // contentEditable="false"
-                    >
-                      Everything in the Harmony Plan plus
-                    </p>
-                  </div>
-                  <div className="border-b border-coolGray-100" />
-                  <ul className="self-start flex-1 px-8 py-8">
-                    <li className="flex items-center mb-3 text-coolGray-500 font-medium">
-                      <Check color="green" className="mr-2" />
-                      <span>Additional catalog storage</span>
-                    </li>
-                    <li className="flex items-center mb-3 text-coolGray-500 font-medium">
-                      <Check color="green" className="mr-2" />
-                      <span>Unlimited division</span>
-                    </li>
-                    <li className="flex items-center mb-3 text-coolGray-500 font-medium">
-                      <Check color="green" className="mr-2" />
-                      <span>Discounted pricing and selling services</span>
-                    </li>
-                    <li className="flex items-center mb-3 text-coolGray-500 font-medium">
-                      <Check color="green" className="mr-2" />
-                      <span>1-1 family support through process</span>
-                    </li>
-                  </ul>
-                  <div className="border-b border-coolGray-100" />
-                  <div className="px-8 mt-8">
-                    <a
-                      className="inline-block py-3 px-5 mb-4 w-full text-base md:text-lg leading-6 text-white font-medium text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md shadow-sm"
-                      href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
-                    >
-                      Buy plan
-                    </a>
-                  </div>
+                <div className="border-b border-coolGray-100" />
+                <p className="text-[#747878] mt-8">
+                  Everything in the Harmony Plan plus:
+                </p>
+                <ul className="self-start   py-8">
+                  <li className="flex items-center mb-6 text-coolGray-500 ">
+                    <Check color="green" className="mr-2" />
+                    <span className="text-[#747878]">
+                      Additional catalog storage{" "}
+                    </span>
+                  </li>
+                  <li className="flex items-center mb-6 text-coolGray-500 ">
+                    <Check color="green" className="mr-2" />
+                    <span className="text-[#747878]">Unlimited division </span>
+                  </li>
+                  <li className="flex items-center mb-6 text-coolGray-500 ">
+                    <Check color="green" className="mr-2" />
+                    <span className="text-[#747878]">
+                      Discounted pricing and selling services{" "}
+                    </span>
+                  </li>
+                  <li className="flex items-center mb-6 text-coolGray-500 ">
+                    <Check color="green" className="mr-2" />
+                    <span className="text-[#747878]">
+                      1-1 family support through process{" "}
+                    </span>
+                  </li>
+                </ul>
+                <div className="border-b flex-1 border-coolGray-100" />
+                <div className=" mt-8">
+                  <a
+                    className="inline-block py-3 px-5 mb-4 w-full text-base md:text-lg leading-6 text-white font-medium text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md shadow-sm"
+                    href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
+                  >
+                    Buy Plan
+                  </a>
                 </div>
               </div>
+              {/* </div> */}
             </div>
           </div>
         </section>
