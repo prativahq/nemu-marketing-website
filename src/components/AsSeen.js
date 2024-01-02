@@ -11,7 +11,7 @@ export const AsSeen = () => {
     >
       <div className="lg:absolute md:py-12 left-0 right-0 top-0 container mx-auto">
         <div className="mb-8 text-center">
-          <span className="tracking-widest inline-block py-px px-2 mb-2 text-sm leading-5 font-medium uppercase rounded-9xl text-white">
+          <span className="tracking-widest inline-block py-px px-2 mb-2 text-sm leading-5 font-medium uppercase rounded-9xl text-[#B2CACE]">
             NEMU
           </span>
           <h2 className="mb-5  text-center  text-3xl md:text-4.5xl text-white   leading-tight font-medium font-heading tracking-tight">

@@ -148,10 +148,10 @@ export const Timeline = () => {
         </Slide>
       </Slider>
       <div className="flex gap-5 justify-center md:-ml-10">
-        <ButtonBack className="bg-white p-3 rounded-md shadow-md">
+        <ButtonBack className="bg-white p-3 rounded-md border-2">
           <ChevronLeft className="text-emerald-500" />
         </ButtonBack>
-        <ButtonNext className="bg-white p-3 rounded-md shadow-md">
+        <ButtonNext className="bg-white p-3 rounded-md border-2">
           <ChevronRight className="text-emerald-500" />
         </ButtonNext>
       </div>

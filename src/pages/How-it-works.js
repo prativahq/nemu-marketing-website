@@ -76,10 +76,16 @@ export default function HowItWorks() {
                   <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                     HOW IT WORKS
                   </span>
-                  <h1 className="mb-6 mt-3 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
-                    Dividing Heirlooms Should Be a Joy, Not a Job
+                  <h1
+                    style={{ lineHeight: "64px" }}
+                    className="mb-6 mt-3 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                  >
+                    Dividing Heirlooms Should Be a Joy,<br></br> Not a Job
                   </h1>
-                  <p className=" mb-8 text-lg leading-9  text-coolGray-500 ">
+                  <p
+                    style={{ lineHeight: "42px" }}
+                    className=" mb-8 text-lg   text-coolGray-500 "
+                  >
                     You focus on the memories, we'll take care of the rest. Our
                     goal is to make cataloging, managing, and dividing heirlooms
                     a positive experience for families to celebrate their
@@ -196,7 +202,7 @@ export default function HowItWorks() {
             ></div>
           </div>
           <div className="snap-always snap-center pb-10 flex flex-col gap-10 items-center">
-            <p className="text-lg lg:w-1/3 text-center leading-9 text-coolGray-300 ">
+            <p className="text-lg lg:w-1/3 px-5 md:px-0 text-center leading-9 text-coolGray-300 ">
               Margaret taps the 3 items her father wanted to catalog, and Nemu
               took care of the rest.
             </p>
@@ -217,7 +223,7 @@ export default function HowItWorks() {
             ></div>
           </div>
           <div className="snap-always snap-center  flex flex-col gap-10 items-center">
-            <p className="text-lg text-center leading-9 text-coolGray-300 ">
+            <p className="text-lg text-center px-5 md:px-0 leading-9 text-coolGray-300 ">
               Look at the treasures below to see what happened next!
             </p>
             <div className=" px-4 mb-8 lg:mb-0">
@@ -265,11 +271,8 @@ export default function HowItWorks() {
               <p />
             </div>
             <div className="flex flex-wrap justify-center gap-10 -mx-4 px-5 ">
-              <div className="flex flex-col gap-4 w-full md:w-[480px] border-2 shadow-sm border-coolGray-100 rounded-md mb-8">
-                <div
-                  className="block mb-6 overflow-hidden "
-                  style={{ borderRadius: "5px 5px 0 0" }}
-                >
+              <div className="flex flex-col gap-4 w-full md:w-[480px] border-2  border-coolGray-100 rounded-xl mb-8">
+                <div className="rounded-t-xl block mb-6 overflow-hidden">
                   <img
                     loading="lazy"
                     className="w-full"
@@ -297,8 +300,8 @@ export default function HowItWorks() {
                   </a>
                 </div>
               </div>
-              <div className="border-2 border-coolGray-100 shadow-sm rounded-md flex flex-col gap-4 w-full md:w-[480px]  mb-8">
-                <div className="block mb-6 overflow-hidden rounded-md">
+              <div className="border-2 border-coolGray-100  rounded-xl flex flex-col gap-4 w-full md:w-[480px]  mb-8">
+                <div className="block mb-6 overflow-hidden rounded-t-xl">
                   <img
                     loading="lazy"
                     className="w-full"
@@ -353,31 +356,42 @@ export default function HowItWorks() {
               <div className="flex flex-col pt-10 px-12 pb-12 bg-white rounded-2xl border-2 border-[#EAEBEB] shadow-sm  ">
                 <div className="">
                   <h3
-                    className="mb-6 text-2xl font-heading  text-coolGray-800 font-medium"
+                    style={{ fontSize: "1.8rem" }}
+                    className="mb-6  font-heading  text-coolGray-800 font-medium"
                     // contentEditable="false"
                   >
                     Fair Start
                   </h3>
-                  <div className="mb-6 text-emerald-500 font-medium text-xl">
-                    $99<span className="text-[#A0A2A3]">/Year</span>
+                  <div
+                    style={{ fontSize: "2rem" }}
+                    className="mb-6 text-emerald-500 font-medium text-xl"
+                  >
+                    $99
+                    <span
+                      className="text-[#A0A2A3]"
+                      style={{ fontSize: "18px" }}
+                    >
+                      {" "}
+                      / Year
+                    </span>
                   </div>
                 </div>
                 <div className="border-b border-coolGray-100" />
-                <ul className="self-start   py-8">
+                <ul className="self-start text-lg  py-8">
                   <li className="flex items-center mb-6 text-coolGray-500 ">
-                    <Check color="green" className="mr-2" />
+                    <Check color="green" className="mr-2 flex-shrink-0" />
                     <span className="text-[#747878]">
                       Capture family legacy
                     </span>
                   </li>
                   <li className="flex items-center mb-6 text-coolGray-500 ">
-                    <Check color="green" className="mr-2" />
+                    <Check color="green" className="mr-2 flex-shrink-0" />
                     <span className="text-[#747878]">
                       Share family stories with loved ones
                     </span>
                   </li>
                   <li className="flex items-center mb-6 text-coolGray-500 ">
-                    <Check color="green" className="mr-2" />
+                    <Check color="green" className="mr-2 flex-shrink-0" />
                     <span className="text-[#747878]">
                       Start tackling the project now
                     </span>
@@ -386,7 +400,7 @@ export default function HowItWorks() {
                 <div className="border-b flex-1 border-coolGray-100" />
                 <div className=" mt-8">
                   <a
-                    className="inline-block py-3 px-5 mb-4 w-full text-base md:text-lg leading-6 text-white font-medium text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md shadow-sm"
+                    className="inline-block py-3 px-5 mb-4 w-full text-base md:text-lg leading-6 text-white font-medium text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-xl shadow-sm"
                     href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                   >
                     Buy Plan
@@ -398,38 +412,52 @@ export default function HowItWorks() {
                 className="bg-gradient-to-b from-[#C7A4EA] to-white rounded-2xl shadow-sm  h-fit relative"
                 style={{ padding: "2px" }}
               >
-                <div className="rounded-full border-2 border-[#C7A4EA] p-2 px-3 absolute -top-5  left-auto right-5 bg-[#E5D5F6] text-[#6526A3] font-bold">
+                <div
+                  style={{ fontSize: "12px" }}
+                  className="rounded-full border-2 border-[#C7A4EA] p-2 px-3 absolute -top-5  left-auto right-5 bg-[#E5D5F6] text-[#6526A3] font-bold"
+                >
                   MOST POPULAR
                 </div>
                 <div className="flex flex-col pt-10 px-12 pb-12 bg-white rounded-2xl    ">
                   <div className="">
                     <h3
-                      className="mb-6 text-2xl font-heading  text-coolGray-800 font-medium"
+                      style={{ fontSize: "1.8rem" }}
+                      className="mb-6  font-heading  text-coolGray-800 font-medium"
                       // contentEditable="false"
                     >
                       Harmony
                     </h3>
-                    <div className="mb-6 text-emerald-500 font-medium text-xl">
-                      $499<span className="text-[#A0A2A3]">/Year</span>
+                    <div
+                      style={{ fontSize: "2rem" }}
+                      className="mb-6 text-emerald-500 font-medium "
+                    >
+                      $499
+                      <span
+                        className="text-[#A0A2A3]"
+                        style={{ fontSize: "18px" }}
+                      >
+                        {" "}
+                        / Year
+                      </span>
                     </div>
                   </div>
                   <div className="border-b border-coolGray-100" />
-                  <p className="text-[#747878] mt-8">
+                  <p className="text-[#747878] mt-8 text-lg">
                     Everything in the Fair Start Plan plus:{" "}
                   </p>
-                  <ul className="self-start   py-8">
+                  <ul className="self-start text-lg  py-8">
                     <li className="flex items-center mb-6  ">
-                      <Check color="green" className="mr-2" />
+                      <Check color="green" className="mr-2 flex-shrink-0" />
                       <span className="text-[#747878]">
                         Group support sessions{" "}
                       </span>
                     </li>
                     <li className="flex items-center mb-6  ">
-                      <Check color="green" className="mr-2" />
+                      <Check color="green" className="mr-2 flex-shrink-0" />
                       <span className="text-[#747878]">Equitably divide </span>
                     </li>
                     <li className="flex items-center mb-6  ">
-                      <Check color="green" className="mr-2" />
+                      <Check color="green" className="mr-2 flex-shrink-0" />
                       <span className="text-[#747878]">
                         Access to pricing and selling services{" "}
                       </span>
@@ -438,7 +466,7 @@ export default function HowItWorks() {
                   <div className="border-b flex-1 border-coolGray-100" />
                   <div className=" mt-8">
                     <a
-                      className="inline-block py-3 px-5 mb-4 w-full text-base md:text-lg leading-6 text-white font-medium text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md shadow-sm"
+                      className="inline-block py-3 px-5 mb-4 w-full text-base md:text-lg leading-6 text-white font-medium text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-xl shadow-sm"
                       href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                     >
                       Buy Plan
@@ -450,38 +478,49 @@ export default function HowItWorks() {
               <div className="flex flex-col pt-10 px-12 pb-12 bg-white rounded-2xl border-2 border-[#EAEBEB] shadow-sm  ">
                 <div className="">
                   <h3
-                    className="mb-6 text-2xl font-heading  text-coolGray-800 font-medium"
+                    style={{ fontSize: "1.8rem" }}
+                    className="mb-6  font-heading  text-coolGray-800 font-medium"
                     // contentEditable="false"
                   >
                     Legacy
                   </h3>
-                  <div className="mb-6 text-emerald-500 font-medium text-xl">
-                    $999<span className="text-[#A0A2A3]">/Year</span>
+                  <div
+                    style={{ fontSize: "2rem" }}
+                    className="mb-6 text-emerald-500 font-medium text-xl"
+                  >
+                    $999
+                    <span
+                      className="text-[#A0A2A3]"
+                      style={{ fontSize: "18px" }}
+                    >
+                      {" "}
+                      / Year
+                    </span>
                   </div>
                 </div>
                 <div className="border-b border-coolGray-100" />
-                <p className="text-[#747878] mt-8">
+                <p className="text-[#747878] mt-8 text-lg">
                   Everything in the Harmony Plan plus:
                 </p>
-                <ul className="self-start   py-8">
+                <ul className="self-start  text-lg py-8">
                   <li className="flex items-center mb-6 text-coolGray-500 ">
-                    <Check color="green" className="mr-2" />
+                    <Check color="green" className="mr-2 flex-shrink-0" />
                     <span className="text-[#747878]">
                       Additional catalog storage{" "}
                     </span>
                   </li>
                   <li className="flex items-center mb-6 text-coolGray-500 ">
-                    <Check color="green" className="mr-2" />
+                    <Check color="green" className="mr-2 flex-shrink-0" />
                     <span className="text-[#747878]">Unlimited division </span>
                   </li>
                   <li className="flex items-center mb-6 text-coolGray-500 ">
-                    <Check color="green" className="mr-2" />
+                    <Check color="green" className="mr-2 flex-shrink-0" />
                     <span className="text-[#747878]">
                       Discounted pricing and selling services{" "}
                     </span>
                   </li>
                   <li className="flex items-center mb-6 text-coolGray-500 ">
-                    <Check color="green" className="mr-2" />
+                    <Check color="green" className="mr-2 flex-shrink-0" />
                     <span className="text-[#747878]">
                       1-1 family support through process{" "}
                     </span>
@@ -490,7 +529,7 @@ export default function HowItWorks() {
                 <div className="border-b flex-1 border-coolGray-100" />
                 <div className=" mt-8">
                   <a
-                    className="inline-block py-3 px-5 mb-4 w-full text-base md:text-lg leading-6 text-white font-medium text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md shadow-sm"
+                    className="inline-block py-3 px-5 mb-4 w-full text-base md:text-lg leading-6 text-white font-medium text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-xl shadow-sm"
                     href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                   >
                     Buy Plan

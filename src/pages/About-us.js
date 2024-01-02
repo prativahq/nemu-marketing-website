@@ -122,10 +122,16 @@ export default function AboutUs() {
                   <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                     about us
                   </span>
-                  <h1 className="mb-6 mt-3 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
-                    From Our Family to Yours
+                  <h1
+                    style={{ lineHeight: "64px" }}
+                    className="mb-6 mt-3 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                  >
+                    From Our Family<br></br> to Yours
                   </h1>
-                  <p className="mb-8 text-lg leading-9  text-coolGray-500 ">
+                  <p
+                    style={{ lineHeight: "42px" }}
+                    className="mb-8 text-lg   text-coolGray-500 "
+                  >
                     After hearing stories from countless families about the
                     issues they encountered when dividing up their family items,
                     one thing was clear - families have a lot to gain from a
@@ -135,12 +141,12 @@ export default function AboutUs() {
                     celebrate the heirlooms left behind and the memories that
                     are so intrinsically attached to them.{" "}
                   </p>
-                  <img
+                  {/* <img
                     loading="lazy"
                     alt=""
                     src="images/google-aboutus.svg"
                     className="mx-auto md:ml-0 mt-6 mb-10"
-                  />
+                  /> */}
                   <div className="flex flex-wrap">
                     <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                       <a
@@ -156,7 +162,7 @@ export default function AboutUs() {
                         className="inline-block py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                       >
-                        Sign up
+                        Sign Up
                       </a>
                     </div>
                   </div>
@@ -208,7 +214,7 @@ export default function AboutUs() {
               <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 TESTIMONIALS
               </span>
-              <h2 className="mb-6  text-3xl  md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+              <h2 className="mb-6 mt-5 text-3xl  md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
                 What our customers<br></br> have to say
               </h2>
             </div>
@@ -222,21 +228,21 @@ export default function AboutUs() {
           <div className="container mx-auto">
             <div className="mb-8 text-center">
               <span
-                className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-white"
+                className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-[#B2CACE]"
                 // contentEditable="false"
               >
                 Awards
               </span>
               <h3
-                className="mb-6    text-4.5xl text-white   leading-tight font-medium font-heading tracking-tight"
+                className="mb-6  mt-3  text-4.5xl text-white   leading-tight font-medium font-heading tracking-tight"
                 // contentEditable="false"
               >
                 Our Achievements
               </h3>
             </div>
-            <div className="flex flex-wrap justify-center -mx-4">
-              <div className=" w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
-                {/* <div className="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-md bg-white shadow-md"> */}
+            <div className="grid lg:grid-cols-3 justify-center -mx-4">
+              <div className="  px-4 mb-8 lg:mb-0">
+                {/* <div className="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-xl bg-white shadow-sm"> */}
                 <a
                   href="https://venturelab.upenn.edu/2022-startup-challenge-finalists"
                   target="_blank"
@@ -247,7 +253,7 @@ export default function AboutUs() {
                     alt=""
                   />
                 </a>
-                <h2 className="text-center text-2xl text-white font-medium font-heading">
+                <h2 className="text-center text-2xl text-white font-medium font-heading ">
                   Ashton Family Award
                 </h2>
                 <p className="text-sm  leading-9 text-coolGray-300 text-center">
@@ -255,12 +261,12 @@ export default function AboutUs() {
                 </p>
                 {/* </div> */}
               </div>
-              <div className="w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
-                {/* <div className="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-md bg-white shadow-md"> */}
+              <div className="px-4 mb-8 lg:mb-0">
+                {/* <div className="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-xl bg-white shadow-sm"> */}
                 <a href="https://tie.org/" target="_blank">
                   <img className="mx-auto" src="images/tie-award.png" alt="" />
                 </a>
-                <h2 className="text-center text-2xl text-white font-medium font-heading">
+                <h2 className="text-center text-2xl text-white font-medium font-heading ">
                   TiE Global Pitch Competition
                 </h2>
                 <p className="text-sm  leading-9 text-coolGray-300 text-center">
@@ -268,8 +274,8 @@ export default function AboutUs() {
                 </p>
                 {/* </div> */}
               </div>
-              <div className="w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
-                {/* <div className="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-md bg-white shadow-md"> */}
+              <div className=" px-4 mb-8 lg:mb-0">
+                {/* <div className="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-xl bg-white shadow-sm"> */}
                 <a>
                   {" "}
                   <img
@@ -279,7 +285,7 @@ export default function AboutUs() {
                     alt=""
                   />
                 </a>
-                <h2 className="text-center text-2xl text-white font-medium font-heading">
+                <h2 className="text-center text-2xl text-white font-medium font-heading ">
                   Penn Women Founders Annual Pitch Competition
                 </h2>
                 <p className="text-sm  leading-9 text-coolGray-300 text-center">
@@ -303,7 +309,7 @@ export default function AboutUs() {
                 our team
               </span>
               <h2
-                className="text-center text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                className="text-center text-3xl md:text-4.5xl text-coolGray-900 mt-3  leading-tight font-medium font-heading tracking-tight"
                 // contentEditable="false"
               >
                 Meet the team
@@ -313,9 +319,9 @@ export default function AboutUs() {
                 <div className="w-full md:w-auto py-1 md:py-0" />
               </div>
             </div>
-            <div className="flex flex-wrap -mx-4">
+            <div className="flex flex-wrap justify-center -mx-4">
               <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-10">
-                <div className="flex flex-col gap-2 items-center h-full py-8 px-10 bg-white rounded-md shadow-md border border-gray-200 text-center">
+                <div className="flex flex-col gap-2 items-center  py-8 px-10 bg-white rounded-xl shadow-sm border border-[#E3E3E3] text-center">
                   <img
                     loading="lazy"
                     className="w-24 h-24 mx-auto mb-6 rounded-full"
@@ -344,38 +350,7 @@ export default function AboutUs() {
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10">
-                <div className="flex flex-col gap-2 h-full py-8 px-10 shadow-md border border-gray-200 bg-white rounded-md text-center">
-                  <img
-                    loading="lazy"
-                    className="w-24 h-24 mx-auto mb-6 rounded-full"
-                    src="images/fahv.png"
-                    alt=""
-                  />
-                  <h3
-                    className="mb-2 text-2xl md:text-3xl leading-tight font-medium font-heading"
-                    // contentEditable="false"
-                  >
-                    Fahvyon Jimenez
-                  </h3>
-                  <span
-                    className="flex-1 inline-block mb-6 text-lg text-coolGray-500"
-                    // contentEditable="false"
-                  >
-                    Head of Product + Family Experience
-                  </span>
-                  <a
-                    className="w-fit mx-auto"
-                    target="_blank"
-                    href={
-                      "https://www.linkedin.com/in/fahvyon-jimenez-807b6788/"
-                    }
-                  >
-                    <img loading="lazy" alt="" src="images/linkedin1.png" />
-                  </a>
-                </div>
-              </div>
-              <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10">
-                <div className="flex flex-col gap-2 h-full py-8 px-10 shadow-md border border-gray-200 bg-white rounded-md text-center">
+                <div className="flex flex-col gap-2 h-full py-8 px-10 shadow-sm border border-[#E3E3E3] bg-white rounded-xl text-center">
                   <img
                     loading="lazy"
                     className="w-24 h-24 mx-auto mb-6 rounded-full"
@@ -404,7 +379,7 @@ export default function AboutUs() {
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10 lg:mb-0">
-                <div className="flex flex-col gap-2 h-full py-8 px-10 shadow-md border border-gray-200 bg-white rounded-md text-center">
+                <div className="flex flex-col gap-2  py-8 px-10 shadow-sm border border-[#E3E3E3] bg-white rounded-xl text-center">
                   <img
                     loading="lazy"
                     className="w-24 h-24 mx-auto mb-6 rounded-full"
@@ -433,7 +408,7 @@ export default function AboutUs() {
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10 md:mb-0">
-                <div className="flex flex-col gap-2 h-full py-8 px-10 shadow-md border border-gray-200 bg-white rounded-md text-center">
+                <div className="flex flex-col gap-2  py-8 px-10 shadow-sm border border-[#E3E3E3] bg-white rounded-xl text-center">
                   <img
                     loading="lazy"
                     className="w-24 h-24 mx-auto mb-6 rounded-full"
@@ -462,7 +437,7 @@ export default function AboutUs() {
                 </div>
               </div>
               <div className=" w-full md:w-1/2 lg:w-1/3 px-4">
-                <div className="flex flex-col gap-2 h-full py-8 px-10 shadow-md border border-gray-200 bg-white rounded-md text-center">
+                <div className="flex flex-col gap-2  py-8 px-10 shadow-sm border border-[#E3E3E3] bg-white rounded-xl text-center">
                   <img
                     loading="lazy"
                     className="w-24 h-24 mx-auto mb-6 rounded-full"

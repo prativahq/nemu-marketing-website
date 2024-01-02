@@ -215,10 +215,16 @@ export default function Index() {
                   <div className="tracking-widest text-center md:text-left mb-4 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                     WELCOME
                   </div>
-                  <h1 className="mb-6 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
-                    Split Property, Not Relationships
+                  <h1
+                    style={{ lineHeight: "64px" }}
+                    className="mb-6 text-center md:text-left text-4xl md:text-5xl text-coolGray-900    font-medium font-heading tracking-tight"
+                  >
+                    Split Property,<br></br> Not Relationships
                   </h1>
-                  <p className="text-center md:text-left mb-8 text-lg leading-9  text-coolGray-500 ">
+                  <p
+                    style={{ lineHeight: "42px" }}
+                    className="text-center md:text-left mb-8 text-lg   text-coolGray-500 "
+                  >
                     Sometimes the responsibility associated with death, divorce,
                     or downsizing can be hard to bear. We’re here to make it a
                     lot easier.
@@ -273,7 +279,7 @@ export default function Index() {
                 </div>
               </div>
               <div className="w-full md:w-1/2 px-4">
-                <div className="tracking-widest text-center md:text-left mb-4 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+                <div className="tracking-widest text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                   OUR STORY
                 </div>
                 <h2 className="mb-6 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
@@ -372,7 +378,7 @@ export default function Index() {
           // }}
         >
           <div className="container md:h-[550px] px-4 mx-auto">
-            <div className="tracking-widest text-center  mb-3 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+            <div className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
               TESTIMONIALS
             </div>
             <h2 className="mb-10 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
@@ -402,18 +408,21 @@ export default function Index() {
               </h2>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 -mx-4 mb-12 md:mb-20">
-              {blogs.map((blog) => {
-                return (
-                  <BlogCard
-                    key={blog.id}
-                    tag={blog.tag}
-                    id={blog.id}
-                    title={blog.title}
-                    author={blog.author}
-                    thumbnail={blog.thumbnail}
-                    date={blog.date}
-                  />
-                );
+              {blogs.map((blog, index) => {
+                if (index > 2) {
+                  return null;
+                } else
+                  return (
+                    <BlogCard
+                      key={blog.id}
+                      tag={blog.tag}
+                      id={blog.id}
+                      title={blog.title}
+                      author={blog.author}
+                      thumbnail={blog.thumbnail}
+                      date={blog.date}
+                    />
+                  );
               })}
             </div>
             <div className="text-center">
