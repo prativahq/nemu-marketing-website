@@ -148,6 +148,7 @@ export default function ContactUs() {
                 CONTACT US
               </span>
               <h1
+                style={{ lineHeight: "64px" }}
                 className="mb-6 mt-3 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
                 // contentEditable="false"
               >
@@ -157,13 +158,13 @@ export default function ContactUs() {
               <img
                 loading="lazy"
                 alt=""
-                src="images/contact-1.svg"
-                className="mx-auto"
+                src="images/contact_us.png"
+                className="w-32 mx-auto"
               />
             </div>
             <div className="flex flex-wrap -mx-4 pb-16">
               <div className="w-full mb-10 md:mb-0 md:w-1/2 px-4">
-                <div className=" mx-auto text-center px-10 lg:px-32 py-8  bg-white border border-coolGray-200 shadow-sm rounded-lg">
+                <div className=" mx-auto text-center px-10 lg:px-32 pt-8 pb-12  bg-white border border-coolGray-200 shadow-sm rounded-lg">
                   <div className="inline-flex mb-3 items-center justify-center w-12 h-12 rounded-full">
                     <img alt="" loading="lazy" src="images/email-icon.svg" />
                   </div>
@@ -183,7 +184,7 @@ export default function ContactUs() {
                 </div>
               </div>
               <div className="w-full mb-10 md:mb-0 md:w-1/2 px-4">
-                <div className=" mx-auto text-center px-10  py-8 lg:px-32 bg-white border border-coolGray-200 shadow-sm rounded-lg">
+                <div className=" mx-auto text-center px-10  pt-8 pb-12 lg:px-32 bg-white border border-coolGray-200 shadow-sm rounded-lg">
                   <div className="inline-flex mb-3 items-center justify-center w-12 h-12 rounded-full">
                     <img alt="" loading="lazy" src="images/call-icon.svg" />
                   </div>

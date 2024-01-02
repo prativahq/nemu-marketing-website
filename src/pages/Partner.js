@@ -73,15 +73,17 @@ export default function Partner() {
                     PARTNER WITH US
                   </span>
                   <h1
+                    style={{ lineHeight: "64px" }}
                     className="mb-6 mt-3 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
                     // contentEditable="false"
                   >
-                    <span style={{ whiteSpace: "pre-wrap" }}>
-                      Be the hero that preserves your clients' legacy
-                    </span>
+                    {/* <span style={{ whiteSpace: "pre-wrap" }}> */}
+                    Be the hero that preserves your clients' legacy
+                    {/* </span> */}
                   </h1>
                   <p
-                    className="mb-8 text-lg leading-9 text-coolGray-500 "
+                    style={{ lineHeight: "42px" }}
+                    className="mb-8 text-lg  text-coolGray-500 "
                     // contentEditable="false"
                   >
                     <span style={{ whiteSpace: "pre-wrap" }}>
