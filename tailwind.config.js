@@ -165,7 +165,7 @@ module.exports = {
       backgroundImage: {
         downloadApp: "url('../public/images/download-banner.svg')",
         downloadAppMobile: "url('../public/images/download-banner-mobile.svg')",
-        joinTeam: "url('../public/images/applynow-banner.svg')",
+        joinTeam: "url('../public/images/about_gradientCTA(1).png')",
         joinTeamMobile: "url('../public/images/join-team.png')",
       },
     },

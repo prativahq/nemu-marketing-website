@@ -183,7 +183,7 @@ export default function AboutUs() {
         </section>
         <AsSeen />
         <section
-          className="py-24 md:pt-52 md:pb-28 bg-[#F7F5F2]"
+          className="py-24 md:pt-40 md:pb-28 bg-[#F7F5F2]"
           // style={{
           //   backgroundImage:
           //     'url("flex-ui-assets/elements/pattern-light-big.svg")',

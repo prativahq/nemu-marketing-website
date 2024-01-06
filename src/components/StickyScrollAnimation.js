@@ -22,7 +22,10 @@ const StickyScrollAnimation = () => {
       <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-coolGray-300">
         HOW IT WORKS
       </span>
-      <h2 className=" mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-100   leading-tight font-medium font-heading tracking-tight">
+      <h2
+        style={{ lineHeight: "52px" }}
+        className=" mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-100   leading-tight font-medium font-heading tracking-normal"
+      >
         Real Stuff, Real Stories
       </h2>
     </div>

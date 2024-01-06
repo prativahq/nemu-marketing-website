@@ -74,7 +74,7 @@ export default function Partner() {
                   </span>
                   <h1
                     style={{ lineHeight: "64px" }}
-                    className="mb-6 mt-3 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                    className="mb-6 mt-3 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-normal"
                     // contentEditable="false"
                   >
                     {/* <span style={{ whiteSpace: "pre-wrap" }}> */}
@@ -130,7 +130,7 @@ export default function Partner() {
         </section>
         <AsSeen />
         <section
-          className="py-24 lg:pt-52 bg-[#F7F5F2] overflow-hidden"
+          className="py-24 lg:pt-40 bg-[#F7F5F2] overflow-hidden"
           style={{
             background: "var(--surface-light-bg, #F7F5F2)",
             backgroundPosition: "center",
@@ -142,7 +142,8 @@ export default function Partner() {
                 OVERLINE
               </span>
               <h2
-                className="mb-6 mt-3 text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                style={{ lineHeight: "52px" }}
+                className="mb-6 mt-3 text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-normal"
                 // contentEditable="false"
               >
                 The nemu promise
@@ -230,7 +231,8 @@ export default function Partner() {
                 WHY US
               </span>
               <h2
-                className="mb-6 mt-3 text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                style={{ lineHeight: "52px" }}
+                className="mb-6 mt-3 text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-normal"
                 // contentEditable="false"
               >
                 Partner With us in 3 Easy Steps
