@@ -136,7 +136,7 @@ export default function ContactUs() {
       <>
         <Navbar />
         <section
-          className="relative py-0 lg:py-[300px] pt-20 lg:mb-32   "
+          className="relative py-0 lg:py-[300px] pt-20 lg:mb-48   "
           style={{
             background: "var(--surface-light-bg, #F7F5F2)",
             backgroundPosition: "center",
@@ -149,18 +149,26 @@ export default function ContactUs() {
               </span>
               <h1
                 style={{ lineHeight: "64px" }}
-                className="mb-6 mt-3 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                className="mb-6 mt-3 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-normal"
                 // contentEditable="false"
               >
                 A Real Inbox, Monitored
                 <div>by Real People</div>
               </h1>
-              <img
-                loading="lazy"
-                alt=""
-                src="images/contact_us.png"
-                className="w-32 mx-auto"
-              />
+              <div className="flex gap-4 items-center justify-center mx-auto">
+                <img
+                  loading="lazy"
+                  alt=""
+                  src="images/contact_us.png"
+                  className="w-32 "
+                />
+                <img
+                  loading="lazy"
+                  alt=""
+                  src="images/contact_us_online.svg"
+                  className="w-24"
+                />
+              </div>
             </div>
             <div className="flex flex-wrap -mx-4 pb-16">
               <div className="w-full mb-10 md:mb-0 md:w-1/2 px-4">

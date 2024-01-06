@@ -217,7 +217,7 @@ export default function Index() {
                   </div>
                   <h1
                     style={{ lineHeight: "64px" }}
-                    className="mb-6 text-center md:text-left text-4xl md:text-5xl text-coolGray-900    font-medium font-heading tracking-tight"
+                    className="mb-6 text-center md:text-left text-4xl md:text-5xl text-coolGray-900    font-medium font-heading tracking-normal"
                   >
                     Split Property,<br></br> Not Relationships
                   </h1>
@@ -265,7 +265,7 @@ export default function Index() {
         <AsSeen />
         {/* we get it */}
         <section
-          className="pt-12 pb-16 lg:pt-48 lg:pb-32 bg-white overflow-hidden"
+          className="pt-12 pb-16 lg:pt-32 lg:pb-32 bg-white overflow-hidden"
           style={{
             background: "var(--surface-light-bg, #F7F5F2)",
             backgroundPosition: "center",
@@ -282,7 +282,10 @@ export default function Index() {
                 <div className="tracking-widest text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                   OUR STORY
                 </div>
-                <h2 className="mb-6 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+                <h2
+                  style={{ lineHeight: "52px" }}
+                  className="mb-6 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal"
+                >
                   We get it, because we have been there
                 </h2>
                 <p className="mb-6 text-lg leading-9 text-center md:text-left text-coolGray-500 ">
@@ -321,7 +324,10 @@ export default function Index() {
                     <span className="tracking-widest text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                       OUR SERVICES
                     </span>
-                    <h2 className="mb-6 mt-3 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+                    <h2
+                      style={{ lineHeight: "52px" }}
+                      className="mb-6 mt-3 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal"
+                    >
                       How we help
                     </h2>
                     <p className="text-lg  leading-9 text-coolGray-500 ">
@@ -381,7 +387,10 @@ export default function Index() {
             <div className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
               TESTIMONIALS
             </div>
-            <h2 className="mb-10 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+            <h2
+              style={{ lineHeight: "52px" }}
+              className="mb-10 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal"
+            >
               Hear from our customers
             </h2>
             <Testimonial />
@@ -403,7 +412,10 @@ export default function Index() {
               <span className=" tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 BLOGS
               </span>
-              <h2 className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+              <h2
+                style={{ lineHeight: "52px" }}
+                className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal"
+              >
                 Resources to help you out
               </h2>
             </div>

@@ -31,7 +31,7 @@ export const Footer = () => {
                 alt=""
               />
             </Link>
-            <p className="text-base leading-9  lg:w-96 text-[#B2CACE]">
+            <p className="text-base leading-9 mb-8 lg:w-96 text-[#B2CACE]">
               We are on a mission to simplify managing and dividing heirlooms so
               families can focus on what matters most during life’s most trying
               times.

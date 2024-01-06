@@ -78,7 +78,7 @@ export default function HowItWorks() {
                   </span>
                   <h1
                     style={{ lineHeight: "64px" }}
-                    className="mb-6 mt-3 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                    className="mb-6 mt-3 text-center md:text-left text-4xl md:text-5xl text-coolGray-900    font-medium font-heading tracking-normal"
                   >
                     Dividing Heirlooms Should Be a Joy,<br></br> Not a Job
                   </h1>
@@ -144,7 +144,8 @@ export default function HowItWorks() {
                 OVERLINE
               </span>
               <h2
-                className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                style={{ lineHeight: "52px" }}
+                className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-normal"
                 // contentEditable="false"
               >
                 As Easy as 1-2-3
@@ -255,7 +256,8 @@ export default function HowItWorks() {
                 OVERLINE
               </span>
               <h2
-                className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                style={{ lineHeight: "52px" }}
+                className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-normal"
                 // contentEditable="false"
               >
                 We're here for you
@@ -333,7 +335,7 @@ export default function HowItWorks() {
         </section>
         <section
           id="pricing"
-          className="relative   lg:mb-96 pt-64 pb-96 bg-[#F7F5F2]"
+          className="relative   lg:mb-96 pt-64 pb-64 lg:pb-96 bg-[#F7F5F2]"
         >
           <div className="lg:absolute left-0 right-0 -my-48 container mx-auto ">
             <div className="text-center ">
@@ -343,13 +345,14 @@ export default function HowItWorks() {
               >
                 PRICING
               </span>
-              <h3
-                className="mb-6 mt-3 text-center text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+              <h2
+                style={{ lineHeight: "52px" }}
+                className="mb-6 mt-3 text-center text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-normal"
                 // contentEditable="false"
               >
                 Alright, Sounds Great!
                 <div>What does all of this cost?</div>
-              </h3>
+              </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-8 -mx-4 mt-16 px-4">
               {/* <div className="w-full   p-4"> */}
@@ -372,7 +375,7 @@ export default function HowItWorks() {
                       style={{ fontSize: "18px" }}
                     >
                       {" "}
-                      / Year
+                      / Lifetime
                     </span>
                   </div>
                 </div>
@@ -437,7 +440,7 @@ export default function HowItWorks() {
                         style={{ fontSize: "18px" }}
                       >
                         {" "}
-                        / Year
+                        / Lifetime
                       </span>
                     </div>
                   </div>
@@ -494,7 +497,7 @@ export default function HowItWorks() {
                       style={{ fontSize: "18px" }}
                     >
                       {" "}
-                      / Year
+                      / Lifetime
                     </span>
                   </div>
                 </div>
@@ -540,7 +543,7 @@ export default function HowItWorks() {
             </div>
           </div>
         </section>
-        <section className="relative pt-32 pb-96 mb-96 md:mb-0">
+        <section className="relative pt-48 pb-96 mb-96 md:mb-0">
           <DownloadApp />
         </section>
         {/* <DownloadApp /> */}
