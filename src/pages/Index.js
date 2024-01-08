@@ -208,7 +208,7 @@ export default function Index() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="pt-10 pb-16">
+          <div className="pt-10 pb-24">
             <div className="container mx-auto">
               <div className="flex flex-wrap xl:items-center -mx-4">
                 <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">

@@ -166,7 +166,7 @@ export default function ContactUs() {
                   loading="lazy"
                   alt=""
                   src="images/contact_us_online.svg"
-                  className="w-24"
+                  className="w-[4.4rem]"
                 />
               </div>
             </div>
