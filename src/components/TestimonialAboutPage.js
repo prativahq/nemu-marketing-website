@@ -24,7 +24,7 @@ export const TestimonialAboutPage = () => {
       naturalSlideHeight={120}
       totalSlides={2}
     >
-      <div className="flex gap-5 justify-center md:justify-end">
+      <div className="flex gap-5 justify-center md:justify-end md:mr-4">
         <ButtonBack className="bg-white p-3 rounded-md border-2">
           <ChevronLeft className="text-emerald-500" />
         </ButtonBack>

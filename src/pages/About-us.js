@@ -115,7 +115,7 @@ export default function AboutUs() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="py-10">
+          <div className="pt-10 pb-24">
             <div className="container mx-auto">
               <div className="flex flex-wrap xl:items-center -mx-4">
                 <div className="text-center md:text-left w-full md:w-1/2 px-4 mb-16 md:mb-0">
@@ -254,7 +254,7 @@ export default function AboutUs() {
                   />
                 </a>
                 <h2 className="text-center text-2xl text-white font-medium font-heading ">
-                  Ashton Family Award
+                  Ashton Family <br></br> Award
                 </h2>
                 <p className="text-sm  leading-9 text-coolGray-300 text-center">
                   2022 Startup Challenge Finalists
@@ -267,7 +267,7 @@ export default function AboutUs() {
                   <img className="mx-auto" src="images/tie-award.png" alt="" />
                 </a>
                 <h2 className="text-center text-2xl text-white font-medium font-heading ">
-                  TiE Global Pitch Competition
+                  TiE Global Pitch <br></br> Competition
                 </h2>
                 <p className="text-sm  leading-9 text-coolGray-300 text-center">
                   Female Founder Award + Finalist
