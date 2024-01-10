@@ -53,7 +53,7 @@ export const Timeline = () => {
       <Slider className=" h-[780px] md:h-[920px] lg:h-[600px]">
         <Slide index={0} className="pb-0">
           <div className="w-full  mx-auto flex flex-col lg:flex-row items-center justify-center gap-10">
-            <img loading="lazy" src="images/about-us-1941.png" alt="" />
+            <img src="images/about-us-1941.png" alt="" />
             <div className="relative flex flex-col gap-10">
               <h1 className=" text-5xl md:text-6xl text-coolGray-900 font-medium tracking-tighter font-heading">
                 1941
@@ -71,7 +71,7 @@ export const Timeline = () => {
         </Slide>
         <Slide index={0} className="pb-0">
           <div className="w-full  mx-auto flex flex-col lg:flex-row items-center justify-center gap-10">
-            <img loading="lazy" src="images/about-us-2001.png" alt="" />
+            <img src="images/about-us-2001.png" alt="" />
             <div className="relative flex flex-col gap-10">
               <h1 className=" text-5xl md:text-6xl text-coolGray-900 font-medium tracking-tighter font-heading">
                 2001
@@ -95,7 +95,7 @@ export const Timeline = () => {
         </Slide>
         <Slide index={0} className="pb-0">
           <div className="w-full  mx-auto flex flex-col lg:flex-row items-center justify-center gap-10">
-            <img loading="lazy" src="images/about-us-2021.png" alt="" />
+            <img src="images/about-us-2021.png" alt="" />
             <div className="relative flex flex-col gap-10">
               <h1 className=" text-5xl md:text-6xl text-coolGray-900 font-medium tracking-tighter font-heading">
                 2021
@@ -126,7 +126,7 @@ export const Timeline = () => {
         </Slide>
         <Slide index={0} className="pb-0">
           <div className="w-full  mx-auto flex flex-col lg:flex-row items-center justify-center gap-10">
-            <img loading="lazy" src="images/about-us-2023.png" alt="" />
+            <img src="images/about-us-2023.png" alt="" />
             <div className="relative flex flex-col gap-10">
               <h1 className=" text-5xl md:text-6xl text-coolGray-900 font-medium tracking-tighter font-heading">
                 2023
