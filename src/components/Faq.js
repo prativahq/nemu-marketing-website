@@ -16,10 +16,7 @@ export const Faq = ({ faqs }) => {
           <span className="tracking-widest text-center  mb-5   text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
             FAQs
           </span>
-          <h2
-            style={{ lineHeight: "52px" }}
-            className="mb-10 mt-3 text-center text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal"
-          >
+          <h2 className="mb-10 mt-3 text-center text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal">
             Frequently Asked Questions
           </h2>
         </div>
@@ -32,7 +29,7 @@ export const Faq = ({ faqs }) => {
                     {" "}
                     {faq.question}
                   </div>
-                  <ChevronDown className="ml-auto" />
+                  <ChevronDown className="ml-auto text-[#959595]" />
                 </Disclosure.Button>
                 <Disclosure.Panel className="p-2  text-coolGray-500">
                   {faq.answer}

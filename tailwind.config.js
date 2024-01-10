@@ -12,7 +12,7 @@ module.exports = {
           "2xl": "1440px",
         },
         padding: {
-          DEFAULT: "1rem",
+          DEFAULT: "2rem",
           sm: "2rem",
           lg: "4rem",
           xl: "4rem",
@@ -160,7 +160,10 @@ module.exports = {
         mono: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
       },
       fontSize: {
-        "4.5xl": "42px",
+        "3xl": ["30px", "42px"],
+        "4xl": ["36px", "48px"],
+        "4.5xl": ["42px", "52px"],
+        "5xl": ["48px", "64px"],
       },
       backgroundImage: {
         downloadApp: "url('../public/images/download-banner.svg')",

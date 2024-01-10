@@ -35,7 +35,7 @@ export default function RefundsCancellation() {
               <div className="w-full px-4 mb-10">
                 <div className="flex flex-wrap justify-between items-center">
                   <div className="w-full md:w-1/2 mb-10 md:mb-0">
-                    <h3 className="mb-4 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+                    <h3 className="mb-4 text-4xl md:text-5xl text-coolGray-900     font-medium font-heading tracking-tight">
                       Refund Policy
                     </h3>
                   </div>

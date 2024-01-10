@@ -26,7 +26,7 @@ export const Testimonial = () => {
     >
       <Slider className=" h-[870px] md:h-[450px]">
         <Slide index={0} className="pb-0">
-          <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -53,7 +53,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={1} className="pb-0">
-          <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -80,7 +80,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={2} className="pb-0">
-          <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -107,7 +107,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={3} className="pb-0">
-          <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -134,7 +134,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={4} className="pb-0">
-          <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -163,7 +163,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={5} className="pb-0">
-          <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -191,7 +191,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={6} className="pb-0">
-          <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -217,7 +217,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={7} className="pb-0">
-          <div className="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""

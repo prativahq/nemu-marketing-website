@@ -59,10 +59,7 @@ export default function Blog() {
               <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 Blog
               </span>
-              <h1
-                style={{ lineHeight: "64px" }}
-                className="mb-6 mt-5 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-normal"
-              >
+              <h1 className="mb-6 mt-5 text-4xl md:text-5xl text-coolGray-900     font-medium font-heading tracking-normal">
                 Resources to help you out
               </h1>
               <div className="relative mx-auto md:w-80">
@@ -75,7 +72,7 @@ export default function Blog() {
                 <input
                   value={search}
                   onChange={(e) => handleSearch(e.target.value)}
-                  className="w-full py-3 pl-12 pr-4 text-coolGray-900 leading-tight placeholder-coolGray-500 border border-coolGray-200 rounded-lg shadow-xsm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50"
+                  className="w-full py-3 pl-12 pr-4 text-coolGray-900   placeholder-coolGray-500 border border-coolGray-200 rounded-lg shadow-xsm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50"
                   type="text"
                   placeholder="Search for a resource"
                 />
