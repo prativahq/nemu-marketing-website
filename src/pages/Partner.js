@@ -62,10 +62,10 @@ export default function Partner() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="pt-10 pb-24">
+          <div className="pt-10 pb-40 lg:pb-24">
             <div className="container mx-auto">
-              <div className="flex flex-wrap xl:items-center -mx-4">
-                <div className="text-center md:text-left w-full md:w-1/2 px-4 mb-16 md:mb-0">
+              <div className="flex flex-wrap xl:items-center ">
+                <div className="text-center md:text-left w-full md:w-1/2  mb-16 md:mb-0">
                   <span
                     className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
                     // contentEditable="false"
@@ -73,8 +73,7 @@ export default function Partner() {
                     PARTNER WITH US
                   </span>
                   <h1
-                    style={{ lineHeight: "64px" }}
-                    className="mb-6 mt-3 text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-normal"
+                    className="mb-6 mt-3 text-4xl md:text-5xl text-coolGray-900     font-medium font-heading tracking-normal"
                     // contentEditable="false"
                   >
                     {/* <span style={{ whiteSpace: "pre-wrap" }}> */}
@@ -93,11 +92,11 @@ export default function Partner() {
                       business.
                     </span>
                   </p>
-                  <div className="flex flex-wrap md:gap-4 lg:gap-0">
+                  <div className="flex flex-wrap gap-2 md:gap-4 lg:gap-0">
                     <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                       <a
                         target="_blank"
-                        className="inline-block py-3 px-6 md:w-fit w-full text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        className="inline-block py-5 sm:py-3 px-6 md:w-fit w-full text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://meetings.hubspot.com/sarah1487/intro-affiliate"
                       >
                         Become an affiliate
@@ -106,7 +105,7 @@ export default function Partner() {
                     <div className="w-full md:w-auto py-1 md:py-0">
                       <a
                         target="_blank"
-                        className="inline-block py-3 px-6 md:w-fit w-full  text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        className="inline-block py-5 sm:py-3 px-6 md:w-fit w-full  text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://meetings.hubspot.com/sarah1487/intro-affiliate"
                       >
                         Schedule a call
@@ -114,8 +113,8 @@ export default function Partner() {
                     </div>
                   </div>
                 </div>
-                <div className="w-full md:w-1/2 px-4">
-                  <div className="relative mx-auto md:mr-0 max-w-max">
+                <div className="w-full md:w-1/2 ">
+                  <div className="hidden sm:block relative mx-auto md:mr-0 max-w-max">
                     <img
                       loading="lazy"
                       className="relative rounded-7xl"
@@ -128,9 +127,9 @@ export default function Partner() {
             </div>
           </div>
         </section>
-        <AsSeen />
+        <AsSeen image={"images/Frame-422.png"} />
         <section
-          className="py-24 lg:pt-40 bg-[#F7F5F2] overflow-hidden"
+          className="py-24 pt-32 lg:pt-40 bg-[#F7F5F2] overflow-hidden"
           style={{
             background: "var(--surface-light-bg, #F7F5F2)",
             backgroundPosition: "center",
@@ -142,8 +141,7 @@ export default function Partner() {
                 OVERLINE
               </span>
               <h2
-                style={{ lineHeight: "52px" }}
-                className="mb-6 mt-3 text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-normal"
+                className="mb-6 mt-3 text-3xl md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-normal"
                 // contentEditable="false"
               >
                 The nemu promise
@@ -158,7 +156,7 @@ export default function Partner() {
 
               {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4"> */}
               <a
-                className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                 href="https://meetings.hubspot.com/sarah1487/intro-affiliate"
                 target="_blank"
               >
@@ -167,13 +165,13 @@ export default function Partner() {
               {/* </div> */}
             </div>
 
-            <div className="flex flex-col gap-4 w-full xl:w-1/2 px-4 py-6">
+            <div className="flex flex-col gap-4 w-full xl:w-1/2  py-6">
               <div className="flex flex-wrap p-8 text-center md:text-left hover:bg-white  hover:shadow-xl transition duration-200 rounded-lg bg-white ">
                 {/* <div className="w-full md:w-auto mb-6 md:mb-0 md:pr-6">
                   <img src="images/promiseCheck.png" />
                 </div> */}
                 <div className="w-full md:flex-1 ">
-                  <h3 className="flex flex-wrap gap-3 items-center mb-4 text-xl md:text-2xl leading-tight text-coolGray-900 font-medium font-heading">
+                  <h3 className="flex flex-wrap gap-3 items-center mb-4 text-xl md:text-2xl   text-coolGray-900 font-medium font-heading">
                     <img loading="lazy" alt="" src="images/promiseCheck.png" />
                     Customers Treated with Empathy &amp; Respect
                   </h3>
@@ -189,7 +187,7 @@ export default function Partner() {
                   <img src="images/promiseCheck.png" />
                 </div> */}
                 <div className="w-full md:flex-1 ">
-                  <h3 className="flex flex-wrap gap-3 items-center mb-4 text-xl md:text-2xl leading-tight text-coolGray-900 font-medium font-heading">
+                  <h3 className="flex flex-wrap gap-3 items-center mb-4 text-xl md:text-2xl   text-coolGray-900 font-medium font-heading">
                     <img loading="lazy" alt="" src="images/promiseCheck.png" />
                     The Right Resource, at the Right Time
                   </h3>
@@ -206,7 +204,7 @@ export default function Partner() {
                   <img src="images/promiseCheck.png" />
                 </div> */}
                 <div className="w-full md:flex-1 ">
-                  <h3 className="flex flex-wrap gap-3 items-center mb-4 text-xl md:text-2xl leading-tight text-coolGray-900 font-medium font-heading">
+                  <h3 className="flex flex-wrap gap-3 items-center mb-4 text-xl md:text-2xl   text-coolGray-900 font-medium font-heading">
                     <img loading="lazy" alt="" src="images/promiseCheck.png" />A
                     Trusted Extension of your Business
                   </h3>
@@ -231,14 +229,13 @@ export default function Partner() {
                 WHY US
               </span>
               <h2
-                style={{ lineHeight: "52px" }}
-                className="mb-6 mt-3 text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-normal"
+                className="mb-6 mt-3 text-3xl md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-normal"
                 // contentEditable="false"
               >
                 Partner With us in 3 Easy Steps
               </h2>
             </div>
-            <div className="flex flex-col gap-14 items-center -mx-4 px-8">
+            <div className="flex flex-col gap-14 items-center  ">
               <div className="w-full flex flex-wrap justify-center gap-5  xl:grid grid-cols-3 xl:justify-between ">
                 {cards.map((card) => {
                   return <Card key={card.id} {...card} />;
@@ -246,7 +243,7 @@ export default function Partner() {
               </div>
               {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4"> */}
               <a
-                className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                 href="https://meetings.hubspot.com/sarah1487/intro-affiliate"
                 target="_blank"
               >

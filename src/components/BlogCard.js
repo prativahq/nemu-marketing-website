@@ -24,7 +24,7 @@ export const BlogCard = ({ tag, id, title, author, thumbnail, date }) => {
         {author} . {date}
       </p>
       <Link
-        className="flex-1 px-4 inline-block mb-4 text-xl md:text-2xl leading-tight text-coolGray-800 hover:text-coolGray-900 font-bold hover:underline"
+        className="flex-1 px-4 inline-block mb-4 text-xl md:text-2xl   text-coolGray-800 hover:text-coolGray-900 font-bold hover:underline"
         to={`/blog/${id}`}
       >
         {title}

@@ -115,16 +115,16 @@ export default function AboutUs() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="pt-10 pb-24">
+          <div className="pt-10 pb-40  sm:pb-24">
             <div className="container mx-auto">
-              <div className="flex flex-wrap xl:items-center -mx-4">
-                <div className="text-center md:text-left w-full md:w-1/2 px-4 mb-16 md:mb-0">
+              <div className="flex flex-wrap xl:items-center ">
+                <div className="text-center md:text-left w-full md:w-1/2  mb-16 md:mb-0">
                   <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                     about us
                   </span>
                   <h1
-                    style={{ lineHeight: "64px" }}
-                    className="mb-6 mt-3 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight"
+                    //
+                    className="mb-6 mt-3 text-center md:text-left text-4xl md:text-5xl text-coolGray-900   leading-[48px]  font-medium font-heading tracking-tight"
                   >
                     From Our Family<br></br> to Yours
                   </h1>
@@ -147,10 +147,10 @@ export default function AboutUs() {
                     src="images/google-aboutus.svg"
                     className="mx-auto md:ml-0 mt-6 mb-10"
                   /> */}
-                  <div className="flex flex-wrap">
+                  <div className="flex flex-wrap gap-2 sm:gap-0">
                     <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                       <a
-                        className="inline-block py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        className="inline-block py-5 sm:py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://meetings.hubspot.com/sarah1487/demo-request"
                         target="_blank"
                       >
@@ -159,7 +159,7 @@ export default function AboutUs() {
                     </div>
                     <div className="w-full md:w-auto py-1 md:py-0">
                       <a
-                        className="inline-block py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        className="inline-block py-5 sm:py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                       >
                         Sign Up
@@ -167,8 +167,8 @@ export default function AboutUs() {
                     </div>
                   </div>
                 </div>
-                <div className="w-full md:w-1/2 px-4">
-                  <div className="relative mx-auto md:mr-0 max-w-max">
+                <div className="w-full md:w-1/2 ">
+                  <div className="hidden sm:block relative mx-auto md:mr-0 max-w-max">
                     <img
                       loading="lazy"
                       className="relative rounded-7xl"
@@ -181,20 +181,20 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <AsSeen />
+        <AsSeen image={"images/about-us-family.png"} />
         <section
-          className="py-24 md:pt-40 md:pb-28 bg-[#F7F5F2]"
+          className="py-24 pt-32 md:pt-40 md:pb-28 bg-[#F7F5F2]"
           // style={{
           //   backgroundImage:
           //     'url("flex-ui-assets/elements/pattern-light-big.svg")',
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="container lg:h-[750px] px-4 mx-auto">
+          <div className="container lg:h-[750px]  mx-auto">
             <div className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
               TIMELINE
             </div>
-            <h3 className="mb-6  text-center text-3xl md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+            <h3 className="mb-6  text-center text-3xl md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-tight">
               Down the memory lane
             </h3>
             <Timeline />
@@ -214,7 +214,7 @@ export default function AboutUs() {
               <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 TESTIMONIALS
               </span>
-              <h2 className="mb-6 mt-5 text-3xl  md:text-4.5xl text-coolGray-900   leading-tight font-medium font-heading tracking-tight">
+              <h2 className="mb-6 mt-5 text-3xl  md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-tight">
                 What our customers<br></br> have to say
               </h2>
             </div>
@@ -234,15 +234,15 @@ export default function AboutUs() {
                 Awards
               </span>
               <h3
-                className="mb-6  mt-3  text-4.5xl text-white   leading-tight font-medium font-heading tracking-tight"
+                className="mb-6  mt-3 text-3xl md:text-4.5xl text-white     font-medium font-heading tracking-tight"
                 // contentEditable="false"
               >
                 Our Achievements
               </h3>
             </div>
-            <div className="grid lg:grid-cols-3 justify-center -mx-4">
-              <div className="  px-4 mb-8 lg:mb-0">
-                {/* <div className="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-xl bg-white shadow-sm"> */}
+            <div className="grid lg:grid-cols-3 justify-center ">
+              <div className="   mb-8 lg:mb-0">
+                {/* <div className="flex items-center h-32 md:h-36  md:px-8 rounded-xl bg-white shadow-sm"> */}
                 <a
                   href="https://venturelab.upenn.edu/2022-startup-challenge-finalists"
                   target="_blank"
@@ -256,26 +256,26 @@ export default function AboutUs() {
                 <h2 className="text-center text-2xl text-white font-medium font-heading ">
                   Ashton Family <br></br> Award
                 </h2>
-                <p className="text-sm  leading-9 text-coolGray-300 text-center">
+                <p className="text-base mt-2 leading-9 text-coolGray-300 text-center">
                   2022 Startup Challenge Finalists
                 </p>
                 {/* </div> */}
               </div>
-              <div className="px-4 mb-8 lg:mb-0">
-                {/* <div className="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-xl bg-white shadow-sm"> */}
+              <div className=" mb-8 lg:mb-0">
+                {/* <div className="flex items-center h-32 md:h-36  md:px-8 rounded-xl bg-white shadow-sm"> */}
                 <a href="https://tie.org/" target="_blank">
                   <img className="mx-auto" src="images/tie-award.png" alt="" />
                 </a>
                 <h2 className="text-center text-2xl text-white font-medium font-heading ">
                   TiE Global Pitch <br></br> Competition
                 </h2>
-                <p className="text-sm  leading-9 text-coolGray-300 text-center">
+                <p className="text-base mt-2 leading-9 text-coolGray-300 text-center">
                   Female Founder Award + Finalist
                 </p>
                 {/* </div> */}
               </div>
-              <div className=" px-4 mb-8 lg:mb-0">
-                {/* <div className="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-xl bg-white shadow-sm"> */}
+              <div className="  mb-8 lg:mb-0">
+                {/* <div className="flex items-center h-32 md:h-36  md:px-8 rounded-xl bg-white shadow-sm"> */}
                 <a>
                   {" "}
                   <img
@@ -288,7 +288,7 @@ export default function AboutUs() {
                 <h2 className="text-center text-2xl text-white font-medium font-heading ">
                   Penn Women Founders Annual Pitch Competition
                 </h2>
-                <p className="text-sm  leading-9 text-coolGray-300 text-center">
+                <p className="text-base mt-2 leading-9 text-coolGray-300 text-center">
                   Winner
                 </p>
                 {/* </div> */}
@@ -296,7 +296,7 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <section
+        {/* <section
           className="py-24 lg:pb-72 bg-[#F7F5F2]"
           style={{ backgroundPosition: "center" }}
         >
@@ -309,7 +309,7 @@ export default function AboutUs() {
                 our team
               </span>
               <h2
-                className="text-center text-3xl md:text-4.5xl text-coolGray-900 mt-3  leading-tight font-medium font-heading tracking-tight"
+                className="text-center text-3xl md:text-4.5xl text-coolGray-900 mt-3    font-medium font-heading tracking-tight"
                 // contentEditable="false"
               >
                 Meet the team
@@ -319,8 +319,8 @@ export default function AboutUs() {
                 <div className="w-full md:w-auto py-1 md:py-0" />
               </div>
             </div>
-            <div className="flex flex-wrap justify-center -mx-4">
-              <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-10">
+            <div className="flex flex-wrap justify-center ">
+              <div className="w-full md:w-1/2 lg:w-1/3  mb-10">
                 <div className="flex flex-col gap-2 items-center  py-8 px-10 bg-white rounded-xl shadow-sm border border-[#E3E3E3] text-center">
                   <img
                     loading="lazy"
@@ -329,7 +329,7 @@ export default function AboutUs() {
                     alt=""
                   />
                   <h3
-                    className="mb-2 text-2xl md:text-3xl leading-tight font-medium font-heading"
+                    className="mb-2 text-2xl md:text-3xl   font-medium font-heading"
                     // contentEditable="false"
                   >
                     Sarah Powers
@@ -349,7 +349,7 @@ export default function AboutUs() {
                   </a>
                 </div>
               </div>
-              <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10">
+              <div className=" w-full md:w-1/2 lg:w-1/3  mb-10">
                 <div className="flex flex-col gap-2 h-full py-8 px-10 shadow-sm border border-[#E3E3E3] bg-white rounded-xl text-center">
                   <img
                     loading="lazy"
@@ -358,7 +358,7 @@ export default function AboutUs() {
                     alt=""
                   />
                   <h3
-                    className="mb-2 text-2xl md:text-3xl leading-tight font-medium font-heading"
+                    className="mb-2 text-2xl md:text-3xl   font-medium font-heading"
                     // contentEditable="false"
                   >
                     Vandita Kamath
@@ -378,7 +378,7 @@ export default function AboutUs() {
                   </a>
                 </div>
               </div>
-              <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10 lg:mb-0">
+              <div className=" w-full md:w-1/2 lg:w-1/3  mb-10 lg:mb-0">
                 <div className="flex flex-col gap-2  py-8 px-10 shadow-sm border border-[#E3E3E3] bg-white rounded-xl text-center">
                   <img
                     loading="lazy"
@@ -387,7 +387,7 @@ export default function AboutUs() {
                     alt=""
                   />
                   <h3
-                    className="mb-2 text-2xl md:text-3xl leading-tight font-medium font-heading"
+                    className="mb-2 text-2xl md:text-3xl   font-medium font-heading"
                     // contentEditable="false"
                   >
                     Sourav Das
@@ -407,7 +407,7 @@ export default function AboutUs() {
                   </a>
                 </div>
               </div>
-              <div className=" w-full md:w-1/2 lg:w-1/3 px-4 mb-10 md:mb-0">
+              <div className=" w-full md:w-1/2 lg:w-1/3  mb-10 md:mb-0">
                 <div className="flex flex-col gap-2  py-8 px-10 shadow-sm border border-[#E3E3E3] bg-white rounded-xl text-center">
                   <img
                     loading="lazy"
@@ -416,7 +416,7 @@ export default function AboutUs() {
                     alt=""
                   />
                   <h3
-                    className="mb-2 text-2xl md:text-3xl leading-tight font-medium font-heading"
+                    className="mb-2 text-2xl md:text-3xl   font-medium font-heading"
                     // contentEditable="false"
                   >
                     Ronish Sawal
@@ -436,7 +436,7 @@ export default function AboutUs() {
                   </a>
                 </div>
               </div>
-              <div className=" w-full md:w-1/2 lg:w-1/3 px-4">
+              <div className=" w-full md:w-1/2 lg:w-1/3 ">
                 <div className="flex flex-col gap-2  py-8 px-10 shadow-sm border border-[#E3E3E3] bg-white rounded-xl text-center">
                   <img
                     loading="lazy"
@@ -445,7 +445,7 @@ export default function AboutUs() {
                     alt=""
                   />
                   <h3
-                    className="mb-2 text-2xl md:text-3xl leading-tight font-medium font-heading"
+                    className="mb-2 text-2xl md:text-3xl   font-medium font-heading"
                     // contentEditable="false"
                   >
                     Tahjib Al Sakin
@@ -464,8 +464,9 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
-        </section>
-        <section className="relative lg:mb-48  bg-[#F7F5F2] ">
+        </section> */}
+        {/* <section className="relative lg:mb-48  bg-[#F7F5F2] "> */}
+        <section>
           <ApplyNow />
         </section>
 

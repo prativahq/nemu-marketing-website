@@ -24,7 +24,7 @@ export const TestimonialAboutPage = () => {
       naturalSlideHeight={120}
       totalSlides={2}
     >
-      <div className="flex gap-5 justify-center md:justify-end md:mr-4">
+      <div className="flex gap-5 justify-center md:justify-end ">
         <ButtonBack className="bg-white p-3 rounded-md border-2">
           <ChevronLeft className="text-emerald-500" />
         </ButtonBack>
@@ -35,12 +35,12 @@ export const TestimonialAboutPage = () => {
       <Slider className=" h-[1010px] md:h-[600px] lg:h-[470px]">
         <Slide index={0} className=" pb-0">
           <div className="md:flex-row flex flex-col w-full gap-10 py-5">
-            <div className="w-full md:w-1/2  px-4 ">
+            <div className="w-full md:w-1/2   ">
               <div className="flex flex-col items-center h-full p-8 gap-5 bg-white border border-[#E3E3E3] shadow-sm rounded-xl">
                 <img
-                  loading="lazy"
+                  // loading="lazy"
                   alt=""
-                  src="images/Margaret.jpg"
+                  src="images/testimonial_1.png"
                   className=" w-20 h-20 rounded-full"
                 />
                 <h3
@@ -59,12 +59,12 @@ export const TestimonialAboutPage = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/2  px-4 ">
+            <div className="w-full md:w-1/2   ">
               <div className="flex flex-col items-center h-full p-8 gap-5 bg-white border border-[#E3E3E3] shadow-sm rounded-xl">
                 <img
-                  loading="lazy"
+                  // loading="lazy"
                   alt=""
-                  src="images/Collete.jpg"
+                  src="images/testimonial_2.png"
                   className=" w-20 h-20 rounded-full"
                 />
                 <h3
@@ -85,12 +85,12 @@ export const TestimonialAboutPage = () => {
         </Slide>
         <Slide index={1} className="pb-0">
           <div className="md:flex-row flex flex-col w-full gap-10 py-5">
-            <div className="w-full md:w-1/2  px-4 ">
+            <div className="w-full md:w-1/2   ">
               <div className="flex flex-col items-center h-full p-8 gap-5 bg-white border border-[#E3E3E3] shadow-sm rounded-xl">
                 <img
-                  loading="lazy"
+                  // loading="lazy"
                   alt=""
-                  src="images/Eric.jpg"
+                  src="images/testimonial_3.png"
                   className=" w-20 h-20 rounded-full"
                 />
                 <h3
@@ -107,12 +107,12 @@ export const TestimonialAboutPage = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/2  px-4 ">
+            <div className="w-full md:w-1/2   ">
               <div className="flex flex-col items-center h-full p-8 gap-5 bg-white border border-[#E3E3E3] shadow-sm rounded-xl">
                 <img
-                  loading="lazy"
+                  // loading="lazy"
                   alt=""
-                  src="images/Ann.jpg"
+                  src="images/testimonial_4.png"
                   className=" w-20 h-20 rounded-full"
                 />
                 <h3

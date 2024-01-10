@@ -208,17 +208,14 @@ export default function Index() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="pt-10 pb-24">
+          <div className="pt-10 pb-44 sm:pb-24">
             <div className="container mx-auto">
-              <div className="flex flex-wrap xl:items-center -mx-4">
-                <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
+              <div className="flex flex-wrap xl:items-center ">
+                <div className="w-full md:w-1/2  mb-16 md:mb-0">
                   <div className="tracking-widest text-center md:text-left mb-4 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                     WELCOME
                   </div>
-                  <h1
-                    style={{ lineHeight: "64px" }}
-                    className="mb-6 text-center md:text-left text-4xl md:text-5xl text-coolGray-900    font-medium font-heading tracking-normal"
-                  >
+                  <h1 className="mb-6 text-center md:text-left text-4xl md:text-5xl text-coolGray-900    font-medium font-heading tracking-normal">
                     Split Property,<br></br> Not Relationships
                   </h1>
                   <p
@@ -232,7 +229,7 @@ export default function Index() {
                   <div className="flex flex-wrap justify-center md:justify-start gap-5">
                     {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4"> */}
                     <a
-                      className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                      className=" align-middle inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                       href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                     >
                       Free Sign Up
@@ -240,7 +237,7 @@ export default function Index() {
                     {/* </div> */}
                     {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
                     <Link
-                      className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                      className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                       to={"/how-it-works"}
                     >
                       Learn More
@@ -248,11 +245,11 @@ export default function Index() {
                     {/* </div> */}
                   </div>
                 </div>
-                <div className="w-full md:w-1/2 px-4">
-                  <div className="relative mx-auto md:mr-0 max-w-max">
+                <div className="hidden sm:block md:w-1/2 ">
+                  <div className=" mx-auto md:mr-0 max-w-max">
                     <img
                       loading="lazy"
-                      className="relative rounded-7xl"
+                      className=" right-0 z-99 rounded-7xl"
                       src="images/Frame-422-1.png"
                       alt=""
                     />
@@ -262,30 +259,27 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <AsSeen />
+        <AsSeen image={"images/Frame-422-1.png"} />
         {/* we get it */}
         <section
-          className="pt-12 pb-16 lg:pt-32 lg:pb-32 bg-white overflow-hidden"
+          className="pt-32 pb-16 lg:pt-32 lg:pb-32 bg-white overflow-hidden"
           style={{
             background: "var(--surface-light-bg, #F7F5F2)",
             backgroundPosition: "center",
           }}
         >
           <div className="container mx-auto">
-            <div className="flex flex-wrap-reverse lg:items-center -mx-4">
-              <div className="w-full md:w-1/2 px-4 mt-16 md:mb-0">
+            <div className="flex flex-wrap-reverse lg:items-center ">
+              <div className="w-full md:w-1/2  mt-16 md:mb-0">
                 <div className="relative mx-auto md:ml-0 max-w-max">
                   <img loading="lazy" src="images/our-story.png" alt="" />
                 </div>
               </div>
-              <div className="w-full md:w-1/2 px-4">
+              <div className="w-full md:w-1/2 ">
                 <div className="tracking-widest text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                   OUR STORY
                 </div>
-                <h2
-                  style={{ lineHeight: "52px" }}
-                  className="mb-6 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal"
-                >
+                <h2 className="mb-6 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal">
                   We get it, because we have been there
                 </h2>
                 <p className="mb-6 text-lg leading-9 text-center md:text-left text-coolGray-500 ">
@@ -298,7 +292,7 @@ export default function Index() {
                 </p>
                 <div className="w-full text-center md:text-left md:w-auto py-1 md:py-0">
                   <Link
-                    className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-transparent hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                    className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-transparent hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                     to={"/how-it-works"}
                   >
                     Learn More
@@ -317,17 +311,14 @@ export default function Index() {
           // }}
         >
           <div className="container mx-auto">
-            <div className="flex flex-wrap -mx-4">
-              <div className="w-full px-4 mb-10">
+            <div className="flex flex-wrap ">
+              <div className="w-full  mb-10">
                 <div className="flex flex-wrap justify-between items-center">
                   <div className="w-full md:w-1/2 mb-10 md:mb-0 text-center md:text-left">
                     <span className="tracking-widest text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                       OUR SERVICES
                     </span>
-                    <h2
-                      style={{ lineHeight: "52px" }}
-                      className="mb-6 mt-3 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal"
-                    >
+                    <h2 className="mb-6 mt-3 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal">
                       How we help
                     </h2>
                     <p className="text-lg  leading-9 text-coolGray-500 ">
@@ -342,7 +333,7 @@ export default function Index() {
                   <div className="w-full md:w-auto">
                     <div className="flex gap-4 flex-wrap justify-center items-center -mb-2">
                       <a
-                        className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                       >
                         Free Sign Up
@@ -350,7 +341,7 @@ export default function Index() {
                       {/* </div> */}
                       {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
                       <Link
-                        className="inline-block py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         to={"/how-it-works"}
                       >
                         Learn More
@@ -360,7 +351,7 @@ export default function Index() {
                   </div>
                 </div>
               </div>
-              <div className="grid md:grid-cols-2 w-full gap-10 px-4 mt-5 mb-5 lg:mb-0">
+              <div className="grid md:grid-cols-2 w-full gap-10  mt-5 mb-5 lg:mb-0">
                 {cards.map((card) => {
                   return <LandingCard key={card.id} {...card} />;
                 })}
@@ -383,14 +374,11 @@ export default function Index() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="container md:h-[550px] px-4 mx-auto">
+          <div className="container md:h-[550px]  mx-auto">
             <div className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
               TESTIMONIALS
             </div>
-            <h2
-              style={{ lineHeight: "52px" }}
-              className="mb-10 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal"
-            >
+            <h2 className="mb-10 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal">
               Hear from our customers
             </h2>
             <Testimonial />
@@ -412,14 +400,11 @@ export default function Index() {
               <span className=" tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                 BLOGS
               </span>
-              <h2
-                style={{ lineHeight: "52px" }}
-                className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal"
-              >
+              <h2 className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal">
                 Resources to help you out
               </h2>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 -mx-4 mb-12 md:mb-20">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5  mb-12 md:mb-20">
               {blogs.map((blog, index) => {
                 if (index > 2) {
                   return null;
@@ -439,7 +424,7 @@ export default function Index() {
             </div>
             <div className="text-center">
               <Link
-                className=" py-3 px-6 w-fit mx-auto text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                className=" py-5 sm:py-3 px-6 w-fit mx-auto text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                 to={"/blog"}
               >
                 Read More

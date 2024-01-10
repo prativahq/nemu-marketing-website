@@ -3,7 +3,8 @@ import React from "react";
 
 export const ApplyNow = () => {
   return (
-    <section className="lg:absolute right-0 left-0 mx-auto  lg:-my-52 py-10">
+    // <section className="lg:absolute right-0 left-0 mx-auto  lg:-my-52 py-10">
+    <section className="mx-auto pt-32 pb-6">
       <div className="container mx-auto">
         <div
           className="relative py-11 px-8 md:px-16 rounded-2xl h-[750px] md:h-auto bg-joinTeamMobile md:bg-joinTeam overflow-hidden bg-cover"
@@ -40,7 +41,7 @@ export const ApplyNow = () => {
                 </li>
               </ul> */}
               <a
-                className="inline-block py-3 px-6 w-fit mx-auto md:ml-0 text-base md:text-lg font-semibold leading-4 text-white  text-center bg-transparent  focus:ring-2 focus:ring-white focus:ring-opacity-50 border border-white rounded-lg shadow-sm"
+                className="inline-block py-5 sm:py-3 px-6 w-fit mx-auto md:ml-0 text-base md:text-lg font-semibold leading-4 text-white  text-center bg-transparent  focus:ring-2 focus:ring-white focus:ring-opacity-50 border border-white rounded-lg shadow-sm"
                 href="https://forms.gle/5MM55hwYDsrxRGSG8"
                 target="_blank"
               >
