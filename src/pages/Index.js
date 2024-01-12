@@ -229,7 +229,7 @@ export default function Index() {
                   <div className="flex flex-wrap justify-center md:justify-start gap-5">
                     {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4"> */}
                     <a
-                      className=" align-middle inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                      className=" align-middle  py-5 sm:py-3 px-6 w-auto sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                       href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                     >
                       Free Sign Up
@@ -237,7 +237,7 @@ export default function Index() {
                     {/* </div> */}
                     {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
                     <Link
-                      className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                      className=" py-5 sm:py-3 px-6 w-auto sm:w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                       to={"/how-it-works"}
                     >
                       Learn More
@@ -262,41 +262,48 @@ export default function Index() {
         <AsSeen image={"images/Frame-422-1.png"} />
         {/* we get it */}
         <section
-          className="pt-32 pb-16 lg:pt-32 lg:pb-32 bg-white overflow-hidden"
+          className=" h-[920px] mb-56 sm:mb-0 sm:h-auto pt-32 pb-16 lg:pt-32 lg:pb-32 bg-white "
           style={{
             background: "var(--surface-light-bg, #F7F5F2)",
             backgroundPosition: "center",
           }}
         >
-          <div className="container mx-auto">
-            <div className="flex flex-wrap-reverse lg:items-center ">
-              <div className="w-full md:w-1/2  mt-16 md:mb-0">
-                <div className="relative mx-auto md:ml-0 max-w-max">
-                  <img loading="lazy" src="images/our-story.png" alt="" />
+          <div className="relative">
+            <div className="absolute  sm:relative container mx-auto">
+              <div className="flex flex-wrap-reverse lg:items-center ">
+                <div className="w-full md:w-1/2  mt-16 md:mb-0">
+                  <div className="relative mx-auto md:ml-0 max-w-max">
+                    <img
+                      className="max-w-[300px] sm:max-w-full"
+                      loading="lazy"
+                      src="images/our-story.png"
+                      alt=""
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="w-full md:w-1/2 ">
-                <div className="tracking-widest text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
-                  OUR STORY
-                </div>
-                <h2 className="mb-6 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal">
-                  We get it, because we have been there
-                </h2>
-                <p className="mb-6 text-lg leading-9 text-center md:text-left text-coolGray-500 ">
-                  A few years ago, Sarah, the founder of Nemu, experienced the
-                  loss of her grandmother. Witnessing the emotional and
-                  stressful process of dividing inherited property among family
-                  members, she realized the need for an easy, efficient, and
-                  fair solution. Unable to find one, she decided to build it
-                  herself.
-                </p>
-                <div className="w-full text-center md:text-left md:w-auto py-1 md:py-0">
-                  <Link
-                    className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-transparent hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
-                    to={"/how-it-works"}
-                  >
-                    Learn More
-                  </Link>
+                <div className="w-full md:w-1/2 ">
+                  <div className="tracking-widest text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+                    OUR STORY
+                  </div>
+                  <h2 className="mb-6 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal">
+                    We get it, because we have been there
+                  </h2>
+                  <p className="mb-6 text-lg leading-9 text-center md:text-left text-coolGray-500 ">
+                    A few years ago, Sarah, the founder of Nemu, experienced the
+                    loss of her grandmother. Witnessing the emotional and
+                    stressful process of dividing inherited property among
+                    family members, she realized the need for an easy,
+                    efficient, and fair solution. Unable to find one, she
+                    decided to build it herself.
+                  </p>
+                  <div className="w-full text-center md:text-left md:w-auto py-1 md:py-0">
+                    <Link
+                      className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-transparent hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                      to={"/how-it-works"}
+                    >
+                      Learn More
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>

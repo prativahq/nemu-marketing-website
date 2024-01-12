@@ -19,7 +19,7 @@ export const TestimonialAboutPage = () => {
   return (
     // <div className="w-[500px] h-[500px]">
     <CarouselProvider
-      className=" "
+      className=" hidden sm:block"
       naturalSlideWidth={100}
       naturalSlideHeight={120}
       totalSlides={2}

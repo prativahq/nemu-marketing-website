@@ -69,7 +69,7 @@ export default function HowItWorks() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="pt-10 pb-24">
+          <div className="py-10 sm:pb-24">
             <div className="container mx-auto">
               <div className="flex flex-wrap xl:items-center ">
                 <div className="text-center md:text-left w-full md:w-1/2  mb-16 md:mb-0">
@@ -122,7 +122,7 @@ export default function HowItWorks() {
           </div>
         </section>
         <section
-          className="py-24 md:pb-32 bg-coolGray-50"
+          className=" py-24 md:pb-32 bg-coolGray-50"
           style={{
             backgroundColor: "#F7F5F2",
           }}
@@ -132,7 +132,17 @@ export default function HowItWorks() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="container mx-auto">
+          <div className=" container mx-auto">
+            {/* <div className="w-full md:w-1/2 sm:hidden mb-10">
+              <div className="relative mx-auto md:mr-0 max-w-max">
+                <img
+                  loading="lazy"
+                  className="relative rounded-7xl max-w-[300px]"
+                  src="images/how-it-works-hero.png"
+                  alt=""
+                />
+              </div>
+            </div> */}
             <div className="md:max-w-4xl mb-12 mx-auto text-center">
               <span
                 className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
@@ -176,7 +186,7 @@ export default function HowItWorks() {
 
           {/* <div className="snap-y snap-mandatory overflow-y-scroll h-[550px] md:h-[750px] xl:h-[600px] 2xl:h-[750px] w-screen px-5  mx-auto flex flex-col gap-20 lg:gap-32"> */}
           <div className="snap-always snap-center py-5 flex flex-col gap-10 items-center">
-            <p className="text-lg lg:w-2/3 px-5 md:px-0 text-center leading-9 text-coolGray-300 ">
+            <p className="text-lg lg:w-2/3 px-8 md:px-0 text-center leading-9 text-coolGray-300 ">
               Margaret and her father agreed it was time to start documenting
               the history tied to his belongings. At the same time, they wanted
               to keep things in there place. So, she photographed most items
@@ -199,7 +209,7 @@ export default function HowItWorks() {
             ></div>
           </div>
           <div className="snap-always snap-center pb-10 flex flex-col gap-10 items-center">
-            <p className="text-lg lg:w-1/3 px-5 md:px-0 text-center leading-9 text-coolGray-300 ">
+            <p className="text-lg lg:w-1/3 px-8 md:px-0 text-center leading-9 text-coolGray-300 ">
               Margaret taps the 3 items her father wanted to catalog, and Nemu
               took care of the rest.
             </p>
@@ -220,7 +230,7 @@ export default function HowItWorks() {
             ></div>
           </div>
           <div className="snap-always snap-center  flex flex-col gap-10 items-center">
-            <p className="text-lg text-center px-5 md:px-0 leading-9 text-coolGray-300 ">
+            <p className="text-lg text-center px-8 md:px-0 leading-9 text-coolGray-300 ">
               Look at the treasures below to see what happened next!
             </p>
             <div className="px-8  mb-8 lg:mb-0">

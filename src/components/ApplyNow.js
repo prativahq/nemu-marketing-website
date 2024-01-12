@@ -17,10 +17,10 @@ export const ApplyNow = () => {
         >
           <div className="relative z-20 flex flex-wrap items-center -m-3">
             <div className="flex flex-col gap-6 w-full md:w-1/2 p-3">
-              <h2 className=" font-medium text-center md:text-left text-white tracking-tighter text-4xl font-heading">
+              <h2 className=" font-medium text-center md:text-left text-white tracking-tighter text-3xl md:text-4xl font-heading">
                 Join our team!
               </h2>
-              <p className="text-lg text-center md:text-left text-coolGray-200 leading-9">
+              <p className="text-base text-center md:text-left text-coolGray-200 leading-9">
                 Interested in helping families split property not relationships?
                 Come join our team! We are a nimble but growing team eager to
                 make life a lot easier for families going through difficult
