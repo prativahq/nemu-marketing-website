@@ -3,18 +3,18 @@ import React from "react";
 export const AsSeen = ({ image }) => {
   return (
     <section
-      className="relative h-[890px] pt-12   sm:h-auto md:py-72 lg:py-36 xl:pt-24 bg-[#075362]"
+      className="relative h-[880px] pt-12   sm:h-auto sm:py-72 lg:py-28 xl:pb-36 xl:pt-24 bg-[#075362]"
       // style={{
       //   background: "var(--primary-primary-500, #075362)",
       //   backgroundPosition: "center",
       // }}
     >
-      <div className="absolute  md:py-12 left-0 right-0 -top-44 sm:top-0 container mx-auto">
+      <div className="absolute z-999 md:py-12 left-0 right-0 -top-44 sm:top-0 container mx-auto">
         <div className="sm:hidden md:w-1/2 mb-12 ">
           <div className=" mx-auto md:mr-0 max-w-max">
             <img
               loading="lazy"
-              className=" right-0 z-99 rounded-7xl"
+              className=" max-w-[300px] sm:max-w-auto z-99 rounded-7xl"
               src={`${image}`}
               alt=""
             />
@@ -29,7 +29,7 @@ export const AsSeen = ({ image }) => {
           </h2>
         </div>
         <div className="flex flex-wrap justify-center -mx-4">
-          <div className="w-full md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
+          <div className="w-full sm:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
             <a
               target="_blank"
               href="https://venturelab.upenn.edu/nemu-the-weight-of-memories-and-their-impact-on-inheritance"
@@ -43,7 +43,7 @@ export const AsSeen = ({ image }) => {
               />
             </a>
           </div>
-          <div className="w-full md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
+          <div className="w-full sm:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
             <a
               target="_blank"
               href="https://fbsmagazine.com/"
@@ -57,7 +57,7 @@ export const AsSeen = ({ image }) => {
               />
             </a>
           </div>
-          <div className="w-full md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
+          <div className="w-full sm:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
             <a
               target="_blank"
               href="https://magazine.wharton.upenn.edu/issues/spring-summer-2023/nemu/"
@@ -71,7 +71,7 @@ export const AsSeen = ({ image }) => {
               />
             </a>
           </div>
-          <div className="w-full md:w-1/3 lg:w-1/5 px-4 mb-8 md:mb-0">
+          <div className="w-full sm:w-1/3 lg:w-1/5 px-4 mb-8 md:mb-0">
             <a
               target="_blank"
               href="https://open.spotify.com/show/5N5LUvQ5HBXfxfr6iCjXqh"

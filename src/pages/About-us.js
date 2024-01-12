@@ -13,6 +13,7 @@ import { ApplyNow } from "../components/ApplyNow";
 import { TestimonialAboutPage } from "../components/TestimonialAboutPage";
 import ScrollToTop from "react-scroll-to-top";
 import { HashLink } from "react-router-hash-link";
+import { TestimonialAboutPageMobile } from "../components/TestimonialAboutPageMobile";
 
 const meta = {
   title: "About Nemu - Our story & Commitment to Maximizing Value",
@@ -219,6 +220,7 @@ export default function AboutUs() {
               </h2>
             </div>
             <TestimonialAboutPage />
+            <TestimonialAboutPageMobile />
           </div>
         </section>
         <section

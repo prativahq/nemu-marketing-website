@@ -171,11 +171,11 @@ export default function Partner() {
                   <img src="images/promiseCheck.png" />
                 </div> */}
                 <div className="w-full md:flex-1 ">
-                  <h3 className="flex flex-wrap gap-3 items-center mb-4 text-xl md:text-2xl   text-coolGray-900 font-medium font-heading">
+                  <h3 className="flex flex-col sm:flex-row gap-3 items-center text-left sm:text-center mb-4 text-xl md:text-2xl   text-coolGray-900 font-medium font-heading">
                     <img loading="lazy" alt="" src="images/promiseCheck.png" />
                     Customers Treated with Empathy &amp; Respect
                   </h3>
-                  <p className="text-coolGray-500 leading-9 text-lg">
+                  <p className="text-coolGray-500 leading-9 text-lg text-left sm:text-center">
                     We give your clients the empathy and respect they deserve.
                     We treat them like family, because we’ve been there
                     ourselves.
@@ -187,11 +187,11 @@ export default function Partner() {
                   <img src="images/promiseCheck.png" />
                 </div> */}
                 <div className="w-full md:flex-1 ">
-                  <h3 className="flex flex-wrap gap-3 items-center mb-4 text-xl md:text-2xl   text-coolGray-900 font-medium font-heading">
+                  <h3 className="flex flex-wrap gap-3 items-center text-left sm:text-center mb-4 text-xl md:text-2xl   text-coolGray-900 font-medium font-heading">
                     <img loading="lazy" alt="" src="images/promiseCheck.png" />
                     The Right Resource, at the Right Time
                   </h3>
-                  <p className="text-coolGray-500 leading-9 text-lg">
+                  <p className="text-coolGray-500 leading-9 text-lg text-left sm:text-center">
                     Nemu is the result of countless hours of user-testing,
                     family-observations, and research. Any family will feel
                     right at home.
@@ -204,11 +204,11 @@ export default function Partner() {
                   <img src="images/promiseCheck.png" />
                 </div> */}
                 <div className="w-full md:flex-1 ">
-                  <h3 className="flex flex-wrap gap-3 items-center mb-4 text-xl md:text-2xl   text-coolGray-900 font-medium font-heading">
+                  <h3 className="flex flex-wrap gap-3 items-center text-left sm:text-center mb-4 text-xl md:text-2xl   text-coolGray-900 font-medium font-heading">
                     <img loading="lazy" alt="" src="images/promiseCheck.png" />A
                     Trusted Extension of your Business
                   </h3>
-                  <p className="text-coolGray-500 leading-9 text-lg">
+                  <p className="text-coolGray-500 leading-9 text-lg text-left sm:text-center">
                     We’re in this together! With Nemu you can expand your
                     services at scale while still focusing on your core
                     business.
