@@ -214,7 +214,7 @@ export const Footer = () => {
         className="py-6 md:pb-6 text-sm bg-emerald-700 text-center text-white"
         // contentEditable="false"
       >
-        © 2023 Nemu, Inc. All rights reserved.
+        © 2024 Nemu, Inc. All rights reserved.
       </p>
     </section>
   );
