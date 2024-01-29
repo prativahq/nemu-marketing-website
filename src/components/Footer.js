@@ -160,13 +160,23 @@ export const Footer = () => {
                 </Link>
               </li>
 
-              <li>
+              <li className="mb-4">
                 <Link
                   className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
                   to="/refund-policy"
                   // contentEditable="false"
                 >
                   Refund Policy
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
+                  to="/delete-account"
+                  // contentEditable="false"
+                >
+                  Account Policy
                 </Link>
               </li>
             </ul>

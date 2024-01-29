@@ -14,6 +14,7 @@ import BlogsPage from "./pages/Blog.js";
 import ReactDOM from "react-dom/client";
 import { BlogPage } from "./pages/BlogPage.js";
 import NotFound from "./pages/NotFound.js";
+import DeleteAccount from "./pages/Delete-account.js";
 //import { ParallaxProvider } from "react-scroll-parallax";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -32,6 +33,8 @@ root.render(
         {/* <Route path="/legal" element={<LegalPage />} /> */}
 
         <Route path="/refund-policy" element={<RefundsCancellationPage />} />
+
+        <Route path="/delete-account" element={<DeleteAccount />} />
 
         <Route path="/contact-us" element={<ContactUsPage />} />
 
