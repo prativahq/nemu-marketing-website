@@ -148,7 +148,7 @@ export default function HowItWorks() {
                 className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
                 // contentEditable="false"
               >
-                OVERLINE
+                OVERVIEW
               </span>
               <h2
                 className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-normal"
@@ -189,7 +189,7 @@ export default function HowItWorks() {
             <p className="text-lg lg:w-2/3 px-8 md:px-0 text-center leading-9 text-coolGray-300 ">
               Margaret and her father agreed it was time to start documenting
               the history tied to his belongings. At the same time, they wanted
-              to keep things in there place. So, she photographed most items
+              to keep things in their place. So, she photographed most items
               just where she found them.
             </p>
             <div className="text-center px-8 mb-8 lg:mb-0 overflow-hidden flex justify-center">
@@ -210,8 +210,8 @@ export default function HowItWorks() {
           </div>
           <div className="snap-always snap-center pb-10 flex flex-col gap-10 items-center">
             <p className="text-lg lg:w-1/3 px-8 md:px-0 text-center leading-9 text-coolGray-300 ">
-              Margaret taps the 3 items her father wanted to catalog, and Nemu
-              took care of the rest.
+              Margaret uploads photos to her father’s Nemu catalog, and Nemu
+              took care of the rest
             </p>
             <div className=" px-8  mb-8 lg:mb-0">
               <img
@@ -259,7 +259,7 @@ export default function HowItWorks() {
                 className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
                 // contentEditable="false"
               >
-                OVERLINE
+                OVERVIEW
               </span>
               <h2
                 className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-normal"
@@ -323,7 +323,7 @@ export default function HowItWorks() {
                   Managing an estate is a big responsibility, but you don’t need
                   to do it alone. We’ve been in your shoes and we’re here to
                   help. We’ll make sure everyone’s voice is fairly included,
-                  which means you can mange items with confidence. No fighting,
+                  which means you can manage items with confidence. No fighting,
                   no drama.
                 </p>
                 <div className="px-8 pb-8">
@@ -354,7 +354,7 @@ export default function HowItWorks() {
                 className="mb-6 mt-3 text-center text-3xl md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-normal"
                 // contentEditable="false"
               >
-                Alright, Sounds Great!
+                That Sounds Great!
                 <div>What does all of this cost?</div>
               </h2>
             </div>

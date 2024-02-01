@@ -26,7 +26,7 @@ export const Testimonial = () => {
     >
       <Slider className=" h-[870px] md:h-[450px]">
         <Slide index={0} className="pb-0">
-          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full xl:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -35,7 +35,7 @@ export const Testimonial = () => {
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
-              <div className="text-lg w-full lg:w-3/4 leading-9 text-coolGray-500">
+              <div className="text-lg w-full xl:w-3/4 leading-9 text-coolGray-500">
                 Nemu made my role as trustee manageable at a time when I was
                 overwhelmed with all my responsibilities. The division of assets
                 became something my family members looked forward to and
@@ -53,7 +53,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={1} className="pb-0">
-          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full xl:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -62,7 +62,7 @@ export const Testimonial = () => {
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
-              <div className="text-lg w-full lg:w-3/4 leading-9 text-coolGray-500">
+              <div className="text-lg w-full xl:w-3/4 leading-9 text-coolGray-500">
                 When you put it in Nemu, then you know everyone has seen it. You
                 know everyone has had the priviledge of having a choice and
                 having a voice. And then the whole family is confident about
@@ -80,7 +80,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={2} className="pb-0">
-          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full xl:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -89,7 +89,7 @@ export const Testimonial = () => {
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
-              <div className="text-lg w-full lg:w-3/4 leading-9 text-coolGray-500">
+              <div className="text-lg w-full xl:w-3/4 leading-9 text-coolGray-500">
                 It was user friendly and I would use this again in a heartbeat.
                 It removed the tension and gave a very fair disbursement of
                 items even though you didn’t always get what you had hoped for.
@@ -107,7 +107,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={3} className="pb-0">
-          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full xl:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -116,7 +116,7 @@ export const Testimonial = () => {
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
-              <div className="text-lg w-full lg:w-3/4 leading-9 text-coolGray-500">
+              <div className="text-lg w-full xl:w-3/4 leading-9 text-coolGray-500">
                 Nemu was so helpful to me. After living overseas for thirty
                 years and moving back to the US, it kept me focused on what I
                 wanted and what I wanted to share. It's a great record of where
@@ -134,7 +134,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={4} className="pb-0">
-          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full xl:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -143,7 +143,7 @@ export const Testimonial = () => {
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
-              <div className="text-lg w-full lg:w-3/4 leading-9 text-coolGray-500">
+              <div className="text-lg w-full xl:w-3/4 leading-9 text-coolGray-500">
                 My sister got a painting I really wanted, and I remember
                 thinking, 'Dang-it I really wanted that.' And then I realized
                 how great it was that we didn't need to have the conversation
@@ -163,7 +163,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={5} className="pb-0">
-          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full xl:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -172,7 +172,7 @@ export const Testimonial = () => {
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
-              <div className="text-lg w-full lg:w-3/4 leading-9 text-coolGray-500">
+              <div className="text-lg w-full xl:w-3/4 leading-9 text-coolGray-500">
                 It felt great to participate in a distribution, it created the
                 feeling that every bid was possible. At the same time, any
                 emotional attachment was focused on your own relationship with
@@ -191,7 +191,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={6} className="pb-0">
-          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full xl:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -200,7 +200,7 @@ export const Testimonial = () => {
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
-              <div className="text-lg w-full lg:w-3/4 leading-9 text-coolGray-500">
+              <div className="text-lg w-full xl:w-3/4 leading-9 text-coolGray-500">
                 Nemu takes care of so many things people really don't want to
                 do. For those people who are really serious about their family
                 relationships - this is exactly what they need.
@@ -217,7 +217,7 @@ export const Testimonial = () => {
           </div>
         </Slide>
         <Slide index={7} className="pb-0">
-          <div className=" w-full lg:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className=" w-full xl:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
             <img
               // loading="lazy"
               alt=""
@@ -226,7 +226,7 @@ export const Testimonial = () => {
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
-              <div className="text-lg w-full lg:w-3/4 leading-9 text-coolGray-500">
+              <div className="text-lg w-full xl:w-3/4 leading-9 text-coolGray-500">
                 I loved using Nemu as the distribution method for our family. By
                 the time the announcement came with what items were ours, I had
                 forgotten some of the items I had hoped to get and felt so
