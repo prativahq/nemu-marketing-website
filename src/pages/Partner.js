@@ -138,7 +138,7 @@ export default function Partner() {
           <div className="flex items-start justify-between flex-wrap container mx-auto">
             <div className="text-center xl:text-left mx-auto ">
               <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
-                OVERLINE
+                OVERVIEW
               </span>
               <h2
                 className="mb-6 mt-3 text-3xl md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-normal"

@@ -32,7 +32,7 @@ export const TestimonialAboutPage = () => {
           <ChevronRight className="text-emerald-500" />
         </ButtonNext>
       </div>
-      <Slider className=" h-[1010px] md:h-[600px] lg:h-[470px]">
+      <Slider className=" h-[1010px] md:h-[600px] xl:h-[470px]">
         <Slide index={0} className=" pb-0">
           <div className="md:flex-row flex flex-col w-full gap-10 py-5">
             <div className="w-full md:w-1/2   ">

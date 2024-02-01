@@ -196,7 +196,7 @@ export default function AboutUs() {
               TIMELINE
             </div>
             <h3 className="mb-6  text-center text-3xl md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-tight">
-              Down the memory lane
+              A Trip Down Memory Lane
             </h3>
             <Timeline />
           </div>
