@@ -65,7 +65,7 @@ function Content() {
         <a
           className="mx-auto sm:mx-0"
           target="_blank"
-          href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
+          href="https://apps.apple.com/us/app/nemu/id6471528649"
         >
           <img
             alt=""
@@ -79,7 +79,7 @@ function Content() {
         <a
           className="mx-auto sm:mx-0"
           target="_blank"
-          href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
+          href="https://play.google.com/store/apps/details?id=com.company.nemu"
         >
           <img
             alt=""
