@@ -21,6 +21,9 @@ import Blogs from "../posts.json";
 import { BlogCard } from "../components/BlogCard";
 import ScrollToTop from "react-scroll-to-top";
 import { HashLink } from "react-router-hash-link";
+import { Welcome } from "../components/Welcome";
+import { Download } from "../components/Download";
+import { Toaster } from "react-hot-toast";
 
 const meta = {
   title: "Nemu - Revolutionizing Property Inheritance",
@@ -199,6 +202,8 @@ export default function Index() {
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
       <>
+        <Toaster />
+        <Welcome />
         <Navbar />
         {/* hero */}
         <section
@@ -228,12 +233,13 @@ export default function Index() {
                   </p>
                   <div className="flex flex-wrap justify-center md:justify-start gap-5">
                     {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4"> */}
-                    <a
+                    {/* <a
                       className=" align-middle  py-5 sm:py-3 px-6 w-auto sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                       href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                     >
-                      Free Sign Up
-                    </a>
+                      Download App
+                    </a> */}
+                    <Download />
                     {/* </div> */}
                     {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
                     <Link
@@ -339,12 +345,13 @@ export default function Index() {
                   </div>
                   <div className="w-full md:w-auto">
                     <div className="flex gap-4 flex-wrap justify-center items-center -mb-2">
-                      <a
+                      {/* <a
                         className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                       >
-                        Free Sign Up
-                      </a>
+                        Download App
+                      </a> */}
+                      <Download />
                       {/* </div> */}
                       {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
                       <Link
