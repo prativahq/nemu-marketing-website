@@ -26,7 +26,7 @@ export const Download = () => {
   if (screenSize.width < 768) {
     return (
       <Drawer>
-        <DrawerTrigger className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm">
+        <DrawerTrigger className=" py-5 sm:py-3 px-6 w-full text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm">
           Download App
         </DrawerTrigger>
         <DrawerContent>
@@ -61,8 +61,9 @@ function Content() {
           Select the platform you wish to download for{" "}
         </p>
       </div>
-      <div className="flex flex-wrap justify-between gap-5">
+      <div className="flex flex-wrap justify-between  gap-5">
         <a
+          className="mx-auto sm:mx-0"
           target="_blank"
           href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
         >
@@ -76,6 +77,7 @@ function Content() {
           />
         </a>
         <a
+          className="mx-auto sm:mx-0"
           target="_blank"
           href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
         >
