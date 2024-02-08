@@ -7,6 +7,7 @@ import { Footer } from "../components/Footer";
 import ScrollToTop from "react-scroll-to-top";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { Download } from "../components/Download";
 
 const meta = {
   title: "Connect Nemu: Your Inheritance Guide ",
@@ -94,14 +95,8 @@ export default function ContactUs() {
       answer: (
         <p>
           Of course! We offer a free trial for all of our users. We think you'll
-          like what you see. You can{" "}
-          <a
-            className="underline"
-            target="_blank"
-            href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
-          >
-            Sign up
-          </a>
+          like what you see. You can Sign Up <Download isLink={true} /> to get
+          started.
         </p>
       ),
     },

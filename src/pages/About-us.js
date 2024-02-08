@@ -14,6 +14,7 @@ import { TestimonialAboutPage } from "../components/TestimonialAboutPage";
 import ScrollToTop from "react-scroll-to-top";
 import { HashLink } from "react-router-hash-link";
 import { TestimonialAboutPageMobile } from "../components/TestimonialAboutPageMobile";
+import { Download } from "../components/Download";
 
 const meta = {
   title: "About Nemu - Our story & Commitment to Maximizing Value",
@@ -159,12 +160,7 @@ export default function AboutUs() {
                       </a>
                     </div>
                     <div className="w-full md:w-auto py-1 md:py-0">
-                      <a
-                        className="inline-block py-5 sm:py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
-                        href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
-                      >
-                        Sign Up
-                      </a>
+                      <Download />
                     </div>
                   </div>
                 </div>
