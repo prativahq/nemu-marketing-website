@@ -20,15 +20,20 @@ import {
 } from "../components/ui/dialog";
 import { DownloadIcon } from "lucide-react";
 
-export const Download = () => {
+export const Download = (props) => {
   const screenSize = useScreenSize();
 
   if (screenSize.width < 768) {
     return (
       <Drawer>
-        <DrawerTrigger className=" py-5 sm:py-3 px-6 w-full text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm">
-          Download App
-        </DrawerTrigger>
+        {props?.isLink ? (
+          <DrawerTrigger className=" underline">here</DrawerTrigger>
+        ) : (
+          <DrawerTrigger className=" py-5 sm:py-3 px-6 w-full text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm">
+            Download App
+          </DrawerTrigger>
+        )}
+
         <DrawerContent>
           <Content />
         </DrawerContent>
@@ -37,10 +42,18 @@ export const Download = () => {
   } else
     return (
       <Dialog>
-        <DialogTrigger className="flex items-center py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm">
-          Download App
-          {/* <DownloadIcon className="w-6 h-6 ml-2" /> */}
-        </DialogTrigger>
+        {props?.isLink ? (
+          <DialogTrigger className="underline">
+            here
+            {/* <DownloadIcon className="w-6 h-6 ml-2" /> */}
+          </DialogTrigger>
+        ) : (
+          <DialogTrigger className="flex items-center py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm">
+            Download App
+            {/* <DownloadIcon className="w-6 h-6 ml-2" /> */}
+          </DialogTrigger>
+        )}
+
         <DialogContent>
           <Content />
         </DialogContent>
@@ -91,21 +104,21 @@ function Content() {
           />
         </a>
       </div>
-      {screenSize.width > 768 && (
-        <div className="flex items-center shrink-0 gap-3 bg-[#F3F7F7] p-3 rounded-lg border-2 border-[#B2CACE]">
-          <img alt="" src="images/iconLeft.svg" />
-          <p className="text-[#075362]">
-            <a
-              href="https://share.hsforms.com/1kBWXOHsJRwONL9Xa3h80WAq6kww"
-              target="_blank"
-              className="font-semibold underline"
-            >
-              Click here
-            </a>{" "}
-            to join our Web App waitlist!
-          </p>
-        </div>
-      )}
+      {/* {screenSize.width > 768 && ( */}
+      <div className="flex items-center shrink-0 gap-3 bg-[#F3F7F7] p-3 rounded-lg border-2 border-[#B2CACE]">
+        <img alt="" src="images/iconLeft.svg" />
+        <p className="text-[#075362]">
+          <a
+            href="https://share.hsforms.com/1kBWXOHsJRwONL9Xa3h80WAq6kww"
+            target="_blank"
+            className="font-semibold underline"
+          >
+            Click here
+          </a>{" "}
+          to join our Web App waitlist!
+        </p>
+      </div>
+      {/* )} */}
     </div>
   );
 }

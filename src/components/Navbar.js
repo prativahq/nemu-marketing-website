@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip } from "react-tooltip";
+import { Download } from "./Download";
 
 export const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -27,7 +28,7 @@ export const Navbar = () => {
       </Helmet> */}
       <nav className=" flex justify-between py-6  container mx-auto">
         <div className="flex justify-between items-center w-full">
-          <div className=" xl:block xl:w-1/4">
+          <div className=" ">
             <Link className="block max-w-max" to="/">
               <img
                 loading="lazy"
@@ -37,7 +38,7 @@ export const Navbar = () => {
               />
             </Link>
           </div>
-          <div className="hidden xl:block xl:w-1/2">
+          <div className="hidden xl:block ">
             <ul className="flex justify-center">
               <li className="mr-12">
                 <Link
@@ -103,7 +104,7 @@ export const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="hidden xl:block xl:w-1/4">
+          <div className="hidden xl:block ">
             <div className="flex gap-5 items-center justify-end">
               <button
                 data-tooltip-id="my-tooltip"
@@ -113,12 +114,7 @@ export const Navbar = () => {
                 <img loading="lazy" alt="" src="images/zoom-nav.svg" />
               </button>
               <Tooltip className="absolute z-40" id="my-tooltip" />
-              <a
-                className="inline-block py-3 px-5 font-semibold  leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-base focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-md"
-                href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
-              >
-                Sign Up
-              </a>
+              <Download />
             </div>
           </div>
         </div>
@@ -217,12 +213,7 @@ export const Navbar = () => {
                   </Link>
                 </div> */}
                 <div className="w-full">
-                  <a
-                    className="inline-block  py-3 px-6 w-full font-semibold leading-5 text-white bg-emerald-500 hover:bg-emerald-600 text-base text-center focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 rounded-lg"
-                    href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
-                  >
-                    Sign Up
-                  </a>
+                  <Download />
                 </div>
               </div>
             </div>

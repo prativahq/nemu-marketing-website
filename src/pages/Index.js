@@ -92,14 +92,15 @@ export default function Index() {
       answer: (
         <p>
           Of course! We offer a free trial for all of our users. We think you'll
-          like what you see. You can{" "}
-          <a
+          like what you see. You can Sign Up <Download isLink={true} /> to get
+          started.
+          {/* <a
             className="underline"
             target="_blank"
             href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
           >
             Sign up
-          </a>
+          </a> */}
         </p>
       ),
     },
