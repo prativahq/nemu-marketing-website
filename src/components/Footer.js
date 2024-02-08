@@ -192,7 +192,7 @@ export const Footer = () => {
               <div className="w-full lg:flex-1 py-1 lg:py-0 lg:mr-3">
                 <a
                   target="_blank"
-                  href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
+                  href="https://apps.apple.com/us/app/nemu/id6471528649"
                 >
                   <img
                     loading="lazy"
@@ -203,7 +203,7 @@ export const Footer = () => {
                 </a>
                 <a
                   target="_blank"
-                  href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
+                  href="https://play.google.com/store/apps/details?id=com.company.nemu"
                 >
                   {" "}
                   <img

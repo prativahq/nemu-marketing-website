@@ -166,12 +166,13 @@ export default function HowItWorks() {
                 })}
               </div>
               <div className="hidden md:block w-full md:w-auto py-1 md:py-0 md:mr-4">
-                <a
+                {/* <a
                   className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                   href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                 >
                   Sign up for free
-                </a>
+                </a> */}
+                <Download />
               </div>
             </div>
           </div>
@@ -301,12 +302,7 @@ export default function HowItWorks() {
                   and move more quickly. Let us help you get started!
                 </p>
                 <div className="px-8 pb-8">
-                  <a
-                    className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
-                    href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
-                  >
-                    Sign up for free
-                  </a>
+                  <Download />
                 </div>
               </div>
               <div className="border-2 border-coolGray-100  rounded-xl flex flex-col gap-4 w-full md:w-[480px]  mb-8">
@@ -329,12 +325,7 @@ export default function HowItWorks() {
                   no drama.
                 </p>
                 <div className="px-8 pb-8">
-                  <a
-                    className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
-                    href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
-                  >
-                    Sign up for free
-                  </a>
+                  <Download />
                 </div>
               </div>
             </div>
