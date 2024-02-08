@@ -10,6 +10,7 @@ import ScrollToTop from "react-scroll-to-top";
 import StickyScrollAnimation from "../components/StickyScrollAnimation";
 // import "../components/StickyScrollAnimation.css";
 import { useScrollPercentage } from "react-scroll-percentage";
+import { Download } from "../components/Download";
 
 const meta = {
   title: "Nemu's Expert Property Splitting Services",
@@ -90,12 +91,13 @@ export default function HowItWorks() {
                   </p>
                   <div className="flex flex-wrap gap-2 md:gap-4 lg:gap-0">
                     <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
-                      <a
+                      {/* <a
                         className="inline-block py-5 sm:py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                       >
-                        Free Sign Up
-                      </a>
+                        Download App
+                      </a> */}
+                      <Download />
                     </div>
                     <div className="w-full md:w-auto py-1 md:py-0">
                       <a
