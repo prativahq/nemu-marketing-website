@@ -6,7 +6,13 @@ import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
   title: "Nemu: Refund Policy",
-  meta: [],
+  meta: [
+    {
+      name: "description",
+      content:
+        "Explore our user-friendly refund and cancellation policies. Clear guidelines for hassle-free returns. Your satisfaction is our priority. Learn more for a seamless experience.",
+    },
+  ],
   link: [],
   style: [],
   script: [],
@@ -35,9 +41,9 @@ export default function RefundsCancellation() {
               <div className="w-full px-4 mb-10">
                 <div className="flex flex-wrap justify-between items-center">
                   <div className="w-full md:w-1/2 mb-10 md:mb-0">
-                    <h3 className="mb-4 text-4xl md:text-5xl text-coolGray-900     font-medium font-heading tracking-tight">
+                    <h1 className="mb-4 text-4xl md:text-5xl text-coolGray-900     font-medium font-heading tracking-tight">
                       Refund Policy
-                    </h3>
+                    </h1>
                   </div>
                   <div className="w-full md:w-auto"></div>
                 </div>

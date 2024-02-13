@@ -258,9 +258,9 @@ export default function Index() {
                 <div className="hidden sm:block md:w-1/2 ">
                   <div className=" mx-auto md:mr-0 max-w-max">
                     <img
-                      loading="lazy"
+                      // loading="lazy"
                       className=" right-0 z-99 rounded-7xl"
-                      src="images/Frame-422-1.png"
+                      src="images/Frame-422-1-1.webp"
                       alt=""
                     />
                   </div>
@@ -269,7 +269,7 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <AsSeen image={"images/Frame-422-1.png"} />
+        <AsSeen image={"images/Frame-422-1-1.webp"} />
         {/* we get it */}
         <section
           className=" h-[920px] mb-56 sm:mb-0 sm:h-auto pt-32 pb-16 lg:pt-32 lg:pb-32 bg-white "
