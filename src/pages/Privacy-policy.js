@@ -6,7 +6,13 @@ import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
   title: "Nemu: Privacy Policy",
-  meta: [],
+  meta: [
+    {
+      name: "description",
+      content:
+        "Explore our Privacy Policy to understand how we collect, use, and protect your personal information. Learn about your rights, our commitment to data security, and how we prioritize your privacy in compliance with applicable regulations. Your trust matters to us; discover the details of our privacy practices here.",
+    },
+  ],
   link: [],
   style: [],
   script: [],

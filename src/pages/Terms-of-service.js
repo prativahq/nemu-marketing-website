@@ -6,7 +6,13 @@ import ScrollToTop from "react-scroll-to-top";
 
 const meta = {
   title: "Nemu: Terms of Use",
-  meta: [],
+  meta: [
+    {
+      name: "description",
+      content:
+        "Explore concise Terms of Use for a seamless user experience. Trustworthy guidelines prioritizing your satisfaction.",
+    },
+  ],
   link: [],
   style: [],
   script: [],
@@ -44,9 +50,9 @@ export default function TermsOfService() {
               <p style={{ textAlign: "center" }}>
                 <strong>
                   <u>
-                    <span style={{ fontSize: "11pt" }}>
+                    <h1 style={{ fontSize: "11pt" }}>
                       WEBSITE TERMS OF USE&nbsp;
-                    </span>
+                    </h1>
                   </u>
                 </strong>
               </p>
