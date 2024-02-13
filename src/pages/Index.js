@@ -41,11 +41,20 @@ const meta = {
 
 export default function Index() {
   const [blogs, setBlogs] = useState(Blogs);
+  const [showDialog, setShowDialog] = useState(false);
 
   useEffect(() => {
     setBlogs(Blogs.slice(0, 3));
     window.scrollTo(0, 0);
+
+    const welcomeDialog = sessionStorage.getItem("welcome");
+    if (welcomeDialog !== "true") {
+      setTimeout(() => {
+        setShowDialog(true);
+      }, 4000);
+    }
   }, []);
+
   const faqs = [
     {
       id: 1,
@@ -197,7 +206,8 @@ export default function Index() {
       </HelmetProvider>
       <>
         <Toaster />
-        <Welcome />
+        {showDialog && <Welcome />}
+
         <Navbar />
         {/* hero */}
         <section

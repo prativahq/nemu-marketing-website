@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Drawer,
   DrawerClose,
@@ -23,6 +23,10 @@ import { WelcomeForm } from "./WelcomeForm";
 
 export const Welcome = () => {
   const screenSize = useScreenSize();
+
+  useEffect(() => {
+    sessionStorage.setItem("welcome", "true");
+  }, []);
 
   if (screenSize.width < 768) {
     return (
