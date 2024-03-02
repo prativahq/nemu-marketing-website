@@ -30,7 +30,7 @@ export const Download = (props) => {
           <DrawerTrigger className=" underline">here</DrawerTrigger>
         ) : (
           <DrawerTrigger className=" py-5 sm:py-3 px-6 w-full text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm">
-            Download App
+            Get Started
           </DrawerTrigger>
         )}
 
@@ -49,7 +49,7 @@ export const Download = (props) => {
           </DialogTrigger>
         ) : (
           <DialogTrigger className="flex items-center py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm">
-            Download App
+            Get Started
             {/* <DownloadIcon className="w-6 h-6 ml-2" /> */}
           </DialogTrigger>
         )}

@@ -241,7 +241,7 @@ export default function Index() {
                       className=" align-middle  py-5 sm:py-3 px-6 w-auto sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                       href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                     >
-                      Download App
+                      Get Started
                     </a> */}
                     <Download />
                     {/* </div> */}
@@ -353,7 +353,7 @@ export default function Index() {
                         className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                       >
-                        Download App
+                        Get Started
                       </a> */}
                       <Download />
                       {/* </div> */}
