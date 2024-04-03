@@ -206,7 +206,7 @@ export default function Index() {
       </HelmetProvider>
       <>
         <Toaster />
-        {showDialog && <Welcome />}
+        {/* {showDialog && <Welcome />} */}
 
         <Navbar />
         {/* hero */}
