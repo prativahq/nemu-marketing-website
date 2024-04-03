@@ -39,7 +39,7 @@ export const DownloadApp = () => {
                   href="https://apps.apple.com/us/app/nemu/id6471528649"
                 >
                   <img
-                    loading="lazy"
+                    // loading="lazy"
                     src="images/App-Store.svg"
                     alt=""
                     className=" rounded "
@@ -51,7 +51,7 @@ export const DownloadApp = () => {
                 >
                   {" "}
                   <img
-                    loading="lazy"
+                    // loading="lazy"
                     src="images/Play-Store.svg"
                     alt=""
                     className=" rounded "
