@@ -114,7 +114,13 @@ export const Navbar = () => {
                 <img loading="lazy" alt="" src="images/zoom-nav.svg" />
               </button>
               <Tooltip className="absolute z-40" id="my-tooltip" />
-              <Download />
+              {/* <Download /> */}
+              <a
+                href="https://app.mynemu.com"
+                className="flex items-center py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+              >
+                Get Started
+              </a>
             </div>
           </div>
         </div>
@@ -203,8 +209,8 @@ export const Navbar = () => {
                   </Link>
                 </li>
               </ul>
-              <div className="flex flex-wrap">
-                {/* <div className="w-full mb-2">
+              {/* <div className="flex flex-wrap"> */}
+              {/* <div className="w-full mb-2">
                   <Link
                     className="inline-block py-2 px-4 w-full  leading-5 text-coolGray-500 hover:text-coolGray-900 bg-transparent text-base text-center rounded-md"
                     to="#"
@@ -212,10 +218,16 @@ export const Navbar = () => {
                     Log In
                   </Link>
                 </div> */}
-                <div className="w-full">
-                  <Download />
-                </div>
-              </div>
+              {/* <div className="w-full"> */}
+              {/* <Download /> */}
+              <a
+                href="https://app.mynemu.com"
+                className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+              >
+                Get Started
+              </a>
+              {/* </div> */}
+              {/* </div> */}
             </div>
           </nav>
           <button

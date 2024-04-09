@@ -101,8 +101,11 @@ export default function Index() {
       answer: (
         <p>
           Of course! We offer a free trial for all of our users. We think you'll
-          like what you see. You can Sign Up <Download isLink={true} /> to get
-          started.
+          like what you see. You can Sign Up{" "}
+          <a href="https://app.mynemu.com" className="underline">
+            here
+          </a>{" "}
+          to get started.
         </p>
       ),
     },
@@ -243,7 +246,13 @@ export default function Index() {
                     >
                       Get Started
                     </a> */}
-                    <Download />
+                    {/* <Download /> */}
+                    <a
+                      href="https://app.mynemu.com"
+                      className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                    >
+                      Get Started
+                    </a>
                     {/* </div> */}
                     {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
                     <Link
@@ -355,7 +364,13 @@ export default function Index() {
                       >
                         Get Started
                       </a> */}
-                      <Download />
+                      {/* <Download /> */}
+                      <a
+                        href="https://app.mynemu.com"
+                        className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                      >
+                        Get Started
+                      </a>
                       {/* </div> */}
                       {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
                       <Link

@@ -95,8 +95,11 @@ export default function ContactUs() {
       answer: (
         <p>
           Of course! We offer a free trial for all of our users. We think you'll
-          like what you see. You can Sign Up <Download isLink={true} /> to get
-          started.
+          like what you see. You can Sign Up{" "}
+          <a href="https://app.mynemu.com" className="underline">
+            here
+          </a>{" "}
+          to get started.
         </p>
       ),
     },

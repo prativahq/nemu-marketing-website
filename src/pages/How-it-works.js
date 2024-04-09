@@ -89,16 +89,22 @@ export default function HowItWorks() {
                     a positive experience for families to celebrate their
                     heritage and legacy, whether they are near or far.
                   </p>
-                  <div className="flex flex-wrap gap-2 md:gap-4 lg:gap-0">
-                    <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
-                      {/* <a
+                  <div className="flex flex-wrap gap-2 md:gap-4 ">
+                    {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4"> */}
+                    {/* <a
                         className="inline-block py-5 sm:py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                       >
                         Get Started
                       </a> */}
-                      <Download />
-                    </div>
+                    {/* <Download /> */}
+                    <a
+                      href="https://app.mynemu.com"
+                      className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                    >
+                      Get Started
+                    </a>
+                    {/* </div> */}
                     <div className="w-full md:w-auto py-1 md:py-0">
                       <a
                         className="inline-block py-5 sm:py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
@@ -166,7 +172,13 @@ export default function HowItWorks() {
                 })}
               </div>
               <div className="hidden md:block w-full md:w-auto py-1 md:py-0 md:mr-4">
-                <Download />
+                {/* <Download /> */}
+                <a
+                  href="https://app.mynemu.com"
+                  className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                >
+                  Get Started
+                </a>
               </div>
             </div>
           </div>
@@ -296,7 +308,13 @@ export default function HowItWorks() {
                   and move more quickly. Let us help you get started!
                 </p>
                 <div className="px-8 pb-8">
-                  <Download />
+                  {/* <Download /> */}
+                  <a
+                    href="https://app.mynemu.com"
+                    className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                  >
+                    Get Started
+                  </a>
                 </div>
               </div>
               <div className="border-2 border-coolGray-100  rounded-xl flex flex-col gap-4 w-full md:w-[480px]  mb-8">
@@ -319,7 +337,13 @@ export default function HowItWorks() {
                   no drama.
                 </p>
                 <div className="px-8 pb-8">
-                  <Download />
+                  {/* <Download /> */}
+                  <a
+                    href="https://app.mynemu.com"
+                    className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                  >
+                    Get Started
+                  </a>
                 </div>
               </div>
             </div>
@@ -393,7 +417,13 @@ export default function HowItWorks() {
                 </ul>
                 <div className="border-b flex-1 border-coolGray-100" />
                 <div className="flex justify-center mt-8">
-                  <Download />
+                  {/* <Download /> */}
+                  <a
+                    href="https://app.mynemu.com"
+                    className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                  >
+                    Buy Plan
+                  </a>
                 </div>
               </div>
               {/* </div> */}
@@ -454,7 +484,13 @@ export default function HowItWorks() {
                   </ul>
                   <div className="border-b flex-1 border-coolGray-100" />
                   <div className="flex justify-center mt-8">
-                    <Download />
+                    {/* <Download /> */}
+                    <a
+                      href="https://app.mynemu.com"
+                      className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                    >
+                      Buy Plan
+                    </a>
                   </div>
                 </div>
               </div>
@@ -512,7 +548,13 @@ export default function HowItWorks() {
                 </ul>
                 <div className="border-b flex-1 border-coolGray-100" />
                 <div className="flex justify-center mt-8">
-                  <Download />
+                  {/* <Download /> */}
+                  <a
+                    href="https://app.mynemu.com"
+                    className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                  >
+                    Buy Plan
+                  </a>
                 </div>
               </div>
               {/* </div> */}
