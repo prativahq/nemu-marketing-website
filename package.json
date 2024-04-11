@@ -9,6 +9,7 @@
     "@nikolajs/react-scroll-slider": "^1.0.3",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-tabs": "^1.0.4",
     "@react-email/render": "^0.0.12",
     "@sendgrid/mail": "^8.1.0",
     "axios": "^1.6.7",
