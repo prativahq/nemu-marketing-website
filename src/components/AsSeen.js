@@ -3,7 +3,7 @@ import React from "react";
 export const AsSeen = ({ image }) => {
   return (
     <section
-      className="relative h-[880px] pt-12   sm:h-auto sm:py-72 lg:py-28 xl:pb-36 xl:pt-24 bg-[#075362]"
+      className="relative h-[1040px] pt-12   sm:h-auto sm:py-72 lg:py-28 xl:pb-36 xl:pt-24 bg-[#075362]"
       // style={{
       //   background: "var(--primary-primary-500, #075362)",
       //   backgroundPosition: "center",
@@ -53,6 +53,20 @@ export const AsSeen = ({ image }) => {
                 loading="lazy"
                 className="mx-auto"
                 src="images/funeral.png"
+                alt=" "
+              />
+            </a>
+          </div>
+          <div className="w-full sm:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
+            <a
+              target="_blank"
+              href="https://www.forbes.com/sites/mattsymonds/2024/03/12/women-using-business-school-to-unleash-their-entrepreneurial-superpower/?sh=5705e03e6e2d"
+              className="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-md bg-coolGray-50 shadow-md"
+            >
+              <img
+                loading="lazy"
+                className="mx-auto w-1/2 sm:w-3/4"
+                src="images/forbes-logo.png"
                 alt=" "
               />
             </a>

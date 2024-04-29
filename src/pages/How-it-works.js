@@ -126,7 +126,7 @@ export default function HowItWorks() {
                     <img
                       loading="lazy"
                       className="relative rounded-7xl"
-                      src="images/how-it-works-hero.png"
+                      src="images/how-it-works-hero.webp"
                       alt=""
                     />
                   </div>
@@ -232,7 +232,7 @@ export default function HowItWorks() {
               <img
                 loading="lazy"
                 className="w-full lg:w-2/3 2xl:w-full mx-auto"
-                src="images/how-it-works-catalog.png"
+                src="images/how-it-works-catalog.webp"
                 alt=""
               />
             </div>
@@ -298,7 +298,7 @@ export default function HowItWorks() {
                   <img
                     loading="lazy"
                     className="w-full"
-                    src="images/how-it-works-1.png"
+                    src="images/how-it-works-1.webp"
                     alt=""
                   />
                 </div>
@@ -328,7 +328,7 @@ export default function HowItWorks() {
                   <img
                     loading="lazy"
                     className="w-full"
-                    src="images/how-it-works-2.png"
+                    src="images/how-it-works-2.webp"
                     alt=""
                   />
                 </div>

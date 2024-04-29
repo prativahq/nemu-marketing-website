@@ -175,7 +175,7 @@ export default function AboutUs() {
                     <img
                       loading="lazy"
                       className="relative rounded-7xl"
-                      src="images/about-us-family.png"
+                      src="images/about-us-family.webp"
                       alt=""
                     />
                   </div>
@@ -184,7 +184,7 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <AsSeen image={"images/about-us-family.png"} />
+        <AsSeen image={"images/about-us-family.webp"} />
         <section
           className="py-24 pt-32 md:pt-40 md:pb-28 bg-[#F7F5F2]"
           // style={{

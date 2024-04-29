@@ -295,7 +295,7 @@ export default function Index() {
                     <img
                       className="max-w-[300px] sm:max-w-full"
                       loading="lazy"
-                      src="images/our-story.png"
+                      src="images/our-story.webp"
                       alt=""
                     />
                   </div>
