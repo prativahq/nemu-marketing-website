@@ -31,7 +31,7 @@ export const Testimonial = () => {
               // loading="lazy"
               alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Margaret1.png"
+              src="images/Margaret1.webp"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -58,7 +58,7 @@ export const Testimonial = () => {
               // loading="lazy"
               alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Colette1.png"
+              src="images/Colette1.webp"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -85,7 +85,7 @@ export const Testimonial = () => {
               // loading="lazy"
               alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Sandy1.png"
+              src="images/Sandy1.webp"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -112,7 +112,7 @@ export const Testimonial = () => {
               // loading="lazy"
               alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Ann1.png"
+              src="images/Ann1.webp"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -139,7 +139,7 @@ export const Testimonial = () => {
               // loading="lazy"
               alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Colette1.png"
+              src="images/Colette1.webp"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -168,7 +168,7 @@ export const Testimonial = () => {
               // loading="lazy"
               alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Hal1.png"
+              src="images/Hal1.webp"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}
@@ -196,7 +196,7 @@ export const Testimonial = () => {
               // loading="lazy"
               alt=""
               className="w-[350px] md:w-[250px] lg:w-[350px]"
-              src="images/Marge1.png"
+              src="images/Marge1.webp"
             />
             <div className="relative flex flex-col gap-10">
               {/* <img className="absolute -top-10" src="images/quote-1.png" /> */}

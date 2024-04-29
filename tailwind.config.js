@@ -201,7 +201,7 @@ module.exports = {
       backgroundImage: {
         downloadApp: "url('../public/images/download-banner.svg')",
         downloadAppMobile: "url('../public/images/download-banner-mobile.svg')",
-        joinTeam: "url('../public/images/about_gradientCTA(1).png')",
+        joinTeam: "url('../public/images/about_gradientCTA(1).webp')",
         joinTeamMobile: "url('../public/images/join-team.png')",
       },
       borderRadius: {

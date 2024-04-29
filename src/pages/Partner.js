@@ -118,7 +118,7 @@ export default function Partner() {
                     <img
                       loading="lazy"
                       className="relative rounded-7xl"
-                      src="images/Frame-422.png"
+                      src="images/Frame-422.webp"
                       alt=""
                     />
                   </div>
@@ -127,7 +127,7 @@ export default function Partner() {
             </div>
           </div>
         </section>
-        <AsSeen image={"images/Frame-422.png"} />
+        <AsSeen image={"images/Frame-422.webp"} />
         <section
           className="py-24 pt-32 lg:pt-40 bg-[#F7F5F2] overflow-hidden"
           style={{
