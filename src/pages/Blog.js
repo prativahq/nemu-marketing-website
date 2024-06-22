@@ -116,9 +116,9 @@ export default function Blog() {
                 </button>
               </li>
             </ul>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 px-5 -mx-4 mb-12 md:mb-20">
-              {blogs.length > 0 ? (
-                blogs.map((blog) => {
+            {blogs.length > 0 ? (
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 px-5 -mx-4 mb-12 md:mb-20">
+                {blogs.map((blog) => {
                   return (
                     <BlogCard
                       key={blog.id}
@@ -130,11 +130,11 @@ export default function Blog() {
                       date={blog.date}
                     />
                   );
-                })
-              ) : (
-                <p className=" text-lg text-center my-5">No blogs available</p>
-              )}
-            </div>
+                })}
+              </div>
+            ) : (
+              <p className=" text-lg text-center my-16">No blogs available</p>
+            )}
           </div>
         </section>
         <Newsletter />

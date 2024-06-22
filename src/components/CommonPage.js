@@ -1,74 +1,61 @@
+import { Disclosure } from "@headlessui/react";
+import {
+  ChevronDown,
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
+} from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Navbar } from "../components/Navbar";
+import { AsSeen } from "../components/AsSeen";
+import { Link } from "react-router-dom";
+import { Faq } from "../components/Faq";
 import { Footer } from "../components/Footer";
-import { Newsletter } from "../components/Newsletter";
+import { LandingCard } from "../components/LandingCard";
 import { DownloadApp } from "../components/DownloadApp";
-import { Check } from "lucide-react";
-import { Card } from "../components/Card";
+import { Newsletter } from "../components/Newsletter";
+
 import ScrollToTop from "react-scroll-to-top";
-import StickyScrollAnimation from "../components/StickyScrollAnimation";
-// import "../components/StickyScrollAnimation.css";
-import { useScrollPercentage } from "react-scroll-percentage";
+import { HashLink } from "react-router-hash-link";
+import { Welcome } from "../components/Welcome";
 import { Download } from "../components/Download";
+import { Toaster } from "react-hot-toast";
+import StickyScrollAnimation from "../components/StickyScrollAnimation";
+import { useScrollPercentage } from "react-scroll-percentage";
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
 } from "../components/ui/tabs";
+import { Check } from "lucide-react";
 
-const meta = {
-  title: "Nemu's Expert Property Splitting Services",
-  meta: [
-    {
-      name: "description",
-      content:
-        "From heirloom division to property sales, Nemu offers tailored solutions to meet your family's unique inheritance needs.",
-    },
-  ],
-  link: [],
-  style: [],
-  script: [],
-};
-
-export default function HowItWorks() {
+export default function CommonPageComponent({
+  meta,
+  section1,
+  section2,
+  section4,
+}) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const cards = [
-    {
-      id: 1,
-      img: "images/card-5.png",
-      title: "Take a few pictures",
-      description:
-        "You can photograph things where they are now, squeeze a bunch of items into one frame, or do anything in between. We’ll take it from there.",
-    },
-    {
-      id: 2,
-      img: "images/card-6.png",
-      title: "We’ll Appraise & Gather Family Input",
-      description:
-        "We pull price estimates or can connect you with one of our expert appraisers. Then, we’ll ask your family to privately rate the items they want most.",
-    },
-    {
-      id: 3,
-      img: "images/card-7.png",
-      title: "You Approve & Divide (Drama Free)",
-      description:
-        "Our algorithm fairly decides who gets what, you approve the results. When you’re ready to distribute, everyone gets just want they wanted.",
-    },
-  ];
 
   const [ref1, percentage1] = useScrollPercentage();
   const [ref2, percentage2] = useScrollPercentage();
+
   return (
     <React.Fragment>
       <HelmetProvider>
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
       <>
+        <Toaster />
+        {/* {showDialog && <Welcome />} */}
+
         <Navbar />
+        {/* section1 */}
         <section
           className="relative bg-white overflow-hidden"
           // style={{
@@ -76,57 +63,49 @@ export default function HowItWorks() {
           //   backgroundPosition: "center",
           // }}
         >
-          <div className="py-10 sm:pb-24">
+          <div className="pt-10 pb-44 sm:pb-24">
             <div className="container mx-auto">
               <div className="flex flex-wrap xl:items-center ">
-                <div className="text-center md:text-left w-full md:w-1/2  mb-16 md:mb-0">
-                  <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
-                    HOW IT WORKS
-                  </span>
-                  <h1 className="mb-6 mt-3 text-center md:text-left text-[32px] sm:text-4xl md:text-5xl text-coolGray-900    font-medium font-heading tracking-normal">
-                    Dividing Heirlooms Should Be a Joy,<br></br> Not a Job
+                <div className="w-full md:w-1/2 pr-1 mb-16 md:mb-0">
+                  <div className="tracking-widest text-center md:text-left mb-4 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+                    {section1.subtitle}
+                  </div>
+                  <h1 className="mb-6 text-center md:text-left text-4xl md:text-5xl text-coolGray-900    font-medium font-heading tracking-normal">
+                    {section1.title}
                   </h1>
                   <p
                     style={{ lineHeight: "42px" }}
-                    className=" mb-8 text-lg   text-coolGray-500 "
+                    className="text-center md:text-left mb-8 text-lg   text-coolGray-500 "
                   >
-                    You focus on the memories, we'll take care of the rest. Our
-                    goal is to make cataloging, managing, and dividing heirlooms
-                    a positive experience for families to celebrate their
-                    heritage and legacy, whether they are near or far.
+                    {section1.description}
                   </p>
-                  <div className="flex flex-wrap gap-2 md:gap-4 ">
-                    {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4"> */}
-                    {/* <a
-                        className="inline-block py-5 sm:py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
-                        href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
-                      >
-                        Get Started
-                      </a> */}
-                    {/* <Download /> */}
+                  <div className="flex flex-wrap justify-center md:justify-start gap-5">
                     <a
                       href="https://app.mynemu.com"
                       className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                     >
-                      Get Started
+                      Free Sign Up
                     </a>
                     {/* </div> */}
+                    {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
                     <div className="w-full md:w-auto py-1 md:py-0">
                       <a
-                        className="inline-block py-5 sm:py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        className="flex justify-center items-center gap-2 py-5 sm:py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="tel:623-432-1678"
                       >
+                        <img alt="Phone" src="images/phone-icon.svg" />
                         Give us a call
                       </a>
                     </div>
+                    {/* </div> */}
                   </div>
                 </div>
-                <div className="w-full md:w-1/2 ">
-                  <div className="relative mx-auto md:mr-0 max-w-max">
+                <div className="hidden sm:block md:w-1/2 ">
+                  <div className=" mx-auto md:mr-0 max-w-max">
                     <img
-                      loading="lazy"
-                      className="relative rounded-7xl"
-                      src="images/how-it-works-hero.webp"
+                      // loading="lazy"
+                      className=" right-0 z-99 rounded-7xl"
+                      src={section1.image}
                       alt=""
                     />
                   </div>
@@ -135,61 +114,81 @@ export default function HowItWorks() {
             </div>
           </div>
         </section>
+        {/* <AsSeen image={section1.image} /> */}
+        {/* section 2 */}
         <section
-          className=" py-24 md:pb-32 bg-coolGray-50"
+          className={`relative ${
+            window.location.pathname === "/estate-management" && "h-[1260px]"
+          }  ${window.location.pathname === "/downsizing" && "h-[1300px]"} ${
+            window.location.pathname === "/divorce" && "h-[1440px]"
+          }  sm:mb-0 sm:h-auto pt-32 pb-16 lg:pt-32 lg:pb-32  `}
           style={{
-            backgroundColor: "#F7F5F2",
+            // height: `${section2.height}px`,
+            background: "var(--surface-light-bg, #F7F5F2)",
+            backgroundPosition: "center",
           }}
-          // style={{
-          //   backgroundImage:
-          //     'url("flex-ui-assets/elements/pattern-light-big.svg")',
-          //   backgroundPosition: "center",
-          // }}
         >
-          <div className=" container mx-auto">
-            {/* <div className="w-full md:w-1/2 sm:hidden mb-10">
-              <div className="relative mx-auto md:mr-0 max-w-max">
+          {/* <div className="relative"> */}
+          <div className="absolute z-999 left-0 right-0 -top-44 sm:top-0 sm:relative container mx-auto">
+            <div className="sm:hidden md:w-1/2 mb-12 ">
+              <div className=" mx-auto md:mr-0 max-w-max">
                 <img
                   loading="lazy"
-                  className="relative rounded-7xl max-w-[300px]"
-                  src="images/how-it-works-hero.png"
+                  className=" max-w-[300px] sm:max-w-auto z-99 rounded-7xl"
+                  src={`${section1.image}`}
                   alt=""
                 />
               </div>
-            </div> */}
-            <div className="md:max-w-4xl mb-12 mx-auto text-center">
-              <span
-                className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
-                // contentEditable="false"
-              >
-                OVERVIEW
-              </span>
-              <h2
-                className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-normal"
-                // contentEditable="false"
-              >
-                As Easy as 1-2-3
-              </h2>
             </div>
-            <div className="flex flex-col gap-14 items-center  ">
-              <div className="w-full flex flex-wrap justify-center gap-5  xl:grid grid-cols-3 xl:justify-between">
-                {cards.map((card) => {
-                  return <Card key={card.id} {...card} />;
-                })}
+            <div className="flex flex-wrap-reverse lg:items-center ">
+              <div className="w-full md:w-1/2  mt-16 md:mb-0 ">
+                <div className="relative mx-auto md:ml-0 max-w-max hidden sm:block ">
+                  <img
+                    className="max-w-[300px] sm:max-w-full"
+                    loading="lazy"
+                    src={section2.image}
+                    alt=""
+                  />
+                </div>
               </div>
-              <div className="hidden md:block w-full md:w-auto py-1 md:py-0 md:mr-4">
-                {/* <Download /> */}
-                <a
-                  href="https://app.mynemu.com"
-                  className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
-                >
-                  Get Started
-                </a>
+              <div className="w-full md:w-1/2 ">
+                <div className="tracking-widest text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+                  {section2.subtitle}
+                </div>
+                <h2 className="mb-6 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal">
+                  {section2.title}{" "}
+                </h2>
+                <p className="mb-6 text-lg leading-9 text-center md:text-left text-coolGray-500 ">
+                  {section2.description}
+                </p>
+                <div className="w-full text-center md:text-left md:w-auto py-1 md:py-0">
+                  <a
+                    className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-transparent hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                    href={section2.button.link}
+                  >
+                    {section2.button.text}
+                  </a>
+                </div>
               </div>
             </div>
           </div>
+          {/* </div> */}
         </section>
-        <section className=" py-24  gap-20 bg-emerald-500 ">
+        {/* section 3 */}
+        <section className="relative pt-48 pb-24 sm:py-24  gap-20 bg-emerald-500 ">
+          <div className="absolute z-999 md:py-12 left-0 right-0 -top-44 sm:top-0 container mx-auto">
+            <div className="sm:hidden md:w-1/2 mb-12 ">
+              <div className=" mx-auto md:mr-0 max-w-max">
+                <img
+                  loading="lazy"
+                  className=" max-w-[300px] sm:max-w-auto z-99 rounded-7xl"
+                  src={`${section2.image}`}
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
           <StickyScrollAnimation />
           <div className="snap-always snap-center py-5 flex flex-col gap-10 items-center">
             <p className="text-lg lg:w-2/3 px-8 md:px-0 text-center leading-9 text-coolGray-300 ">
@@ -249,84 +248,52 @@ export default function HowItWorks() {
             </div>
           </div>
         </section>
-        <section className="py-20 bg-white">
+        {/* section 4*/}
+        <section
+          className="pt-12 pb-16 xl:pt-24 xl:pb-28 bg-white"
+          // style={{
+          //   backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
+          //   backgroundPosition: "center",
+          // }}
+        >
           <div className="container mx-auto">
-            <div className="md:max-w-5xl mx-auto mb-16 text-center">
-              <span className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
-                OVERVIEW
-              </span>
-              <h2 className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-normal">
-                We're here for you
-              </h2>
-              <p
-                className="text-lg leading-9 text-coolGray-500 "
-                // contentEditable="false"
-              >
-                Whether you’re here for a head-start or to get your head
-                <br></br> above water, we’re here to help.
-              </p>
+            <div className="flex flex-wrap ">
+              <div className="w-full  mb-10">
+                <div className="flex flex-wrap justify-between items-center">
+                  <div className="w-full md:w-1/2 mb-10 md:mb-0 text-center md:text-left">
+                    <span className="tracking-widest text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+                      {section4.subtitle}
+                    </span>
+                    <h2 className="mb-6 mt-3 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal">
+                      {section4.title}
+                    </h2>
+                    <p className="text-lg  leading-9 text-coolGray-500 ">
+                      {section4.description}
+                    </p>
+                  </div>
+                  <div className="w-full md:w-auto">
+                    <div className="flex gap-4 flex-wrap justify-center items-center -mb-2">
+                      <a
+                        href="https://app.mynemu.com"
+                        className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                      >
+                        Free Sign Up
+                      </a>
 
-              <p />
-            </div>
-            <div className="flex flex-wrap justify-center gap-10   ">
-              <div className="flex flex-col gap-4 w-full md:w-[480px] border-2  border-coolGray-100 rounded-xl mb-8">
-                <div className="rounded-t-xl block mb-6 overflow-hidden">
-                  <img
-                    loading="lazy"
-                    className="w-full"
-                    src="images/how-it-works-1.webp"
-                    alt=""
-                  />
-                </div>
-                <div className="px-8 inline-block mb-4 text-2xl   text-coolGray-800 hover:text-coolGray-900 font-medium font-heading">
-                  Planning Ahead
-                </div>
-                <p className="px-8 flex-1 mb-4 text-lg leading-9 text-coolGray-500 ">
-                  Beginning this process is a gift to your loved ones and
-                  yourself. Whether you’re moving, downsizing, or planning for
-                  the future, starting with an organized list of what you have,
-                  how much it’s worth, and what it means to your loved ones
-                  makes a huge difference. It means you can think more clearly
-                  and move more quickly. Let us help you get started!
-                </p>
-                <div className="px-8 pb-8">
-                  {/* <Download /> */}
-                  <a
-                    href="https://app.mynemu.com"
-                    className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
-                  >
-                    Get Started
-                  </a>
+                      {/* <Link
+                        className="inline-block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        to={"/how-it-works"}
+                      >
+                        Learn More
+                      </Link> */}
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="border-2 border-coolGray-100  rounded-xl flex flex-col gap-4 w-full md:w-[480px]  mb-8">
-                <div className="block mb-6 overflow-hidden rounded-t-xl">
-                  <img
-                    loading="lazy"
-                    className="w-full"
-                    src="images/how-it-works-2.webp"
-                    alt=""
-                  />
-                </div>
-                <div className="px-8 inline-block mb-4 text-2xl   text-coolGray-800 hover:text-coolGray-900 font-medium font-heading">
-                  I Need Help Now!
-                </div>
-                <p className="px-8 flex-1 mb-4 text-lg leading-9 text-coolGray-500 ">
-                  Managing an estate is a big responsibility, but you don’t need
-                  to do it alone. We’ve been in your shoes and we’re here to
-                  help. We’ll make sure everyone’s voice is fairly included,
-                  which means you can manage items with confidence. No fighting,
-                  no drama.
-                </p>
-                <div className="px-8 pb-8">
-                  {/* <Download /> */}
-                  <a
-                    href="https://app.mynemu.com"
-                    className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
-                  >
-                    Get Started
-                  </a>
-                </div>
+              <div className="grid md:grid-cols-2 w-full gap-10  mt-5 mb-5 lg:mb-0">
+                {section4.cards.map((card) => {
+                  return <LandingCard key={card.id} {...card} />;
+                })}
               </div>
             </div>
           </div>
@@ -463,8 +430,8 @@ export default function HowItWorks() {
                         </div>
                         <div className="border-b border-coolGray-100" />
                         {/* <p className="text-[#747878] mt-8 text-lg">
-                          Everything in the Fair Start Plan plus:{" "}
-                        </p> */}
+                            Everything in the Fair Start Plan plus:{" "}
+                          </p> */}
                         <ul className="self-start text-lg  py-8">
                           <li className="flex items-center mb-6  ">
                             <Check
@@ -535,8 +502,8 @@ export default function HowItWorks() {
                       </div>
                       <div className="border-b border-coolGray-100" />
                       {/* <p className="text-[#747878] mt-8 text-lg">
-                        Everything in the Harmony Plan plus:
-                      </p> */}
+                          Everything in the Harmony Plan plus:
+                        </p> */}
                       <ul className="self-start  text-lg py-8">
                         <li className="flex items-center mb-6 text-coolGray-500 ">
                           <Check color="green" className="mr-2 flex-shrink-0" />
@@ -557,11 +524,11 @@ export default function HowItWorks() {
                           </span>
                         </li>
                         {/* <li className="flex items-center mb-6 text-coolGray-500 ">
-                          <Check color="green" className="mr-2 flex-shrink-0" />
-                          <span className="text-[#747878]">
-                            1-1 family support through process{" "}
-                          </span>
-                        </li> */}
+                            <Check color="green" className="mr-2 flex-shrink-0" />
+                            <span className="text-[#747878]">
+                              1-1 family support through process{" "}
+                            </span>
+                          </li> */}
                       </ul>
                       <div className="border-b flex-1 border-coolGray-100" />
                       <div className="flex justify-center mt-8">
@@ -683,8 +650,8 @@ export default function HowItWorks() {
                         </div>
                         <div className="border-b border-coolGray-100" />
                         {/* <p className="text-[#747878] mt-8 text-lg">
-                          Everything in the Fair Start Plan plus:{" "}
-                        </p> */}
+                            Everything in the Fair Start Plan plus:{" "}
+                          </p> */}
                         <ul className="self-start text-lg  py-8">
                           <li className="flex items-center mb-6  ">
                             <Check
@@ -755,8 +722,8 @@ export default function HowItWorks() {
                       </div>
                       <div className="border-b border-coolGray-100" />
                       {/* <p className="text-[#747878] mt-8 text-lg">
-                        Everything in the Harmony Plan plus:
-                      </p> */}
+                          Everything in the Harmony Plan plus:
+                        </p> */}
                       <ul className="self-start  text-lg py-8">
                         <li className="flex items-center mb-6 text-coolGray-500 ">
                           <Check color="green" className="mr-2 flex-shrink-0" />
@@ -777,11 +744,11 @@ export default function HowItWorks() {
                           </span>
                         </li>
                         {/* <li className="flex items-center mb-6 text-coolGray-500 ">
-                          <Check color="green" className="mr-2 flex-shrink-0" />
-                          <span className="text-[#747878]">
-                            1-1 family support through process{" "}
-                          </span>
-                        </li> */}
+                            <Check color="green" className="mr-2 flex-shrink-0" />
+                            <span className="text-[#747878]">
+                              1-1 family support through process{" "}
+                            </span>
+                          </li> */}
                       </ul>
                       <div className="border-b flex-1 border-coolGray-100" />
                       <div className="flex justify-center mt-8">
@@ -820,6 +787,7 @@ export default function HowItWorks() {
             alignItems: "center",
             padding: "10px",
             fontWeight: "bold",
+            zIndex: "1000",
           }}
           smooth
         />

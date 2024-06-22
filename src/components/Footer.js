@@ -80,10 +80,28 @@ export const Footer = () => {
               <li className="mb-4">
                 <Link
                   className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
-                  to="/how-it-works"
+                  to="/estate-management"
                   // contentEditable="false"
                 >
-                  Services
+                  Estate Management
+                </Link>
+              </li>
+              <li className="mb-4">
+                <Link
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
+                  to="/downsizing"
+                  // contentEditable="false"
+                >
+                  Downsizing
+                </Link>
+              </li>
+              <li className="mb-4">
+                <Link
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
+                  to="/divorce"
+                  // contentEditable="false"
+                >
+                  Divorce
                 </Link>
               </li>
               <li className="mb-4">

@@ -76,7 +76,7 @@ export default function AboutUs() {
           trying to make sure no one has to worry about yours, we're here for
           you. To make sure you only pay for what you need, we have several
           packages that you can customize to fit your situation. Check them out{" "}
-          <HashLink className="underline" to={"/how-it-works#pricing"}>
+          <HashLink className="underline" to={"/estate-management#pricing"}>
             here!
           </HashLink>
         </p>
@@ -90,7 +90,7 @@ export default function AboutUs() {
           We have a variety of packages ranging from $100 to $999. To make sure
           you only pay for what you need, you can start small and then add the
           services that fit your situation. You can see our pricing options{" "}
-          <HashLink className="underline" to={"/how-it-works#pricing"}>
+          <HashLink className="underline" to={"/estate-management#pricing"}>
             here
           </HashLink>
           . Still undecided? Start with a Free Trial and see for yourself!
