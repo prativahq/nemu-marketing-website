@@ -15,6 +15,9 @@ import ReactDOM from "react-dom/client";
 import { BlogPage } from "./pages/BlogPage.js";
 import NotFound from "./pages/NotFound.js";
 import DeleteAccount from "./pages/Delete-account.js";
+import EstateManagementPage from "./pages/Estate-Management.js";
+import DownsizingPage from "./pages/Downsizing.js";
+import DivorcePage from "./pages/Divorce.js";
 //import { ParallaxProvider } from "react-scroll-parallax";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -24,13 +27,17 @@ root.render(
       <Routes>
         <Route path="/" element={<IndexPage />} />
 
-        <Route path="/how-it-works" element={<HowItWorksPage />} />
+        {/* <Route path="/how-it-works" element={<HowItWorksPage />} /> */}
 
         <Route path="/terms-of-use" element={<TermsOfServicePage />} />
 
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
 
-        {/* <Route path="/legal" element={<LegalPage />} /> */}
+        <Route path="/estate-management" element={<EstateManagementPage />} />
+
+        <Route path="/divorce" element={<DivorcePage />} />
+
+        <Route path="/downsizing" element={<DownsizingPage />} />
 
         <Route path="/refund-policy" element={<RefundsCancellationPage />} />
 
