@@ -3,9 +3,8 @@ import { ChevronDown } from "lucide-react";
 import React from "react";
 
 export const Faq = ({ faqs }) => {
-  console.log(window.location.href);
   return (
-    <section className="py-10 md:py-24 bg-white">
+    <section id="faq" className="py-10 md:py-24 bg-white">
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto text-center">
           <span className="tracking-widest text-center  mb-5   text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">

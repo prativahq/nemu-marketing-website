@@ -19,6 +19,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "./ui/accordian";
+import { HashLink } from "react-router-hash-link";
 
 export const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -144,11 +145,11 @@ export const Navbar = () => {
                           </DropdownMenuItem>
                         </Link>
                         <DropdownMenuSeparator />
-                        <Link to={"/contact-us"}>
+                        <HashLink to={"/contact-us#faq"}>
                           <DropdownMenuItem className="hover:text-coolGray-900 focus:bg-transparent">
                             FAQs
                           </DropdownMenuItem>
-                        </Link>
+                        </HashLink>
                         <DropdownMenuSeparator />
                         <Link to={"/contact-us"}>
                           <DropdownMenuItem className="hover:text-coolGray-900 focus:bg-transparent">
@@ -288,12 +289,12 @@ export const Navbar = () => {
                           >
                             Blogs & Press
                           </Link>
-                          <Link
+                          <HashLink
                             className="py-3 hover:text-coolGray-900"
-                            to={"/contact-us"}
+                            to={"/contact-us#faq"}
                           >
                             FAQs
-                          </Link>
+                          </HashLink>
                           <Link
                             className="py-3 hover:text-coolGray-900"
                             to={"/contact-us"}
