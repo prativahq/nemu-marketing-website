@@ -10,6 +10,10 @@ Not sure what an estate inventory is, or whether or not it’s something you nee
 
 An estate inventory is a comprehensive list of all assets owned by an individual. Sound overwhelming? In simpler terms, that just means it is one master list of all of somebody’s stuff, all gathered together in one place for easy reference.  Whether you have recently lost a loved one, are going through a divorce, or are planning ahead for yourself or someone else, you may want to start creating this kind of document as part of an overall estate planning process. It gives everyone  a complete picture of what’s being handled so everything goes where it’s supposed to and that there’s no miscommunication. Read on for how these inventories apply in different situations, and how [Nemu’s heirloom management solution](www.mynemu.com) can help you keep everything organized and accessible.
 
+```
+
+```
+
 ### **First, the When:  When is it time to create an Estate Inventory?**
 
 **1. When a Loved One who has Passed Away**
@@ -23,10 +27,6 @@ Whether you are downsizing, moving or just trying to get ahead of the game, crea
 **3. To Support Divorce Proceedings**
 
 Creating a comprehensive accounting of belongings during a divorce is critical for ensuring property can be fairly divided. This inventory helps prevent disputes by clearly documenting each item’s existence and value, so both parties have an accurate understanding of shared assets. It should include detailed lists of furniture, appliances, electronics, artwork, jewelry, and other significant personal belongings. High-value items should be appraised, with photos or receipts provided when possible. By thoroughly documenting household items with a helpful tool like  Nemu’s heirloom management app, both parties can work towards an equitable distribution, minimizing conflicts and making the process smoother for everyone.
-
-
-
-![](/images/uploads/pexels-coins-and-treasures.jpg)
 
 ### **Second, the What: Five Types of Assets to Include in any Estate Inventory:**
 
@@ -50,8 +50,6 @@ Owned vehicles such as cars, boats, and recreational vehicles, should also be in
 
 Debts and liabilities include things like credit card debt, loans, and any other financial obligations. Knowing the liabilities is essential for settling the estate properly. If you are working proactively on an inventory, listing any current accounts is helpful so that any debts can be tracked down more easily later.
 
-![](/images/uploads/pexels-docsfile-and-glasses.jpg)
-
 ### **Third, the How: Three Steps for Preparing your Estate Inventory**
 
 **1. Gather Documentation**
@@ -65,8 +63,6 @@ Consider using technology to aid in the inventory process. [NEMU's household inv
 **3. Consult Professionals**
 
 Professional guidance can make a significant difference in the accuracy of the estate inventory. Estate planners, attorneys, and appraisers can provide valuable insights and ensure that nothing is overlooked. You may also want to consider speaking with a therapist. While a lot of the work that needs to be done with estate inventory is related to division of assets and the financial, the whole process can also take an emotional toll on you and your loved ones. It’s important to get the support you need in all regards. 
-
-![](/images/uploads/pexels-clipped-docs-vertical.jpg)
 
 ### **Fourth, Some Tips: Three Helpful Tips to Keep in Mind**
 
