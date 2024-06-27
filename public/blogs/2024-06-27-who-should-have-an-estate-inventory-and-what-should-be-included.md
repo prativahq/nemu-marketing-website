@@ -32,6 +32,8 @@ Whether you are downsizing, moving or just trying to get ahead of the game, crea
 
 Creating a comprehensive accounting of belongings during a divorce is critical for ensuring property can be fairly divided. This inventory helps prevent disputes by clearly documenting each item’s existence and value, so both parties have an accurate understanding of shared assets. It should include detailed lists of furniture, appliances, electronics, artwork, jewelry, and other significant personal belongings. High-value items should be appraised, with photos or receipts provided when possible. By thoroughly documenting household items with a helpful tool like  Nemu’s heirloom management app, both parties can work towards an equitable distribution, minimizing conflicts and making the process smoother for everyone.
 
+![](/images/uploads/pexels-coins-and-treasures.jpg)
+
 ### **Second, the What: Five Types of Assets to Include in any Estate Inventory:**
 
 
@@ -64,6 +66,8 @@ Owned vehicles such as cars, boats, and recreational vehicles, should also be in
 
 Debts and liabilities include things like credit card debt, loans, and any other financial obligations. Knowing the liabilities is essential for settling the estate properly. If you are working proactively on an inventory, listing any current accounts is helpful so that any debts can be tracked down more easily later.
 
+![](/images/uploads/pexels-docsfile-and-glasses.jpg)
+
 ### **Third, the How: Three Steps for Preparing your Estate Inventory**
 
 
@@ -83,6 +87,8 @@ Consider using technology to aid in the inventory process. [NEMU's household inv
 **3. Consult Professionals**
 
 Professional guidance can make a significant difference in the accuracy of the estate inventory. Estate planners, attorneys, and appraisers can provide valuable insights and ensure that nothing is overlooked. You may also want to consider speaking with a therapist. While a lot of the work that needs to be done with estate inventory is related to division of assets and the financial, the whole process can also take an emotional toll on you and your loved ones. It’s important to get the support you need in all regards. 
+
+![](/images/uploads/pexels-clipped-docs-vertical.jpg)
 
 ### **Fourth, Some Tips: Three Helpful Tips to Keep in Mind**
 
