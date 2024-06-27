@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: When To Create an Estate Inventory,  and What Should be Included
-author: "Beth Chang, Nemu Editorial Team "
+author: "Nemu Editorial Team "
 date: 2024-06-21T14:13:00.000Z
 tag: educational
 thumbnail: /images/uploads/pexels-kampus-7551641-1-.jpg
