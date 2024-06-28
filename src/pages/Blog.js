@@ -41,7 +41,9 @@ export default function Blog() {
     if (tag === "all") {
       setBlogs(Blogs);
     } else {
-      const filteredBlogs = Blogs.filter((blog) => blog.tag === tag);
+      const filteredBlogs = Blogs.filter(
+        (blog) => blog.tag.trim().toLowerCase() === tag.trim().toLowerCase()
+      );
       setBlogs(filteredBlogs);
     }
   }, [tag]);
@@ -86,7 +88,9 @@ export default function Blog() {
               <li className="w-auto ">
                 <button
                   onClick={() => setTag("all")}
-                  className="inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm"
+                  className={`inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 ${
+                    tag === "all" && "text-emerald-500 bg-emerald-100"
+                  } hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm`}
                 >
                   All
                 </button>
@@ -94,7 +98,9 @@ export default function Blog() {
               <li className="w-auto ">
                 <button
                   onClick={() => setTag("educational")}
-                  className="inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm"
+                  className={`inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 ${
+                    tag === "educational" && "text-emerald-500 bg-emerald-100"
+                  } hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm`}
                 >
                   Educational
                 </button>
@@ -102,7 +108,9 @@ export default function Blog() {
               <li className="w-auto ">
                 <button
                   onClick={() => setTag("news")}
-                  className="inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm"
+                  className={`inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 ${
+                    tag === "news" && "text-emerald-500 bg-emerald-100"
+                  } hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm`}
                 >
                   News
                 </button>
@@ -110,7 +118,9 @@ export default function Blog() {
               <li className="w-auto ">
                 <button
                   onClick={() => setTag("press")}
-                  className="inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm"
+                  className={`inline-block w-full py-2 px-4 mb-4 md:mb-0  text-coolGray-400 ${
+                    tag === "press" && "text-emerald-500 bg-emerald-100"
+                  } hover:text-emerald-500 hover:bg-emerald-100  rounded-md hover:shadow-sm`}
                 >
                   Press
                 </button>
