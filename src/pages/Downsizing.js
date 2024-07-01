@@ -118,11 +118,10 @@ const howWeHelp = {
       title: "4. Sell",
       description: (
         <p>
-          What if there are items no one has space for but they are too valuable
-          to just be put in a landfill? Nemu helps determine a fair market value
-          for these items and can also help you find the best venue for selling
-          them. You choose how much of this process to handle and how much to
-          delegate to us.<br></br>
+          What happens to items no one has space for but are too valuable for
+          the landfill? Nemu helps determine a fair market value, then how and
+          where to sell them. You choose how much of this process to handle and
+          how much to delegate to us. Click here to learn more.<br></br>
           <HashLink
             to={"/contact-us#faq-18"}
             className="text-emerald-500 font-medium"
