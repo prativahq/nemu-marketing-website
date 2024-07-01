@@ -21,7 +21,7 @@ const hero = {
   title: "Split property, not relationships",
   subtitle: "ESTATE MANAGEMENT",
   description:
-    "Going through family heirlooms after a loved one has passed can drum up so much; nostalgia, grief, and so many memories. Deciding who gets what can make this process even more daunting.  Let Nemu make the process a joy, not a burden.",
+    "Going through family heirlooms after a loved one has passed can drum up nostalgia, grief, and strong memories of time spent together. Deciding who gets what can make this process feel overwhelming, even daunting. Let Nemu make the process a joy, not a burden.",
   image: "images/estate-1.webp",
 };
 
@@ -29,7 +29,7 @@ const weGetIt = {
   title: "We get it, because we have been there",
   subtitle: "OUR ROLE",
   description:
-    "At Nemu, we believe one person shouldn’t have to shoulder the entire responsibility of managing and dividing the personal items in an estate all on their own. Our service offers an easy way to capture what a loved one leaves behind, a fair and transparent way to divvy it up, and ensure family legacies remain in tact (yes, we mean no fighting!). Our goal is to help you manage your household assets and commemorate the life of someone who had a major impact on you and your family. ",
+    "At Nemu, we believe one person shouldn’t have to shoulder the entire responsibility of managing and dividing the personal items in an estate all on their own. Our service offers an easy way to capture what a loved one leaves behind, a fair and transparent way to divvy it up, and ensure family legacies remain intact (yes, we mean no fighting!). Our goal is to help you manage your household assets and commemorate the life of someone who had a major impact on you and your family. ",
   image: "images/estate-2.webp",
   height: 1240,
   button: {
@@ -96,11 +96,12 @@ const howWeHelp = {
         <p>
           This is where the magic happens. Owners or family members acting on
           behalf of owners, like an executor or trustee, choose the items they
-          want to divide among beneficiaries. Nemu then asks users for their
-          emotional score towards each item and uses them to fairly divide
-          heirlooms so that everyone receives an equal amount. Users can view
-          the results and download a report if needed. No travel, no fighting.
-          It’s truly as easy as that.<br></br>
+          want to divide among beneficiaries. Nemu then asks the participants to
+          enter their emotional score towards each item. Once all scores are
+          recorded, Nemu uses those scores to fairly divide heirlooms so that
+          everyone receives a group of items that is equal based on their
+          preferences . Users can view the results and download a report if
+          needed. No travel, no fighting. It’s truly as easy as that.<br></br>
           <HashLink
             to={"/contact-us#faq-5"}
             className="text-emerald-500 font-medium"

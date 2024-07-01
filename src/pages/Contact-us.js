@@ -82,7 +82,7 @@ export default function ContactUs() {
                   you as soon as possible.
                 </p>
                 <a
-                  className="text-lg text-emerald-500 hover:text-emerald-400   "
+                  className="text-lg text-emerald-500 hover:text-emerald-400  underline font-semibold "
                   href="mailto:hello@mynemu.com"
                 >
                   hello@mynemu.com
@@ -102,8 +102,8 @@ export default function ContactUs() {
                   learn more.
                 </p>
                 <a
-                  href="https://calendly.com/bethnemucalendar"
-                  className="text-lg text-emerald-500 hover:text-emerald-400"
+                  href="https://calendly.com/bethnemucalendar/introduction-to-nemu"
+                  className="text-lg text-emerald-500 hover:text-emerald-400 underline font-semibold"
                 >
                   Schedule time here
                 </a>

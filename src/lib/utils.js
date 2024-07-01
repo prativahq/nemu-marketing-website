@@ -40,12 +40,10 @@ export const faqs = [
         Nemu makes it easy. We offer a structured and respectful method to
         alleviate what could otherwise be madness. <br></br>
         Our platform allows individuals to catalog their items, assign emotional
-        value, and decide on a fair division among the parties involved.{" "}
-        <br></br>
-        For downsizing or decluttering, this means ensuring items find new homes
-        where they will be given new life (and stay out of landfills!).
-        <br></br>
-        In the case of divorce, Nemu facilitates an equitable division of shared
+        value, and decide on a fair division among the parties involved. For
+        downsizing or decluttering, this means ensuring items find new homes
+        where they will be given new life (and stay out of landfills!). In the
+        case of divorce, Nemu facilitates an equitable division of shared
         assets, reducing potential conflicts and helping both parties move
         forward smoothly.
       </p>
@@ -60,10 +58,14 @@ export const faqs = [
         Not at all! Our app is designed for simplicity. We’ve spent countless
         hours testing it out with real people of all ages, all with different
         levels of tech savvy. That means you don’t need to be a techie to get
-        the job done. And if you do get stuck, our team is always{" "}
-        <Link className="underline" to={"/contact-us"}>
-          here to help.
-        </Link>
+        the job done. And if you do get stuck, our team is always
+        {window.location.pathname !== "/contat-us" ? (
+          <span> here to help.</span>
+        ) : (
+          <Link className="underline" to={"/contact-us"}>
+            here to help.
+          </Link>
+        )}
       </p>
     ),
   },
@@ -72,17 +74,19 @@ export const faqs = [
     question: "How do Nemu’s Division Rounds work?      ",
     answer: (
       <p>
-        After uploading items into an inventory, the household owner can choose
-        who to invite to join the process. They can also decide how to group
-        items for scoring and dividing. This flexibility allows the host to
-        manage the inventory and all of the interested parties without getting
-        overwhelmed.<br></br>
-        Once the host has chosen the people and the items to be included in a
-        specific scoring and dividing round, they then determine how much time
-        each person has to enter their scores, as well as when to begin and end.
-        <br></br>
-        Once everyone has entered scores and the round has closed, Nemu will
-        notify each participant of the items awarded to them.
+        After uploading items into an inventory, the household owner or admin(s)
+        can choose who to invite to join the process (We’ll call them the host).
+        They can also decide how to group items for scoring and dividing. This
+        flexibility allows the host to manage the inventory and all of the
+        interested parties without getting overwhelmed. Once the host has chosen
+        the people and the items to be included in a specific scoring and
+        dividing round, they then determine how much time each person has to
+        enter their scores, as well as when to begin and end. We then notify
+        participants of their invitation to the division round and provide steps
+        for them to submit their emotional value scores for items. Once everyone
+        has entered scores and the round has closed, Nemu will notify each
+        participant of the items awarded to them. Participants can see results
+        in the app and hosts can download reports reflecting the results.
       </p>
     ),
   },
@@ -191,11 +195,12 @@ export const faqs = [
       <p>
         Nemu works for items big and small. We've helped those in small
         apartments and those with 3 vacation homes. We've divided items among
-        families of 2 and families much, much larger. Whether you've been given
-        the responsiblitiy of settling someone's estate, or you're trying to
-        make sure no one has to worry about yours, we're here for you. To make
-        sure you only pay for what you need, we have several packages that you
-        can customize to fit your situation. Check them out{" "}
+        everything from divorcing couples to graduating roommates to families
+        with siblings all over the country. Whether you've been given the
+        responsibility of settling someone's estate, or you're trying to make
+        sure no one has to worry about yours, we're here for you. To make sure
+        you only pay for what you need, we have several packages that you can
+        customize to fit your situation. Check them out{" "}
         <HashLink className="underline" to={"/estate-management#pricing"}>
           here
         </HashLink>
@@ -236,7 +241,7 @@ export const faqs = [
     id: 15,
     question: "Can I share responsibilities with other family members?",
     answer:
-      "Absolutely! We understand that this process is a lot to take care of for one person. Simply add family members helping with the process as admin. They will be able to add items to the catalog, set up division rounds, or submit appraisal and selling requests just like you.",
+      "Absolutely! We understand that this process is a lot to take care of for one person. Simply invite others that are helping with the process to share the “admin” role on the account. They will be able to add items to the catalog, set up division rounds, or submit appraisal and selling requests just like you.",
   },
   {
     id: 16,
@@ -258,13 +263,8 @@ export const faqs = [
         Similar to our appraisal consults, Nemu offers individual consultations
         to review items that need to be valued and possibly sold. You decide how
         much or how little of the process you want to control, and we’ll take
-        our cues from there. <br></br>
-        Nemu offers individual consultations to review items that need to be
-        valued and possibly sold. You decide how much or how little of the
-        process you want to control, and we’ll take our cues from there.
-        Depending on your situation, we will create a custom plan to get your
-        items sold as soon as you need.Depending on your situation, we will
-        create a custom plan to get your items sold as soon as you need.
+        our cues from there. Depending on your situation, we will create a
+        custom plan to get your items sold as soon as you need.
       </p>
     ),
   },
