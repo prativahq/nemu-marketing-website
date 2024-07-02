@@ -8,7 +8,7 @@ thumbnail: /images/uploads/pexels-kampus-7551641-1-.jpg
 ---
 Not sure what an estate inventory is, or whether or not it’s something you need to be thinking about? 
 
-An estate inventory is a comprehensive list of all assets owned by an individual. Sound overwhelming? In simpler terms, that just means it is one master list of all of somebody’s stuff, all gathered together in one place for easy reference.  Whether you have recently lost a loved one, are going through a divorce, or are planning ahead for yourself or someone else, you may want to start creating this kind of document as part of an overall estate planning process. It gives everyone  a complete picture of what’s being handled so everything goes where it’s supposed to and that there’s no miscommunication. Read on for how these inventories apply in different situations, and how [Nemu’s heirloom management solution](www.mynemu.com) can help you keep everything organized and accessible.
+An estate inventory is a comprehensive list of all assets owned by an individual. Sound overwhelming? In simpler terms, that just means it is one master list of all of somebody’s stuff, all gathered together in one place for easy reference.  Whether you have recently lost a loved one, are going through a divorce, or are planning ahead for yourself or someone else, you may want to start creating this kind of document as part of an overall estate planning process. It gives everyone  a complete picture of what’s being handled so everything goes where it’s supposed to and that there’s no miscommunication. Read on for how these inventories apply in different situations, and how [Nemu’s heirloom management solution](www.mynemu.com/estate-management) can help you keep everything organized and accessible.
 
 ### **First, the When:  When is it time to create an Estate Inventory?**
 
@@ -28,7 +28,7 @@ Creating a comprehensive accounting of belongings during a divorce is critical f
 
 **1. Personal Property**
 
-Personal property includes all of the items in the house such as jewelry, furniture, electronics, and other household goods. These items can vary greatly in value and should be listed with as much detail as possible. Including descriptions and approximate values helps ensure accuracy in the reporting process. NEMU’s heirloom management app helps simplify this by allowing users to document all of these important details, all in one place. You can include items  with significant emotional value and even leave voice memos with specific memories about certain things. The more information, the better. 
+Personal property includes all of the items in the house such as jewelry, furniture, electronics, and other household goods. These items can vary greatly in value and should be listed with as much detail as possible. Including descriptions and approximate values helps ensure accuracy in the reporting process. [Nemu's heirloom management app](https://app.mynemu.com/onboarding) helps simplify this by allowing users to document all of these important details, all in one place. You can include items  with significant emotional value and even leave voice memos with specific memories about certain things. The more information, the better. 
 
 **2. Real Estate**
 
@@ -54,7 +54,7 @@ Collecting all necessary documentation is the first step in preparing an estate 
 
 **2. Use Technology**
 
-Consider using technology to aid in the inventory process. [NEMU's household inventory solution](app.mynemu.com) is an excellent tool for organizing and managing all of the household items that belong in any estate inventory. It helps catalog and track images of items, as well as all relevant descriptive details, and generates comprehensive reports to make the process smoother and more accurate.
+Consider using technology to aid in the inventory process. [NEMU's household inventory solution](www.mynemu.com/estate-management) is an excellent tool for organizing and managing all of the household items that belong in any estate inventory. It helps catalog and track images of items, as well as all relevant descriptive details, and generates comprehensive reports to make the process smoother and more accurate.
 
 **3. Consult Professionals**
 
@@ -68,7 +68,7 @@ Being thorough in the estate inventory process is crucial. Do not rush through i
 
 **2. Stay Organized**
 
-Organization is essential when preparing an estate inventory. Use folders, spreadsheets, or a household item inventory software like [NEMU](app.mynemu.com) to keep everything in order. Staying organized helps prevent mistakes and makes the process more manageable.
+Organization is essential when preparing an estate inventory. Use folders, spreadsheets, or a household item inventory software like [Nemu](www.app.mynemu.com) to keep everything in order. Staying organized helps prevent mistakes and makes the process more manageable.
 
 **3. Ensure Accuracy**
 
@@ -76,4 +76,4 @@ Accuracy is easy but detrimental to ignore when preparing an estate inventory. I
 
 ### **The Icing on the Cake: How NEMU Helps**
 
-[NEMU's heirloom heirloom management program](app.mynemu.com) helps your make the estate inventory process manageable and even a little fun. Our easy-to-use app allows you to track and manage all household items, ensuring nothing is overlooked. With NEMU, you can capture as much or as little detail about each item as you need, generate detailed reports, and invite others to participate in the ways it makes sense for your situation. Nemu’s app also makes it easy to add to or change your inventory at any time, to have as a reference for the future - your future self or family will thank you!
+[Nemu's heirloom heirloom management program](https://app.mynemu.com/onboarding) helps your make the estate inventory process manageable and even a little fun. Our easy-to-use app allows you to track and manage all household items, ensuring nothing is overlooked. With NEMU, you can capture as much or as little detail about each item as you need, generate detailed reports, and invite others to participate in the ways it makes sense for your situation. Nemu’s app also makes it easy to add to or change your inventory at any time, to have as a reference for the future - your future self or family will thank you!
