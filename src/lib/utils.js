@@ -39,6 +39,7 @@ export const faqs = [
         i.e., adults, children, roommates, ex-partners, etc. can be complex, but
         Nemu makes it easy. We offer a structured and respectful method to
         alleviate what could otherwise be madness. <br></br>
+        <br></br>
         Our platform allows individuals to catalog their items, assign emotional
         value, and decide on a fair division among the parties involved. For
         downsizing or decluttering, this means ensuring items find new homes
