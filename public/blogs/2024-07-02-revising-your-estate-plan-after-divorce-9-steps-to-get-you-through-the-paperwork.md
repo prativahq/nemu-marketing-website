@@ -7,7 +7,7 @@ date: 2024-07-02T12:25:00.000Z
 tag: educational
 thumbnail: public/images/uploads/pexels-annoyed-couple-6964106.jpg
 ---
-Divorce can be tough, with lots of things to sort out, including all the paperwork and figuring out your next steps. One important task is updating your estate planning documents to fit your new situation. This means changing beneficiaries, updating guardianship, and deciding who gets what in your household. But don’t worry—this guide is here to help! We’ll walk you through everything you need to know about updating your estate plan after a divorce. Plus, we’ll show you how [Nemu’s app for splitting property](www.mynemu.com/divorce) can make the whole process a lot easier.
+Divorce can be tough -- especially with given the list of things to sort out, including doing all the paperwork and figuring out your next steps. One important task is updating your estate planning documents to fit your new situation. This means changing beneficiaries, updating guardianship, and deciding who gets what in your household. But don’t worry—this guide is here to help! We’ll walk you through everything you need to know about updating your estate plan after a divorce. Plus, we’ll show you how [Nemu’s app for splitting property](www.mynemu.com/divorce) can make the whole process a lot easier.
 
 ### **1. Update Your Will**
 
