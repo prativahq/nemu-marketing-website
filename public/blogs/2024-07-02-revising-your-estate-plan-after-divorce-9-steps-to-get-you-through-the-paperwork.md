@@ -5,11 +5,11 @@ title: "Revising Your Estate Plan after Divorce:  9 Steps to Get You Through the
 author: Nemu Editorial Team
 date: 2024-07-02T12:25:00.000Z
 tag: educational
-thumbnail: public/images/uploads/pexels-annoyed-couple-6964106.jpg
+thumbnail: /images/uploads/pexels-annoyed-couple-6964106.jpg
 ---
 Divorce can be tough -- especially with given the list of things to sort out, including doing all the paperwork and figuring out your next steps. One important task is updating your estate planning documents to fit your new situation. This means changing beneficiaries, updating guardianship, and deciding who gets what in your household. But don’t worry—this guide is here to help! We’ll walk you through everything you need to know about updating your estate plan after a divorce. Plus, we’ll show you how [Nemu’s app for splitting property](www.mynemu.com/divorce) can make the whole process a lot easier.
 
-#### **1. Update Your Will**
+##### **1. Update Your Will**
 
 One of the first steps you’ll need to take in post-divorce estate planning is updating your will. Your will probably includes provisions for your former spouse, which may no longer make sense. What does that look like? Most importantly you’ll want to name new beneficiaries and remove references to your ex-spouse (unless you still want them there). 
 
@@ -44,8 +44,6 @@ Divorce can have significant tax implications that affect your estate plan. Cons
 #### 9. Seek Professional Guidance
 
 Navigating divorce and estate planning can be complex, and professional guidance is invaluable. Estate planning attorneys, financial advisors, and tax professionals can provide expert advice tailored to your situation. Their assistance ensures that your estate plan is comprehensive and up-to-date.
-
-
 
 ### Use NEMU to Simplify the Process
 
