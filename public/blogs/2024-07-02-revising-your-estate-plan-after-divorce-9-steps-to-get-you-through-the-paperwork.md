@@ -2,7 +2,7 @@
 layout: blog
 title: "Revising Your Estate Plan after Divorce:  9 Steps to Get You Through the
   Paperwork"
-author: Nemu Advisory Team
+author: Nemu Editorial Team
 date: 2024-07-02T12:25:00.000Z
 tag: educational
 thumbnail: public/images/uploads/pexels-annoyed-couple-6964106.jpg
