@@ -10,7 +10,7 @@ export const BlogCard = ({ tag, id, title, author, thumbnail, date }) => {
       >
         <img
           loading="lazy"
-          className="'w-full  max-h-80 object-cover"
+          className="'w-full   object-cover"
           src={`${thumbnail}`}
           alt=""
         />
