@@ -40,6 +40,18 @@ const formatDate = (date) => {
   };
 };
 
+const removePublicFromPath = (path) => {
+  const publicString = "public";
+  if (path.startsWith(publicString)) {
+    return path.slice(publicString.length);
+  }
+  return path;
+};
+
+const removeQuotes = (str) => {
+  return str.replace(/['"]/g, "");
+};
+
 const getPosts = () => {
   fs.readdir(dirPath, (err, files) => {
     if (err) {
@@ -91,11 +103,13 @@ const getPosts = () => {
         const timestamp = date.getTime() / 1000;
         post = {
           id: timestamp,
-          title: metadata.title ? metadata.title : "No title given",
+          title: metadata.title
+            ? removeQuotes(metadata.title)
+            : "No title given",
           author: metadata.author ? metadata.author : "No author given",
           date: publishedDate ? publishedDate : "No date given",
           time: parsedDate["time"],
-          thumbnail: metadata.thumbnail,
+          thumbnail: removePublicFromPath(metadata.thumbnail),
           content: content ? content : "No content given",
           tag: metadata.tag ? metadata.tag : "No tag given",
         };
