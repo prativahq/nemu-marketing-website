@@ -7,7 +7,7 @@ date: 2024-07-02T12:25:00.000Z
 tag: educational
 thumbnail: public/images/uploads/pexels-annoyed-couple-6964106.jpg
 ---
-Divorce can be tough -- especially with given the list of things to sort out, including doing all the paperwork and figuring out your next steps. One important task is updating your estate planning documents to fit your new situation. This means changing beneficiaries, updating guardianship, and deciding who gets what in your household. But don’t worry—this guide is here to help! We’ll walk you through everything you need to know about updating your estate plan after a divorce. Plus, we’ll show you how [Nemu’s app for splitting property](www.mynemu.com/divorce) can make the whole process a lot easier.
+Divorce can be tough -- especially with given the list of things to sort out, including doing all the paperwork and figuring out your next steps. One important task is updating your estate planning documents to fit your new situation. This means changing beneficiaries, updating guardianship, and deciding who gets what in your household. But don’t worry—this guide is here to help! We’ll walk you through everything you need to know about updating your estate plan after a divorce. Plus, we’ll show you how [Nemu’s app for splitting property](https://www.mynemu.com/divorce) can make the whole process a lot easier.
 
 ##### **1. Update Your Will**
 
@@ -35,7 +35,7 @@ Trusts set up during your marriage likely need to be modified in divorce and est
 
 #### 7. Address Property and Asset Division
 
-During the divorce proceedings, you’ll need to address how property and assets are divided in your estate plan. Questions like, “Who gets the house after a divorce?” will inevitably pop up, but it will be more than that. Meaningful furniture items and precious heirlooms will also need to be properly divided. To protect yourself and your ex-spouse, document everything or consider using a division of assets app like [NEMU](mynemu.com/divorce). This will help prevent misunderstandings and conflicts later on.
+During the divorce proceedings, you’ll need to address how property and assets are divided in your estate plan. Questions like, “Who gets the house after a divorce?” will inevitably pop up, but it will be more than that. Meaningful furniture items and precious heirlooms will also need to be properly divided. To protect yourself and your ex-spouse, document everything or consider using a division of assets app like [NEMU](https://www.mynemu.com/divorce). This will help prevent misunderstandings and conflicts later on.
 
 #### 8. Consider Tax Implications
 
@@ -47,4 +47,4 @@ Navigating divorce and estate planning can be complex, and professional guidance
 
 ### Use NEMU to Simplify the Process
 
-[NEMU's personal property splitting software](www.mynemu.com/divorce) facilitates a planning process for all of your household items and treasured heirlooms after a divorce. Our app helps you catalog and divide the items that are meaningful to you, and manage your estate efficiently through the sale of what remains. With NEMU, you can ensure that your estate plan reflects your new beginnings accurately.
+[NEMU's personal property splitting software](https://www.mynemu.com/divorce) facilitates a planning process for all of your household items and treasured heirlooms after a divorce. Our app helps you catalog and divide the items that are meaningful to you, and manage your estate efficiently through the sale of what remains. With NEMU, you can ensure that your estate plan reflects your new beginnings accurately.
