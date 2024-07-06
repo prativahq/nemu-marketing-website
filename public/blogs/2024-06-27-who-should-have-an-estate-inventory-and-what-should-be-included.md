@@ -6,7 +6,7 @@ date: 2024-06-21T14:13:00.000Z
 tag: educational
 thumbnail: /images/uploads/pexels-kampus-7551641-1-.jpg
 ---
-Not sure what an estate inventory is, or whether or not it’s something you need to be thinking about? 
+Not sure what an estate inventory is, or whether or not it’s something you need to be thinking about?  
 
 An estate inventory is a comprehensive list of all assets owned by an individual. Sound overwhelming? In simpler terms, that just means it is one master list of all of somebody’s stuff, all gathered together in one place for easy reference.  Whether you have recently lost a loved one, are going through a divorce, or are planning ahead for yourself or someone else, you may want to start creating this kind of document as part of an overall estate planning process. It gives everyone  a complete picture of what’s being handled so everything goes where it’s supposed to and that there’s no miscommunication. Read on for how these inventories apply in different situations, and how [Nemu’s heirloom management solution](https://www.mynemu.com/estate-management) can help you keep everything organized and accessible.
 
