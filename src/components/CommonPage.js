@@ -222,7 +222,7 @@ export default function CommonPageComponent({
               <img
                 loading="lazy"
                 className="w-full lg:w-2/3 2xl:w-full mx-auto"
-                src="images/how-it-works-catalog.webp"
+                src="images/how-it-works-catalog.png"
                 alt=""
               />
             </div>
