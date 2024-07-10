@@ -192,16 +192,22 @@ export default function CommonPageComponent({
           <StickyScrollAnimation />
           <div className="snap-always snap-center py-5 flex flex-col gap-10 items-center">
             <p className="text-lg lg:w-2/3 px-8 md:px-0 text-center leading-9 text-coolGray-300 ">
-              Margaret and her father agreed it was time to start documenting
+              {window.location.pathname === "/divorce"
+                ? `As part of the divorce Alisha and her partner needed to document all of the belongings in their house to determine who was keeping what, and document the outcome for their lawyers. `
+                : ` Margaret and her father agreed it was time to start documenting
               the history tied to his belongings. At the same time, they wanted
               to keep things in their place. So, she photographed most items
-              just where she found them.
+              just where she found them.`}
             </p>
             <div className="text-center px-8 mb-8 lg:mb-0 overflow-hidden flex justify-center">
               <img
                 loading="lazy"
                 className=" w-2/3 lg:w-2/3 2xl:w-full ml-8"
-                src="images/how-it-works-iphone.png"
+                src={`images/${
+                  window.location.pathname === "/divorce"
+                    ? "how-it-works-iphone"
+                    : "iPhone-estate-downsizing"
+                }.png`}
                 alt=""
               />
             </div>
@@ -215,14 +221,20 @@ export default function CommonPageComponent({
           </div>
           <div className="snap-always snap-center pb-10 flex flex-col gap-10 items-center">
             <p className="text-lg lg:w-1/3 px-8 md:px-0 text-center leading-9 text-coolGray-300 ">
-              Margaret uploads photos to her father’s Nemu catalog, and Nemu
-              took care of the rest
+              {window.location.pathname === "/divorce"
+                ? `Alisha then uploaded the pictures to Nemu which helped her organize next steps for each item.`
+                : `Margaret uploads photos to her father’s Nemu catalog, and Nemu
+              took care of the rest`}
             </p>
             <div className=" px-8  mb-8 lg:mb-0">
               <img
                 loading="lazy"
                 className="w-full lg:w-2/3 2xl:w-full mx-auto"
-                src="images/how-it-works-catalog.png"
+                src={`images/${
+                  window.location.pathname === "/divorce"
+                    ? "how-it-works-catalog.png"
+                    : "parallax-2.webp"
+                }`}
                 alt=""
               />
             </div>
@@ -242,7 +254,11 @@ export default function CommonPageComponent({
               <img
                 loading="lazy"
                 className="w-full lg:w-2/3 2xl:w-full mx-auto"
-                src="images/how-it-works-appraise.png"
+                src={`images/${
+                  window.location.pathname === "/divorce"
+                    ? "how-it-works-appraise"
+                    : "parallax-3"
+                }.png`}
                 alt=""
               />
             </div>
