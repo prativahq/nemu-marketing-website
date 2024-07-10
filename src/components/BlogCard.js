@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export const BlogCard = ({ tag, id, title, author, thumbnail, date }) => {
-  console.log(id);
   return (
     <div className="w-full border border-coolGray-100 shadow-sm rounded-md flex flex-col    mb-8">
       <Link
