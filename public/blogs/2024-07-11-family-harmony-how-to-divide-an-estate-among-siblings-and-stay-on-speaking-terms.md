@@ -1,7 +1,6 @@
 ---
 layout: blog
-title: "Family Harmony: How To Divide An Estate Among Siblings and Stay on
-  Speaking Terms"
+title: How To Divide An Estate Among Siblings and Stay on Speaking Terms
 author: Nemu Editorial Team
 date: 2024-07-11T13:06:00.000Z
 tag: educational
