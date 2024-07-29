@@ -1,5 +1,7 @@
 const path = require("path");
 const fs = require("fs");
+const axios = require("axios");
+require("dotenv").config();
 
 const dirPath = path.join(__dirname, "/blogs");
 const dirPathPages = path.join(__dirname, "../src/pages/content");
@@ -122,31 +124,72 @@ const getPosts = () => {
           let data = JSON.stringify(sortedList);
           fs.writeFileSync("src/posts.json", data);
         }
+
+        checkAndUpsertArticle({
+          title: post.title,
+          url: post.id.toString(),
+          date: post.date,
+          author: metadata.author ? metadata.author : "No author given",
+          tags: metadata.tag ? metadata.tag : "No tag given",
+        })
+          .then((response) => console.log("Upserted article:", response))
+          .catch((error) => console.error("Error:", error));
       });
     });
   });
   return;
 };
 
-// const getPages = () => {
-//   fs.readdir(dirPathPages, (err, files) => {
-//     if (err) {
-//       return console.log("Failed to list contents of directory: " + err);
-//     }
-//     files.forEach((file, i) => {
-//       let page;
-//       fs.readFile(`${dirPathPages}/${file}`, "utf8", (err, contents) => {
-//         page = {
-//           content: contents,
-//         };
-//         pagelist.push(page);
-//         let data = JSON.stringify(pagelist);
-//         fs.writeFileSync("src/pages.json", data);
-//       });
-//     });
-//   });
-//   return;
-// };
+const checkAndUpsertArticle = async (article) => {
+  const { title, url, date, author, tags } = article;
+
+  try {
+    const upsertMutation = `
+      mutation InsertArticle($objects: [articles_insert_input!]!) {
+        insert_articles(
+          objects: $objects,
+          on_conflict: { constraint: articles_url_key, update_columns: [title, date, author, tags] }
+        ) {
+          affected_rows
+          returning {
+            title
+            url
+            date
+            author
+            tags
+          }
+        }
+      }
+    `;
+
+    const insertVariables = {
+      objects: [{ title, url, date, author, tags }],
+    };
+
+    const insertResponse = await axios.post(
+      process.env.REACT_APP_HASURA_URL,
+      {
+        query: upsertMutation,
+        variables: insertVariables,
+      },
+      {
+        headers: {
+          "Content-Type": "application/json",
+          authorization: process.env.REACT_APP_HASURA_SECRET,
+        },
+      }
+    );
+
+    if (!insertResponse.data || !insertResponse.data.data) {
+      console.error("Invalid response from Hasura", insertResponse.data);
+      throw new Error("Invalid response from Hasura");
+    }
+
+    return insertResponse.data.data.insert_articles.returning[0];
+  } catch (error) {
+    console.error("Error performing query/mutation", error);
+    throw error;
+  }
+};
 
 getPosts();
-// getPages();
