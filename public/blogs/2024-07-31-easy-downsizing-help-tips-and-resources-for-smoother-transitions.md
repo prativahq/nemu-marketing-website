@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Easy Downsizing Help: Tips And Resources For Smoother Transitions"
+title: Easy Downsizing Help -- Tips And Resources For Smoother Transitions
 author: Nemu Editorial Team
 date: 2024-07-31T14:28:00.000Z
 tag: educational
