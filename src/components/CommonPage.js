@@ -335,15 +335,15 @@ export default function CommonPageComponent({
               </h2>
             </div>
             <div className=" ">
-              <Tabs className="text-center" defaultValue="annual">
-                <TabsList className="my-6 relative">
+              <div className="text-center">
+                {/* <TabsList className="my-6 relative">
                   <TabsTrigger value="monthly">Monthly</TabsTrigger>
                   <TabsTrigger value="annual">Annual</TabsTrigger>
                   <div className="absolute right-0 -top-3 text-[10px] rounded-sm px-2 py-1 font-bold bg-[#EBF9ED] border-2 border-[#B5DEBC] text-[#2B973D]">
                     Save 15%
                   </div>
-                </TabsList>
-                <TabsContent value="monthly">
+                </TabsList> */}
+                {/* <TabsContent value="monthly">
                   <img
                     loading="lazy"
                     className="sm:w-[327px] my-6 mx-auto"
@@ -351,7 +351,6 @@ export default function CommonPageComponent({
                     alt=""
                   />
                   <div className="text-start grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-8  mt-16 ">
-                    {/* <div className="w-full   p-4"> */}
                     <div className="flex flex-col pt-10 px-10 pb-10 bg-white rounded-2xl border-2 border-[#EAEBEB] shadow-sm  ">
                       <div className="">
                         <h3
@@ -398,7 +397,6 @@ export default function CommonPageComponent({
                       </ul>
                       <div className="border-b flex-1 border-coolGray-100" />
                       <div className="flex justify-center mt-8">
-                        {/* <Download /> */}
                         <a
                           href="https://app.mynemu.com"
                           className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
@@ -410,7 +408,6 @@ export default function CommonPageComponent({
                         You won’t be charged until the trial expires
                       </p>
                     </div>
-                    {/* </div> */}
                     <div
                       className="bg-gradient-to-b from-[#C7A4EA] to-white rounded-2xl shadow-sm  h-fit relative"
                       style={{ padding: "2px" }}
@@ -426,7 +423,6 @@ export default function CommonPageComponent({
                           <h3
                             style={{ fontSize: "1.8rem" }}
                             className="mb-6  font-heading  text-coolGray-800 font-medium"
-                            // contentEditable="false"
                           >
                             Harmony
                           </h3>
@@ -445,9 +441,6 @@ export default function CommonPageComponent({
                           </div>
                         </div>
                         <div className="border-b border-coolGray-100" />
-                        {/* <p className="text-[#747878] mt-8 text-lg">
-                            Everything in the Fair Start Plan plus:{" "}
-                          </p> */}
                         <ul className="self-start text-lg  py-8">
                           <li className="flex items-center mb-6  ">
                             <Check
@@ -479,7 +472,6 @@ export default function CommonPageComponent({
                         </ul>
                         <div className="border-b flex-1 border-coolGray-100" />
                         <div className="flex justify-center mt-8">
-                          {/* <Download /> */}
                           <a
                             href="https://app.mynemu.com"
                             className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
@@ -492,13 +484,11 @@ export default function CommonPageComponent({
                         </p>
                       </div>
                     </div>
-                    {/* <div className="w-full   p-4"> */}
                     <div className="flex flex-col pt-10 px-10 pb-10 bg-white rounded-2xl border-2 border-[#EAEBEB] shadow-sm  ">
                       <div className="">
                         <h3
                           style={{ fontSize: "1.8rem" }}
                           className="mb-6  font-heading  text-coolGray-800 font-medium"
-                          // contentEditable="false"
                         >
                           Legacy
                         </h3>
@@ -517,9 +507,7 @@ export default function CommonPageComponent({
                         </div>
                       </div>
                       <div className="border-b border-coolGray-100" />
-                      {/* <p className="text-[#747878] mt-8 text-lg">
-                          Everything in the Harmony Plan plus:
-                        </p> */}
+                     
                       <ul className="self-start  text-lg py-8">
                         <li className="flex items-center mb-6 text-coolGray-500 ">
                           <Check color="green" className="mr-2 flex-shrink-0" />
@@ -539,16 +527,10 @@ export default function CommonPageComponent({
                             10% off appraising and selling services
                           </span>
                         </li>
-                        {/* <li className="flex items-center mb-6 text-coolGray-500 ">
-                            <Check color="green" className="mr-2 flex-shrink-0" />
-                            <span className="text-[#747878]">
-                              1-1 family support through process{" "}
-                            </span>
-                          </li> */}
+                        
                       </ul>
                       <div className="border-b flex-1 border-coolGray-100" />
                       <div className="flex justify-center mt-8">
-                        {/* <Download /> */}
                         <a
                           href="https://app.mynemu.com"
                           className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
@@ -560,10 +542,9 @@ export default function CommonPageComponent({
                         You won’t be charged until the trial expires
                       </p>
                     </div>
-                    {/* </div> */}
                   </div>
-                </TabsContent>
-                <TabsContent value="annual">
+                </TabsContent> */}
+                <div value="annual">
                   <img
                     loading="lazy"
                     className="sm:w-[327px] my-6 mx-auto"
@@ -696,6 +677,15 @@ export default function CommonPageComponent({
                               Download reports and checklists
                             </span>
                           </li>
+                          <li className="flex items-center mb-6  ">
+                            <Check
+                              color="green"
+                              className="mr-2 flex-shrink-0"
+                            />
+                            <span className="text-[#747878]">
+                              1 Free Division Round{" "}
+                            </span>
+                          </li>
                         </ul>
                         <div className="border-b flex-1 border-coolGray-100" />
                         <div className="flex justify-center mt-8">
@@ -759,12 +749,12 @@ export default function CommonPageComponent({
                             10% off appraising and selling services
                           </span>
                         </li>
-                        {/* <li className="flex items-center mb-6 text-coolGray-500 ">
-                            <Check color="green" className="mr-2 flex-shrink-0" />
-                            <span className="text-[#747878]">
-                              1-1 family support through process{" "}
-                            </span>
-                          </li> */}
+                        <li className="flex items-center mb-6 text-coolGray-500 ">
+                          <Check color="green" className="mr-2 flex-shrink-0" />
+                          <span className="text-[#747878]">
+                            Unlimited Division Rounds{" "}
+                          </span>
+                        </li>
                       </ul>
                       <div className="border-b flex-1 border-coolGray-100" />
                       <div className="flex justify-center mt-8">
@@ -782,8 +772,8 @@ export default function CommonPageComponent({
                     </div>
                     {/* </div> */}
                   </div>
-                </TabsContent>
-              </Tabs>
+                </div>
+              </div>
             </div>
           </div>
         </section>
