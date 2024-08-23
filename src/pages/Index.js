@@ -197,7 +197,7 @@ export default function Index() {
                   <div className="w-full text-center md:text-left md:w-auto py-1 md:py-0">
                     <Link
                       className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-transparent hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
-                      to={"/about"}
+                      to={"/about-us"}
                     >
                       Learn More
                     </Link>
