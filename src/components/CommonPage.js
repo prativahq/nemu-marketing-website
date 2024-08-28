@@ -507,7 +507,7 @@ export default function CommonPageComponent({
                         </div>
                       </div>
                       <div className="border-b border-coolGray-100" />
-                     
+
                       <ul className="self-start  text-lg py-8">
                         <li className="flex items-center mb-6 text-coolGray-500 ">
                           <Check color="green" className="mr-2 flex-shrink-0" />
@@ -527,7 +527,7 @@ export default function CommonPageComponent({
                             10% off appraising and selling services
                           </span>
                         </li>
-                        
+
                       </ul>
                       <div className="border-b flex-1 border-coolGray-100" />
                       <div className="flex justify-center mt-8">
@@ -572,7 +572,7 @@ export default function CommonPageComponent({
                             style={{ fontSize: "18px" }}
                           >
                             {" "}
-                            Per Year
+                            One Time Fee
                           </span>
                         </div>
                       </div>
@@ -641,7 +641,7 @@ export default function CommonPageComponent({
                               style={{ fontSize: "18px" }}
                             >
                               {" "}
-                              Per Year
+                              One Time Fee
                             </span>
                           </div>
                         </div>
@@ -722,7 +722,7 @@ export default function CommonPageComponent({
                             style={{ fontSize: "18px" }}
                           >
                             {" "}
-                            Per Year
+                            One Time Fee
                           </span>
                         </div>
                       </div>
