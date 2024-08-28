@@ -608,7 +608,7 @@ export default function HowItWorks() {
                             style={{ fontSize: "18px" }}
                           >
                             {" "}
-                            Per Year
+                            One Time Fee
                           </span>
                         </div>
                       </div>
@@ -677,7 +677,7 @@ export default function HowItWorks() {
                               style={{ fontSize: "18px" }}
                             >
                               {" "}
-                              Per Year
+                              One Time Fee
                             </span>
                           </div>
                         </div>
@@ -749,7 +749,7 @@ export default function HowItWorks() {
                             style={{ fontSize: "18px" }}
                           >
                             {" "}
-                            Per Year
+                            One Time Fee
                           </span>
                         </div>
                       </div>
