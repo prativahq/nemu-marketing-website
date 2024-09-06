@@ -2,7 +2,7 @@
 layout: blog
 title: Easy Downsizing Help -- Tips And Resources For Smoother Transitions
 author: Nemu Editorial Team
-date: 2024-07-31T14:28:00.000Z
+date: 2024-08-15T08:00:00.000Z
 tag: educational
 thumbnail: /images/uploads/pexels-downsizing-blog-pic.jpg
 ---
