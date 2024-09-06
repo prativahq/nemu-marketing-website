@@ -18,7 +18,7 @@ This is one of those things that seems so simple yet people don’t do it anymor
 
 **2. Document the Stories of the Family Heirlooms**
 
-My grandmother took the time to label many heirlooms with their history—where something came from, who it belonged to, and why it’s significant to our family. When we rolled our eyes  - “we know the stories!” “You’re wasting your time!”, she’d remind us how easy that kind of info can get lost over generations. Documentation not only helps keep family stories alive but also prevents disputes about who gets what. The good news is that the Nemu app helps you create a digital catalog of photos with descriptions, which can be shared with family members and updated as needed.
+My grandmother took the time to label many heirlooms with their history—where something came from, who it belonged to, and why it’s significant to our family. When we rolled our eyes  - “we know the stories!” “You’re wasting your time!”, she’d remind us how easily that kind of information can get lost over generations. Documentation not only helps keep family stories alive but also prevents disputes about who gets what. The good news is that the Nemu app helps you create a digital catalog of photos with descriptions, which can be shared with family members and updated as needed.
 
 **3. Create a “When I’m Gone” Folder**
 
@@ -26,7 +26,7 @@ It may sound morbid, but a “When I’m Gone” folder is incredibly practical.
 
 **4. Paying with Cash is Always in Style**
 
-Another piece of advice feels old fashioned is to pay with cash whenever possible. It was actually my Grandfather who told me that when you pay with cash, you actually feel the money leaving your hands, which makes you think twice about spending it. So while it feels outdated, using cash can help you stay within budget and avoid the temptation to overspend that often comes with using credit cards, or just tapping your phone. Plus, it’s a great way to teach kids about the value of money and budgeting.
+Another piece of advice that feels old fashioned is to pay with cash whenever possible. It was actually my Grandfather who told me that when you pay with cash, you actually feel the money leaving your hands, which makes you think twice about spending it. So while it feels outdated, using cash can help you stay within budget and avoid the temptation to overspend that often comes with using credit cards, or just tapping your phone. Plus, it’s a great way to teach kids about the value of money and budgeting.
 
 **5. A Cluttered House Leads to a Cluttered Brain**
 
