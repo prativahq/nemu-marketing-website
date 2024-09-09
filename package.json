@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@amplitude/analytics-browser": "^2.11.2",
+    "@amplitude/plugin-session-replay-browser": "^1.6.23",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@fullpage/react-fullpage": "^0.1.40",
     "@headlessui/react": "^2.0.4",

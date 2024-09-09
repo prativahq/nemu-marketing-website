@@ -18,7 +18,25 @@ import DeleteAccount from "./pages/Delete-account.js";
 import EstateManagementPage from "./pages/Estate-Management.js";
 import DownsizingPage from "./pages/Downsizing.js";
 import DivorcePage from "./pages/Divorce.js";
+import * as amplitude from "@amplitude/analytics-browser";
+import { sessionReplayPlugin } from "@amplitude/plugin-session-replay-browser";
+
 //import { ParallaxProvider } from "react-scroll-parallax";
+
+amplitude.init(process.env.REACT_APP_AMPLITUDE_API_KEY, {
+  autocapture: {
+    attribution: true,
+    pageViews: true,
+    sessions: true,
+    formInteractions: true,
+    fileDownloads: true,
+    elementInteractions: true,
+  },
+});
+const amplitudeSessionReplayTracking = sessionReplayPlugin({
+  sampleRate: 1,
+});
+amplitude.add(amplitudeSessionReplayTracking);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
