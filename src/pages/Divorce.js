@@ -34,7 +34,7 @@ const weGetIt = {
   height: 100,
   button: {
     text: "Get Started ",
-    link: "https://app.mynemu.com",
+    link: "https://app.mynemu.com/sign-up",
   },
 };
 const howWeHelp = {
