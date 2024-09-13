@@ -16,7 +16,6 @@ import { Footer } from "../components/Footer";
 import { LandingCard } from "../components/LandingCard";
 import { DownloadApp } from "../components/DownloadApp";
 import { Newsletter } from "../components/Newsletter";
-import { Testimonial } from "../components/Testimonial";
 import Blogs from "../posts.json";
 import { BlogCard } from "../components/BlogCard";
 import ScrollToTop from "react-scroll-to-top";
@@ -27,6 +26,7 @@ import { Toaster } from "react-hot-toast";
 import { Card } from "../components/Card";
 import { faqs } from "../lib/utils";
 import PricingSection from "../components/PricingSection";
+import TestimonialsSection from "../components/TestimonialsSection";
 
 const meta = {
   title: "Nemu - Revolutionizing Property Inheritance",
@@ -247,25 +247,7 @@ export default function Index() {
         <PricingSection />
 
         {/* testimonials */}
-
-        <section
-          className="py-24 md:pb-32 bg-[#F7F5F2]"
-          // style={{
-          //   backgroundImage:
-          //     'url("flex-ui-assets/elements/pattern-light-big.svg")',
-          //   backgroundPosition: "center",
-          // }}
-        >
-          <div className="container md:h-[550px]  mx-auto">
-            <div className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
-              TESTIMONIALS
-            </div>
-            <h2 className="mb-10 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal">
-              Hear from our customers
-            </h2>
-            <Testimonial />
-          </div>
-        </section>
+        <TestimonialsSection />
 
         {/* faq */}
         <Faq faqs={faqs} />

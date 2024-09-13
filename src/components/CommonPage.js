@@ -32,6 +32,7 @@ import {
 } from "../components/ui/tabs";
 import { Check } from "lucide-react";
 import PricingSection from "./PricingSection";
+import TestimonialsSection from "./TestimonialsSection";
 
 export default function CommonPageComponent({
   meta,
@@ -313,6 +314,7 @@ export default function CommonPageComponent({
           </div>
         </section>
         <PricingSection />
+        <TestimonialsSection />
         <section className="relative pt-48 pb-96 mb-96 md:mb-0">
           <DownloadApp />
         </section>
