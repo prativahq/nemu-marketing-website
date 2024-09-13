@@ -85,7 +85,7 @@ export default function CommonPageComponent({
                       href="https://app.mynemu.com/sign-up"
                       className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                     >
-                      Free Sign Up
+                      Start For Free
                     </a>
 
                     {window.location.pathname !== "/estate-management" && (
@@ -294,7 +294,7 @@ export default function CommonPageComponent({
                         href="https://app.mynemu.com/sign-up"
                         className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                       >
-                        Free Sign Up
+                        Start For Free
                       </a>
 
                       {/* <Link

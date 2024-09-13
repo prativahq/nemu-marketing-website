@@ -124,15 +124,24 @@ export default function Index() {
                       className=" align-middle  py-5 sm:py-3 px-6 w-auto sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                       href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                     >
-                      Get Started
+                      Start For Free
                     </a> */}
                     {/* <Download /> */}
                     <a
                       href="https://app.mynemu.com/sign-up"
                       className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                     >
-                      Get Started
+                      Start For Free
                     </a>
+                    <div className="w-full md:w-auto py-1 md:py-0">
+                      <a
+                        className="flex justify-center items-center gap-2 py-5 sm:py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        href="tel:623-432-1678"
+                      >
+                        <img alt="Phone" src="images/phone-icon.svg" />
+                        Give us a call
+                      </a>
+                    </div>
                     {/* </div> */}
                     {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
                     {/* <Link
