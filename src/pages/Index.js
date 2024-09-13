@@ -26,6 +26,7 @@ import { Download } from "../components/Download";
 import { Toaster } from "react-hot-toast";
 import { Card } from "../components/Card";
 import { faqs } from "../lib/utils";
+import PricingSection from "../components/PricingSection";
 
 const meta = {
   title: "Nemu - Revolutionizing Property Inheritance",
@@ -232,15 +233,14 @@ export default function Index() {
             </div>
           </div>
         </section>
-        {/* download now */}
-        <section className="relative py-24 mb-80 md:mb-0 ">
-          <DownloadApp />
-        </section>
+
+        {/* pricing */}
+        <PricingSection />
 
         {/* testimonials */}
 
         <section
-          className="md:pt-72 pt-96 pb-20 md:pb-36 bg-[#F7F5F2]"
+          className="py-24 md:pb-32 bg-[#F7F5F2]"
           // style={{
           //   backgroundImage:
           //     'url("flex-ui-assets/elements/pattern-light-big.svg")',
@@ -257,8 +257,15 @@ export default function Index() {
             <Testimonial />
           </div>
         </section>
+
         {/* faq */}
         <Faq faqs={faqs} />
+
+        {/* download now */}
+        <section className="relative pt-32 pb-96 mb-96 md:mb-0 ">
+          <DownloadApp />
+        </section>
+
         {/* resources */}
         <section
           className="py-12 md:py24 bg-white"
