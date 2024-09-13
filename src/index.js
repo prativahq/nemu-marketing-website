@@ -10,6 +10,7 @@ import RefundsCancellationPage from "./pages/Refunds-cancellation.js";
 import ContactUsPage from "./pages/Contact-us.js";
 import PartnerPage from "./pages/Partner.js";
 import AboutUsPage from "./pages/About-us.js";
+import PricingPage from "./pages/Pricing.js";
 import BlogsPage from "./pages/Blog.js";
 import ReactDOM from "react-dom/client";
 import { BlogPage } from "./pages/BlogPage.js";
@@ -64,6 +65,8 @@ root.render(
         <Route path="/contact-us" element={<ContactUsPage />} />
 
         <Route path="/partner" element={<PartnerPage />} />
+
+        <Route path="/pricing" element={<PricingPage />} />
 
         <Route path="/about-us" element={<AboutUsPage />} />
 

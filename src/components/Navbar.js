@@ -151,6 +151,12 @@ export const Navbar = () => {
                           </DropdownMenuItem>
                         </HashLink>
                         <DropdownMenuSeparator />
+                        <Link to={"/pricing"}>
+                          <DropdownMenuItem className="hover:text-coolGray-900 focus:bg-transparent">
+                            Pricing
+                          </DropdownMenuItem>
+                        </Link>
+                        <DropdownMenuSeparator />
                         <Link to={"/contact-us"}>
                           <DropdownMenuItem className="hover:text-coolGray-900 focus:bg-transparent">
                             Contact Us
@@ -295,6 +301,12 @@ export const Navbar = () => {
                           >
                             FAQs
                           </HashLink>
+                          <Link
+                            className="py-3 hover:text-coolGray-900"
+                            to={"/pricing"}
+                          >
+                            Pricing
+                          </Link>
                           <Link
                             className="py-3 hover:text-coolGray-900"
                             to={"/contact-us"}

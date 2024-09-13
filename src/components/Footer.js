@@ -122,6 +122,15 @@ export const Footer = () => {
                   Resources
                 </Link>
               </li>
+              <li className="mb-4">
+                <Link
+                  className="inline-block hover:text-[#598C96]  text-[#B2CACE]"
+                  to="/pricing"
+                  // contentEditable="false"
+                >
+                  Pricing
+                </Link>
+              </li>
               <li>
                 <Link
                   className="inline-block hover:text-[#598C96]  text-[#B2CACE]"

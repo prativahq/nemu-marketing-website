@@ -1,7 +1,7 @@
 import React from "react";
 import { Check } from "lucide-react";
 
-export default function PricingSection() {
+export default function PricingSection({ title = "" }) {
   return (
     <section
       id="pricing"
@@ -19,8 +19,14 @@ export default function PricingSection() {
             className="mb-6 mt-3 text-center text-3xl md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-normal"
             // contentEditable="false"
           >
-            That Sounds Great!
-            <div>What does all of this cost?</div>
+            {title !== "" ? (
+              title
+            ) : (
+              <>
+                That Sounds Great!
+                <div>What does all of this cost?</div>
+              </>
+            )}
           </h2>
         </div>
         <div className=" ">
