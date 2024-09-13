@@ -16,7 +16,6 @@ import { Footer } from "../components/Footer";
 import { LandingCard } from "../components/LandingCard";
 import { DownloadApp } from "../components/DownloadApp";
 import { Newsletter } from "../components/Newsletter";
-import { Testimonial } from "../components/Testimonial";
 import Blogs from "../posts.json";
 import { BlogCard } from "../components/BlogCard";
 import ScrollToTop from "react-scroll-to-top";
@@ -26,6 +25,8 @@ import { Download } from "../components/Download";
 import { Toaster } from "react-hot-toast";
 import { Card } from "../components/Card";
 import { faqs } from "../lib/utils";
+import PricingSection from "../components/PricingSection";
+import TestimonialsSection from "../components/TestimonialsSection";
 
 const meta = {
   title: "Nemu - Revolutionizing Property Inheritance",
@@ -123,15 +124,24 @@ export default function Index() {
                       className=" align-middle  py-5 sm:py-3 px-6 w-auto sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                       href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                     >
-                      Get Started
+                      Start For Free
                     </a> */}
                     {/* <Download /> */}
                     <a
                       href="https://app.mynemu.com/sign-up"
                       className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                     >
-                      Get Started
+                      Start For Free
                     </a>
+                    <div className="w-full md:w-auto py-1 md:py-0">
+                      <a
+                        className="flex justify-center items-center gap-2 py-5 sm:py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                        href="tel:623-432-1678"
+                      >
+                        <img alt="Phone" src="images/phone-icon.svg" />
+                        Give us a call
+                      </a>
+                    </div>
                     {/* </div> */}
                     {/* <div className="w-full md:w-auto py-1 md:py-0"> */}
                     {/* <Link
@@ -232,33 +242,21 @@ export default function Index() {
             </div>
           </div>
         </section>
+
+        {/* pricing */}
+        <PricingSection />
+
+        {/* testimonials */}
+        <TestimonialsSection />
+
+        {/* faq */}
+        <Faq faqs={faqs} />
+
         {/* download now */}
-        <section className="relative py-24 mb-80 md:mb-0 ">
+        <section className="relative pt-32 pb-96 mb-96 md:mb-0 ">
           <DownloadApp />
         </section>
 
-        {/* testimonials */}
-
-        <section
-          className="md:pt-72 pt-96 pb-20 md:pb-36 bg-[#F7F5F2]"
-          // style={{
-          //   backgroundImage:
-          //     'url("flex-ui-assets/elements/pattern-light-big.svg")',
-          //   backgroundPosition: "center",
-          // }}
-        >
-          <div className="container md:h-[550px]  mx-auto">
-            <div className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
-              TESTIMONIALS
-            </div>
-            <h2 className="mb-10 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal">
-              Hear from our customers
-            </h2>
-            <Testimonial />
-          </div>
-        </section>
-        {/* faq */}
-        <Faq faqs={faqs} />
         {/* resources */}
         <section
           className="py-12 md:py24 bg-white"

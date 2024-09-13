@@ -151,6 +151,12 @@ export const Navbar = () => {
                           </DropdownMenuItem>
                         </HashLink>
                         <DropdownMenuSeparator />
+                        <Link to={"/pricing"}>
+                          <DropdownMenuItem className="hover:text-coolGray-900 focus:bg-transparent">
+                            Pricing
+                          </DropdownMenuItem>
+                        </Link>
+                        <DropdownMenuSeparator />
                         <Link to={"/contact-us"}>
                           <DropdownMenuItem className="hover:text-coolGray-900 focus:bg-transparent">
                             Contact Us
@@ -191,7 +197,7 @@ export const Navbar = () => {
                 href="https://app.mynemu.com/sign-up"
                 className="flex items-center py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
               >
-                Get Started
+                Start For Free
               </a>
             </div>
           </div>
@@ -297,6 +303,12 @@ export const Navbar = () => {
                           </HashLink>
                           <Link
                             className="py-3 hover:text-coolGray-900"
+                            to={"/pricing"}
+                          >
+                            Pricing
+                          </Link>
+                          <Link
+                            className="py-3 hover:text-coolGray-900"
                             to={"/contact-us"}
                           >
                             Contact Us
@@ -322,7 +334,7 @@ export const Navbar = () => {
                 href="https://app.mynemu.com/sign-up"
                 className=" py-5 sm:py-3 px-6 w-full  text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
               >
-                Get Started
+                Start For Free
               </a>
             </div>
           </nav>

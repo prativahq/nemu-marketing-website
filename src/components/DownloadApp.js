@@ -17,7 +17,7 @@ export const DownloadApp = () => {
           <div className="relative z-20 flex flex-wrap items-center -m-3">
             <div className="flex flex-col gap-10 w-full md:w-3/4 p-3">
               <h2 className=" font-medium text-center md:text-left text-white tracking-tighter text-3xl md:text-4.5xl font-heading">
-                Download Now to Start your Free Trial
+                Get the Nemu App and start for free
               </h2>
               <ul className="flex flex-col gap-4  items-center sm:items-start ">
                 <li className="flex gap-2 items-center mr-6 text-sm text-white ">
