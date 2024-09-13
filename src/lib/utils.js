@@ -231,7 +231,7 @@ export const faqs = [
       <p>
         Of course! We offer a free trial for all of our users. We think you'll
         like what you see. You can Sign Up{" "}
-        <a className="underline" href="https://app.mynemu.com/">
+        <a className="underline" href="https://app.mynemu.com/sign-up">
           here
         </a>{" "}
         to get started.

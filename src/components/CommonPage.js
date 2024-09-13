@@ -81,7 +81,7 @@ export default function CommonPageComponent({
                   </p>
                   <div className="flex flex-wrap justify-center md:justify-start gap-5">
                     <a
-                      href="https://app.mynemu.com"
+                      href="https://app.mynemu.com/sign-up"
                       className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                     >
                       Free Sign Up
@@ -290,7 +290,7 @@ export default function CommonPageComponent({
                   <div className="w-full md:w-auto">
                     <div className="flex gap-4 flex-wrap justify-center items-center -mb-2">
                       <a
-                        href="https://app.mynemu.com"
+                        href="https://app.mynemu.com/sign-up"
                         className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                       >
                         Free Sign Up
@@ -398,7 +398,7 @@ export default function CommonPageComponent({
                       <div className="border-b flex-1 border-coolGray-100" />
                       <div className="flex justify-center mt-8">
                         <a
-                          href="https://app.mynemu.com"
+                          href="https://app.mynemu.com/sign-up"
                           className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         >
                           Start 15 Day Free Trial
@@ -473,7 +473,7 @@ export default function CommonPageComponent({
                         <div className="border-b flex-1 border-coolGray-100" />
                         <div className="flex justify-center mt-8">
                           <a
-                            href="https://app.mynemu.com"
+                            href="https://app.mynemu.com/sign-up"
                             className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                           >
                             Start 15 Day Free Trial
@@ -532,7 +532,7 @@ export default function CommonPageComponent({
                       <div className="border-b flex-1 border-coolGray-100" />
                       <div className="flex justify-center mt-8">
                         <a
-                          href="https://app.mynemu.com"
+                          href="https://app.mynemu.com/sign-up"
                           className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         >
                           Start 15 Day Free Trial
@@ -601,7 +601,7 @@ export default function CommonPageComponent({
                       <div className="flex justify-center mt-8">
                         {/* <Download /> */}
                         <a
-                          href="https://app.mynemu.com"
+                          href="https://app.mynemu.com/sign-up"
                           className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         >
                           Start 15 Day Free Trial
@@ -691,7 +691,7 @@ export default function CommonPageComponent({
                         <div className="flex justify-center mt-8">
                           {/* <Download /> */}
                           <a
-                            href="https://app.mynemu.com"
+                            href="https://app.mynemu.com/sign-up"
                             className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                           >
                             Start 15 Day Free Trial
@@ -760,7 +760,7 @@ export default function CommonPageComponent({
                       <div className="flex justify-center mt-8">
                         {/* <Download /> */}
                         <a
-                          href="https://app.mynemu.com"
+                          href="https://app.mynemu.com/sign-up"
                           className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         >
                           Start 15 Day Free Trial
