@@ -114,65 +114,6 @@ export default function CommonPageComponent({
           </div>
         </section>
         {/* <AsSeen image={section1.image} /> */}
-        {/* section 2 */}
-        <section
-          className={`relative ${
-            window.location.pathname === "/estate-management" && "h-[1260px]"
-          }  ${window.location.pathname === "/downsizing" && "h-[1300px]"} ${
-            window.location.pathname === "/divorce" && "h-[1440px]"
-          }  sm:mb-0 sm:h-auto pt-32 pb-16 lg:pt-32 lg:pb-32  `}
-          style={{
-            // height: `${section2.height}px`,
-            background: "var(--surface-light-bg, #F7F5F2)",
-            backgroundPosition: "center",
-          }}
-        >
-          {/* <div className="relative"> */}
-          <div className="absolute z-999 left-0 right-0 -top-44 sm:top-0 sm:relative container mx-auto">
-            <div className="sm:hidden md:w-1/2 mb-12 ">
-              <div className=" mx-auto md:mr-0 max-w-max">
-                <img
-                  loading="lazy"
-                  className=" max-w-[300px] sm:max-w-auto z-99 rounded-7xl"
-                  src={`${section1.image}`}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex flex-wrap-reverse lg:items-center ">
-              <div className="w-full md:w-1/2  mt-16 md:mb-0 ">
-                <div className="relative mx-auto md:ml-0 max-w-max hidden sm:block ">
-                  <img
-                    className="max-w-[300px] sm:max-w-full"
-                    loading="lazy"
-                    src={section2.image}
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 ">
-                <div className="tracking-widest text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
-                  {section2.subtitle}
-                </div>
-                <h2 className="mb-6 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal">
-                  {section2.title}{" "}
-                </h2>
-                <p className="mb-6 text-lg leading-9 text-center md:text-left text-coolGray-500 ">
-                  {section2.description}
-                </p>
-                <div className="w-full text-center md:text-left md:w-auto py-1 md:py-0">
-                  <a
-                    className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-transparent hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
-                    href={section2.button.link}
-                  >
-                    {section2.button.text}
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* </div> */}
-        </section>
         {/* section 3 */}
         <section className="relative pt-48 pb-24 sm:py-24  gap-20 bg-emerald-500 ">
           <div className="absolute z-999 md:py-12 left-0 right-0 -top-44 sm:top-0 container mx-auto">
@@ -313,8 +254,63 @@ export default function CommonPageComponent({
             </div>
           </div>
         </section>
-        <PricingSection />
         <TestimonialsSection />
+        {/* section 2 */}
+        <section
+          className={`pt-16 sm:pb-16 pb-0`}
+          style={{
+            // height: `${section2.height}px`,
+            background: "var(--surface-light-bg, #FFFFFF)",
+            backgroundPosition: "center",
+          }}
+        >
+          {/* <div className="relative"> */}
+          <div className="container mx-auto">
+            <div className="sm:hidden md:w-1/2 mb-12 ">
+              <div className="mx-auto md:mr-0 max-w-max">
+                <img
+                  loading="lazy"
+                  className=" max-w-[300px] sm:max-w-auto z-99 rounded-7xl"
+                  src={`${section1.image}`}
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="flex flex-wrap-reverse lg:items-center ">
+              <div className="w-full md:w-1/2  mt-16 md:mb-0 ">
+                <div className="relative mx-auto md:ml-0 max-w-max hidden sm:block ">
+                  <img
+                    className="max-w-[300px] sm:max-w-full"
+                    loading="lazy"
+                    src={section2.image}
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 sm:px-8 px-0">
+                <div className="tracking-widest text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
+                  {section2.subtitle}
+                </div>
+                <h2 className="mb-6 text-center md:text-left text-3xl md:text-4.5xl text-coolGray-900    font-medium font-heading tracking-normal">
+                  {section2.title}{" "}
+                </h2>
+                <p className="mb-6 text-lg leading-9 text-center md:text-left text-coolGray-500 ">
+                  {section2.description}
+                </p>
+                <div className="w-full text-center md:text-left md:w-auto py-1 md:py-0">
+                  <a
+                    className="inline-block py-5 sm:py-3 px-6 w-fit text-base md:text-lg font-semibold leading-4 text-emerald-500  text-center bg-transparent hover:bg-coolGray-100 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
+                    href={section2.button.link}
+                  >
+                    {section2.button.text}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* </div> */}
+        </section>
+        <PricingSection />
         <section className="relative pt-48 pb-96 mb-96 md:mb-0">
           <DownloadApp />
         </section>

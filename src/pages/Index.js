@@ -168,19 +168,49 @@ export default function Index() {
           </div>
         </section>
         <AsSeen image={"images/how-it-works-hero.webp"} />
+
+        <section className=" py-24 md:pb-32 bg-[#F7F5F2]">
+          <div className=" container mx-auto">
+            <div className="md:max-w-4xl mb-12 mx-auto text-center">
+              <span
+                className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
+                // contentEditable="false"
+              >
+                OVERVIEW
+              </span>
+              <h2
+                className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-normal"
+                // contentEditable="false"
+              >
+                As Easy as 1-2-3
+              </h2>
+            </div>
+            <div className="flex flex-col gap-14 items-center  ">
+              <div className="w-full flex flex-wrap justify-center gap-5  xl:grid grid-cols-3 xl:justify-between">
+                {cards.map((card) => {
+                  return <Card key={card.id} {...card} />;
+                })}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* testimonials */}
+        <TestimonialsSection backgroundColor={"#FFFFFF"} />
+
         {/* we get it */}
         <section
-          className=" h-[920px] mb-32 sm:mb-0 sm:h-auto pt-32 pb-16 lg:pt-32 lg:pb-32 bg-white "
+          className="py-16 bg-[#F7F5F2]"
           style={{
             background: "var(--surface-light-bg, #F7F5F2)",
             backgroundPosition: "center",
           }}
         >
-          <div className="relative">
-            <div className="absolute  sm:relative container mx-auto">
+          <div>
+            <div className="container mx-auto">
               <div className="flex flex-wrap-reverse lg:items-center ">
                 <div className="w-full md:w-1/2  mt-16 md:mb-0">
-                  <div className="relative mx-auto md:ml-0 max-w-max">
+                  <div className="mx-auto md:ml-0 max-w-max">
                     <img
                       className="max-w-[300px] sm:max-w-full"
                       loading="lazy"
@@ -189,7 +219,7 @@ export default function Index() {
                     />
                   </div>
                 </div>
-                <div className="w-full md:w-1/2 ">
+                <div className="w-full md:w-1/2 sm:px-8 px-0">
                   <div className="tracking-widest text-center md:text-left mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500">
                     OUR STORY
                   </div>
@@ -217,37 +247,9 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <section className=" py-24 md:pb-32 ">
-          <div className=" container mx-auto">
-            <div className="md:max-w-4xl mb-12 mx-auto text-center">
-              <span
-                className="tracking-widest text-center  mb-5 text-sm font-semibold leading-5 uppercase rounded-9xl text-emerald-500"
-                // contentEditable="false"
-              >
-                OVERVIEW
-              </span>
-              <h2
-                className="mb-6 mt-3 text-center  text-3xl md:text-4.5xl text-coolGray-900     font-medium font-heading tracking-normal"
-                // contentEditable="false"
-              >
-                As Easy as 1-2-3
-              </h2>
-            </div>
-            <div className="flex flex-col gap-14 items-center  ">
-              <div className="w-full flex flex-wrap justify-center gap-5  xl:grid grid-cols-3 xl:justify-between">
-                {cards.map((card) => {
-                  return <Card key={card.id} {...card} />;
-                })}
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* pricing */}
         <PricingSection />
-
-        {/* testimonials */}
-        <TestimonialsSection />
 
         {/* faq */}
         <Faq faqs={faqs} />

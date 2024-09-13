@@ -1,10 +1,10 @@
 import React from "react";
 import { Testimonial } from "../components/Testimonial";
 
-export default function TestimonialsSection() {
+const TestimonialsSection = ({ backgroundColor = "#F7F5F2" }) => {
   return (
     <section
-      className="py-24 md:pb-32 bg-[#F7F5F2]"
+      className={"md:py-24 py-16 md:pb-32 bg-[" + backgroundColor + "]"}
       // style={{
       //   backgroundImage:
       //     'url("flex-ui-assets/elements/pattern-light-big.svg")',
@@ -22,4 +22,6 @@ export default function TestimonialsSection() {
       </div>
     </section>
   );
-}
+};
+
+export default TestimonialsSection;
