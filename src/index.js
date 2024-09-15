@@ -21,6 +21,7 @@ import DownsizingPage from "./pages/Downsizing.js";
 import DivorcePage from "./pages/Divorce.js";
 import * as amplitude from "@amplitude/analytics-browser";
 import { sessionReplayPlugin } from "@amplitude/plugin-session-replay-browser";
+import { Experiment } from "@amplitude/experiment-js-client";
 
 //import { ParallaxProvider } from "react-scroll-parallax";
 
@@ -38,6 +39,10 @@ const amplitudeSessionReplayTracking = sessionReplayPlugin({
   sampleRate: 1,
 });
 amplitude.add(amplitudeSessionReplayTracking);
+const experiment = Experiment.initializeWithAmplitudeAnalytics(
+  process.env.REACT_APP_AMPLITUDE_API_KEY,
+  { debug: true }
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
