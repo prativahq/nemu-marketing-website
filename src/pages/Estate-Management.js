@@ -33,7 +33,7 @@ const weGetIt = {
   image: "images/estate-2.webp",
   height: 1240,
   button: {
-    text: "Start For Free",
+    text: "Start for Free",
     link: "https://app.mynemu.com/sign-up",
   },
 };

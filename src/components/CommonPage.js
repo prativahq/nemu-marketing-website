@@ -86,7 +86,7 @@ export default function CommonPageComponent({
                       href="https://app.mynemu.com/sign-up"
                       className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                     >
-                      Start For Free
+                      Start for Free
                     </a>
                     <div className="w-full md:w-auto py-1 md:py-0">
                       <a
@@ -233,7 +233,7 @@ export default function CommonPageComponent({
                         href="https://app.mynemu.com/sign-up"
                         className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                       >
-                        Start For Free
+                        Start for Free
                       </a>
 
                       {/* <Link
