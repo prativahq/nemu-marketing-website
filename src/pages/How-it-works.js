@@ -101,14 +101,14 @@ export default function HowItWorks() {
                         className="inline-block py-5 sm:py-3 px-6 w-full md:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                         href="https://share.hsforms.com/1Vj_1vX50RUSNaNpFPu969Qq6kww"
                       >
-                        Start For Free
+                        Start for Free
                       </a> */}
                     {/* <Download /> */}
                     <a
                       href="https://app.mynemu.com/sign-up"
                       className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                     >
-                      Start For Free
+                      Start for Free
                     </a>
                     {/* </div> */}
                     <div className="w-full md:w-auto py-1 md:py-0">
@@ -183,7 +183,7 @@ export default function HowItWorks() {
                   href="https://app.mynemu.com/sign-up"
                   className=" py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                 >
-                  Start For Free
+                  Start for Free
                 </a>
               </div>
             </div>
@@ -295,7 +295,7 @@ export default function HowItWorks() {
                     href="https://app.mynemu.com/sign-up"
                     className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                   >
-                    Start For Free
+                    Start for Free
                   </a>
                 </div>
               </div>
@@ -324,7 +324,7 @@ export default function HowItWorks() {
                     href="https://app.mynemu.com/sign-up"
                     className="block py-5 sm:py-3 px-6 w-full sm:w-fit text-base md:text-lg font-semibold leading-4 text-white  text-center bg-emerald-500 hover:bg-emerald-600 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 border border-emerald-500 rounded-lg shadow-sm"
                   >
-                    Start For Free
+                    Start for Free
                   </a>
                 </div>
               </div>
