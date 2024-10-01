@@ -294,7 +294,7 @@ export default function PricingSection({ title = "" }) {
                     <li className="flex items-center mb-6 text-coolGray-500 ">
                       <Check color="green" className="mr-2 flex-shrink-0" />
                       <span className="text-[#747878]">
-                        $49 per item division round (optional)
+                        $49 per round of dividing items (optional)
                       </span>
                     </li>
                   </ul>
@@ -362,7 +362,7 @@ export default function PricingSection({ title = "" }) {
                       <li className="flex items-center mb-6  ">
                         <Check color="green" className="mr-2 flex-shrink-0" />
                         <span className="text-[#747878]">
-                          Unlimited item division rounds
+                          Unlimited rounds of dividing items
                         </span>
                       </li>
                       <li className="flex items-center mb-6  ">
