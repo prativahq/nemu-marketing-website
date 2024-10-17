@@ -2,7 +2,7 @@
 layout: blog
 title: Make a Copy of the Will! And Other Smart Ideas My Grandma Taught Me
 author: Beth Chang, Nemu Client Experience
-date: 2024-09-06T13:44:00.000Z
+date: 2024-10-17T11:04:00.000Z
 tag: educational
 thumbnail: /images/uploads/pexels-grandma-and-girl-5585289.jpg
 ---
