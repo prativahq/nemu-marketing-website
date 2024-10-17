@@ -2,7 +2,7 @@
 layout: blog
 title: "The Fascinating World of Our Stuff: Fun Facts About Our Relationship
   with Our Possessions"
-author: Beth Chang, Nemu Staff Writer
+author: Beth Chang, Nemu Client Experience
 date: 2024-10-16T21:53:00.000Z
 tag: educational
 thumbnail: /images/uploads/pexels-gizem-celebi-516416806-19495044.jpg
