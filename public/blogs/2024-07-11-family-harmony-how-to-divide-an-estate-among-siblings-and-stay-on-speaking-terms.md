@@ -2,7 +2,7 @@
 layout: blog
 title: How To Divide An Estate Among Siblings and Stay on Speaking Terms
 author: Nemu Editorial Team
-date: 2024-07-11T13:06:00.000Z
+date: 2024-09-25T18:06:00.000Z
 tag: educational
 thumbnail: /images/uploads/pexels-sibling-split-2-5638605.jpg
 ---
